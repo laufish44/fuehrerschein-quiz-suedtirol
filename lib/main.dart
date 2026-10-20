@@ -6,7 +6,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'app_state.dart';
-import 'data/user_data.dart';
 import 'services/drive_sync.dart';
 import 'services/notification_service.dart';
 import 'services/update_service.dart';
@@ -16,6 +15,7 @@ import 'ui/learn_tab.dart';
 import 'ui/more_tab.dart';
 import 'ui/question_list_screen.dart';
 import 'ui/settings_screen.dart';
+import 'ui/setup_screen.dart';
 import 'ui/stats_tab.dart';
 import 'ui/widgets.dart';
 
@@ -118,7 +118,10 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     final sync = context.read<DriveSync>();
     final updates = context.read<UpdateService>();
 
-    if (!app.local.onboardingDone) await _onboarding();
+    final steps = pendingSetupSteps(app, sync);
+    if (steps.isNotEmpty && mounted) {
+      await Navigator.of(context).push(MaterialPageRoute(fullscreenDialog: true, builder: (_) => SetupScreen(steps: steps)));
+    }
 
     unawaited(sync.syncNow());
 
@@ -178,16 +181,6 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
       await Future.delayed(const Duration(seconds: 2));
     }
     await updates.install();
-  }
-
-  Future<void> _onboarding() async {
-    final app = context.read<AppState>();
-    await showDialog<void>(
-      context: context,
-      barrierDismissible: false,
-      builder: (ctx) => const _OnboardingDialog(),
-    );
-    app.updateLocal((l) => l.onboardingDone = true);
   }
 
   @override
@@ -253,94 +246,6 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
                 for (final d in destinations) NavigationDestination(icon: Icon(d.$1), selectedIcon: Icon(d.$2), label: d.$3),
               ],
             ),
-    );
-  }
-}
-
-class _OnboardingDialog extends StatefulWidget {
-  const _OnboardingDialog();
-
-  @override
-  State<_OnboardingDialog> createState() => _OnboardingDialogState();
-}
-
-class _OnboardingDialogState extends State<_OnboardingDialog> {
-  DateTime? _examDate;
-  int _goal = 60;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = context.watch<AppState>();
-    final it = app.italianUi;
-    final theme = Theme.of(context);
-    return AlertDialog(
-      title: Row(
-        children: [
-          Image.asset('assets/icon/icon.png', width: 36, height: 36),
-          const SizedBox(width: 12),
-          Expanded(child: Text(it ? 'Benvenuto!' : 'Willkommen!')),
-        ],
-      ),
-      content: SizedBox(
-        width: 420,
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(it
-                  ? 'Qui trovi tutte le 7.020 domande ufficiali per la patente A/B – in tedesco e italiano.'
-                  : 'Hier findest du alle 7.020 offiziellen Prüfungsfragen für den Führerschein A/B – auf Deutsch und Italienisch.'),
-              const SizedBox(height: 16),
-              Text(it ? 'Lingua' : 'Sprache', style: theme.textTheme.titleSmall),
-              const SizedBox(height: 6),
-              SegmentedButton<String>(
-                showSelectedIcon: false,
-                segments: const [
-                  ButtonSegment(value: 'de', label: Text('Deutsch')),
-                  ButtonSegment(value: 'it', label: Text('Italiano')),
-                ],
-                selected: {app.settings.uiLanguage},
-                onSelectionChanged: (v) => app.updateSettings((s) {
-                  s.uiLanguage = v.first;
-                  s.questionLanguage = v.first;
-                }),
-              ),
-              const SizedBox(height: 16),
-              Text(it ? 'Quando hai l\'esame?' : 'Wann ist deine Prüfung?', style: theme.textTheme.titleSmall),
-              TextButton.icon(
-                icon: const Icon(Icons.event),
-                label: Text(_examDate == null ? (it ? 'Scegli data (facoltativo)' : 'Datum wählen (optional)') : formatDate(_examDate!)),
-                onPressed: () async {
-                  final now = DateTime.now();
-                  final d = await showDatePicker(
-                    context: context,
-                    initialDate: now.add(const Duration(days: 30)),
-                    firstDate: now,
-                    lastDate: now.add(const Duration(days: 730)),
-                  );
-                  if (d != null) setState(() => _examDate = d);
-                },
-              ),
-              const SizedBox(height: 8),
-              Text(it ? 'Obiettivo giornaliero: $_goal domande' : 'Tagesziel: $_goal Fragen', style: theme.textTheme.titleSmall),
-              Slider(value: _goal.toDouble(), min: 20, max: 200, divisions: 18, label: '$_goal', onChanged: (v) => setState(() => _goal = v.round())),
-            ],
-          ),
-        ),
-      ),
-      actions: [
-        FilledButton(
-          onPressed: () {
-            app.updateSettings((s) {
-              s.dailyGoal = _goal;
-              if (_examDate != null) s.examDate = dayKey(_examDate!);
-            });
-            Navigator.pop(context);
-          },
-          child: Text(it ? 'Iniziamo!' : 'Los geht\'s!'),
-        ),
-      ],
     );
   }
 }

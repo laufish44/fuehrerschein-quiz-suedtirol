@@ -4,7 +4,7 @@ import 'progress.dart';
 import 'question_bank.dart';
 import 'user_data.dart';
 
-enum QuestionFilter { all, unseen, notLearned, errors, favorites }
+enum QuestionFilter { all, unseen, notLearned, errors, hard, tricky, favorites }
 
 final _rng = Random();
 
@@ -21,8 +21,27 @@ class SessionBuilder {
         QuestionFilter.unseen => progress.isNew(q),
         QuestionFilter.notLearned => !progress.isLearned(q),
         QuestionFilter.errors => progress.isError(q),
+        QuestionFilter.hard => progress.isHard(q),
+        QuestionFilter.tricky => q.trickiness >= trickyThreshold,
         QuestionFilter.favorites => favorites.contains(q.id),
       };
+
+  static const trickyThreshold = 0.55;
+
+  /// "Schwierige Fragen": zuerst die persönlich schwierigen, aufgefüllt mit noch nicht
+  /// gelernten Fallen-Fragen (ähnlich klingende Aussagen mit gegenteiliger Lösung).
+  List<Question> difficultSession(int size, {Chapter? chapter}) {
+    bool inScope(Question q) => chapter == null || q.chapter == chapter;
+    final hard = progress.hardQuestions.where(inScope).toList();
+    final result = <Question>[...hard.take(size)];
+    if (result.length < size) {
+      final tricky = bank.trickyQuestions.where((q) => inScope(q) && !progress.isLearned(q) && !result.contains(q)).toList()
+        ..shuffle(_rng);
+      result.addAll(tricky.take(size - result.length));
+    }
+    result.shuffle(_rng);
+    return result;
+  }
 
   List<Question> chapterQuestions(Chapter c, QuestionFilter f, {bool shuffle = false}) {
     final list = [for (final q in c.questions) if (matches(q, f)) q];
@@ -34,9 +53,9 @@ class SessionBuilder {
   /// zufälligen Kapiteln (gewichtet nach Umfang), nie zwei Fragen aus derselben Gruppe.
   List<Question> officialExam() {
     final weights = examChapterWeights(bank);
-    final slots = [for (final c in bank.chapters) c.id];
+    final slots = [for (final c in bank.examChapters) c.id];
     final extra = <int>{};
-    while (extra.length < 30 - bank.chapters.length) {
+    while (extra.length < 30 - bank.examChapters.length) {
       var r = _rng.nextDouble();
       for (final e in weights.entries) {
         r -= e.value;
@@ -51,7 +70,7 @@ class SessionBuilder {
     final usedGroups = <int>{};
     final result = <Question>[];
     for (final chapterId in slots) {
-      final groups = bank.chapter(chapterId).groups.where((g) => !usedGroups.contains(g.id)).toList();
+      final groups = bank.examChapters[chapterId - 1].groups.where((g) => !usedGroups.contains(g.id)).toList();
       final g = groups[_rng.nextInt(groups.length)];
       usedGroups.add(g.id);
       result.add(g.questions[_rng.nextInt(g.questions.length)]);

@@ -1,5 +1,12 @@
 # Änderungen
 
+## 1.2.0
+
+- Kapitel wie im Theoriebuch (24 Kapitel, gleiche Nummern und Namen) – die Prüfungssimulation folgt weiter dem Ministeriumsprogramm
+- Neu: „Schwierige Fragen“ – deine persönlich schwierigen Fragen plus typische Fallen (Aussagen, die fast gleich klingen wie eine mit gegenteiliger Lösung); auf der Startseite, im Lernen-Tab, je Kapitel und im eigenen Quiz
+- Neu: Einrichtung beim ersten Start mit Google-Drive-Anmeldung (sobald verfügbar) und optionalem Gemini-Schlüssel inkl. Test
+- Liste „Fallen-Fragen“ unter Mehr
+
 ## 1.1.0
 
 - Offline-Erklärungen für Kapitel 6 (Bodenmarkierungen), 7 (Ampeln und Polizei) und 8 (Hinweiszeichen)

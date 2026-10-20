@@ -18,6 +18,10 @@ class LocalSettings {
   bool onboardingDone;
   bool keyboardHints;
 
+  /// Wurde schon einmal zur Einrichtung von Google Drive bzw. Gemini aufgefordert?
+  bool drivePrompted;
+  bool geminiPrompted;
+
   LocalSettings({
     String? deviceId,
     this.themeMode = 'system',
@@ -34,6 +38,8 @@ class LocalSettings {
     this.lastSyncError = '',
     this.onboardingDone = false,
     this.keyboardHints = true,
+    this.drivePrompted = false,
+    this.geminiPrompted = false,
   }) : deviceId = deviceId ?? randomId();
 
   Map<String, dynamic> toJson() => {
@@ -52,6 +58,8 @@ class LocalSettings {
         'lastSyncError': lastSyncError,
         'onboardingDone': onboardingDone,
         'keyboardHints': keyboardHints,
+        'drivePrompted': drivePrompted,
+        'geminiPrompted': geminiPrompted,
       };
 
   factory LocalSettings.fromJson(Map<String, dynamic> j) {
@@ -70,6 +78,8 @@ class LocalSettings {
       ..lastSyncTs = j['lastSyncTs'] as int? ?? d.lastSyncTs
       ..lastSyncError = j['lastSyncError'] as String? ?? d.lastSyncError
       ..onboardingDone = j['onboardingDone'] as bool? ?? d.onboardingDone
-      ..keyboardHints = j['keyboardHints'] as bool? ?? d.keyboardHints;
+      ..keyboardHints = j['keyboardHints'] as bool? ?? d.keyboardHints
+      ..drivePrompted = j['drivePrompted'] as bool? ?? d.drivePrompted
+      ..geminiPrompted = j['geminiPrompted'] as bool? ?? d.geminiPrompted;
   }
 }

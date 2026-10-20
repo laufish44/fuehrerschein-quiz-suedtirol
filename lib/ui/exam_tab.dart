@@ -43,10 +43,10 @@ class ExamTab extends StatelessWidget {
                       const SizedBox(height: 12),
                       Text(
                         context.tr(
-                          '${AppConfig.examQuestions} Fragen aus allen 25 Kapiteln · ${AppConfig.examMinutes} Minuten · '
+                          '${AppConfig.examQuestions} Fragen aus allen Prüfungsthemen · ${AppConfig.examMinutes} Minuten · '
                               'bestanden mit höchstens ${AppConfig.examMaxErrors} Fehlern. Die Auflösung gibt es am Ende – '
                               'wie bei der echten Prüfung.',
-                          '${AppConfig.examQuestions} domande da tutti i 25 capitoli · ${AppConfig.examMinutes} minuti · '
+                          '${AppConfig.examQuestions} domande da tutti gli argomenti · ${AppConfig.examMinutes} minuti · '
                               'superato con massimo ${AppConfig.examMaxErrors} errori. Le soluzioni alla fine – come all\'esame vero.',
                         ),
                         style: TextStyle(color: theme.colorScheme.onPrimaryContainer),

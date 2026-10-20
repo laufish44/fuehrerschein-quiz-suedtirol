@@ -15,7 +15,8 @@ class MoreTab extends StatelessWidget {
     final app = context.watch<AppState>();
     final favorites = app.bank.questions.where(app.isFavorite).toList();
     final notes = app.notedQuestions;
-    final hardest = app.progress.hardestQuestions(100);
+    final hardest = app.progress.hardQuestions;
+    final tricky = app.bank.trickyQuestions;
 
     void open(Widget page) => Navigator.of(context).push(MaterialPageRoute(builder: (_) => page));
 
@@ -35,12 +36,17 @@ class MoreTab extends StatelessWidget {
                 questions: notes,
                 emptyText: context.trNow('Noch keine Notizen.', 'Ancora nessuna nota.'),
               ))),
-      (Icons.local_fire_department_outlined, context.tr('Schwierigste Fragen', 'Domande più difficili'), '${hardest.length}',
+      (Icons.local_fire_department_outlined, context.tr('Meine schwierigen Fragen', 'Le mie domande difficili'), '${hardest.length}',
           () => open(QuestionListScreen(
-                title: context.trNow('Schwierigste Fragen', 'Domande più difficili'),
+                title: context.trNow('Meine schwierigen Fragen', 'Le mie domande difficili'),
                 questions: hardest,
-                emptyText: context.trNow('Noch keine Fehler.', 'Ancora nessun errore.'),
+                emptyText: context.trNow('Noch keine schwierigen Fragen – hier landen Fragen, die du öfter falsch beantwortest.',
+                    'Ancora nessuna – qui finiscono le domande che sbagli più spesso.'),
               ))),
+      (Icons.psychology_alt_outlined, context.tr('Fallen-Fragen', 'Domande trabocchetto'),
+          context.tr('${tricky.length} Aussagen, die einer mit gegenteiliger Lösung sehr ähnlich sind',
+              '${tricky.length} affermazioni molto simili a una con soluzione opposta'),
+          () => open(QuestionListScreen(title: context.trNow('Fallen-Fragen', 'Domande trabocchetto'), questions: tricky))),
       (Icons.signpost_outlined, context.tr('Verkehrszeichen-Lexikon', 'Lessico dei segnali'),
           context.tr('Alle Bilder mit richtigen und falschen Aussagen', 'Tutte le figure con affermazioni vere e false'),
           () => open(const LexiconScreen())),

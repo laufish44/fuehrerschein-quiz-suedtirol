@@ -27,6 +27,7 @@ class HomeTab extends StatelessWidget {
     final streak = p.dayStreak;
     final due = p.dueQuestions().length;
     final errors = p.errorQuestions.length;
+    final hard = p.hardQuestions.length;
     final weakest = ([...p.chapters]..sort((a, b) => a.knowledge.compareTo(b.knowledge))).first;
     final recent = p.recentOfficialExams(5);
 
@@ -56,6 +57,11 @@ class HomeTab extends StatelessWidget {
           context.tr('30 Fragen · 20 Min', '30 domande · 20 min'), const Color(0xFF6A1B9A), () => startOfficialExam(context)),
       _Action(Icons.error_outline, context.tr('Meine Fehler', 'I miei errori'), '$errors', wrongColor, () {
         startQuiz(context, context.trNow('Meine Fehler', 'I miei errori'), p.errorQuestions..shuffle(Random()), immediate: true);
+      }),
+      _Action(Icons.local_fire_department_outlined, context.tr('Schwierige Fragen', 'Domande difficili'),
+          hard > 0 ? context.tr('$hard persönlich schwierig', '$hard difficili per te') : context.tr('Typische Fallen', 'Trappole tipiche'),
+          Colors.deepOrange, () {
+        startQuiz(context, context.trNow('Schwierige Fragen', 'Domande difficili'), app.builder.difficultSession(app.settings.sessionSize));
       }),
       _Action(Icons.history, context.tr('Wiederholen', 'Ripasso'), context.tr('$due fällig', '$due da ripassare'),
           const Color(0xFF00838F), () {

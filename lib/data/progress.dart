@@ -90,7 +90,13 @@ class Progress {
       }
     }
     chapters = [for (final c in bank.chapters) _chapterStat(c)];
+    _chapterById = {for (final cs in chapters) cs.chapter.id: cs};
   }
+
+  late final Map<int, ChapterStat> _chapterById;
+
+  /// Lernstand eines Buchkapitels.
+  ChapterStat chapterStat(Chapter c) => _chapterById[c.id] ?? _chapterStat(c);
 
   ChapterStat _chapterStat(Chapter c) {
     final cs = ChapterStat(c);
@@ -124,7 +130,21 @@ class Progress {
     return now >= s.lastTs + interval;
   }
 
+  /// Persönlich schwierige Fragen: mehrmals oder kürzlich falsch beantwortet und noch nicht sicher.
+  bool isHard(Question q) {
+    final s = stats[q.id];
+    if (s == null || s.wrong == 0) return false;
+    return s.pCorrect < 0.7 || (s.wrong >= 2 && s.wrong / s.attempts >= 0.3);
+  }
+
   List<Question> get errorQuestions => [for (final q in bank.questions) if (isError(q)) q];
+
+  /// Persönlich schwierige Fragen, die schwierigsten zuerst.
+  List<Question> get hardQuestions {
+    final list = [for (final q in bank.questions) if (isHard(q)) q];
+    list.sort((a, b) => stats[a.id]!.pCorrect.compareTo(stats[b.id]!.pCorrect));
+    return list;
+  }
 
   List<Question> dueQuestions([int? now]) {
     final t = now ?? nowSeconds();
@@ -191,11 +211,15 @@ class Progress {
     final errorProbs = <double>[];
     final weights = examChapterWeights(bank);
     var extraError = 0.0;
-    for (final cs in chapters) {
-      errorProbs.add(1 - cs.knowledge);
-      extraError += weights[cs.chapter.id]! * (1 - cs.knowledge);
+    // Die Prüfung wird nach den 25 Ministeriumskapiteln zusammengestellt.
+    for (final c in bank.examChapters) {
+      final knowledge = c.questions.isEmpty
+          ? 0.5
+          : c.questions.fold<double>(0, (s, q) => s + (stats[q.id]?.pCorrect ?? 0.5)) / c.questions.length;
+      errorProbs.add(1 - knowledge);
+      extraError += weights[c.id]! * (1 - knowledge);
     }
-    for (var i = 0; i < 30 - chapters.length; i++) {
+    for (var i = 0; i < 30 - bank.examChapters.length; i++) {
       errorProbs.add(extraError);
     }
     // Poisson-Binomial-Verteilung der Fehlerzahl, nur bis maxErrors+1 nötig.
@@ -235,5 +259,5 @@ class Progress {
 /// Gewichte der Kapitel für die 5 Zusatzfragen der Prüfung (proportional zur Anzahl Fragengruppen).
 Map<int, double> examChapterWeights(QuestionBank bank) {
   final total = bank.groups.length;
-  return {for (final c in bank.chapters) c.id: c.groups.length / total};
+  return {for (final c in bank.examChapters) c.id: c.groups.length / total};
 }

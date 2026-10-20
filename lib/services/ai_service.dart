@@ -83,6 +83,32 @@ class AiService {
     return true;
   }
 
+  /// Prüft, ob ein Gemini-Schlüssel funktioniert (kurze Testanfrage).
+  static Future<void> testGeminiKey(String apiKey, String model) async {
+    final m = model.trim().isEmpty ? AppConfig.defaultGeminiModel : model.trim();
+    final res = await http
+        .post(
+          Uri.parse('https://generativelanguage.googleapis.com/v1beta/models/$m:generateContent'),
+          headers: {'Content-Type': 'application/json', 'x-goog-api-key': apiKey.trim()},
+          body: jsonEncode({
+            'contents': [
+              {
+                'parts': [
+                  {'text': 'Antworte nur mit OK.'},
+                ],
+              },
+            ],
+          }),
+        )
+        .timeout(const Duration(seconds: 30));
+    if (res.statusCode != 200) {
+      final body = jsonDecode(utf8.decode(res.bodyBytes));
+      Object? message;
+      if (body is Map && body['error'] is Map) message = (body['error'] as Map)['message'];
+      throw Exception(message ?? 'HTTP ${res.statusCode}');
+    }
+  }
+
   /// Chat über die Gemini-API mit dem eigenen (kostenlosen) Key des Nutzers.
   /// Das Bild der Frage wird mitgeschickt.
   static Future<String> geminiChat({

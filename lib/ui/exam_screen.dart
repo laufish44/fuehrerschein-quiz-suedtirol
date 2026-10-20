@@ -531,17 +531,22 @@ class _CustomQuizSheetState extends State<CustomQuizSheet> {
   int _maxErrors = 3;
   bool _immediate = false;
   QuestionFilter _filter = QuestionFilter.all;
-  late Set<int> _chapters = {for (var i = 1; i <= 25; i++) i};
+  late Set<int> _chapters = _allChapters;
+
+  Set<int> get _allChapters => {for (final c in context.read<AppState>().bank.chapters) c.id};
 
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
     final theme = Theme.of(context);
+    final total = app.bank.chapters.length;
     final filters = {
       QuestionFilter.all: context.tr('Alle Fragen', 'Tutte'),
       QuestionFilter.unseen: context.tr('Noch nie beantwortet', 'Mai risposte'),
       QuestionFilter.notLearned: context.tr('Noch nicht gelernt', 'Non ancora imparate'),
       QuestionFilter.errors: context.tr('Meine Fehler', 'I miei errori'),
+      QuestionFilter.hard: context.tr('Meine schwierigen Fragen', 'Le mie domande difficili'),
+      QuestionFilter.tricky: context.tr('Fallen-Fragen (ähnlich klingend)', 'Domande trabocchetto'),
       QuestionFilter.favorites: context.tr('Favoriten', 'Preferite'),
     };
     return SafeArea(
@@ -578,11 +583,11 @@ class _CustomQuizSheetState extends State<CustomQuizSheet> {
             ),
             Row(
               children: [
-                Expanded(child: Text(context.tr('Kapitel (${_chapters.length}/25)', 'Capitoli (${_chapters.length}/25)'),
+                Expanded(child: Text(context.tr('Kapitel (${_chapters.length}/$total)', 'Capitoli (${_chapters.length}/$total)'),
                     style: theme.textTheme.titleSmall)),
                 TextButton(
-                  onPressed: () => setState(() => _chapters = _chapters.length == 25 ? {} : {for (var i = 1; i <= 25; i++) i}),
-                  child: Text(_chapters.length == 25 ? context.tr('Keine', 'Nessuno') : context.tr('Alle', 'Tutti')),
+                  onPressed: () => setState(() => _chapters = _chapters.length == total ? {} : _allChapters),
+                  child: Text(_chapters.length == total ? context.tr('Keine', 'Nessuno') : context.tr('Alle', 'Tutti')),
                 ),
               ],
             ),

@@ -26,7 +26,8 @@
 ## Funktionen
 
 **Lernen**
-- Alle 25 Kapitel der Ministeriumsliste, mit Fortschritt je Kapitel
+- Kapitel wie im Südtiroler Theoriebuch (24 Kapitel), mit Fortschritt je Kapitel
+- **Schwierige Fragen:** deine persönlich schwierigen Fragen plus typische Fallen (fast gleich klingende Aussagen mit gegenteiliger Lösung)
 - Modi: der Reihe nach, zufällig, nur neue, nur ungelernte, nur Fehler
 - **Lernen nach Bild:** alle Aussagen zu einem Verkehrszeichen zusammen üben
 - **Intelligent lernen:** Spaced Repetition – falsch beantwortete Fragen kommen öfter, gelernte seltener

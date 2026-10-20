@@ -1,0 +1,40 @@
+{
+  "_info": "Kapitel wie im Südtiroler Theoriebuch. 'fromExam' ordnet jedes Ministeriumskapitel (1-25) einem Buchkapitel zu, 'groups' überschreibt das für einzelne Fragengruppen.",
+  "chapters": [
+    {"id": 1, "de": "Straßen und Fahrzeuge", "it": "Strade e veicoli"},
+    {"id": 2, "de": "Gefahrenzeichen", "it": "Segnali di pericolo"},
+    {"id": 3, "de": "Vorfahrtszeichen", "it": "Segnali di precedenza"},
+    {"id": 4, "de": "Verbotszeichen", "it": "Segnali di divieto"},
+    {"id": 5, "de": "Gebotszeichen", "it": "Segnali di obbligo"},
+    {"id": 6, "de": "Hinweiszeichen", "it": "Segnali di indicazione"},
+    {"id": 7, "de": "Zeitweilige Verkehrszeichen", "it": "Segnali temporanei e di cantiere"},
+    {"id": 8, "de": "Zusatztafeln", "it": "Pannelli integrativi"},
+    {"id": 9, "de": "Lichtzeichen und Handzeichen", "it": "Segnali luminosi e degli agenti"},
+    {"id": 10, "de": "Bodenmarkierungen", "it": "Segnaletica orizzontale"},
+    {"id": 11, "de": "Lichter, Spiegel, Ausrüstung im Fahrzeug, Haltung beim Lenken", "it": "Luci, specchi, dispositivi di equipaggiamento, posizione di guida"},
+    {"id": 12, "de": "Verhalten und Geschwindigkeitsbegrenzungen, Sicherheitsabstand", "it": "Comportamento e limiti di velocità, distanza di sicurezza"},
+    {"id": 13, "de": "Position auf der Fahrbahn, Abbiegen und andere Manöver", "it": "Posizione sulla carreggiata, svolta e altre manovre"},
+    {"id": 14, "de": "Vorfahrt", "it": "Precedenza"},
+    {"id": 15, "de": "Das Überholen", "it": "Il sorpasso"},
+    {"id": 16, "de": "Halten und Parken der Fahrzeuge", "it": "Fermata e sosta dei veicoli"},
+    {"id": 17, "de": "Transport von Personen und Ladung, versperrte Fahrbahn, Autobahnen", "it": "Trasporto di persone e carico, ingombro della carreggiata, autostrade"},
+    {"id": 18, "de": "Verhalten des Fahrers", "it": "Comportamento del conducente"},
+    {"id": 19, "de": "Unfallursachen, Unfälle, Erste Hilfe, Kfz-Haftpflicht", "it": "Cause di incidenti, incidenti, primo soccorso, assicurazione"},
+    {"id": 20, "de": "Führerscheine und Dokumente", "it": "Patenti e documenti"},
+    {"id": 21, "de": "Straßenlage und Wartung des Fahrzeuges", "it": "Stabilità e manutenzione del veicolo"},
+    {"id": 22, "de": "Umweltverschmutzung und Kontrolllampen", "it": "Inquinamento e spie"},
+    {"id": 23, "de": "Zweirädrige Fahrzeuge", "it": "Veicoli a due ruote"},
+    {"id": 24, "de": "Fahrzeuge mit Anhänger", "it": "Veicoli con rimorchio"}
+  ],
+  "fromExam": {
+    "1": 1, "2": 2, "3": 4, "4": 5, "5": 3, "6": 10, "7": 9, "8": 6, "9": 7, "10": 8,
+    "11": 12, "12": 12, "13": 13, "14": 14, "15": 15, "16": 16, "17": 17, "18": 11, "19": 11,
+    "20": 20, "21": 19, "22": 19, "23": 19, "24": 22, "25": 21
+  },
+  "groups": {
+    "4552": 18, "4553": 18, "4554": 18, "4555": 18, "4556": 18, "4557": 18, "4558": 18, "4559": 18, "4716": 18,
+    "4562": 24, "4566": 24, "4567": 24, "4568": 24, "4569": 24, "4570": 24,
+    "4579": 22, "4580": 22, "4581": 22, "4582": 22, "4588": 22, "4589": 22, "4590": 22, "4591": 22, "4592": 22,
+    "4597": 23, "4601": 23, "4602": 23, "4603": 23, "4604": 23, "4634": 23, "4635": 23, "4690": 23, "4713": 23, "4714": 23, "4715": 23
+  }
+}

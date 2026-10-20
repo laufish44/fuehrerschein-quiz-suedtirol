@@ -40,6 +40,18 @@ class LearnTab extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: _BigButton(
+                      icon: Icons.local_fire_department_outlined,
+                      label: context.tr('Schwierige Fragen', 'Domande difficili'),
+                      onTap: () => startQuiz(
+                        context,
+                        context.trNow('Schwierige Fragen', 'Domande difficili'),
+                        app.builder.difficultSession(app.settings.sessionSize),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: _BigButton(
                       icon: Icons.image_outlined,
                       label: context.tr('Nach Bild lernen', 'Studia per figura'),
                       onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const LexiconScreen())),
@@ -47,7 +59,12 @@ class LearnTab extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 8),
+              Text(
+                context.tr('Kapitel wie im Theoriebuch', 'Capitoli come nel libro di teoria'),
+                style: Theme.of(context).textTheme.labelLarge,
+              ),
+              const SizedBox(height: 4),
               for (final cs in p.chapters) _ChapterTile(stat: cs),
             ],
           ),
@@ -65,11 +82,19 @@ class _BigButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => FilledButton.tonal(
-        style: FilledButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12)),
+        style: FilledButton.styleFrom(
+          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 6),
+          minimumSize: const Size.fromHeight(76),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+        ),
         onPressed: onTap,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Icon(icon), const SizedBox(width: 8), Flexible(child: Text(label, textAlign: TextAlign.center))],
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon),
+            const SizedBox(height: 6),
+            Text(label, textAlign: TextAlign.center, maxLines: 2, style: const TextStyle(fontSize: 13, height: 1.2)),
+          ],
         ),
       );
 }
@@ -151,13 +176,16 @@ class ChapterScreen extends StatelessWidget {
     final p = app.progress;
     final b = app.builder;
     final theme = Theme.of(context);
-    final cs = p.chapters[chapter.id - 1];
+    final cs = p.chapterStat(chapter);
     final name = chapter.name(app.italianUi);
     final size = app.settings.sessionSize;
+    final hardCount = chapter.questions.where(p.isHard).length;
 
     void go(String title, List<Question> qs) => startQuiz(context, title, qs);
 
     final modes = [
+      (Icons.local_fire_department_outlined, context.tr('Schwierige Fragen', 'Domande difficili'), hardCount == 0 ? null : hardCount,
+          () => go('$name – ${context.trNow('schwierig', 'difficili')}', b.difficultSession(size, chapter: chapter))),
       (Icons.format_list_numbered, context.tr('Alle der Reihe nach', 'Tutte in ordine'), chapter.questions.length,
           () => go(name, b.chapterQuestions(chapter, QuestionFilter.all))),
       (Icons.shuffle, context.tr('Zufällig ($size)', 'Casuali ($size)'), null,
