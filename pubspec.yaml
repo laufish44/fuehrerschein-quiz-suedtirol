@@ -1,0 +1,57 @@
+name: fuehrerschein_quiz
+description: "Führerschein Quiz Südtirol – alle Prüfungsfragen A/B auf Deutsch und Italienisch üben."
+publish_to: 'none'
+
+# Version wird beim Release aus dem Git-Tag gesetzt (--build-name / --build-number).
+version: 1.0.0+10000
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.5+1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  fl_chart: 1.0.0 # 1.1.0 braucht Flutter >= 3.35
+  flutter_tts: ^4.2.5
+  flutter_local_notifications: ^20.1.0
+  timezone: ^0.10.1
+  flutter_timezone: ^5.1.1
+  package_info_plus: ^9.0.1
+  http: ^1.6.0
+  url_launcher: ^6.3.2
+  crypto: ^3.0.7
+  file_picker: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/img/
+    - assets/icon/icon.png
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#1E3A8A"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#1E3A8A"
+    theme_color: "#1E3A8A"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 256

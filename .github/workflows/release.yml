@@ -1,0 +1,133 @@
+# Baut bei jedem Versions-Tag (z. B. v1.2.0) die Android-APK und den Windows-Installer
+# und veröffentlicht beides als GitHub-Release. Die Apps finden dieses Release über
+# die GitHub-API und aktualisieren sich selbst.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Bestehender Tag, der (neu) gebaut werden soll, z. B. v1.0.0'
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  FLUTTER_VERSION: '3.32.1'
+  TAG: ${{ github.event.inputs.tag || github.ref_name }}
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - name: Version aus dem Tag
+        run: |
+          V="${TAG#v}"
+          IFS=. read -r MA MI PA <<< "$V"
+          echo "VERSION=$V" >> "$GITHUB_ENV"
+          echo "BUILD=$((MA * 10000 + MI * 100 + PA))" >> "$GITHUB_ENV"
+      - name: Signaturschlüssel
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
+      - run: flutter pub get
+      - name: APK bauen
+        run: flutter build apk --release --build-name="$VERSION" --build-number="$BUILD"
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.jks
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+      - run: mv build/app/outputs/flutter-apk/app-release.apk "FuehrerscheinQuiz-$VERSION-android.apk"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: '*.apk'
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - name: Version aus dem Tag
+        shell: pwsh
+        run: |
+          $v = "$env:TAG".TrimStart('v')
+          $p = $v.Split('.') | ForEach-Object { [int]$_ }
+          "VERSION=$v" >> $env:GITHUB_ENV
+          "BUILD=$($p[0] * 10000 + $p[1] * 100 + $p[2])" >> $env:GITHUB_ENV
+      - run: flutter pub get
+      - name: Windows-App bauen
+        run: flutter build windows --release --build-name=${{ env.VERSION }} --build-number=${{ env.BUILD }}
+      - name: Installer bauen (Inno Setup)
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) {
+            choco install innosetup -y --no-progress
+          }
+          # Inno Setup braucht UTF-8 mit BOM für Umlaute.
+          $iss = Get-Content installer\windows.iss -Raw -Encoding utf8
+          Set-Content installer\windows.iss -Value $iss -Encoding utf8BOM
+          & $iscc "/DAppVersion=$env:VERSION" installer\windows.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: build/installer/*.exe
+
+  release:
+    needs: [android, windows]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Änderungen aus CHANGELOG.md
+        run: |
+          V="${TAG#v}"
+          awk -v v="$V" '
+            $0 ~ "^## \\[?"v"\\]?" {found=1; next}
+            found && /^## / {exit}
+            found {print}
+          ' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then echo "Version $V" > notes.md; fi
+          cat >> notes.md <<'EOF'
+
+          ---
+          **Download:** Android → `…-android.apk` · Windows → `…-windows-setup.exe`
+          Bereits installierte Apps aktualisieren sich automatisch.
+          EOF
+      - name: Release veröffentlichen
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          V="${TAG#v}"
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/* --clobber
+          else
+            gh release create "$TAG" dist/* --title "Version $V" --notes-file notes.md --latest
+          fi
