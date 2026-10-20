@@ -1,0 +1,251 @@
+# Kapitel 2 – Gefahrenzeichen (Teil 1)
+# Format: "G <Gruppe>: Text" erklärt das Bild/Thema, "<Fragennummer>: Text" eine einzelne Aussage.
+
+G 4057: Gefahrenzeichen „Gefährliche Kurve nach rechts“ (rot umrandetes Dreieck). Gefahrenzeichen warnen nur – sie verbieten oder gebieten nichts direkt. Außerorts stehen sie in der Regel 150 m vor der Gefahrenstelle. In der Kurve: Geschwindigkeit herabsetzen, rechts fahren, auf Gegenverkehrsstraßen nicht schneiden und nicht überholen.
+18924: Der Bogen im Zeichen zeigt nach rechts: Es kündigt eine einzelne gefährliche Rechtskurve an.
+18925: Gefahrenzeichen stehen außerorts in der Regel 150 m vor der Gefahrenstelle – hier vor dem Beginn der Kurve.
+18926: Folgen mehrere enge Kurven (Kehren), kann eine Zusatztafel mit der Aufschrift „KEHRE“ angebracht sein.
+18927: In einer Kurve sieht man nicht weit voraus – deshalb ist der Abschnitt wegen eingeschränkter Sicht gefährlich.
+18928: Vor einer gefährlichen Kurve muss man die Geschwindigkeit herabsetzen, um im Sichtbereich anhalten zu können.
+18929: Jedes Gefahrenzeichen kündigt einen gefährlichen Straßenabschnitt an.
+18930: Für eine Reihe von Kurven (Doppelkurve) gibt es ein eigenes Zeichen mit zwei Bögen. Dieses Zeichen zeigt nur eine Kurve.
+18931: Ein Gebot („rechts abbiegen“) wäre ein blaues rundes Zeichen. Das Dreieck warnt nur vor einer Kurve.
+18932: Es ist ein Gefahrenzeichen (Dreieck), kein Vorschriftszeichen (rund).
+18933: Eine Steigung hat ein eigenes Zeichen mit Prozentangabe. Hier geht es um eine Kurve.
+18934: Ein Fahrspurwechsel wird mit anderen Zeichen angezeigt. Das Zeichen warnt vor einer Rechtskurve.
+18935: Der Bogen zeigt nach rechts – es ist eine Rechtskurve, keine Linkskurve.
+18936: Im Gegenteil: In Kurven auf Gegenverkehrsstraßen muss man möglichst weit rechts fahren und darf die Kurve nicht schneiden.
+18937: Außerorts stehen Gefahrenzeichen in der Regel 150 m vor der Gefahr, nicht 5 m.
+
+G 4058: Verhalten an einer gefährlichen Kurve: Geschwindigkeit an Sicht, Kurvenradius, Straßenzustand und Beladung anpassen, so weit rechts wie möglich fahren. Auf Gegenverkehrsstraßen mit nur zwei Fahrspuren ist das Überholen in Kurven mit schlechter Sicht verboten – auch von Motorrädern. Wenden, Rückwärtsfahren und Halten sind in Kurven gefährlich und verboten.
+18938: Auf zweispurigen Gegenverkehrsstraßen muss man in Kurven so nah wie möglich am rechten Fahrbahnrand bleiben.
+18939: Die Geschwindigkeit muss an Sicht und Kurvenradius angepasst werden – je enger die Kurve, desto langsamer.
+18940: Auf nasser Fahrbahn ist die Haftung geringer, daher die Kurve noch vorsichtiger befahren.
+18941: In Kurven mit eingeschränkter Sicht ist das Überholen auf zweispurigen Gegenverkehrsstraßen verboten.
+18942: Mit dem Notrad (Sparrad) gelten niedrige Höchstgeschwindigkeiten und die Haftung ist schlechter – in Kurven besonders langsam fahren.
+18943: In Kurven mit schlechter Sicht darf auf zweispurigen Gegenverkehrsstraßen nicht überholt werden – auch keine Krafträder.
+18944: Man muss so weit rechts wie möglich fahren, nicht nahe an der Mittellinie.
+18945: Das Zeichen sagt nichts übers Halten aus; in Kurven ist Halten und Parken wegen der schlechten Sicht ohnehin verboten.
+18946: Überholen in einer unübersichtlichen Kurve ist verboten – erst recht auf der Gegenfahrspur.
+18947: Wenden in einer Kurve ist wegen der schlechten Sicht verboten.
+18948: Rückwärtsfahren in einer Kurve ist gefährlich und verboten.
+18949: Eine durchgehende weiße Linie darf nie überfahren werden – auch nicht „leicht“.
+
+G 4059: Gefahrenzeichen „Gefährliche Kurve nach links“. Wie bei der Rechtskurve: steht außerorts ca. 150 m vorher, Geschwindigkeit herabsetzen, rechts bleiben, nicht überholen, wenn die Sicht nicht ausreicht.
+18950: Das rot umrandete Dreieck ist die Form der Gefahrenzeichen.
+18951: Der Bogen zeigt nach links: gefährliche Linkskurve.
+18952: Eine Kurve ist ein nicht gerader Abschnitt, auf dem man nicht weit voraussehen kann.
+18953: Linkskurve mit eingeschränkter Sicht – genau das kündigt das Zeichen an.
+18954: Gefahrenzeichen stehen in der Regel 150 m vor der Gefahrenstelle.
+18955: Wegen der eingeschränkten Sicht ist der Abschnitt gefährlich.
+18956: Man muss so langsam fahren, dass man vor einem plötzlich auftauchenden Hindernis anhalten kann.
+18957: Gebotszeichen sind blau und rund. Dies ist ein Gefahrenzeichen.
+18958: Ein Hindernis, das links umfahren werden muss, zeigt ein blaues Gebotszeichen mit Pfeil. Hier geht es um eine Kurve.
+18959: Ein Verbot (Linksabbiegen verboten) wäre ein rundes, rot umrandetes Zeichen.
+18960: Das Zeichen schreibt nichts vor – man muss trotzdem rechts fahren.
+18961: Im Gegenteil: In der Kurve muss man so weit rechts wie möglich fahren.
+18962: Einen Kreisverkehr kündigt ein eigenes Zeichen mit drei Pfeilen im Kreis an.
+18963: Es ist ein Gefahrenzeichen, kein Vorschriftszeichen.
+18964: Umleitungen werden mit gelben Baustellenzeichen angezeigt, nicht mit diesem Zeichen.
+
+G 4060: Verhalten vor der gefährlichen Linkskurve: rechts fahren, Tempo an Sicht und Kurvenradius anpassen, bei Nässe besonders vorsichtig sein, auf zweispurigen Gegenverkehrsstraßen nicht überholen, nicht halten, wenden oder zurückfahren.
+18965: Auf zweispurigen Gegenverkehrsstraßen in der Kurve so weit rechts wie möglich fahren.
+18966: Die Geschwindigkeit muss an Sicht und Kurvenradius angepasst werden.
+18967: Auf nasser Fahrbahn ist die Haftung schlechter – Kurve vorsichtiger befahren.
+18968: In Kurven mit schlechter Sicht ist das Überholen auf zweispurigen Gegenverkehrsstraßen verboten.
+18969: Mit dem Notrad gelten niedrige Geschwindigkeiten und die Haftung ist geringer – besonders langsam fahren.
+18970: Die Pflicht, in Kurven so nah wie möglich am rechten Rand zu fahren, gilt für Gegenverkehrsstraßen – auf Einbahnstraßen kommt einem niemand entgegen.
+18971: In Kurven ist Halten wegen der schlechten Sicht verboten.
+18972: In Kurven mit schlechter Sicht darf man auch Krafträder nicht überholen.
+18973: Wenden in der Kurve ist verboten.
+18974: Rückwärtsfahren in der Kurve ist verboten.
+18975: Fahren mit Notrad ist erlaubt, man muss nur langsam und vorsichtig fahren.
+
+G 4061: Gefahrenzeichen „Doppelkurve, die erste nach rechts“. Kündigt zwei (oder mehrere) aufeinanderfolgende Kurven an. Eine Zusatztafel kann die Länge der Strecke oder „KEHREN“ angeben. Langsamer fahren, rechts bleiben, nicht überholen.
+18976: Die Linie im Zeichen biegt zuerst nach rechts ab – Doppelkurve, beginnend mit einer Rechtskurve.
+18977: Eine Folge von Kurven ist nicht gerade und unübersichtlich.
+18978: Folgen enge Spitzkehren, kann die Zusatztafel „KEHREN“ angebracht sein.
+18979: Man muss so langsam fahren, dass man vor einem plötzlichen Hindernis anhalten kann.
+18980: Gefahrenzeichen können durch Zusatztafeln ergänzt werden, z. B. mit der Länge des kurvigen Abschnitts.
+18981: Dreieck mit rotem Rand = Gefahrenzeichen.
+18982: Gefahrenzeichen stehen in der Regel 150 m vor der Gefahrenstelle.
+18983: Vor einer Doppelkurve muss die Geschwindigkeit herabgesetzt werden.
+18984: Umleitungen wegen Straßenarbeiten haben gelbe Baustellenzeichen.
+18985: Autobahnausfahrten werden mit grünen Hinweiszeichen angekündigt.
+18986: Ein gefährliches Gefälle hat ein eigenes Zeichen mit Prozentangabe.
+18987: Schleudergefahr hat ein eigenes Zeichen mit einem schleudernden Auto.
+18988: Kreuzungen werden mit einem Kreuz im Dreieck angekündigt.
+18989: Unebene Fahrbahn hat ein eigenes Zeichen mit Bodenwellen.
+18990: Laut offizieller Lösung falsch: Die zur Frage gehörende Zusatztafel nennt keine Strecke von 3,8 km. Achte bei solchen Fragen genau auf die Zahl auf der Tafel.
+
+G 4062: Verhalten an einer Doppelkurve: rechts fahren, Tempo an Sicht, Kurvenradius und Beladung anpassen, bei Regen vorsichtiger, auf zweispurigen Gegenverkehrsstraßen nicht überholen – auch keine Zweiräder. Vorsicht gilt für alle Kurven der Strecke, nicht nur für die erste.
+18991: Auf zweispurigen Gegenverkehrsstraßen so nah wie möglich am rechten Rand fahren.
+18992: Geschwindigkeit an Sicht und Kurvenradius anpassen.
+18993: Bei Regen ist die Fahrbahn rutschig – Kurven vorsichtiger befahren.
+18994: Ein schwer beladenes Fahrzeug ist in Kurven träger und kippanfälliger – Tempo anpassen.
+18995: In unübersichtlichen Kurven ist das Überholen auf zweispurigen Gegenverkehrsstraßen verboten.
+18996: Entgegenkommende Fahrzeuge können die Kurve schneiden – besonders aufpassen.
+18997: Wenden ist in Kurven verboten.
+18998: Das Überholverbot in unübersichtlichen Kurven gilt auch bei Tag.
+18999: Rückwärtsfahren ist in Kurven verboten.
+19000: Vorsicht ist auf der ganzen kurvigen Strecke nötig, nicht nur in der ersten Kurve.
+19001: Halten in einer Kurve ist verboten.
+19002: Auch Krafträder und Kleinkrafträder darf man in unübersichtlichen Kurven nicht überholen.
+
+G 4063: Gefahrenzeichen „Doppelkurve, die erste nach links“. Steht in der Regel 150 m vorher; mit Zusatztafel kann es Kehren ankündigen. Geschwindigkeit herabsetzen und rechts bleiben.
+19003: Die Linie biegt zuerst nach links ab: Doppelkurve, beginnend mit einer Linkskurve.
+19004: Mehrere Kurven hintereinander bedeuten eingeschränkte Sicht.
+19005: Mit der Zusatztafel „KEHREN“ kündigt das Zeichen Spitzkehren an.
+19006: Rot umrandetes Dreieck = Gefahrenzeichen.
+19007: Gefahrenzeichen stehen in der Regel 150 m vor der Gefahrenstelle.
+19008: Vor einer Doppelkurve muss man langsamer fahren.
+19009: Eine Einmündung wird mit einem anderen Zeichen (Einmündung einer Nebenstraße) angekündigt.
+19010: Eine Engstelle hat ein eigenes Zeichen mit zusammenlaufenden Linien.
+19011: Rutschige Fahrbahn hat ein eigenes Zeichen mit schleuderndem Auto.
+19012: Kuppen haben ein eigenes Zeichen.
+19013: Umleitungen wegen Arbeiten werden mit gelben Zeichen angezeigt.
+19014: Unebene Fahrbahn hat ein eigenes Zeichen mit Bodenwellen.
+
+G 4064: Verhalten an einer Doppelkurve (erste links): rechts fahren, Tempo anpassen (Sicht, Kurvenradius, Ladung, Regen), nicht überholen auf zweispurigen Gegenverkehrsstraßen, nicht halten, wenden oder zurückfahren.
+19015: Auf zweispurigen Gegenverkehrsstraßen so weit rechts wie möglich fahren.
+19016: Geschwindigkeit an Sicht und Kurvenradius anpassen.
+19017: Bei Regen sind Kurven gefährlicher – vorsichtiger fahren.
+19018: Die Beladung beeinflusst das Kurvenverhalten – Tempo anpassen.
+19019: In unübersichtlichen Kurven ist Überholen auf zweispurigen Gegenverkehrsstraßen verboten.
+19020: Entgegenkommende könnten die Kurve schneiden – besonders aufpassen.
+19021: Wenden in Kurven ist verboten.
+19022: Auch langsame Fahrzeuge darf man in unübersichtlichen Kurven nicht überholen.
+19023: Rückwärtsfahren in Kurven ist verboten.
+19024: Vorsicht ist in allen Kurven nötig, nicht nur in der ersten.
+19025: Halten in Kurven ist verboten.
+19026: Auch Zweiräder darf man hier nicht überholen.
+
+G 4065: Gefahrenzeichen „Bahnübergang mit Schranken oder Halbschranken“ (Zeichen mit Zaun/Schranke). Steht in der Regel 150 m vorher. Am Übergang warnen Rotlichter (bei Halbschranken blinkend) und oft ein akustisches Signal. Leuchtet Rot oder senken sich die Schranken: anhalten.
+19027: Der Zaun im Zeichen steht für einen Bahnübergang mit Schranken oder Halbschranken.
+19028: Bei Halbschranken gibt es zwei abwechselnd blinkende Rotlichter.
+19029: Das Zeichen gilt unabhängig davon, wie viele Gleise es gibt.
+19030: Genau das bedeutet das Zeichen: Bahnübergang mit Schranken oder Halbschranken.
+19031: Häufig kündigt ein akustisches Signal das Schließen der Schranken an.
+19032: Wie alle Gefahrenzeichen steht es in der Regel 150 m vorher.
+19033: Vor einem Bahnübergang muss man langsamer fahren, um anhalten zu können.
+19034: Bei Vollschranken kann ein fixes (nicht blinkendes) Rotlicht vorhanden sein.
+19035: Rot umrandetes Dreieck = Gefahrenzeichen.
+19036: Straßenbahnkreuzungen haben ein eigenes Zeichen mit einer Straßenbahn.
+19037: Eine Sackgasse wird mit einem blauen Hinweiszeichen angezeigt.
+19038: Man muss anhalten, wenn die Rotlichter leuchten bzw. blinken – nicht, wenn sie aus sind.
+19039: Das Zeichen zeigt keine Umleitung an.
+19040: Zwischen geschlossenen Halbschranken durchzufahren ist streng verboten.
+19041: Parkplätze werden mit blauen Hinweiszeichen angezeigt.
+19042: Das Andreaskreuz steht bei unbeschrankten Bahnübergängen, nicht bei diesem.
+19043: Baustellen werden mit gelben Zeichen und Absperrungen gekennzeichnet.
+19044: Mit Gefängnispolizei hat dieses Zeichen nichts zu tun.
+
+G 4066: Verhalten vor einem beschrankten Bahnübergang: langsamer fahren, bei blinkendem Rotlicht oder akustischem Signal anhalten, nie auf die Gleise fahren, wenn man sie wegen Stau nicht sofort räumen kann. Bleibt das Fahrzeug liegen, alles tun, um einen Unfall zu verhindern. Halten und Parken am Übergang ist verboten.
+19045: Man muss so langsam sein, dass man vor geschlossenen Schranken anhalten kann.
+19046: Man darf nur auf den Übergang fahren, wenn man ihn ohne Anhalten wieder verlassen kann.
+19047: Blinkende Rotlichter bedeuten: Die Schranken schließen sich – anhalten.
+19048: Das akustische Signal kündigt das Schließen an – anhalten.
+19049: Bleibt man auf den Gleisen liegen, muss man Insassen in Sicherheit bringen und Zug/Verkehr warnen.
+19050: An Bahnübergängen und in deren Nähe ist Parken verboten.
+19051: Langsamer fahren muss man immer, nicht nur bei schlechter Sicht.
+19052: Gesperrte Gleise darf man nie überqueren.
+19053: Auch Halten ist an und in der Nähe von Bahnübergängen verboten.
+
+G 4067: Gefahrenzeichen „Unbeschrankter Bahnübergang“ (Dampflok). Steht in der Regel 150 m vorher, zusammen mit der ersten Bake (drei rote Streifen). Direkt vor den Gleisen steht das Andreaskreuz (doppelt bei mehreren Gleisen). Größte Vorsicht: langsam heranfahren, links und rechts schauen.
+19054: Die Dampflok im Zeichen steht für einen Bahnübergang ohne Schranken.
+19055: Es steht ca. 150 m vorher und wird durch die Bake mit drei roten Streifen ergänzt.
+19056: Ohne Schranken muss man selbst prüfen, ob ein Zug kommt – größte Vorsicht.
+19057: Rot umrandetes Dreieck = Gefahrenzeichen.
+19058: Unmittelbar vor den Gleisen steht das Andreaskreuz.
+19059: Unter dem Zeichen steht die erste Bake mit drei roten Schrägstreifen.
+19060: Bei mehrgleisigen Strecken steht ein doppeltes Andreaskreuz.
+19061: Straßenbahnen haben ein eigenes Zeichen.
+19062: Bahnübergänge mit Halbschranken haben das Zeichen mit dem Zaun.
+19063: Das Zeichen steht über der ersten Bake (drei Streifen), nicht der zweiten.
+19064: Die Lok bedeutet: ohne Schranken.
+19065: Das Zeichen kündigt keinen Bahnhof an.
+19066: Die Tafel „TRAM“ gehört nicht zu diesem Zeichen.
+19067: Es ist ein Gefahrenzeichen, kein Vorfahrtszeichen.
+
+G 4068: Verhalten vor einem unbeschrankten Bahnübergang: langsam fahren (abhängig von der Sicht auf die Gleise), bereit sein anzuhalten, vor dem Überqueren nach beiden Seiten schauen. Nicht überholen, nicht halten oder parken. Die Hupe ist keine Pflicht.
+19068: Je schlechter man die Strecke einsehen kann, desto langsamer muss man fahren.
+19069: Ohne Schranken ist größte Vorsicht geboten.
+19070: Man muss jederzeit vor den Gleisen anhalten können.
+19071: Vor dem Überqueren nach rechts und links schauen, ob ein Zug kommt.
+19072: Halten und Parken an oder nahe den Gleisen ist verboten.
+19073: Langsamer fahren muss man immer, nicht nur bei Nebel.
+19074: Umgekehrt: Anhalten muss man, wenn Lichtzeichen oder akustische Signale eingeschaltet sind – dann naht ein Zug.
+19075: Durch Absperrschranken gesperrte Gleise darf man nicht überqueren.
+19076: Hupen ist keine Pflicht – man muss schauen und notfalls anhalten.
+19077: Vor Bahnübergängen ist das Überholen verboten.
+
+G 4069: Andreaskreuz (einfach): steht direkt vor einem unbeschrankten Bahnübergang über eine eingleisige Strecke, also nach dem Zeichen „Unbeschrankter Bahnübergang“. Es kann waagrecht oder senkrecht angebracht sein. Hier muss man warten, wenn ein Zug kommt.
+19078: Ein einfaches Kreuz bedeutet: eingleisige Strecke.
+19079: Das Andreaskreuz steht unmittelbar am unbeschrankten Bahnübergang.
+19080: Es steht direkt beim Gleis.
+19081: Zuerst kommt 150 m vorher das Zeichen mit der Lok, dann am Gleis das Andreaskreuz.
+19082: Das Andreaskreuz zählt zu den Gefahrenzeichen.
+19083: Das Kreuz kann waagrecht oder senkrecht angebracht sein.
+19084: Mehrgleisige Strecken haben das doppelte Andreaskreuz.
+19085: Eine Kreuzung von Straßen wird anders angekündigt.
+19086: Es betrifft die Eisenbahn, nicht die Straßenbahn.
+19087: An beschrankten Übergängen steht kein Andreaskreuz.
+19088: Es steht nach dem Zeichen „Unbeschrankter Bahnübergang“, nicht davor.
+19089: Das Andreaskreuz hat keine grünen oder fixen roten Lichter.
+19090: Es steht direkt an den Gleisen, nicht 150 m davor.
+
+G 4070: Doppeltes Andreaskreuz – steht direkt vor einem unbeschrankten Bahnübergang über eine mehrgleisige Strecke, nach den Baken mit roten Streifen. Nähert sich ein Zug, muss man vor der Haltelinie anhalten – und daran denken, dass auf dem anderen Gleis ein zweiter Zug kommen kann.
+19091: Kommt ein Zug, muss man vor der Haltelinie anhalten.
+19092: Es steht direkt am unbeschrankten Bahnübergang.
+19093: Doppeltes Kreuz = mehrgleisige Eisenbahnlinie.
+19094: Auf mehreren Gleisen kann nach einem Zug gleich ein zweiter kommen.
+19095: Die Baken (150/100/50 m) kommen vorher, das Kreuz steht am Gleis.
+19096: Das Andreaskreuz gehört zu den Gefahrenzeichen.
+19097: Laut offizieller Liste können die beiden abgebildeten Zeichen (A) und (B) gemeinsam vorkommen.
+19098: Es steht direkt an den Gleisen, nicht 150 m davor.
+19100: Es kündigt keine Straßenkreuzung an, sondern Eisenbahngleise.
+19101: Das doppelte Kreuz steht für mehrere Gleise, das einfache für ein Gleis.
+19102: An Übergängen mit Halbschranken steht kein Andreaskreuz.
+19103: Das Zeichen bedeutet nicht zwei Bahnübergänge hintereinander.
+19104: Ein gelber Hintergrund ist für dieses Zeichen nicht vorgesehen.
+
+G 4071: Baken (Distanztafeln) vor Bahnübergängen: drei, zwei und ein roter Schrägstreifen – etwa 150, 100 und 50 m vor dem Übergang. Sie stehen vor jeder Art von Bahnübergang. Die Anzahl der Streifen hat nichts mit der Zahl der Gleise zu tun. Unter dem Zeichen „Bahnübergang“ steht die Bake mit drei Streifen.
+19105: Die Baken stehen vor jedem Bahnübergang, ob mit oder ohne Schranken.
+19106: Drei Streifen ≈ 150 m, zwei ≈ 100 m, ein Streifen ≈ 50 m vor dem Übergang.
+19107: Sie zeigen an, wie nahe man dem Bahnübergang schon ist.
+19108: Die Bake mit drei Streifen steht unter dem Gefahrenzeichen „Bahnübergang“.
+19109: Bei unbeschrankten Übergängen kommen erst die Baken, dann das Andreaskreuz.
+19110: Die erste Bake (150 m) hat drei rote Schrägstreifen.
+19111: Die Baken gibt es bei allen Bahnübergängen.
+19112: Es sind Hinweis-/Gefahreneinrichtungen, keine Vorschriftszeichen.
+19113: Sie haben nichts mit Straßenarbeiten zu tun.
+19114: Die Streifen zeigen die Entfernung, nicht die Zahl der Gleise.
+19115: Zwei Streifen bedeuten etwa 100 m Entfernung, nicht zwei Gleise.
+19116: Sie stehen am Straßenrand vor dem Übergang, nicht auf Absperrschranken.
+
+G 4072: Gefahrenzeichen „Kreuzung mit einer Straßenbahn“. Kündigt – innerorts wie außerorts – eine Straßenbahnlinie ohne Ampelregelung an, die die Fahrbahn kreuzt oder den Fahrraum einengt. Vorsichtig und langsamer fahren, die Straßenbahn nicht behindern.
+19117: Weil man gleich eine Straßenbahn kreuzen könnte, soll man langsamer fahren.
+19118: Außerorts kündigt es eine Straßenbahnlinie ohne Ampel an.
+19119: Auch innerorts kündigt es die Kreuzung mit einer Straßenbahn ohne Ampel an.
+19120: Das Zeichen gilt innerorts und außerorts.
+19121: Die Straßenbahnlinie kreuzt die Fahrbahn.
+19122: Straßenbahngleise können den Platz für Fahrzeuge einschränken.
+19123: Man muss vorsichtig fahren, um die Straßenbahn nicht zu behindern.
+19124: Man könnte eine Straßenbahn kreuzen – deshalb mehr Vorsicht.
+19126: Zwei abwechselnd blinkende Rotlichter gehören zu Bahnübergängen, nicht zu diesem Zeichen.
+19127: Das Zeichen betrifft Straßenbahnen, nicht Oberleitungsbusse.
+19128: Es verbietet das Überholen der Straßenbahn nicht.
+19129: Unbeschrankte Bahnübergänge haben das Zeichen mit der Lok.
+19130: Es kündigt keine Zone nur für öffentliche Fahrzeuge an.
+
+G 4073: Verhalten bei Straßenbahnen: Eine fahrende Straßenbahn überholt man rechts, wenn genug Platz ist. Hält sie in der Straßenmitte zum Ein- und Aussteigen, darf man nur rechts vorbei, wenn eine Schutzinsel da ist (sonst warten). Auf den Schienen darf man fahren, ohne sie zu behindern. Schienen sind beim Bremsen rutschig, und die Straßenbahn hat einen langen Bremsweg.
+19131: Fahrende Straßenbahnen werden rechts überholt, wenn genug Platz ist.
+19132: Man darf auf den Gleisen fahren, solange man die Straßenbahn nicht behindert.
+19133: An einer Haltestelle in Straßenmitte darf man nur bei einer Schutzinsel rechts vorbeifahren.
+19134: An Haltestellen können Fahrgäste die Fahrbahn betreten – aufpassen.
+19135: Auf den Schienen haften die Reifen schlechter, besonders beim Bremsen.
+19136: Eine Straßenbahn braucht einen längeren Bremsweg als ein Auto.
+19137: Es gibt keine allgemeine Vorfahrtspflicht gegenüber Oberleitungsbussen.
+19138: Ein Überholverbot nur für Krafträder gibt es nicht.
+19139: Auf den Gleisen darf man fahren, wenn man die Straßenbahn nicht behindert.
+19140: Straßenbahnen werden in der Regel rechts überholt, nicht nur links.

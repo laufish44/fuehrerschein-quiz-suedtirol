@@ -1,0 +1,296 @@
+# Kapitel 3 – Verbotszeichen (Teil 1)
+
+G 4105: Verbotszeichen „Durchfahrtsverbot“ (weißer Kreis mit rotem Rand, leer). Verbietet allen Fahrzeugen – auch Fahrrädern und Kleinkrafträdern – die Durchfahrt in beide Richtungen; Fußgänger dürfen durch. Es steht an beiden Zufahrten der Straße und kann mit Zusatztafel zeitlich begrenzt sein.
+19512: Das Verbot gilt für beide Fahrtrichtungen.
+19513: Kein Fahrzeug darf durchfahren.
+19514: Auch vierrädrige Kraftfahrzeuge sind betroffen.
+19515: Weil es in beide Richtungen gilt, steht es an beiden Zufahrten.
+19516: Auch Lastkraftwagen dürfen nicht durchfahren.
+19517: Eine Zusatztafel kann das Verbot auf bestimmte Zeiten beschränken.
+19518: Das Verbot betrifft Fahrzeuge, nicht Fußgänger.
+19519: Auch Kleinkrafträder sind Fahrzeuge und dürfen nicht durchfahren.
+19520: Der leere rot umrandete Kreis bedeutet DURCHFAHRTSVERBOT.
+19521: Fahrräder sind Fahrzeuge – auch sie dürfen nicht durchfahren.
+19522: Es gilt für alle Fahrzeuge, nicht nur für Kraftfahrzeuge.
+19523: Ohne Zusatztafel gibt es keine Ausnahme für Parken oder Laden.
+19524: Das wäre „Einfahrt verboten“ (rotes Zeichen mit weißem Balken). Hier ist die Straße in beide Richtungen gesperrt.
+19525: Einbahnstraßen werden mit blauen Hinweiszeichen angezeigt.
+19526: Auch Elektroautos sind Fahrzeuge und dürfen nicht durchfahren.
+19527: Es ist ein Verbotszeichen (rund), kein Gefahrenzeichen (dreieckig).
+19528: Das Ende eines Verbots wird mit schwarzen/grauen Schrägstrichen angezeigt, nicht mit einem roten Querstrich.
+
+G 4106: Verbotszeichen „Einfahrt verboten“ (roter Kreis mit weißem Querbalken). Steht am Ende einer Einbahnstraße: In diese Richtung darf kein Fahrzeug einfahren – auch keine Fahrräder, Mopeds, Motorräder oder Taxis, rund um die Uhr. Von der anderen Seite ist die Straße befahrbar.
+19529: Man darf von hier nicht einfahren; von der anderen Seite ist die Straße befahrbar (Einbahnstraße).
+19530: Auch Fahrzeuge ohne Motor (z. B. Fahrräder) müssen das Verbot beachten.
+19531: Auch Taxis dürfen nicht einfahren.
+19532: Auch vierrädrige Kraftfahrzeuge sind betroffen.
+19533: Das Verbot gilt rund um die Uhr, also auch nachts.
+19534: Es steht am Ausgang einer Einbahnstraße.
+19535: Das Zeichen bedeutet EINFAHRT VERBOTEN.
+19536: Auch Krafträder dürfen nicht einfahren.
+19537: Auch Kleinkrafträder dürfen nicht einfahren.
+19538: In der Straße fahren sehr wohl Kraftfahrzeuge – nur in der Gegenrichtung (Einbahnstraße).
+19539: Es steht an Einbahnstraßen, nicht an Straßen mit Gegenverkehr.
+19540: Es regelt nicht das Parken, sondern das Einfahren.
+19541: Es ist kein Überholverbot.
+19542: Es gibt keinen Verkehr in beide Richtungen und keine Ausnahme für Anrainer.
+19543: Das Verbot gilt rund um die Uhr, nicht nur von 8 bis 20 Uhr.
+19544: DURCHFAHRTSVERBOT ist der leere weiße Kreis; dies hier ist EINFAHRT VERBOTEN.
+
+G 4114: Verbotszeichen „Überholverbot für Lastkraftwagen“ (roter Lkw links). Fahrzeuge zur Güterbeförderung mit einem Gesamtgewicht über 3,5 t (laut Fahrzeugschein) dürfen keine Kraftfahrzeuge überholen – auch keine Motorräder. Pkw, Busse, Wohnmobile und Lkw bis 3,5 t dürfen weiterhin überholen.
+19628: Betroffen sind Güterfahrzeuge über 3,5 t; sie dürfen keine Kraftfahrzeuge überholen.
+19629: Maßgeblich ist das im Fahrzeugschein eingetragene Gesamtgewicht über 3,5 t.
+19630: Lkw unter 3,5 t sind vom Verbot nicht betroffen.
+19631: Busse dienen der Personenbeförderung und sind nicht betroffen.
+19632: Pkw (auch mit Anhängekarren) sind nicht betroffen.
+19633: Pkw dürfen weiterhin überholen, auch Lastzüge.
+19635: Ein Kraftrad ist ein Kraftfahrzeug – Lkw über 3,5 t dürfen es nicht überholen.
+19636: Lkw über 3,5 t dürfen keine Kraftfahrzeuge überholen, auch nicht mit leichtem Anhänger.
+19638: Ein Kraftrad ist ein Kraftfahrzeug – überholen verboten.
+19639: Das Zeichen erlaubt kein Rechtsüberholen.
+19640: Busse (auch Gelenkbusse) sind nicht betroffen.
+19641: Wohnmobile dienen nicht der Güterbeförderung und sind nicht betroffen.
+19642: Ein Lkw mit 3 t liegt unter 3,5 t und darf überholen.
+19643: Fahrzeuge zur Personenbeförderung (z. B. Busse) sind nicht betroffen.
+
+G 4107: Verbotszeichen „Überholverbot“ (rotes Auto links, schwarzes rechts). Verboten ist das Überholen von Kraftfahrzeugen – ausgenommen zweirädrige Krafträder und Kleinkrafträder. Fahrräder, Fuhrwerke und andere Fahrzeuge ohne Motor darf man überholen. Gilt innerorts und außerorts; nach Kreuzungen kann es mit Zusatztafel wiederholt werden.
+19545: Zweirädrige Krafträder dürfen trotz Überholverbot überholt werden.
+19546: Das Zeichen gibt es innerorts und außerorts.
+19547: Nach Kreuzungen wird das Verbot mit Zusatztafel wiederholt, damit es weiter gilt.
+19548: Lkw sind Kraftfahrzeuge mit vier oder mehr Rädern – Überholen verboten.
+19549: Kleinkrafträder darf man überholen.
+19550: Das Verbot gilt auch, wenn man dabei auf der eigenen Fahrbahnhälfte bliebe.
+19551: Auch das Kraftrad darf keinen Pkw überholen – das Verbot gilt für alle Fahrzeuge.
+19552: Das Zeichen hat nichts mit einer Spur für langsame Fahrzeuge zu tun.
+19553: Das Überholen eines Pkw ist verboten, egal ob es eine Längslinie gibt.
+19554: Fahrräder darf man überholen.
+19555: Das Verbot gilt auch ohne durchgehenden Strich.
+
+G 4108: Wo das Überholverbot gilt, ist das Überholen aller Kraftfahrzeuge außer Krafträdern und Kleinkrafträdern (zweirädrig) verboten – unabhängig von ihrem Gewicht. Die Durchfahrt ist nicht verboten, und Fuhrwerke darf man überholen.
+19556: Krafträder dürfen von allen Fahrzeugen überholt werden.
+19557: Kleinkrafträder darf man überholen.
+19558: Es ist ein Überhol-, kein Durchfahrtsverbot.
+19559: Auch leichte Kraftwagen unter 3,5 t darf man nicht überholen.
+19560: Verboten ist das Überholen von Kraftfahrzeugen – außer Krafträdern und Kleinkrafträdern.
+19561: Gespannfuhrwerke haben keinen Motor und dürfen überholt werden.
+19562: Ein Lkw ist ein Kraftwagen – Überholen verboten.
+19563: Es steht auf allen Straßenarten.
+19564: Zweiräder und Fahrzeuge ohne Motor darf man überholen.
+19565: Die Durchfahrt ist erlaubt.
+19566: Es hat nichts mit wechselndem Einbahnverkehr zu tun.
+19567: Busse darf man nicht überholen – auch nicht mit dem Kraftrad.
+
+G 4109: Was man trotz Überholverbot überholen darf: zweirädrige Krafträder und Kleinkrafträder, Fahrräder und alle Fahrzeuge ohne Motor (Handkarren, Kutschen). Alle anderen Kraftfahrzeuge – auch langsame, landwirtschaftliche oder Arbeitsmaschinen – nicht.
+19568: Zweirädrige Kleinkrafträder darf man überholen.
+19569: Krafträder darf man überholen.
+19570: Fahrräder darf man überholen.
+19571: Fahrzeuge ohne Motor darf man überholen.
+19572: Handfahrzeuge darf man überholen.
+19573: Pferdekutschen darf man überholen.
+19574: Elektroautos sind Kraftwagen – Überholen verboten.
+19575: Engstellen haben ein eigenes Gefahrenzeichen.
+19576: Landwirtschaftliche Maschinen haben einen Motor – Überholen verboten.
+19577: Arbeitsmaschinen haben einen Motor – Überholen verboten.
+19578: Auch sehr langsame Kraftfahrzeuge darf man nicht überholen.
+19579: Auch Fahrzeuge, die rechts abbiegen wollen, darf man nicht überholen.
+
+G 4111: Verbotszeichen „Zulässige Höchstgeschwindigkeit“ (hier 80 km/h). Ab dem Zeichen darf man nicht schneller als 80 km/h fahren – langsamer ist erlaubt. Gilt für alle Fahrzeuge, auch auf Autobahnen, und auch beim Überholen.
+19592: Rot umrandeter Kreis = Verbotszeichen.
+19593: Schneller als 80 km/h ist verboten.
+19594: Es kann auch auf Autobahnen stehen.
+19595: Die Begrenzung gilt sofort ab dem Zeichen.
+19596: Man darf 80 km/h oder langsamer fahren.
+19597: Verbotszeichen gehören zu den Vorschriftszeichen.
+19598: Die Zahl ist eine Geschwindigkeit, kein Abstand.
+19599: Es gilt für alle Fahrzeuge, auch für Krafträder.
+19600: Es ist eine Pflicht, keine Empfehlung (Empfehlungen sind blau-quadratisch).
+19601: Auch beim Überholen darf man 80 km/h nicht überschreiten.
+19602: Die Zahl ist keine Gewichtsangabe.
+19603: Eine Mindestgeschwindigkeit wäre ein blaues rundes Zeichen.
+19604: Langsamere Fahrzeuge dürfen durchfahren.
+
+G 4112: Die Zahl im rot umrandeten Kreis ist die erlaubte Höchstgeschwindigkeit für alle Fahrzeuge – ab dem Zeichen. Langsamer fahren ist erlaubt; es ist keine Mindestgeschwindigkeit.
+19605: Die angegebene Geschwindigkeit darf nicht überschritten werden.
+19606: Es ist eine Höchstgeschwindigkeit.
+19607: Die Zahl ist die erlaubte Höchstgeschwindigkeit.
+19608: Nicht mehr als 80 km/h.
+19609: Die Zahl zeigt die Höchstgeschwindigkeit an.
+19610: Langsamer als angegeben ist erlaubt.
+19611: Sie gilt für alle Fahrzeuge.
+19612: Es ist eine Höchst-, keine Mindestgeschwindigkeit.
+19613: Es regelt keine Fahrspurbenutzung.
+19614: Die Begrenzung gilt ab dem Zeichen, nicht 150 m danach.
+19615: Gewichtsbeschränkungen haben eigene Zeichen mit „t“.
+19616: Ohne Zusatztafel gilt sie rund um die Uhr.
+
+G 4110: Verbotszeichen „Mindestabstand“ (hier 70 m). Man muss zum vorausfahrenden Fahrzeug mindestens den angegebenen Abstand einhalten – mehr ist erlaubt. Gilt für alle Fahrzeuge (auch Krafträder) und bei jeder Geschwindigkeit.
+19580: Mindestens 70 m Abstand sind Pflicht.
+19581: 80 m sind mehr als 70 m – erlaubt.
+19582: Weniger als 70 m Abstand ist verboten.
+19583: Es gilt auch für Krafträder.
+19584: Es gilt auch bei geringer Geschwindigkeit.
+19585: Der angegebene Mindestabstand muss eingehalten werden.
+19586: Umgekehrt: Man muss mindestens 70 m Abstand halten.
+19587: Die Pflicht hat das nachfolgende Fahrzeug, nicht das vorausfahrende.
+19588: Es ist ein Mindest-, kein Höchstabstand, und gilt überall, wo das Zeichen steht.
+19589: Es kündigt kein Durchfahrtsverbot an.
+19590: 70 bedeutet Meter Abstand, keine km/h.
+19591: Es hat nichts mit Abschleppseilen zu tun.
+
+G 4113: Verbotszeichen „Hupverbot“ (durchgestrichenes Horn). Ab hier ist das Hupen verboten – rund um die Uhr. Ausnahme: bei unmittelbarer Gefahr und wenn man Verletzte oder schwer Kranke befördert.
+19617: Das Betätigen der Hupe ist verboten.
+19618: Hupsignale sind verboten.
+19620: Ab dem Zeichen beginnt der Bereich mit Hupverbot.
+19621: Bei Transport von Verletzten oder Schwerkranken darf man hupen.
+19622: Genau das Gegenteil: Hupen ist verboten.
+19623: Es gilt rund um die Uhr.
+19624: Es hat nichts mit der Feuerwehr zu tun.
+19625: Engstellen haben eigene Zeichen.
+19626: Auch im Stau darf man nicht hupen.
+19627: Das Ende des Verbots hat schwarze Schrägstriche.
+
+G 4115: Verbotszeichen „Durchfahrtsverbot für Gespannfuhrwerke“ (Pferdewagen). Verboten sind von Tieren gezogene Fahrzeuge (Pferde, Esel). Alle anderen Fahrzeuge dürfen durchfahren.
+19644: Gespannfuhrwerke dürfen nicht durchfahren.
+19645: Pferdegespanne dürfen nicht durchfahren.
+19646: Pferdekutschen dürfen nicht durchfahren.
+19647: Auch von Eseln gezogene Fahrzeuge sind Gespannfuhrwerke.
+19648: Krafträder dürfen durchfahren.
+19649: Kraftwagen dürfen durchfahren.
+19650: Kraftfahrzeuge sind nicht betroffen.
+19651: Es gilt rund um die Uhr.
+19652: Auch bereifte Fuhrwerke sind verboten.
+19653: Es ist ein Verbot, keine reservierte Straße.
+19654: Handfahrzeuge sind nicht betroffen (dafür gibt es ein eigenes Zeichen).
+19655: Nur von Tieren gezogene Fahrzeuge sind betroffen, nicht alle Fahrzeuge ohne Motor.
+
+G 4116: Verbotszeichen „Verbot für Fußgänger“. Fußgänger dürfen hier nicht gehen; alle Fahrzeuge dürfen fahren.
+19656: Fußgängern ist der Durchgang verboten.
+19657: Kraftwagen dürfen durchfahren.
+19658: Krafträder dürfen durchfahren.
+19659: Vierrädrige Kraftfahrzeuge dürfen durchfahren.
+19660: Fahrräder dürfen durchfahren.
+19661: Kleinkrafträder dürfen durchfahren.
+19662: Es gilt rund um die Uhr.
+19663: Es zeigt keinen Spielplatz an.
+19664: Es verbietet Fußgängern den Durchgang ganz.
+19665: Ein Gehweg ist ein blaues rundes Gebotszeichen.
+
+G 4118: Verbotszeichen „Durchfahrtsverbot für Krafträder“. Verboten sind Motorräder jeglichen Hubraums – auch mit Sicherheitszelle. Erlaubt sind u. a. Kleinkrafträder, Fahrräder, Pkw, drei- und vierrädrige Kraftfahrzeuge.
+19679: Krafträder dürfen nicht durchfahren.
+19680: Drei- und vierrädrige Kraftfahrzeuge sind nicht betroffen.
+19681: Pkw dürfen durchfahren.
+19682: Fahrräder dürfen durchfahren.
+19683: Hubraum spielt keine Rolle – alle Krafträder sind verboten.
+19684: Krafträder sind gerade verboten.
+19685: Nur Krafträder sind verboten, nicht alle Zweiräder (Fahrräder und Mopeds dürfen).
+19686: Es gilt für alle Krafträder, nicht nur über 125 cm³.
+19687: Auch Krafträder mit Sicherheitszelle sind verboten.
+19688: Kleinkrafträder sind nicht betroffen.
+19689: Vierrädrige Kraftfahrzeuge sind nicht betroffen.
+19690: Es ist ein Verbotszeichen.
+19691: Es schreibt keine Motorradpiste vor.
+
+G 4117: Verbotszeichen „Durchfahrtsverbot für Fahrräder“. Verboten sind Fahrräder aller Art (auch Tandems und vierrädrige Pedalfahrzeuge) – rund um die Uhr. Erlaubt sind Fußgänger, Mopeds, Motorräder und Autos.
+19666: Fahrräder dürfen nicht durchfahren.
+19667: Rot umrandeter Kreis = Verbotszeichen.
+19668: Vierrädrige Kraftfahrzeuge dürfen durchfahren.
+19669: Fußgänger dürfen durchgehen.
+19670: Zweirädrige Kleinkrafträder dürfen durchfahren.
+19671: Vierrädrige Pedalfahrzeuge sind auch Fahrräder – verboten.
+19672: Tandems sind Fahrräder – verboten.
+19673: Es gilt rund um die Uhr.
+19674: Auch nachts dürfen Fahrräder nicht durchfahren.
+19675: Krafträder sind nicht betroffen.
+19676: Kleinkrafträder sind nicht betroffen.
+19677: Es ist ein Verbot, keine reservierte Spur.
+19678: Fahrradparkplätze werden anders angezeigt.
+
+G 4119: Verbotszeichen „Durchfahrtsverbot für Handkarren“. Von Hand gezogene oder geschobene Fahrzeuge (Handkarren) dürfen nicht durch. Alle anderen Fahrzeuge dürfen fahren – auch von Hand geschobene Motorräder.
+19692: Handfahrzeuge dürfen nicht durch.
+19693: Fahrräder dürfen durchfahren.
+19694: Kleinkrafträder dürfen durchfahren.
+19695: Pkw mit Anhängekarren dürfen durchfahren.
+19696: Handkarren dürfen nicht durch.
+19697: Es ist keine Straße für Straßenhändler.
+19698: Kraftfahrzeuge sind nicht betroffen.
+19699: Es ist ein Verbotszeichen.
+19700: Es gilt nur für Handkarren, nicht für alle Fahrzeuge.
+19701: Gespannfuhrwerke haben ein eigenes Verbotszeichen.
+19702: Ein geschobenes Motorrad ist kein Handkarren – erlaubt.
+
+G 4120: Verbotszeichen „Durchfahrtsverbot für Kraftwagen“ (Auto). Verboten sind alle Kraftfahrzeuge mit drei oder mehr Rädern: Pkw, Taxis, Busse, Lkw, drei- und vierrädrige Kraftfahrzeuge. Erlaubt sind zweirädrige Krafträder, Kleinkrafträder und Fahrzeuge ohne Motor.
+19703: Alle Kraftwagen sind verboten.
+19704: Auch dreirädrige Kraftfahrzeuge sind verboten.
+19705: Zweirädrige Krafträder dürfen durchfahren.
+19706: Zweirädrige Kleinkrafträder dürfen durchfahren.
+19707: Vierrädrige Kraftfahrzeuge sind verboten.
+19708: Fahrzeuge ohne Motor dürfen durchfahren.
+19709: Vierrädrige Kraftfahrzeuge sind gerade verboten.
+19710: Es gilt für alle Kraftwagen, mit oder ohne Katalysator.
+19711: Auch Taxis sind Kraftwagen – verboten.
+19712: Dreirädrige Kraftfahrzeuge sind verboten.
+19713: Busse sind Kraftwagen – verboten.
+19714: Lkw sind Kraftwagen – verboten.
+
+G 4121: Verbotszeichen „Durchfahrtsverbot für Autobusse“. Verboten sind alle Busse – Reise-, Schul- und auch kleine Busse unter 3,5 t – rund um die Uhr. Pkw, Lkw, Krafträder und Wohnmobile dürfen fahren.
+19715: Das Zeichen verbietet Bussen die Durchfahrt.
+19716: Pkw dürfen durchfahren.
+19717: Lkw dürfen durchfahren.
+19718: Krafträder dürfen durchfahren.
+19719: Wohnmobile sind keine Busse – erlaubt.
+19720: Auch Busse unter 3,5 t sind verboten.
+19721: Reisebusse sind Busse – verboten.
+19722: Eine Busspur ist blau gekennzeichnet.
+19723: Busparkplätze werden mit blauen Hinweiszeichen angezeigt.
+19724: Schulbusse sind Busse – verboten.
+19725: Wohnmobile sind nicht betroffen.
+19726: Ohne Zusatztafel gilt es jeden Tag.
+
+G 4122: Verbotszeichen „Durchfahrtsverbot für Güterkraftfahrzeuge über 3,5 t“ (Lkw ohne Zahl). Verboten sind Fahrzeuge zur Güterbeförderung über 3,5 t Gesamtgewicht (auch Lastzüge). Busse und Wohnmobile sind nicht betroffen. Eine Zusatztafel kann einen anderen Gewichtswert angeben.
+19727: Verboten sind Güterfahrzeuge über 3,5 t.
+19728: Busse dienen der Personenbeförderung – erlaubt.
+19729: Wohnmobile sind keine Güterfahrzeuge – erlaubt.
+19730: Eine Zusatztafel kann einen anderen Gewichtswert festlegen.
+19731: Ein Lkw mit 3 t liegt unter 3,5 t – erlaubt.
+19732: Nur Lkw über 3,5 t sind betroffen, nicht alle.
+19733: Lkw mit Pritsche über 3,5 t sind auch verboten.
+19734: Fahrzeuge zur Personenbeförderung sind nicht betroffen.
+19735: Auch Lastzüge über 3,5 t sind Güterfahrzeuge – verboten.
+
+G 4123: Verbotszeichen „Durchfahrtsverbot für Güterkraftfahrzeuge über 6,5 t“ (Lkw mit Zahl). Verboten sind Güterfahrzeuge, deren Gesamtgewicht laut Fahrzeugschein über dem angegebenen Wert liegt. Busse und Wohnmobile sind nicht betroffen.
+19736: Wohnmobile sind nicht betroffen.
+19737: Busse sind nicht betroffen.
+19738: Lkw über 6,5 t sind verboten.
+19739: Güterfahrzeuge bis zum angegebenen Wert dürfen fahren.
+19740: Maßgeblich ist das Gesamtgewicht laut Fahrzeugschein.
+19741: 7,5 t sind mehr als 6,5 t – verboten.
+19742: Fahrzeuge zur Personenbeförderung sind nicht betroffen.
+19743: Laut offizieller Lösung gilt das Verbot auch für diese Fahrzeuge über 6,5 t.
+19744: Es kündigt keine Waage an.
+19745: Busse sind nicht betroffen.
+
+G 4124: Verbotszeichen „Durchfahrtsverbot für Kraftfahrzeuge mit Anhänger“. Verboten sind Fahrzeuge, die einen Anhänger ziehen (auch Pkw mit Wohn- oder Bootsanhänger, Lastzüge). Anhängekarren gelten nicht als Anhänger; Gelenkbusse sind erlaubt. Eine Tafel kann leichte Anhänger bis zu einem Gewicht erlauben.
+19746: Eine Tafel kann Anhänger bis zu einem bestimmten Gewicht erlauben.
+19747: Lastzüge ziehen einen Anhänger – verboten.
+19748: Ein Anhängekarren ist kein Anhänger – erlaubt.
+19749: Kraftfahrzeuge mit Anhänger sind verboten.
+19750: Gelenkbusse ziehen keinen Anhänger – erlaubt.
+19751: Ein Wohnanhänger ist ein Anhänger – verboten.
+19752: Es gilt für alle Fahrzeuge mit Anhänger, nicht nur für Güterfahrzeuge.
+19753: Es zeigt keine langsamen Lkw an.
+19754: Es enthält keine Abstandsregel.
+19755: Ein Bootsanhänger ist ein Anhänger – verboten.
+
+G 4125: Verbotszeichen „Durchfahrtsverbot für landwirtschaftliche Maschinen“ (Traktor). Verboten sind landwirtschaftliche Zugmaschinen und Maschinen mit Rädern oder Raupen – Tag und Nacht. Erlaubt sind z. B. Schneeräumfahrzeuge und Maschinen für Straßenarbeiten.
+19756: Landwirtschaftliche Zugmaschinen sind verboten.
+19757: Schneeräumfahrzeuge sind nicht betroffen.
+19758: Das Verbot gilt Tag und Nacht.
+19759: Maschinen für Straßeninstandhaltung sind erlaubt.
+19760: Es gilt für bereifte Maschinen und solche mit Raupenketten.
+19761: Krafträder dürfen durchfahren.
+19763: Landwirtschaftliche Maschinen sind gerade verboten.
+19764: Auch mit leichtem Anhänger sind landwirtschaftliche Maschinen verboten.
+19765: Sattelzugmaschinen sind nicht betroffen.
+19767: Es ist an Grundstückseinfahrten nicht vorgeschrieben.
+19768: Es kann an allen Straßen stehen.
+19769: Es gibt keine Ausnahme für Messen.

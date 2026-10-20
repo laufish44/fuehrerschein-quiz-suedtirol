@@ -1,0 +1,519 @@
+# Kapitel 2 – Gefahrenzeichen (Teil 2)
+
+19141: Rechts überholt man die Straßenbahn in der Regel – aber nicht „nur“ rechts: Auf Einbahnstraßen oder bei Platzmangel rechts ist auch links möglich.
+19142: Ohne Schutzinsel muss man hinter der haltenden Straßenbahn warten, bis die Fahrgäste ein- und ausgestiegen sind.
+19143: Bus-Parkplätze werden mit blauen Hinweiszeichen angezeigt.
+19144: Fahrspuren für Oberleitungsbusse haben eigene Zeichen und Markierungen.
+
+G 4074: Gefahrenzeichen „Fußgängerüberweg“. Steht außerorts in der Regel 150 m vor dem Zebrastreifen (direkt am Übergang steht das blaue Hinweiszeichen). Man muss langsamer fahren und Fußgängern, die überqueren oder überqueren wollen, den Vortritt lassen. Fahrzeuge, die für Fußgänger angehalten haben, darf man nicht überholen. Wer keinen Vortritt gewährt, verliert Punkte.
+19145: Das Zeichen mit dem gehenden Menschen auf Streifen kündigt einen Fußgängerüberweg an.
+19146: Fußgänger auf dem Zebrastreifen haben Vortritt.
+19147: Außerorts stehen Gefahrenzeichen in der Regel 150 m vor der Gefahrenstelle.
+19148: Das Zeichen kann auch innerorts stehen (dort meist näher am Übergang).
+19149: Hält ein Fahrzeug vor dem Zebrastreifen an, darf man es nicht überholen – es könnte ein Fußgänger queren.
+19150: Für Kinder gibt es ein eigenes Zeichen mit zwei laufenden Kindern.
+19151: Ein Gehweg wird mit einem blauen runden Gebotszeichen angezeigt.
+19152: Hupen ist hier falsch: Man muss anhalten und die Fußgänger gehen lassen.
+19153: Auf dem Zebrastreifen ist Halten und Parken verboten.
+19154: Das Zeichen verbietet nichts – es warnt vor querenden Fußgängern.
+19155: Eine Fußgängerinsel wird anders gekennzeichnet.
+
+G 4075: Verhalten vor einem Fußgängerüberweg: langsamer fahren und anhaltebereit sein, Fußgängern Vortritt gewähren (von beiden Seiten), nicht überholen, wenn andere für Fußgänger bremsen, auf bremsende Vordermänner achten. Auf dem Zebrastreifen weder halten noch parken. Verstöße kosten Punkte.
+19156: Wer für Fußgänger langsamer wird, darf nicht überholt werden.
+19157: Man muss so langsam fahren, dass man vor querenden Fußgängern anhalten kann.
+19158: Vor einem Zebrastreifen bremsen andere oft plötzlich – genug Abstand halten.
+19159: Auf dem Zebrastreifen ist Halten und Parken verboten.
+19160: Wer Fußgängern am Zebrastreifen keinen Vortritt lässt, bekommt Punkte abgezogen.
+19161: Hupen ist nicht vorgeschrieben – man muss anhalten.
+19162: Langsamer fahren muss man für alle Fußgänger, nicht nur für Kinder.
+19163: Am Zebrastreifen haben die Fußgänger Vortritt, nicht die Fahrzeuge.
+19164: Den Vortritt zu gewähren ist Pflicht.
+19165: Vortritt gilt für Fußgänger von beiden Seiten.
+19166: Eine Überführung (Brücke für Fußgänger) wird anders angezeigt.
+19167: Eine Unterführung wird anders angezeigt.
+19168: Das dreieckige Gefahrenzeichen steht vor dem Übergang; direkt am Übergang steht das blaue Hinweiszeichen.
+
+G 4076: Gefahrenzeichen „Radfahrerüberweg“. Kündigt – in der Regel 150 m vorher – eine auf der Fahrbahn markierte Querung für Radfahrer an. Langsamer fahren, Radfahrer nicht gefährden und ihnen beim Queren Vorrang lassen.
+19169: Das Fahrrad im Dreieck bedeutet: Radfahrerüberweg.
+19170: Rot umrandetes Dreieck = Gefahrenzeichen.
+19171: Der Übergang ist auf der Fahrbahn markiert.
+19172: Es warnt, dass Radfahrer die Straße queren könnten.
+19173: Gefahrenzeichen stehen in der Regel 150 m vorher.
+19174: Zum Schutz der Radfahrer muss man langsamer fahren.
+19175: Es steht vor dem Radfahrerüberweg, nicht direkt daran.
+19176: Es ist ein Gefahrenzeichen, kein Vorschriftszeichen.
+19177: Ein Verbot für Radfahrer wäre ein rundes, rot umrandetes Zeichen.
+19178: Der Beginn eines Radweges wird mit einem blauen runden Zeichen angezeigt.
+19179: Ein Radrennen wird nicht mit diesem Zeichen angekündigt.
+19180: Mit Kleinkrafträdern hat dieses Zeichen nichts zu tun.
+
+G 4077: Verhalten am Radfahrerüberweg: Radfahrer nicht gefährden oder behindern, langsamer fahren, anhalten, wenn sie queren, und keine Fahrzeuge überholen, die für Radfahrer angehalten haben.
+19181: Radfahrer dürfen weder gefährdet noch behindert werden.
+19182: Querenden Radfahrern muss man Vorrang lassen – also langsam und anhaltebereit sein.
+19183: Fahrzeuge, die für Radfahrer anhalten, darf man nicht überholen.
+19184: Hupen ist nicht vorgeschrieben.
+19185: Am Radfahrerüberweg haben die querenden Radfahrer Vorrang, nicht die Autos.
+19186: Vorrang gilt für Radfahrer von beiden Seiten.
+
+G 4078: Gefahrenzeichen „Gefährliches Gefälle“ (die Prozentzahl gibt die Neigung an). Bergab wird der Bremsweg länger: Geschwindigkeit herabsetzen und einen niedrigen Gang einlegen, um die Motorbremse zu nutzen. Nicht mit getretener Kupplung rollen.
+19187: Das Zeichen steht vor einem gefährlichen Gefälle.
+19188: Es warnt vor einem besonders gefährlichen Gefälle.
+19189: Bergab wird der Bremsweg länger.
+19190: Die Prozentzahl im Zeichen gibt die Neigung des Gefälles an.
+19191: Bergab muss man die Geschwindigkeit herabsetzen.
+19192: Ein niedriger Gang nutzt die Motorbremse und schont die Bremsen.
+19193: Eine Steigung hat ein eigenes Zeichen (es geht bergauf).
+19194: Beschädigter Straßenbelag hat ein eigenes Zeichen.
+19195: Die Zahl gibt die Neigung eines Gefälles an, nicht einer Steigung.
+19196: Mit getretener Kupplung fehlt die Motorbremse – das ist gefährlich.
+19197: Hier geht es bergab, nicht bergauf.
+19198: Die Zahl ist eine Neigung in Prozent, keine Geschwindigkeitsbegrenzung.
+19199: Bei Regen wird ein Gefälle noch gefährlicher.
+
+G 4079: Fahren im Gefälle: niedrigen Gang einlegen und die Motorbremse nutzen, nicht dauernd bremsen (die Bremsen überhitzen und lassen nach), genug Abstand halten und bei Nässe besonders vorsichtig sein.
+19200: Im niedrigen Gang bremst der Motor mit.
+19201: Langsamer fahren, um nicht auf langsamere Fahrzeuge aufzufahren.
+19202: Dauerbremsen überhitzt die Bremsen – sie verlieren Wirkung.
+19203: Geschwindigkeit mit niedrigem Gang regeln, Bremsen wenig benutzen.
+19204: Bei Nässe ist der Bremsweg bergab noch länger.
+19205: Dauerndes Bremsen überhitzt die Bremsen; dem Getriebe schadet die Motorbremse nicht.
+19206: Im höchsten Gang fehlt die Motorbremse – man müsste ständig bremsen.
+19207: Mit gedrückter Kupplung fehlt jede Motorbremse.
+19208: Bergab braucht man mehr Abstand, nicht weniger.
+
+G 4080: Gefahrenzeichen „Steigung“ (die Prozentzahl gibt die Neigung an). Kündigt einen steilen Anstieg an, der mit einem niedrigen Gang und mit Vorsicht zu befahren ist.
+19209: Das Zeichen steht vor einem steilen Anstieg.
+19210: Eine steile Steigung ist mit Vorsicht zu befahren.
+19211: Bergauf braucht man einen niedrigen Gang, damit der Motor genug Kraft hat.
+19212: Die Prozentzahl gibt die Neigung der Steigung an.
+19213: Mit getretener Kupplung rollt man bergauf zurück – das ist falsch.
+19214: Bergauf wird der Bremsweg kürzer, nicht länger – das betrifft das Gefälle.
+19215: Enge Kurven haben eigene Zeichen.
+19216: Das ist das Zeichen für die Steigung, nicht für das Gefälle.
+
+G 4081: Gefahrenzeichen „Beidseitig verengte Fahrbahn“. Kündigt eine Engstelle an, an der das Kreuzen mit Gegenverkehr schwierig sein kann. Mit gelbem Hintergrund steht es an Baustellen. Langsamer fahren. Wer an der Engstelle Vorrang hat, regeln eigene Zeichen, die danach folgen können.
+19217: Die zusammenlaufenden Linien zeigen eine Fahrbahnverengung.
+19218: In einer Engstelle ist das Begegnen mit Gegenverkehr schwierig.
+19219: Die Fahrbahn wird auf beiden Seiten schmaler.
+19220: Rot umrandetes Dreieck = Gefahrenzeichen.
+19221: Nach der Engstellen-Warnung kann ein weiteres Zeichen folgen, das den Vorrang an der Engstelle regelt.
+19222: Nach der Engstellen-Warnung kann ein weiteres Zeichen folgen, das den Vorrang an der Engstelle regelt.
+19223: Gelber Hintergrund = vorübergehendes Zeichen an einer Baustelle.
+19224: Vor einer Engstelle muss man langsamer fahren.
+19225: Wechselnder Einbahnverkehr mit Vorrang wird mit eigenen runden bzw. eckigen Zeichen geregelt.
+19226: Dieses Zeichen regelt keinen Vorrang – es warnt nur.
+19227: Ein Durchfahrtsverbot wäre ein rundes, rot umrandetes Zeichen.
+19228: Eine lange Gerade hat kein solches Zeichen.
+19229: Tunnels werden mit einem eigenen Zeichen angekündigt.
+19230: Es ist ein Gefahrenzeichen, kein Vorschriftszeichen.
+19231: Eine Einbahnstraße wird mit einem blauen Hinweiszeichen angezeigt.
+19232: Eine Beschleunigungsspur hat kein solches Zeichen.
+
+G 4082: Gefahrenzeichen „Links verengte Fahrbahn“. Die Fahrbahn wird auf der linken Seite schmaler; Begegnen mit Gegenverkehr kann schwierig werden. Langsamer fahren und notfalls anhalten. Mit gelbem Hintergrund an Baustellen.
+19233: Das Zeichen kündigt eine Verengung der Fahrbahn an.
+19234: Die Linie im Zeichen springt links ein: Engstelle auf der linken Seite.
+19235: Es ist eine gefährliche Verengung auf der linken Seite.
+19236: An der Engstelle kann das Begegnen mit Gegenverkehr schwierig sein.
+19237: Vor der Engstelle langsamer fahren und bei Bedarf anhalten.
+19238: Rot umrandetes Dreieck = Gefahrenzeichen.
+19239: Gelber Hintergrund = Baustelle, die die Fahrbahn verengt.
+19240: Es ist ein Gefahrenzeichen.
+19241: Eine Einmündung von links hat ein eigenes Zeichen.
+19242: Kurven haben eigene Zeichen.
+19243: Eine Überführung wird nicht so angekündigt.
+19244: Eine Fußgängerunterführung hat ein anderes Zeichen.
+19245: Die Verengung ist links, nicht rechts.
+19246: Das Zeichen hat nichts mit Fahrspurabgrenzungen zu tun.
+19247: Schleudergefahr hat ein eigenes Zeichen.
+
+G 4083: Gefahrenzeichen „Rechts verengte Fahrbahn“ – z. B. durch eine Mauer oder ein anderes festes Hindernis auf der rechten Seite. Kann auch an Gegenverkehrsstraßen stehen; mit gelbem Hintergrund an Baustellen. Es regelt keinen Vorrang.
+19248: Die Linie springt rechts ein: Engstelle auf der rechten Seite.
+19249: Ursache ist meist ein festes Hindernis rechts.
+19250: Es ist eine gefährliche Verengung rechts.
+19251: Zum Beispiel eine Mauer, die rechts in die Fahrbahn ragt.
+19252: Das Zeichen kann an Gegenverkehrsstraßen stehen.
+19253: Gelber Hintergrund = Baustelle.
+19254: Das Ende des Gegenverkehrs wird anders angezeigt.
+19255: Es regelt keinen Vorrang gegenüber dem Gegenverkehr.
+19256: Bei einer Verengung kann man gerade nicht nebeneinander fahren.
+19257: Es fordert nicht zum Einordnen in zwei Reihen auf.
+19258: Eine Einmündung von rechts hat ein eigenes Zeichen.
+19259: Der Beginn einer Einbahnstraße wird mit einem blauen Zeichen angezeigt.
+
+G 4084: Gefahrenzeichen „Bewegliche Brücke“ (Zug- oder Drehbrücke). Kann durch eine Tafel mit den Betriebszeiten ergänzt sein. Vor der Brücke kann eine Anlage mit blinkendem Rotlicht stehen – leuchtet sie, muss man anhalten.
+19260: Das Zeichen zeigt eine bewegliche Brücke.
+19261: Rot umrandetes Dreieck = Gefahrenzeichen.
+19262: Eine Tafel kann angeben, wann die Brücke bedient wird.
+19263: Vor der Brücke kann eine Anlage mit blinkendem Rotlicht stehen.
+19264: Blinken die roten Lichter, öffnet sich die Brücke – anhalten.
+19266: Ein Hafengelände hat ein anderes Zeichen (Kai/Ufer).
+19267: Anhalten muss man nur, wenn die roten Lichter blinken, nicht immer.
+19268: Es geht um eine bewegliche, nicht um eine steile Brücke.
+19269: Es regelt keinen Vorrang.
+19270: Das Zeichen enthält kein Überholverbot.
+19271: Beschrankte Bahnübergänge haben ein eigenes Zeichen.
+
+G 4085: Gefahrenzeichen „Schleudergefahr“ (rutschige Fahrbahn). Eine Zusatztafel kann angeben, wann die Gefahr besteht – z. B. bei Regen oder bei Eis. Die Reifen haften schlechter: langsamer fahren, ruckartiges Bremsen, Lenken und Beschleunigen vermeiden.
+19272: Die Gefahr besteht bei den auf den Zusatztafeln genannten Witterungsverhältnissen.
+19273: Das Zeichen kündigt eine besonders rutschige Fahrbahn an.
+19274: Mit der Tafel „bei Regen“ gilt die Warnung für Nässe.
+19275: Mit der Tafel für Eis warnt es vor Glätte.
+19276: Auf rutschiger Fahrbahn haften die Reifen schlechter.
+19277: Langsam fahren und ruckartige Manöver vermeiden, sonst schleudert man.
+19278: Eine Engstelle hat ein eigenes Zeichen.
+19279: Seitenwind hat ein eigenes Zeichen (Windsack).
+19280: Die Haftung nimmt ab, nicht zu.
+19281: Der Bremsweg wird länger, nicht kürzer.
+19282: Auf rutschiger Fahrbahn braucht man mehr Abstand.
+19283: Kurven haben eigene Zeichen.
+19284: Es ist keine Teststrecke.
+
+G 4086: Verhalten bei Schleudergefahr: bei Regen oder Glatteis Geschwindigkeit herabsetzen, abruptes Bremsen und Lenken vermeiden, mehr Abstand halten (der Bremsweg wird länger).
+19285: Bei Regen langsamer fahren und nicht abrupt bremsen.
+19286: Bei Glatteis langsamer fahren und nicht abrupt bremsen.
+19287: Bei Regen langsamer fahren und nicht ruckartig lenken.
+19288: Bei Glatteis wird der Bremsweg länger – mehr Abstand nötig.
+19289: Bei Regen wird der Bremsweg länger, nicht kürzer.
+19290: Bei Regen braucht man mehr Abstand, nicht weniger.
+19291: Heftiges Beschleunigen lässt die Räder durchdrehen.
+19292: Das Zeichen enthält kein allgemeines Überholverbot.
+19293: Abruptes Bremsen auf Glatteis führt zum Schleudern.
+19294: Das Zeichen verbietet niemandem die Durchfahrt.
+19295: Schneeketten schreibt ein eigenes blaues Zeichen vor.
+
+G 4087: Gefahrenzeichen „Kinder“. Steht in der Nähe von Orten, wo sich Kinder aufhalten: Schulen, Spielplätze, Parks. Mit mäßiger Geschwindigkeit fahren und mit unvorhersehbarem Verhalten von Kindern rechnen.
+19296: Es kann auf eine Schule in der Nähe hinweisen.
+19297: Es kann bei einem Spielplatz stehen.
+19298: Es kündigt Orte an, an denen Kinder unterwegs sind.
+19299: Rot umrandetes Dreieck = Gefahrenzeichen.
+19300: Es kann bei öffentlichen Parks und Gärten stehen.
+19301: Es fordert zu mäßiger Geschwindigkeit auf.
+19302: Kinder verhalten sich oft unvorsichtig – damit rechnen.
+19303: Es verbietet Kindern nichts.
+19304: Fußgängerüberwege haben ein eigenes Zeichen.
+19305: Es zeigt kein Wegende an.
+19306: Gehwege werden mit blauen Zeichen angezeigt.
+19307: Es enthält kein zeitliches Durchfahrtsverbot.
+19308: Schulbus-Haltestellen werden anders gekennzeichnet.
+19309: Am Heck von Schulbussen ist ein anderes Schild angebracht.
+
+G 4088: Verhalten beim Zeichen „Kinder“: besonders vorsichtig sein, langsamer fahren, auch auf Kinder am Gehsteig achten (sie können plötzlich auf die Straße laufen), keine Fahrzeuge überholen, die für Kinder anhalten.
+19310: Wegen möglicher Kinder ist besondere Vorsicht geboten.
+19311: Auch Kinder auf dem Gehsteig können plötzlich auf die Fahrbahn laufen.
+19312: Kinder bewegen sich oft unvorhersehbar.
+19313: Fahrzeuge, die für Kinder anhalten, darf man nicht überholen.
+19314: Man muss auch auf Kinder auf dem Gehsteig achten.
+19315: Das Zeichen enthält kein Durchfahrtsverbot.
+19316: Das Zeichen enthält keine feste Geschwindigkeitsgrenze.
+
+G 4089: Gefahrenzeichen „Tiere“ (Haustiere/Vieh, z. B. Kuh). Auf der Straße können Weidetiere sein. Langsam fahren, nicht hupen (das erschreckt die Tiere) und notfalls anhalten.
+19317: Vieh kann die Straße überqueren.
+19318: Erschreckte Tiere reagieren unberechenbar – langsamer fahren oder anhalten.
+19319: Gehen Tiere nicht zur Seite, muss man langsam fahren oder anhalten.
+19320: Auf der Straße kann frei laufendes Vieh sein.
+19321: Wegen möglicher Tiere auf der Fahrbahn vorsichtig fahren.
+19322: Hupen erschreckt die Tiere und ist hier falsch.
+19323: Es ist kein Fahrverbot für Kraftfahrzeuge.
+19324: Die Straße ist nicht dem Vieh vorbehalten.
+19325: Gespannfuhrwerke haben ein eigenes Zeichen.
+19326: Es kündigt keinen Bauernhof an.
+
+G 4090: Gefahrenzeichen „Wildwechsel“ (springender Hirsch). Wildtiere können plötzlich die Fahrbahn queren – besonders in der Dämmerung. Langsamer fahren, bremsbereit sein, nicht hupen.
+19327: Das Zeichen warnt vor Wildwechsel.
+19328: Erschreckte Tiere sind unberechenbar – langsamer fahren, notfalls anhalten.
+19329: Wild kann plötzlich queren – langsamer fahren, bereit zum Anhalten.
+19330: Laut offizieller Liste warnt das Zeichen allgemein vor Tieren, die frei auf der Straße herumlaufen.
+19331: Wildwechsel kommt unerwartet.
+19332: Langsamer fahren verringert die Gefahr eines Zusammenstoßes.
+19333: Hupen ist keine Pflicht und erschreckt die Tiere.
+19334: Es ist kein Bereich nur für Wildtiere.
+19335: Man fährt weiter rechts – nicht in der Straßenmitte.
+19336: Es gibt keine Beschränkung auf Allradfahrzeuge.
+19337: Es zeigt keinen Safaripark an.
+19338: Nationalparks werden mit braunen Hinweiszeichen angezeigt.
+
+G 4091: Gefahrenzeichen „Gegenverkehr“ (zwei Pfeile in entgegengesetzter Richtung). Kündigt das Ende einer Einbahnstrecke an: Ab hier kommen Fahrzeuge entgegen. Mit gelbem Hintergrund an Baustellen. Überholen nur mit besonderer Vorsicht.
+19339: Die Einbahnfahrbahn wird zur Gegenverkehrsfahrbahn.
+19340: Weiter vorne kommen einem Fahrzeuge entgegen.
+19341: Der Einbahnverkehr endet.
+19342: Rot umrandetes Dreieck = Gefahrenzeichen.
+19343: Wegen des Gegenverkehrs ist mehr Vorsicht nötig.
+19344: Gelber Hintergrund = Baustelle.
+19345: Bei Gegenverkehr ist Überholen gefährlicher – nur mit besonderer Vorsicht.
+19346: Es kündigt das Gegenteil an: keine getrennten Fahrbahnen, sondern Gegenverkehr auf derselben Fahrbahn.
+19347: Der Einbahnverkehr endet, er beginnt nicht.
+19348: Es regelt keinen Vorrang.
+19349: Vorrang bei wechselndem Einbahnverkehr regeln andere Zeichen.
+19350: Wenden muss man nicht.
+19351: Wechselnder Einbahnverkehr wird anders gekennzeichnet.
+19352: Vorgeschriebene Fahrtrichtungen sind blaue Gebotszeichen.
+
+G 4092: Gefahrenzeichen „Ufer/Kai“ (Auto fällt ins Wasser). Die Straße führt an einen Kai, eine Mole, ein Flussufer oder einen Kanaldamm – Gefahr, ins Wasser zu stürzen. Besonders nachts und beim Rückwärtsfahren sehr vorsichtig sein. Gilt für alle Fahrzeuge und das ganze Jahr.
+19353: Die Straße kann auf einen Hafenkai führen.
+19354: Die Straße kann auf eine Mole führen.
+19355: Die Straße kann zu einem Flussufer führen.
+19356: Die Straße kann zu einem Kanaldamm führen.
+19357: Nachts sieht man das Wasser schlecht – höchste Vorsicht.
+19358: Das Zeichen warnt vor dem Sturz ins Wasser.
+19359: Gerade beim Rückwärtsfahren an der Kante besonders aufpassen.
+19360: Rot umrandetes Dreieck = Gefahrenzeichen.
+19361: Es kündigt keinen Viadukt im Bau an.
+19362: Bewegliche Brücken haben ein eigenes Zeichen.
+19363: Überschwemmungen werden nicht mit diesem Zeichen angekündigt.
+19364: Bewegliche Brücken haben ein eigenes Zeichen.
+19365: Ein steiles Gefälle hat ein eigenes Zeichen.
+19366: Es warnt nicht vor Flutwellen.
+19367: Es hat nichts mit einer Waschanlage zu tun.
+19368: Die Gefahr gilt für alle Fahrzeuge.
+19369: Die Gefahr besteht das ganze Jahr.
+
+G 4093: Gefahrenzeichen „Splitt“ (loses Material auf der Fahrbahn). Steinchen können weggeschleudert werden und die Haftung lässt nach. Langsam fahren (besonders beim Begegnen), Abstand vergrößern, auf Fußgänger achten. Mit gelbem Hintergrund an Baustellen.
+19370: Auf losem Splitt haften die Reifen schlechter.
+19371: Weggeschleuderte Steinchen können Fußgänger am Straßenrand treffen.
+19372: Splitt kann beim Vorbeifahren weggeschleudert werden.
+19373: Beim Begegnen langsam fahren, damit keine Steine gegen das andere Fahrzeug fliegen.
+19374: Mehr Abstand schützt vor Steinen, die der Vordermann aufwirbelt.
+19375: Das Zeichen warnt vor Splitt auf der Fahrbahn.
+19376: Auf Splitt kann man ins Rutschen oder Schleudern kommen.
+19377: Gelber Hintergrund = Baustelle.
+19378: Beschleunigen verringert die Haftung – falsch.
+19379: Es ist ein Gefahrenzeichen.
+19380: Steinschlag/Erdrutsch hat ein eigenes Zeichen.
+19381: Mit gelbem Hintergrund warnt es vor Splitt an einer Baustelle – die Straße ist aber befahrbar.
+19382: Unbefestigte Bankette haben ein eigenes Zeichen.
+19383: Steinschlag hat ein eigenes Zeichen.
+19384: Schneekettenpflicht ist ein blaues Gebotszeichen.
+
+G 4094: Gefahrenzeichen „Steinschlag“ (von links). Von der Felswand können Steine auf die Fahrbahn fallen. Langsamer fahren, um herabgefallenen Steinen ausweichen zu können, und sich nicht länger im Gefahrenbereich aufhalten.
+19385: Das Zeichen warnt vor Steinschlag.
+19386: Auf der Fahrbahn können Steine liegen.
+19387: Die Felswand ist im Zeichen links – Steinschlag von links.
+19388: Langsamer fahren, um Steinen auf der Fahrbahn ausweichen zu können.
+19389: Im Gefahrenbereich nicht unnötig anhalten.
+19390: Baustellen haben gelbe Zeichen.
+19391: Hupen hilft gegen Steinschlag nicht.
+19392: Schlechter Straßenbelag hat ein eigenes Zeichen.
+19393: Unebene Fahrbahn hat ein eigenes Zeichen.
+19394: Es enthält kein Überholverbot.
+
+G 4095: Gefahrenzeichen „Steinschlag“ (von rechts). Steine können von der Felswand auf die Fahrbahn fallen. Langsamer fahren und damit rechnen, dass Vorausfahrende plötzlich bremsen.
+19395: Die Felswand ist rechts – Steinschlag von rechts.
+19396: Auf der Fahrbahn können Steine liegen.
+19397: Steine können von der Felswand herabfallen.
+19398: Langsamer fahren, um Steinen ausweichen zu können.
+19399: Vorausfahrende können wegen Steinen plötzlich bremsen.
+19400: Rutschige Fahrbahn hat ein eigenes Zeichen.
+19401: Eine Engstelle hat ein eigenes Zeichen.
+19402: Es geht nicht um fehlenden Asphalt.
+19403: Unbefestigte Bankette haben ein eigenes Zeichen.
+19404: Es enthält keine Geschwindigkeitsgrenze.
+19405: Es warnt nicht vor Hagel.
+
+G 4096: Gefahrenzeichen „Ampel“ (Lichter senkrecht angeordnet). Kündigt eine Lichtzeichenanlage an; außerorts ist es Pflicht. Das gelbe Feld kann durch ein gelbes Blinklicht ersetzt sein. An Baustellen hat es gelben Hintergrund. Langsamer fahren, um bei Bedarf anhalten zu können.
+19406: Das Zeichen kündigt eine Ampel an.
+19407: Rot umrandetes Dreieck = Gefahrenzeichen.
+19408: Das gelbe Feld kann ein echtes gelbes Blinklicht sein.
+19409: Vor einer Ampel muss man anhaltebereit sein.
+19410: Vor Baustellenampeln hat das Zeichen gelben Hintergrund.
+19411: Hier sind die Lichter senkrecht (übereinander) angeordnet.
+19412: Außerorts muss jede Ampel mit diesem Zeichen angekündigt werden.
+19413: Außerorts ist das Zeichen immer Pflicht.
+19414: Nur das gelbe Feld kann durch ein Blinklicht ersetzt werden, nicht das rote.
+19415: Unbeschrankte Bahnübergänge haben das Zeichen mit der Lok.
+19416: Bahnübergänge haben eigene Zeichen.
+19417: Wechselnder Einbahnverkehr wird anders angezeigt.
+19418: Bewegliche Brücken haben ein eigenes Zeichen.
+
+G 4097: Gefahrenzeichen „Tief fliegende Flugzeuge“. Steht in der Nähe von Flughäfen, Start- und Landebahnen. Flugzeuge können plötzlich starken Lärm verursachen oder blenden (Scheinwerfer) – nicht erschrecken, ruhig weiterfahren.
+19420: Die Lichter tief fliegender Flugzeuge können plötzlich blenden.
+19421: Tief fliegende Flugzeuge können plötzlich sehr laut sein.
+19422: Es steht in der Nähe von Flughäfen.
+19423: Es steht bei Start- und Landebahnen.
+19424: Es steht dort, wo Flugzeuge tief fliegen können.
+19425: Segelflug ist damit nicht gemeint.
+19426: Es ist kein Bereich für die Luftwaffe.
+19427: Abzweigungen zum Flughafen zeigen Hinweiszeichen an.
+19428: Es verbietet keine Zufahrt.
+19429: Es kündigt keine Fahrspur an.
+
+G 4098: Gefahrenzeichen „Seitenwind“ (Windsack). Warnt vor heftigen, plötzlichen Seitenwindböen – z. B. auf Viadukten oder bei der Ausfahrt aus Tunneln. Besonders gefährlich für Fahrzeuge mit großer Seitenfläche (Planen-, Kastenaufbau, Wohnwagen). Lenkrad fest halten und vorsichtig fahren.
+19430: Das Zeichen warnt vor heftigen Seitenwindstößen.
+19431: Beim Verlassen eines Tunnels kann einen eine Böe plötzlich treffen.
+19432: Viadukte sind dem Wind besonders ausgesetzt.
+19433: Die Böen kommen heftig und plötzlich.
+19434: Große Seitenflächen bieten dem Wind mehr Angriffsfläche.
+19435: Lenkrad fest halten, um nicht versetzt zu werden.
+19436: Flugzeuge haben ein eigenes Zeichen.
+19437: Es hat nichts mit Flughäfen zu tun.
+19438: Es kündigt keinen Flugplatz an.
+19439: Der Windsack im Zeichen zeigt keine echte Windrichtung an.
+19440: Spielplätze haben das Zeichen „Kinder“.
+19441: Es hat nichts mit Industriehallen zu tun.
+
+G 4099: Seitenwind betrifft besonders Zweiräder, Fahrzeuge mit Anhänger oder Wohnwagen und mit Planenaufbau – je größer die Seitenfläche, desto größer die Gefahr. Langsam fahren, Lenkrad fest halten, beim Überholen mehr Seitenabstand lassen; auch Entgegenkommende können versetzt werden.
+19442: Anhänger werden vom Wind leicht versetzt.
+19443: Zweiräder sind leicht und werden vom Wind besonders erfasst.
+19444: Wohnwagen haben eine große Seitenfläche.
+19445: Langsam fahren und das Lenkrad sicher festhalten.
+19446: Fahrzeuge mit Plane sind besonders windanfällig – notfalls anhalten.
+19447: Auch Entgegenkommende können durch den Wind ins Schleudern geraten.
+19448: Je größer die Seitenfläche, desto stärker wirkt der Wind.
+19449: Gefährlich ist vor allem die Ausfahrt aus dem Tunnel, nicht die Einfahrt.
+19450: Anhänger liegen bei Seitenwind schlechter, nicht besser auf der Straße.
+19451: Leere, leichte Fahrzeuge werden leichter versetzt.
+19452: Ladung auf dem Dach vergrößert die Seitenfläche – mehr Gefahr.
+19453: Bei Seitenwind braucht man beim Überholen mehr Seitenabstand.
+19454: Tunnels haben ein eigenes Zeichen.
+19455: Glatteis wird mit dem Zeichen „Schleudergefahr“ + Tafel angezeigt.
+
+G 4100: Gefahrenzeichen „Brandgefahr“ (Flamme). Neben der Straße liegen Wälder oder Flächen, die leicht Feuer fangen. Eine Tafel gibt die Länge des Abschnitts an. Niemals Zigaretten aus dem Fenster werfen.
+19456: Man fährt durch ein Gebiet mit Brandgefahr.
+19457: In der Nähe liegen Gebiete mit großer Brandgefahr.
+19458: Wälder können hier leicht Feuer fangen.
+19459: Die gefährdeten Bereiche liegen seitlich der Straße.
+19460: Eine Tafel gibt die Länge des betroffenen Abschnitts an.
+19461: Eine weggeworfene Zigarette kann einen Brand auslösen – das ist verboten.
+19462: Es warnt vor Feuer, nicht vor Explosionen.
+19463: Steinbrüche sind nicht gemeint.
+19464: Es verbietet niemandem die Durchfahrt.
+19465: Es verbietet niemandem die Durchfahrt.
+19466: Es verbietet niemandem die Durchfahrt.
+19467: Seitenwind hat das Windsack-Zeichen.
+
+G 4101: Gefahrenzeichen „Kreisverkehr“ (drei Pfeile im Kreis). Kündigt eine Kreuzung mehrerer Straßen mit Kreisverkehr an, in der die Fahrtrichtung durch Pfeile vorgegeben ist – außerorts wie innerorts.
+19468: Es kündigt einen Kreisverkehr an der Kreuzung von Freilandstraßen an.
+19469: Im Kreisverkehr ist die Fahrtrichtung durch die Pfeile vorgegeben.
+19470: Das Zeichen gibt es auch innerorts.
+19471: Es enthält kein Abbiegeverbot.
+19472: Es kündigt keine Sackgasse an.
+19473: Es schreibt kein Linksabbiegen vor.
+
+G 4102: Gefahrenzeichen „Andere Gefahr“ (Ausrufezeichen). Warnt vor Gefahren, für die es kein eigenes Zeichen gibt. Eine Zusatztafel (B) nennt die Gefahr, z. B. Glatteis, Anschlussgleise bei Industriebetrieben oder Schneeräumfahrzeuge. Im Notfall auch ohne Tafel.
+19474: Es wird verwendet, wenn kein eigenes Gefahrenzeichen existiert.
+19475: Es mahnt zur Vorsicht vor einer Gefahr.
+19476: Mit der passenden Tafel warnt es vor Glatteis.
+19477: Im Notfall darf es auch ohne Tafel stehen.
+19478: Mit der passenden Tafel warnt es vor Anschlussgleisen.
+19479: Mit der passenden Tafel warnt es vor Schneeräumfahrzeugen.
+19480: Schlechter Straßenbelag hat ein eigenes Zeichen.
+19481: Das Ausrufezeichen ist kein Gebot.
+19482: Steigungen haben ein eigenes Zeichen.
+19483: Unbeschrankte Bahnübergänge haben ein eigenes Zeichen.
+19484: Mit dieser Tafel warnt es nicht vor Militärmanövern.
+
+G 4103: Gefahrenzeichen „Gefährliches Bankett“. Der Seitenstreifen ist unbefestigt oder nicht befahrbar; man kann in den Seitengraben rutschen. Nicht zu nahe am rechten Rand fahren.
+19485: Das Bankett ist unbefestigt.
+19486: Das Bankett ist nicht befahrbar.
+19487: Man könnte in die Seitenrinne stürzen.
+19488: Das Bankett ist gefährlich.
+19489: Rot umrandetes Dreieck = Gefahrenzeichen.
+19490: Nicht zu weit nach rechts fahren, sonst gerät man aufs Bankett.
+19491: Eine Geschwindigkeitsbegrenzung ist nicht vorgeschrieben.
+19492: Es ist ein Gefahrenzeichen, kein Hinweiszeichen.
+19493: Es verbietet nicht die Weiterfahrt.
+19494: Eine beschädigte Fahrbahn hat ein eigenes Zeichen.
+19495: Splitt hat ein eigenes Zeichen.
+19496: Überschwemmung ist nicht gemeint.
+19497: Ufer/Mole hat ein eigenes Zeichen.
+
+G 4104: Gefahrenzeichen „Ampel“ (Lichter waagrecht angeordnet). Steht in der Regel 150 m vor der Ampel. Das gelbe Feld kann durch ein gelbes Blinklicht ersetzt sein. Langsamer fahren, um bei Bedarf anhalten zu können.
+19498: Hier sind die Lichter waagrecht (nebeneinander) angeordnet.
+19499: Rot umrandetes Dreieck = Gefahrenzeichen.
+19500: Das gelbe Feld kann ein echtes gelbes Blinklicht sein.
+19501: Vor der Ampel anhaltebereit sein.
+19502: Es steht in der Regel 150 m vor der Ampel.
+19503: Straßensperren der Polizei werden anders angezeigt.
+19504: Bewegliche Brücken haben ein eigenes Zeichen.
+19505: Fähren haben eigene Hinweiszeichen.
+19506: Nur das gelbe Feld kann durch ein Blinklicht ersetzt werden.
+19507: Unbeschrankte Bahnübergänge haben das Lok-Zeichen.
+19508: Bahnübergänge haben eigene Zeichen.
+19509: Wechselfahrspuren werden anders angezeigt.
+19510: Schneeräumfahrzeuge: Zeichen „Andere Gefahr“ mit Tafel.
+19511: Radfahrerüberwege haben ein eigenes Zeichen.
+
+G 4051: Gefahrenzeichen „Unebene Fahrbahn“ (Bodenwellen). Kündigt – in der Regel 150 m vorher – einen Abschnitt mit unregelmäßigem oder beschädigtem Belag an. Eine Tafel kann die Länge (hier 380 m) angeben, ein Schild kann die Geschwindigkeit begrenzen. Mit gelbem Hintergrund an Baustellen.
+18850: Die Wellen im Zeichen bedeuten unebene Fahrbahn.
+18851: Es kann mit einer Geschwindigkeitsbegrenzung kombiniert sein.
+18852: Die Tafel auf dem Bild gibt 380 m an.
+18853: Der Belag ist unregelmäßig.
+18854: Die Straße ist in schlechtem Zustand.
+18855: Rot umrandetes Dreieck = Gefahrenzeichen.
+18856: Es steht in der Regel 150 m vor dem unebenen Abschnitt.
+18857: Der Abschnitt ist beschädigt.
+18858: Gelber Hintergrund = Baustelle.
+18859: Es ist ein Gefahrenzeichen.
+18860: Gefälle hat ein eigenes Zeichen.
+18861: Kurven haben eigene Zeichen.
+18862: Kuppen haben ein eigenes Zeichen.
+18863: Neigungsänderungen (Kuppe/Senke) haben eigene Zeichen.
+18864: Doppelkurven haben ein eigenes Zeichen.
+18865: Kuppen haben ein eigenes Zeichen.
+18866: Senken und Kuppen haben eigene Zeichen.
+18867: Eingeschränkte Sicht ist nicht das Thema dieses Zeichens.
+18868: Auf der Tafel stehen 380 m, nicht 320 m.
+
+G 4052: Verhalten auf unebener Fahrbahn: Geschwindigkeit dem Belag anpassen (besonders mit Anhänger), Lenkrad fest halten, damit rechnen, dass Entgegenkommende ins Schleudern geraten. Langsames Fahren schont Aufhängung und Stoßdämpfer.
+18869: Auch Entgegenkommende können auf dem schlechten Belag ins Schleudern geraten.
+18870: Die Geschwindigkeit muss dem Zustand des Belags angepasst werden.
+18871: Ein Anhänger wird auf unebener Fahrbahn unruhig – langsam fahren.
+18872: Zu schnell über Unebenheiten zu fahren beschädigt die Aufhängung.
+18873: Lenkrad fest halten, um Schleudern zu verhindern.
+18874: Man fährt weiterhin rechts, nicht in der Mitte.
+18875: Bei schlechter Sicht muss man immer langsamer fahren.
+18876: Eine Engstelle hat ein eigenes Zeichen.
+18877: Das Zeichen enthält kein Überholverbot.
+18878: Langsamer fahren muss man immer, nicht nur bei Gegenverkehr.
+
+G 4053: Gefahrenzeichen „Kuppe“. Kündigt – in der Regel 150 m vorher – eine Steigung mit anschließendem Gefälle an, hinter der man nichts sieht. Die Sicht ist stark eingeschränkt.
+18879: Das Zeichen kündigt eine Kuppe an.
+18880: Hinter der Kuppe sieht man nichts – gefährlich.
+18881: Es steht in der Regel 150 m vor der Kuppe.
+18882: Die Sicht ist an der Kuppe eingeschränkt.
+18883: Eine Kuppe ist eine Steigung, auf die ein Gefälle folgt.
+18884: Die Neigung ändert sich stark und man sieht schlecht.
+18885: Eine Senke hat ein eigenes Zeichen.
+18886: Unebene Fahrbahn hat ein eigenes Zeichen.
+18887: Schlechter Straßenzustand hat ein eigenes Zeichen.
+18888: Unregelmäßiger Belag hat ein eigenes Zeichen.
+18889: Brücken werden anders angekündigt.
+18890: Straßenarbeiten haben gelbe Zeichen.
+18891: Tunnels haben ein eigenes Zeichen.
+
+G 4054: Verhalten an einer Kuppe: Geschwindigkeit an die Sicht anpassen. Wenden, Halten und Parken sind auf und um die Kuppe verboten. Beim Hinauffahren ist auf zweispurigen Gegenverkehrsstraßen das Überholen verboten. Das Zeichen kann auch Bremsschwellen ankündigen.
+18892: Je schlechter die Sicht, desto langsamer.
+18893: Wenden ist an Kuppen verboten.
+18894: Halten und Parken sind auf Steigung und Gefälle der Kuppe verboten.
+18895: Beim Hinauffahren sieht man den Gegenverkehr nicht – Überholverbot.
+18896: Rot umrandetes Dreieck = Gefahrenzeichen.
+18897: Auch künstliche Bodenschwellen werden mit diesem Zeichen angekündigt.
+18898: Es verbietet niemandem die Durchfahrt.
+18899: Das Überholverbot gilt für den ansteigenden Teil vor der Kuppe, nicht für die Gefällstrecke danach.
+18900: Es ist ein Gefahrenzeichen, kein Gebotszeichen.
+18901: Wenden ist an Kuppen verboten.
+18902: Es ist kein Vorfahrtszeichen.
+
+G 4055: Gefahrenzeichen „Senke“. Kündigt ein Gefälle mit anschließender Steigung an. In der Senke kann sich bei starkem Regen Wasser, Schlamm oder Schutt sammeln.
+18903: Das Zeichen kündigt eine Senke an.
+18904: Die Senke macht den Abschnitt gefährlich.
+18905: Rot umrandetes Dreieck = Gefahrenzeichen.
+18906: Eine Senke ist ein Gefälle, auf das eine Steigung folgt.
+18907: Bei starkem Regen kann die Senke überschwemmt sein.
+18908: Unbefestigtes Bankett hat ein eigenes Zeichen.
+18909: Unebene Fahrbahn hat ein eigenes Zeichen.
+18910: Schlechter Straßenzustand hat ein eigenes Zeichen.
+18911: Unregelmäßiger Belag hat ein eigenes Zeichen.
+18912: Erst Steigung, dann Gefälle – das ist eine Kuppe, keine Senke.
+18913: Engstellen haben ein eigenes Zeichen.
+18914: Eine Kuppe ist das Gegenteil einer Senke.
+
+G 4056: Verhalten an einer Senke: langsamer fahren, um die Kontrolle zu behalten und die Aufhängung zu schonen, Lenkrad fest halten, bei Regen mit Wasser, Schlamm oder Schutt in der Senke rechnen.
+18915: Zu schnell durch die Senke beschädigt die Aufhängung.
+18916: Langsamer fahren, um die Kontrolle zu behalten.
+18917: Lenkrad fester halten.
+18918: Bei Regen kann sich Wasser in der Senke sammeln.
+18919: In der Senke können sich Schlamm und Schutt sammeln.
+18920: Langsamer fahren muss man immer, nicht nur bei Gegenverkehr.
+18921: Langsamer fahren muss man auch bei guter Sicht.
+18922: Das Zeichen enthält kein Überholverbot für Einbahnstraßen.
+18923: Unbefestigte Bankette haben ein eigenes Zeichen.

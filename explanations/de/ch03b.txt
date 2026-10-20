@@ -1,0 +1,291 @@
+# Kapitel 3 – Verbotszeichen (Teil 2)
+
+G 4127: Verbotszeichen „Durchfahrtsverbot für Fahrzeuge mit explosiven oder leicht entzündlichen Gütern“. Betroffen ist nur die Ladung – der Kraftstoff im eigenen Tank zählt nicht (auch Methan- oder Gasautos dürfen fahren).
+19777: Fahrzeuge mit Explosivstoffen dürfen nicht durchfahren.
+19778: Der Kraftstoff im Tank ist keine beförderte Ladung.
+19779: Methan-Pkw dürfen durchfahren – der Treibstoff ist keine Ladung.
+19780: Fahrzeuge mit leicht entzündlichen Gütern dürfen nicht durchfahren.
+19781: Diese Fahrzeuge dürfen gar nicht durchfahren, also auch nicht überholen.
+19782: Es ist ein Verbot, kein Hinweis zur Vorsicht.
+19783: Auch leicht entzündliche Güter sind verboten, nicht nur Explosivstoffe.
+19784: Auch abgeschleppt dürfen solche Fahrzeuge nicht durchfahren.
+
+G 4128: Verbotszeichen „Durchfahrtsverbot für Fahrzeuge mit wassergefährdender Ladung“. Schützt z. B. Trinkwasserschutzgebiete. Fahrzeuge mit harmloser Ladung, Wassertankwagen und Sprühfahrzeuge dürfen fahren.
+19785: Verboten sind Fahrzeuge mit Stoffen, die das Wasser verschmutzen können.
+19786: Fahrzeuge mit harmloser Ladung dürfen fahren.
+19787: Tankwagen mit Wasser dürfen fahren.
+19788: Fahrzeuge mit Spritzvorrichtung (z. B. Straßenbewässerung) dürfen fahren.
+19789: Auch Anhänger mit solchen Stoffen sind verboten.
+19790: Es kündigt keine Überschwemmung an.
+19791: Es warnt nicht vor Wasser auf der Fahrbahn.
+19792: Es ist kein Parkverbot.
+19793: Leere Tanks sind nicht gemeint.
+
+G 4129: Verbotszeichen „Höchstbreite“ (hier 2,30 m). Fahrzeuge, die – mit Ladung – breiter sind, dürfen nicht durchfahren. Gilt für alle Fahrzeuge (auch ohne Motor), innerorts und außerorts; steht oft vor Engstellen.
+19794: Es gilt auch für Fahrzeuge ohne Motor.
+19795: Es kann vor einer Engstelle stehen.
+19796: Es steht innerorts und außerorts.
+19797: Es zeigt die maximale erlaubte Fahrzeugbreite an.
+19798: 2,30 m breit ist genau die Grenze – erlaubt.
+19799: Es betrifft alle Fahrzeuge über 2,30 m Breite.
+19800: Es ist keine Abstandsangabe.
+19801: Auch Fuhrwerke über 2,30 m dürfen nicht durch.
+19802: Es betrifft auch Busse.
+19803: Es gibt die erlaubte Fahrzeugbreite an, nicht die Straßenbreite.
+19804: Es gilt für das ganze Gespann, auch für das Zugfahrzeug.
+19805: Es gibt die Fahrzeugbreite an, nicht die Straßenbreite.
+
+G 4130: Verbotszeichen „Höchsthöhe“ (hier 3,50 m). Fahrzeuge, die einschließlich Ladung höher sind (gemessen ab Fahrbahn), dürfen nicht durchfahren – z. B. vor Brücken oder Unterführungen.
+19806: Gemessen wird ab der Fahrbahn.
+19807: Fahrzeuge über 3,50 m Höhe samt Ladung sind verboten.
+19808: Es zeigt die maximale Fahrzeughöhe an.
+19809: Genau 3,50 m hoch ist erlaubt.
+19810: Es steht innerorts und außerorts.
+19811: Typisch ist es vor Brücken, unter denen die Straße durchführt.
+19812: Es geht um die Höhe, nicht die Länge.
+19813: Es gibt die erlaubte Fahrzeughöhe an, nicht die Höhe der Durchfahrt.
+19814: Es gilt rund um die Uhr.
+19815: Gemessen wird ab der Fahrbahn, nicht ab der Ladefläche.
+19816: Es ist keine Abstandsangabe.
+
+G 4131: Verbotszeichen „Höchstlänge“ (hier 10 m). Fahrzeuge oder Fahrzeugkombinationen, die länger sind, dürfen nicht durchfahren – auch Busse, auch nachts.
+19817: Fahrzeuge über 10 m Gesamtlänge sind verboten.
+19818: Genau 10 m ist erlaubt.
+19819: Wer länger als angegeben ist, darf nicht durchfahren.
+19820: Auch Busfahrer müssen es beachten.
+19821: Es gilt auch nachts.
+19822: Auch Fahrzeugkombinationen (mit Anhänger) müssen es beachten.
+19823: Es gilt für alle Fahrzeuge, nicht nur für Güterfahrzeuge.
+19824: Es ist keine Abstandsangabe.
+19825: Es zeigt keinen Parkplatz an.
+19826: Es ist keine Abstandsregel.
+19827: Zählt die Gesamtlänge des Gespanns über 10 m, ist es verboten.
+19828: Lange Gelenkbusse über 10 m sind verboten.
+19829: Es ist keine Abstandsregel.
+
+G 4132: Verbotszeichen „Gewichtsbeschränkung“ (hier 7 t). Fahrzeuge, deren tatsächliches Gewicht (mit Ladung) höher ist, dürfen nicht durchfahren – alle Fahrzeugarten. Steht oft vor Brücken; mit Zusatztafel kann es die gleichzeitige Durchfahrt mehrerer Fahrzeuge verbieten.
+19830: Maßgeblich ist das tatsächliche Gewicht.
+19831: Mit Zusatztafel darf z. B. nur ein Fahrzeug gleichzeitig über die Brücke.
+19832: Wiegt schon das leere Fahrzeug über 7 t, ist es auf jeden Fall zu schwer.
+19833: Genau 7 t ist erlaubt.
+19834: Typisch vor Brücken mit begrenzter Tragfähigkeit.
+19835: Für die Achslast gibt es ein eigenes Zeichen.
+19836: Es gilt rund um die Uhr.
+19837: Auch Busse über 7 t sind verboten.
+19838: Es gilt für alle Fahrzeuge, nicht nur für Güterfahrzeuge.
+19839: Die Angabe ist ein Gewicht, keine Länge.
+
+G 4133: Verbotszeichen „Achslast“ (hier 2,5 t). Verboten sind Fahrzeuge, deren am stärksten belastete Achse tatsächlich mehr wiegt als angegeben. Steht oft vor Brücken.
+19840: Maßgeblich ist die meistbelastete Achse.
+19841: 2,5 t Achslast ist genau die Grenze – erlaubt.
+19842: Mehr als 2,5 t tatsächliche Achslast ist verboten.
+19843: Es zählt die tatsächliche Achslast bei der Durchfahrt.
+19844: Es kann vor einer Brücke stehen.
+19845: Es schreibt kein Schritttempo vor, sondern verbietet die Durchfahrt.
+19846: Es geht um die Achslast, nicht das Gesamtgewicht.
+19847: Es gilt für alle Fahrzeuge.
+19848: Es gilt rund um die Uhr.
+19849: Es geht um die Achslast, nicht das Gesamtgewicht.
+
+G 4134: Zeichen „Ende aller Streckenverbote“ (weißer Kreis mit schwarzen Schrägstrichen). Hebt alle zuvor angezeigten Vorschriften und Verbote auf (z. B. Überholverbot, Geschwindigkeitsbegrenzung). Es ist ein Vorschriftszeichen.
+19850: Es hebt die vorher angezeigten Vorschriften auf.
+19851: Es hebt die vorher angezeigten Verbote auf.
+19852: Es hebt alle Streckenverbote auf.
+19853: Es hebt eine Vorschrift auf.
+19854: Ab hier gelten die vorher angezeigten Vorschriften nicht mehr.
+19855: Das Ende einer Baustelle wird anders angezeigt.
+19856: Es gilt für alle Fahrzeuge.
+19857: Es ist ein Vorschriftszeichen.
+19858: Das Ende der Ortschaft zeigt die durchgestrichene Ortstafel.
+19859: Es hebt Verbote auf, keine Gefahren.
+
+G 4135: Zeichen „Ende der Geschwindigkeitsbegrenzung“ (hier 50, schwarz durchgestrichen). Ab hier gilt wieder die allgemeine Höchstgeschwindigkeit für die jeweilige Straßenart – also schneller als 50 erlaubt, langsamer sowieso.
+19860: Es hebt eine Vorschrift auf.
+19861: Es hebt die Geschwindigkeitsbegrenzung auf.
+19862: Man darf wieder schneller als 50 km/h fahren.
+19863: Es gilt wieder die allgemeine Grenze der Straßenart.
+19864: Langsamer zu fahren ist immer erlaubt.
+19865: Es zeigt das Ende des Verbots an.
+19866: Es hebt eine Begrenzung auf, statt eine anzuzeigen.
+19867: Es hebt gerade die 50-km/h-Grenze auf.
+19868: Es geht um eine Höchst-, nicht um eine Mindestgeschwindigkeit.
+19869: Es geht nicht um Abstand.
+19870: Es regelt keine Fahrspuren.
+19871: Empfohlene Geschwindigkeiten sind blaue Quadrate.
+
+G 4136: Zeichen „Ende des Überholverbots“. Ab hier darf man wieder überholen – aber nur nach den allgemeinen Regeln: Eine durchgehende Linie darf trotzdem nicht überfahren werden. Gilt rund um die Uhr, innerorts und außerorts.
+19872: Es hebt das Überholverbot auf.
+19873: Eine durchgehende Linie gilt weiterhin – darüber darf man nicht überholen.
+19874: Hier endet das Überholverbot.
+19875: Es enthält keine Geschwindigkeitsbegrenzung.
+19876: Es steht innerorts und außerorts.
+19877: Es hebt eine Vorschrift auf.
+19878: Es gilt rund um die Uhr.
+19879: Es hebt das Überholverbot für alle auf, nicht nur zwischen Pkw.
+19880: Es betrifft das Überholen, nicht die Durchfahrt.
+19881: Es verbietet nichts.
+19882: Es hebt keine Geschwindigkeitsbegrenzung auf.
+19883: Es hat nichts mit Parken zu tun.
+19884: Den Sicherheitsabstand muss man immer einhalten.
+19885: Parken in zweiter Reihe bleibt verboten.
+
+G 4137: Zeichen „Ende des Überholverbots für Lastkraftwagen“. Ab hier dürfen Güterfahrzeuge über 3,5 t wieder überholen (z. B. auch Pkw oder Busse).
+19886: Auch ein schwerer Lastzug darf nun einen Pkw überholen.
+19887: Es hebt das vorher angezeigte Überholverbot (für Lkw) auf.
+19888: Ein Lkw darf nun einen Bus überholen.
+19889: Es betrifft Güterfahrzeuge über 3,5 t.
+19890: Es hebt eine Vorschrift auf.
+19891: Es verbietet keine Durchfahrt.
+19892: Es schreibt kein Rechtsüberholen vor.
+19893: Busse waren vom Lkw-Überholverbot nie betroffen.
+19894: Es ist kein Gefahrenzeichen.
+19895: Ein Lkw mit 7 t ist über 3,5 t – für ihn gilt es gerade.
+
+G 4126: Verbotszeichen „Durchfahrtsverbot für Fahrzeuge mit gefährlichen Gütern“ (orangefarbene Tafel). Betrifft Fahrzeuge, die Gefahrgut befördern, z. B. Benzin-Tankwagen. Lebensmittel oder das Gas im eigenen Tank sind kein Gefahrgut.
+19770: Fahrzeuge mit Gefahrgut dürfen nicht durchfahren.
+19771: Benzin ist Gefahrgut – Tankwagen sind verboten.
+19772: Frischfleisch ist kein Gefahrgut.
+19773: Der Treibstoff im eigenen Tank ist kein Gefahrgut.
+19774: Die Aufbauart spielt keine Rolle.
+19775: Verderbliche Ware ist kein Gefahrgut.
+19776: Kühlwagen sind nicht betroffen.
+
+G 4138: Verbotszeichen „Parkverbot“ (blau mit rotem Rand und einem Schrägstrich). Halten ist erlaubt. Innerorts gilt es – falls nicht anders angegeben – von 8 bis 20 Uhr, außerorts rund um die Uhr. Es gilt auf der Straßenseite, auf der es steht, bis zur nächsten Kreuzung (wenn nicht wiederholt). Zusatztafeln können Anfang, Fortsetzung, Ende oder andere Zeiten angeben.
+19896: Es steht dort, wo Parken verboten ist.
+19897: Innerorts gilt es ohne Zusatz von 8 bis 20 Uhr.
+19898: Pfeiltafeln zeigen Anfang, Fortsetzung oder Ende des Verbots.
+19899: Nach der nächsten Kreuzung endet es, wenn es nicht wiederholt wird.
+19900: Halten ist erlaubt – nur Parken ist verboten.
+19901: Vor dem Zeichen darf man parken (das Verbot beginnt am Zeichen).
+19902: Mit Zusatztafel kann es auch innerorts rund um die Uhr gelten.
+19903: Es gilt nur auf der Seite, auf der es steht.
+19904: Das Verbot gilt ab dem Zeichen, nicht davor.
+19905: Halten ist erlaubt; das Halteverbot hat ein rotes X.
+19906: Es gilt auch für Krafträder und Kleinkrafträder.
+19907: Abschleppen ist nur mit Zusatztafel „Zwangsabschleppung“ vorgesehen.
+19908: Gebührenpflichtiges Parken wird mit blauen Zeichen angezeigt.
+19909: Es gibt keine Ausnahme für Einheimische ohne Zusatztafel.
+19910: Ein Parkschein erlaubt hier kein Parken.
+
+G 4139: Parkverbot: verboten ist das Parken, nicht das Halten – auf der Seite, auf der das Zeichen steht. Außerorts gilt es ohne Zusatz rund um die Uhr. Zusatztafeln (B) können z. B. „nur werktags“ oder „Zwangsabschleppung“ bestimmen.
+19911: Parken ist verboten, Halten erlaubt.
+19912: Es kennzeichnet Bereiche mit Parkverbot.
+19913: Außerorts gilt es ohne Zusatz rund um die Uhr.
+19914: Mit der Tafel (B) zeigt es einen Bereich mit Parkverbot an.
+19915: Mit der passenden Tafel droht auch das Abschleppen.
+19916: Es gilt auf der Seite, auf der es steht.
+19917: Mit der Tafel „werktags“ gilt es nur an Werktagen.
+19918: Mit der Tafel „Zwangsabschleppung“ wird abgeschleppt.
+19920: Außerorts gilt es rund um die Uhr, auch nach 20 Uhr.
+19921: Es gibt keine Ausnahme für Zweiräder.
+19922: Auch Autos dürfen nicht parken.
+19923: Innerorts gilt es von 8 bis 20 Uhr, nicht nachts.
+19924: Parkscheibe wird mit einem blauen Zeichen und Tafel angezeigt.
+
+G 4140: Das Parkverbot ist ein Vorschriftszeichen. Es verbietet, das Fahrzeug länger abzustellen; kurzes Halten (z. B. zum Ein- und Aussteigen) ist erlaubt. Innerorts gilt es in der Regel von 8 bis 20 Uhr. Zusatztafeln können Ausnahmen (z. B. für Busse) oder Zeiten (z. B. nur feiertags) festlegen.
+19927: Es ist ein Vorschriftszeichen.
+19928: Wo ohnehin ein allgemeines Parkverbot gilt, braucht es kein Zeichen.
+19929: Parken heißt, das Fahrzeug länger zu verlassen – das ist verboten.
+19930: Innerorts gilt es in der Regel von 8 bis 20 Uhr.
+19931: Mit der Tafel für Busse dürfen Busse parken.
+19932: Mit der Tafel „feiertags“ gilt es nur an Feiertagen.
+19933: Halten ist erlaubt.
+19934: Halten zum Ein- und Aussteigen ist erlaubt.
+19935: Außerorts gilt es rund um die Uhr.
+19936: Es gilt nur auf der Seite, auf der es steht.
+19937: Ohne Zusatztafel dürfen auch Busse nicht parken.
+19938: Auch Kleinkrafträder dürfen nicht parken.
+
+G 4141: Verbotszeichen „Halteverbot“ (rotes X auf blauem Grund). Jedes freiwillige Anhalten ist verboten – auch zum Ein- und Aussteigen. Gilt rund um die Uhr, auch innerorts.
+19939: Man darf die Fahrt nicht freiwillig unterbrechen.
+19940: Kein Fahrzeug darf freiwillig halten.
+19941: Es gilt rund um die Uhr.
+19942: Es verbietet auch das Halten.
+19943: Das Halteverbot gilt rund um die Uhr, nicht nur 8–20 Uhr.
+19944: Auch zum Ein- und Aussteigen darf man nicht halten.
+19945: Halten ist auch ohne Behinderung verboten.
+
+G 4142: Halteverbot gilt für alle Fahrzeuge (auch Busse, Taxis), Tag und Nacht, innerorts und außerorts – und damit auch das Parken. Zusatztafeln (B) können zeigen, ob es vorher oder nachher gilt oder hier endet.
+19946: Wer nicht halten darf, darf erst recht nicht parken – rund um die Uhr.
+19947: Alle Fahrzeuge dürfen nicht halten.
+19948: Ohne Zusatz gilt es rund um die Uhr.
+19949: Jedes freiwillige Halten ist verboten.
+19951: Mit der passenden Tafel gilt das Verbot im Abschnitt vor dem Zeichen.
+19952: Mit der Tafel „Ende“ zeigt es das Ende des Halte- und Parkverbots.
+19953: Parken ist erst recht verboten.
+19954: Es gilt auch für Busse.
+19955: Es gilt auch für Taxis.
+19956: Es ist ein Halteverbot, nicht nur ein Parkverbot.
+19957: Es gilt jeden Tag.
+19958: Auch zum Ein- und Aussteigen darf man nicht halten.
+19959: Es zeigt kein Ende an.
+
+G 4148: Zeichen „Zeitweiliges Parkverbot wegen Straßenreinigung“. An den angegebenen Tagen und Uhrzeiten darf man nicht parken, weil Reinigungsmaschinen durchfahren.
+20014: Es ist ein zeitweiliges Parkverbot.
+20015: Es steht in Abschnitten, die maschinell gereinigt werden.
+20016: Während der Reinigung ist Parken verboten.
+20017: Innerorts gilt es an den angegebenen Tagen und Zeiten.
+20018: Schneeräumung ist nicht gemeint.
+20019: Das Verbot gilt für alle, nicht für die abgebildete Kehrmaschine.
+20020: Nicht die Reinigungsfahrzeuge dürfen nicht parken, sondern alle anderen.
+20021: Es zeigt kein Depot an.
+
+G 4146: Parkplatz für Fahrzeuge von Menschen mit Behinderung (Rollstuhl-Symbol). Nur Fahrzeuge mit dem entsprechenden Ausweis dürfen hier parken – eine Ausnahme vom Parkverbot.
+19992: Fahrzeuge für Menschen mit Behinderung dürfen mit Ausweis parken.
+19993: Es ist ein Vorschriftszeichen.
+19994: Es ist eine besondere Ausnahme vom Parkverbot.
+19995: Nur diese Fahrzeuge dürfen hier parken.
+19996: Schulbusse dürfen hier nicht parken.
+19997: Es ist keine Fahrspur, sondern ein Parkplatz.
+19998: Es erlaubt diesen Fahrzeugen das Parken, statt es zu verbieten.
+19999: Es ist kein gesperrter Bereich.
+20000: Es regelt das Parken, nicht die Durchfahrt.
+20001: Zweiräder dürfen hier nicht parken.
+20002: Ein Parkschein berechtigt nicht zum Parken auf diesem Platz.
+
+G 4147: Parkregelung mit Uhrzeiten (laut Bild): Parken erlaubt 9–17 und 20–7 Uhr, verboten 7–9 und 17–20 Uhr. Halten ist immer erlaubt.
+20003: Es regelt das Parken.
+20004: Von 9 bis 17 Uhr ist Parken erlaubt.
+20005: Von 17 bis 20 Uhr ist Parken verboten.
+20006: Zu bestimmten Zeiten erlaubt, zu anderen verboten.
+20007: Von 20 bis 7 Uhr ist Parken erlaubt.
+20008: Von 7 bis 9 Uhr ist Parken verboten.
+20009: Laut Bild ist ab 20 Uhr erlaubt, aber ab 7 Uhr wieder verboten – nicht bis 8 Uhr.
+20010: Eine Parkscheibe wird nicht verlangt.
+20011: Halten ist erlaubt; verboten ist nur das Parken.
+20012: Von 7 bis 9 Uhr ist Parken verboten.
+20013: Abschleppen ist nicht angegeben.
+
+G 4145: Zeichen „Grundstückseinfahrt“ (Passo carrabile). Vor der Einfahrt darf man nicht parken; kurz halten ist erlaubt, wenn man niemanden behindert. Gültig nur mit Angabe der genehmigenden Behörde, Nummer und Jahr der Genehmigung. Gilt rund um die Uhr, überall.
+19982: Vor der Einfahrt ist Parken verboten.
+19983: Es kennzeichnet die Zufahrt zu einem Grundstück.
+19984: Es zeigt eine Grundstückseinfahrt an.
+19985: Halten ist erlaubt, solange man die Einfahrt nicht blockiert.
+19986: Ohne Behörde, Genehmigungsnummer und Jahr ist das Schild nicht gültig.
+19987: Es steht auch außerorts.
+19988: Es gilt auch nachts.
+19989: Es gilt auch tagsüber.
+19990: Niemand darf vor der Einfahrt parken.
+19991: Auch Rettungsfahrzeuge dürfen dort nicht parken, wenn sie nicht im Einsatz sind.
+
+G 4144: Hinweis „Parkplatz in Pfeilrichtung“ (blaues P mit Pfeil und Entfernung). Kündigt einen Parkplatz in der angegebenen Richtung und Entfernung (hier 300 m) an.
+19975: In Pfeilrichtung liegt ein Parkplatz.
+19976: Der Parkplatz ist in Pfeilrichtung erreichbar.
+19977: Der Parkplatz liegt 300 m entfernt in Pfeilrichtung.
+19978: Erste Hilfe hat ein eigenes Zeichen.
+19979: Das blaue P bedeutet Parken erlaubt, nicht verboten.
+19980: Es zeigt einen Parkplatz, kein Verbot.
+19981: Es enthält keinen Hinweis auf Reservierung.
+
+G 4149: Verbotszeichen „Durchfahrtsverbot für die abgebildeten Fahrzeugklassen“ (hier Lastzüge und Sattelkraftfahrzeuge). Nur die dargestellten Fahrzeugarten dürfen nicht durchfahren; alle anderen schon.
+20022: Lastzüge und Sattelkraftfahrzeuge dürfen nicht durchfahren.
+20023: Die abgebildeten Fahrzeugklassen sind verboten.
+20024: Es ist ein Durchfahrtsverbot für bestimmte Klassen.
+20025: Die abgebildeten Klassen dürfen nicht fahren.
+20026: Alle anderen Fahrzeuge dürfen fahren.
+20027: Es ist keine Pflichtstrecke.
+20028: Es zeigt keinen Parkplatz an.
+20029: Umgekehrt: Verboten sind nur die abgebildeten Arten.
+20030: Es geht um die Durchfahrt, nicht das Parken.
+20031: Es geht um die Durchfahrt, nicht das Parken.
+20032: Die Straße ist diesen Fahrzeugen nicht vorbehalten, sondern verboten.

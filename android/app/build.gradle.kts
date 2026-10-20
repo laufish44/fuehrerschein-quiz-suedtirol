@@ -19,7 +19,7 @@ val releaseStoreFile = signingValue("storeFile", "ANDROID_KEYSTORE_PATH")
 android {
     namespace = "io.github.laufish44.fuehrerschein_quiz"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // von den Plugins verlangt
 
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         applicationId = "io.github.laufish44.fuehrerschein_quiz"
-        minSdk = flutter.minSdkVersion
+        minSdk = 24 // Android 7.0 – nötig für flutter_tts
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName

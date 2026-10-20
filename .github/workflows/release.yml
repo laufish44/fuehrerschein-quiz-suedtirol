@@ -45,7 +45,7 @@ jobs:
         run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
       - run: flutter pub get
       - name: APK bauen
-        run: flutter build apk --release --build-name="$VERSION" --build-number="$BUILD"
+        run: flutter build apk --release --target-platform android-arm,android-arm64 --build-name="$VERSION" --build-number="$BUILD"
         env:
           ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.jks
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
