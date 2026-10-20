@@ -1,0 +1,307 @@
+# Kapitel 7 – Ampeln und Zeichen der Verkehrspolizei
+# Rangfolge: Anweisungen des Polizisten > Ampel > Verkehrszeichen > allgemeine Regeln.
+
+G 4240: Rotes Ampellicht: Man muss vor der Haltelinie anhalten und darf sie nicht überfahren – auch nicht zum Rechtsabbiegen oder wenn die Kreuzung frei ist. Bei senkrechten Ampeln ist Rot oben, bei waagrechten links; das rote Licht kann größer sein.
+20970: Bei Rot müssen alle Fahrzeuge anhalten.
+20971: Senkrecht: Rot oben; waagrecht: Rot links.
+20972: Das rote Licht darf größer sein, damit es besser auffällt.
+20973: Bei Rot vor der Haltelinie anhalten.
+20974: Bei Rot darf man die Haltelinie nicht überfahren.
+20975: Rechtsabbiegen bei Rot ist in Italien verboten.
+20976: Bei Rot darf man nicht anfahren, egal was die anderen Ampeln zeigen.
+20977: Bei Rot darf man die Kreuzung nicht befahren, auch wenn sie leer ist.
+20978: Auch eine freie Kreuzung darf man bei Rot nicht überqueren.
+20979: Bei Rot muss man stehen bleiben, nicht beschleunigen.
+
+G 4241: Grünes Ampellicht: Man darf in alle erlaubten Richtungen fahren. Beim Linksabbiegen muss man dem Gegenverkehr Vorfahrt lassen. In die Kreuzung nur einfahren, wenn man sie vor dem Rotlicht wieder verlassen kann. Ist die Ampel schon lange grün, mit Gelb rechnen.
+20980: Bei Grün darf man links abbiegen, muss aber dem Gegenverkehr Vorfahrt geben.
+20981: Bei Grün darf man rechts abbiegen.
+20982: Bei Grün darf man geradeaus fahren.
+20983: Bei Stau nur einfahren, wenn man die Kreuzung vor Rot verlassen kann.
+20984: Auch bei Grün mit Vorsicht über die Kreuzung fahren.
+20985: Eine lange grüne Ampel kann jeden Moment auf Gelb wechseln – bremsbereit sein.
+20986: Beschleunigen, um noch durchzukommen, ist gefährlich und falsch.
+20987: Für das Linksabbiegen braucht es kein zusätzliches gelbes Licht.
+20988: Linksabbieger müssen dem Gegenverkehr Vorfahrt geben.
+20989: Abbiegen ist bei Grün auch ohne Fahrstreifen erlaubt.
+20990: Bei Grün darf man auch abbiegen.
+
+G 4243: Fixes (dauerndes) gelbes Licht: Es kommt nach Grün und vor Rot und leuchtet allein. Man muss vor der Haltelinie anhalten, wenn das gefahrlos möglich ist; wer schon in der Kreuzung ist, räumt sie schnell.
+20998: Gelb leuchtet auf, sobald Grün erlischt.
+20999: Gelb erlischt, bevor Rot aufleuchtet.
+21000: Wer schon in der Kreuzung ist, muss sie zügig räumen.
+21001: Man muss anhalten, wenn es ohne Gefahr möglich ist.
+21002: Gelb leuchtet allein, Grün und Rot sind dann aus.
+21003: Bei Gelb darf man nicht einfach weiterfahren.
+21004: Zurückfahren ist verboten und gefährlich.
+21005: Nur wenn es gefahrlos geht, muss man anhalten.
+21006: Gelb kommt nach Grün, nicht während Rot.
+21007: Gelb leuchtet nach Grün, nicht gleichzeitig damit aus.
+21008: In Italien leuchten Gelb und Rot nie gleichzeitig.
+
+G 4247: Wann darf man an der Ampel durchfahren? Bei Grün; bei Gelb nur, wenn man nicht mehr gefahrlos anhalten kann; bei gelbem Blinklicht oder ausgeschalteter/defekter Ampel mit größter Vorsicht (dann gelten die Verkehrszeichen bzw. die Vorfahrtsregeln). Bei Rot nie.
+21035: Bei Grün darf man fahren.
+21036: Bei Gelb nur, wenn ein sicheres Anhalten nicht mehr möglich ist.
+21037: Gelb blinkend = mit größter Vorsicht und mäßigem Tempo fahren.
+21038: Ist die Ampel aus, mit größter Vorsicht fahren – es gelten Zeichen und Vorfahrtsregeln.
+21039: Bei defekter Ampel mit größter Vorsicht weiterfahren.
+21040: Man darf erst bei Grün fahren, nicht kurz davor.
+21041: Bei Rot darf man nie fahren.
+21042: Bei Rot darf man auch ohne Querverkehr nicht fahren.
+
+G 4251: Die normale Ampel mit drei Lichtern regelt Fahrzeuge (auch Linienbusse und Fahrräder) an Kreuzungen. Bei Gelb darf man eine bereits befahrene Kreuzung verlassen; gelbes Blinklicht erlaubt die vorsichtige Durchfahrt.
+21074: Es ist eine Ampel für Fahrzeuge.
+21075: Sie steht in der Regel an einer Kreuzung.
+21076: Sie regelt die Durchfahrt an Kreuzungen.
+21077: Bei Gelb darf man eine bereits befahrene Kreuzung räumen.
+21078: Sie gilt auch für Linienbusse.
+21079: Sie gilt auch für Fahrräder.
+21080: An Mautstellen gibt es eigene Signale.
+21081: An Bahnübergängen gibt es rote Blinklichter.
+21082: Gelbes Blinklicht erlaubt die vorsichtige Durchfahrt.
+
+G 4242: Pfeilampeln: Grüne Pfeile zeigen die erlaubten Richtungen, rote Pfeile die verbotenen. Gelbe Pfeile bedeuten wie normales Gelb: anhalten oder Kreuzung räumen; blinkende gelbe Pfeile: mit besonderer Vorsicht fahren.
+20992: Grüne Pfeile zeigen, wohin man fahren darf.
+20993: Rote Pfeile zeigen, wohin man nicht fahren darf.
+20994: Gelbe Pfeile: anhalten, wenn sicher möglich, oder Kreuzung räumen.
+20995: Blinkende gelbe Pfeile: mit besonderer Vorsicht fahren.
+20996: Ein Pfeil nach oben erlaubt nur geradeaus.
+20997: Rote Pfeile bedeuten anhalten.
+
+G 4252: Fahrstreifenampeln (Pfeilampeln je Fahrstreifen). Sie gelten für die Fahrzeuge, die in Pfeilrichtung fahren – auch für Fahrräder. Grüner Pfeil: in diese Richtung fahren; roter Pfeil: anhalten; gelber Pfeil: Kreuzung räumen. Sind sie aus, mit besonderer Vorsicht fahren.
+21083: Das sind Fahrstreifenampeln.
+21084: Sie gelten für die Fahrzeuge, die in Pfeilrichtung fahren.
+21085: Weiterfahren nur in Richtung des grünen Pfeils.
+21086: Sind sie außer Betrieb, mit besonderer Vorsicht fahren.
+21087: Roter Pfeil: Fahrzeuge in dieser Richtung müssen anhalten.
+21088: Gelber Pfeil: eine bereits befahrene Kreuzung sofort räumen.
+21089: Sie gelten auch für Fahrräder.
+21090: Linienbusse haben Ampeln mit weißen Balken.
+21091: Straßenbahnen haben eigene Signale.
+21092: Tunnels haben eigene Signale.
+21093: Bewegliche Brücken haben rote Blinklichter.
+21094: Fähren haben rote Blinklichter.
+21095: Bahnübergänge haben rote Blinklichter.
+21096: Wechselfahrspuren haben Ampeln mit rotem X und grünem Pfeil.
+
+G 4249: Ampeln für Wechselfahrstreifen (über der Fahrbahn): Rotes X = Fahrstreifen gesperrt; grüner Pfeil nach unten = Fahrstreifen frei; gelber blinkender Schrägpfeil = Fahrstreifen verlassen und in die angezeigte Richtung wechseln. Gelten auch für Fahrräder, nicht für Fußgänger.
+21057: Das sind Ampeln für Wechselfahrstreifen.
+21058: Den Fahrstreifen mit rotem X darf man nicht benutzen.
+21059: Den Fahrstreifen mit grünem Pfeil darf man benutzen.
+21060: Gelb blinkender Pfeil: in den angezeigten Fahrstreifen wechseln.
+21061: Grüne Pfeile erlauben gerade das Benutzen.
+21062: Fußgänger haben eigene Ampeln.
+21063: Das rote X bedeutet „Fahrstreifen gesperrt“, nicht „anhalten und warten“.
+21064: Sie gelten auch für Fahrräder.
+
+G 4258: Wechselfahrstreifen gibt es auf Fahrbahnen mit mindestens drei Fahrstreifen: Der mittlere kann je nach Verkehr der einen oder anderen Richtung zugeteilt werden.
+21150: Wechselfahrstreifen setzen mindestens drei Fahrstreifen voraus.
+21151: Auf dem Fahrstreifen mit grünem Pfeil darf man fahren.
+21152: Gelb blinkender Pfeil: Fahrstreifen verlassen und in den angezeigten wechseln.
+21153: Sie zeigen keinen Streifen für langsame Fahrzeuge.
+21154: Sie zeigen keine Notspur.
+21155: Sie zeigen keinen Überholstreifen.
+21156: Sie stehen auf Fahrbahnen mit wechselnder Richtung, also nicht nur bei Einbahnverkehr.
+
+G 4257: Ampel für die „grüne Welle“: Zeigt die empfohlene Geschwindigkeit, mit der man an den nächsten (synchronisierten) Ampeln wieder Grün hat. Es leuchtet immer nur eine Zahl. Sie ist eine Empfehlung, keine Vorschrift, und steht an Straßen mit mehreren Ampelkreuzungen, nicht auf Autobahnen.
+21135: Das sind Ampeln für die grüne Welle.
+21136: Sie empfiehlt die Geschwindigkeit für Grün an der nächsten Ampel.
+21137: Sie stehen an Straßen mit mehreren synchronisierten Ampeln.
+21138: Sie zeigt die empfohlene Geschwindigkeit.
+21139: Es leuchtet immer nur eine der Zahlen.
+21140: Es ist eine Empfehlung, keine Pflicht.
+21141: Es ist keine Höchstgeschwindigkeit.
+21142: Die Zahl ist eine Geschwindigkeit, kein Abstand.
+21143: Sie empfiehlt eine Geschwindigkeit, nicht nur Vorsicht.
+21144: Ist sie aus, zeigt sie nichts an.
+21145: Auf Autobahnen gibt es keine Ampelkreuzungen.
+21146: Es ist keine Höchstgeschwindigkeit.
+21147: Sie gilt als Empfehlung für alle.
+21148: Es ist keine Baustellenampel.
+21149: Die Zahlen sind Geschwindigkeiten, keine Entfernungen.
+
+G 4255: Fahrradampel (Lichter mit Fahrradsymbol). Regelt z. B. das Queren der Straße am Ende eines Radweges: Rot = anhalten, Gelb = Kreuzung räumen, Grün = Radfahrer dürfen queren. Sie gilt nur für Fahrräder.
+21116: Sie regelt das Queren am Ende eines Radweges.
+21117: Es ist eine Ampel für Radfahrer.
+21118: Rot: Radfahrer müssen anhalten.
+21119: Gelb: eine bereits befahrene Kreuzung schnell räumen.
+21120: Grün gilt nur für die Radfahrer.
+21121: Kleinkrafträder sind nicht gemeint.
+21122: Sie hat nichts mit Radrennen zu tun.
+21123: Sie zeigt keine Baustelle an.
+21124: Krafträder sind nicht gemeint.
+21125: Sie verbietet Fahrrädern nichts generell.
+21126: Sie gilt nur für Fahrräder.
+
+G 4256: Gelbe Blinklichter neben einer Fahrzeugampel: Typ B (Fußgänger) bedeutet, dass Rechtsabbieger den querenden Fußgängern Vortritt lassen müssen; Typ C (Fahrrad) bedeutet, dass Rechtsabbieger querenden Radfahrern Vorrang lassen müssen.
+21127: Die Blinklichter B und C stehen neben einer Fahrzeugampel.
+21128: Typ C: Beim Rechtsabbiegen Radfahrern Vorrang lassen.
+21129: Typ B: Beim Rechtsabbiegen Fußgängern Vortritt lassen.
+21131: Es zeigt keinen Fahrstreifen an.
+21132: Es zeigt keinen Gehweg an.
+21133: Linienbusse haben Ampeln mit weißen Balken.
+21134: Es zeigt keinen Fahrstreifen für Mopeds an.
+
+G 4246: Ampel für den öffentlichen Linienverkehr (weiße Balken auf schwarzem Grund). Ein senkrechter oder waagrechter weißer Balken kann leuchten. Sie gilt nur für Linienbusse, Straßenbahnen usw.
+21027: Der waagrechte Balken kann leuchten.
+21028: Der senkrechte Balken kann leuchten.
+21029: Es ist eine Ampel für den öffentlichen Verkehr.
+21030: Fußgängerampeln zeigen Männchen.
+21031: Sie kündigt keine Baustellen an.
+21032: Sie warnt nicht vor Weichen.
+21033: Sie gilt nicht für Krafträder.
+21034: Sie gilt nicht für Militärfahrzeuge.
+
+G 4253: Die Ampel mit weißen Balken gilt nur für Linienfahrzeuge (Busse, Straßenbahnen): waagrechter Balken oben = anhalten, senkrechter Balken unten = fahren.
+21097: Sie gilt für Linienfahrzeuge zur Personenbeförderung.
+21098: Weißer Balken oben: anhalten.
+21099: Weißer Balken unten: weiterfahren.
+21100: Sie gilt auch für Linienbusse, nicht nur für Schienenfahrzeuge.
+21101: Fußgänger haben eigene Ampeln.
+21102: Bahnübergänge haben rote Blinklichter.
+21103: Fähren haben rote Blinklichter.
+21104: Sie zeigt keinen Bahnhof an.
+21105: Das gelbe Dreieck kündigt keine Baustellen an.
+
+G 4250: Fußgängerampel: Grünes Männchen = Fußgänger dürfen die Fahrbahn betreten und queren.
+21065: Grün erlaubt Fußgängern das Queren.
+21066: Grün erlaubt Fußgängern, die Straße zu queren.
+21067: Grün erlaubt, die Fahrbahn zum Queren zu betreten.
+21068: Es ist keine Rolltreppen-Anzeige.
+21069: Das grüne Männchen gilt für Fußgänger.
+21070: Bei Grün haben die Fußgänger Vortritt vor abbiegenden Fahrzeugen.
+21071: Es zeigt keinen Fahrstuhl an.
+21072: Es weist nicht auf eine Schule hin.
+21073: Grün hängt vom Ampelzyklus ab, nicht vom Schulschluss.
+
+G 4254: Fußgängerampel an Kreuzungen: Rot = nicht queren; Gelb = Fußgänger auf dem Übergang sollen ihn schnell räumen; Grün = queren.
+21106: Sie regelt das Queren der Fußgänger.
+21107: Es ist eine Fußgängerampel.
+21108: Gelb: Wer schon auf dem Übergang ist, räumt ihn schnell.
+21109: Rot: Fußgänger dürfen nicht queren.
+21110: Sie weist nicht auf eine Schule hin.
+21111: Sie hat nichts mit Wettläufen zu tun.
+21112: Sie zeigt keine Unterführungen an.
+21113: Sie steht nicht am U-Bahn-Eingang.
+21114: Sie zeigt keine Schalter an.
+21115: Sie zeigt keine Sportanlage an.
+
+G 4259: Polizist mit seitlich ausgestreckten Armen – Brust oder Rücken zum Fahrer (quer zur Fahrtrichtung). Das entspricht dem roten Licht: Vor der Haltelinie anhalten, weder geradeaus noch abbiegen.
+21157: Die Durchfahrt ist verboten.
+21158: Man muss vor der Haltelinie anhalten.
+21159: Links abbiegen ist verboten.
+21160: Die Kreuzung darf man nicht überqueren.
+21161: Auch rechts abbiegen ist verboten.
+21162: Diese Haltung entspricht Rot.
+21163: Auch Rechtsabbiegen ist verboten.
+21164: Man muss anhalten, nicht vorsichtig weiterfahren.
+21165: Hupen ist falsch.
+21166: Auch Abbiegen ist verboten.
+21167: Diese Haltung entspricht Rot, nicht Grün.
+
+G 4245: Rote Blinklichter (zwei abwechselnd blinkende Lichter). Sie befehlen anzuhalten und die Haltelinie nicht zu überschreiten – an Bahnübergängen (mit Halbschranken oder unbeschrankt), an Fähranlegestellen und vor beweglichen Brücken.
+21017: An unbeschrankten Bahnübergängen befehlen sie anzuhalten.
+21018: An Bahnübergängen mit Halbschranken befehlen sie anzuhalten.
+21019: An Fähranlegestellen befehlen sie anzuhalten.
+21020: Vor beweglichen Brücken befehlen sie anzuhalten.
+21021: Die Haltelinie darf man nicht überschreiten.
+21022: Polizeisperren haben das Zeichen „Halt Polizei“.
+21023: Schmale Brücken haben keine solchen Lichter.
+21024: Sie zeigen keine Autobahnausfahrt an.
+21025: Sie stehen nicht vor Staatsgrenzen.
+21026: Sie kündigen kein Grün an.
+
+G 4248: Rote Blinklichter an Bahnübergängen: Sie stehen meist rechts, leuchten abwechselnd kurz bevor der Zug kommt bzw. bevor sich die Halbschranken senken, bis der Zug vorbei ist, und werden oft durch ein akustisches Signal ergänzt. Dann ist die Durchfahrt für alle verboten – auch für Fußgänger. Nähert man sich, muss man anhaltebereit sein.
+21043: Man findet sie an Bahnübergängen mit Halbschranken.
+21044: Sie zeigen auch an unbeschrankten Übergängen den nahenden Zug an.
+21045: Leuchten sie, darf weder ein Fahrzeug noch ein Fußgänger durch.
+21046: Sie stehen in der Regel rechts.
+21047: Sie leuchten kurz vor dem Zug bis nach seiner Vorbeifahrt.
+21048: Sie leuchten unmittelbar vor dem Senken der Halbschranken.
+21049: Sie werden durch ein akustisches Signal ergänzt.
+21050: Blinkt es, aber die Schranke ist noch oben: anhalten.
+21051: Bei blinkenden Lichtern nie durchfahren – auch wenn kein Zug zu sehen ist.
+21052: Sie sind für die Autofahrer, nicht für die Zugführer.
+21053: Sie befehlen anzuhalten, nicht schnell durchzufahren.
+21054: Sie stehen direkt am Übergang.
+21055: Sie sind nicht an den Baken angebracht.
+21056: Sie leuchten beim Senken, nicht beim Öffnen der Schranken.
+
+G 4262: Polizist mit rechtwinklig angeordneten Armen (ein Arm zeigt zur Seite, der andere ist abgewinkelt). Die Fahrzeuge zu seiner Linken dürfen fahren (geradeaus, rechts und links); die Fahrzeuge zu seiner Rechten und die von hinten kommenden müssen anhalten.
+21184: Fahrzeuge zu seiner Linken dürfen links abbiegen.
+21185: Fahrzeuge zu seiner Rechten müssen anhalten.
+21186: Fahrzeuge von hinten dürfen nicht geradeaus.
+21187: Fahrzeuge zu seiner Linken dürfen geradeaus.
+21188: Fahrzeuge zu seiner Linken dürfen rechts abbiegen.
+21189: Fahrzeuge zu seiner Rechten müssen anhalten.
+21190: Fahrzeuge von hinten müssen anhalten.
+21191: Fahrzeuge zu seiner Rechten müssen anhalten.
+21192: Fahrzeuge zu seiner Rechten müssen anhalten.
+21193: Fahrzeuge zu seiner Linken dürfen gerade fahren.
+
+G 4260: Polizist steht seitlich (Arme ausgestreckt, Schulter zum Fahrer): Für die Verkehrsströme parallel zu seinen Armen entspricht das Grün – sie dürfen mit Vorsicht fahren (auch rechts abbiegen). Wer Brust oder Rücken vor sich hat, muss anhalten.
+21168: Parallel zu den Armen darf man durchfahren.
+21169: Von seiner Rechten oder Linken kommend darf man rechts abbiegen.
+21170: Durchfahren ist erlaubt, aber mit Vorsicht.
+21171: Für diese Verkehrsströme entspricht das Grün.
+21172: Man darf auch abbiegen.
+21173: Von seiner Linken kommend fährt man parallel zu den Armen – man darf fahren.
+21174: Man muss nicht anhalten.
+21175: Es entspricht Grün, nicht Rot.
+
+G 4261: Polizist mit einem hochgehaltenen Arm: entspricht dem gelben Licht. Wer schon in der Kreuzung ist, räumt sie schnell; die anderen halten vor der Kreuzung an, wenn das gefahrlos möglich ist.
+21176: Ein erhobener Arm entspricht Gelb.
+21177: Wer in der Kreuzung ist, muss sie schnell räumen.
+21178: Vor der Kreuzung anhalten, wenn es gefahrlos geht.
+21179: Es betrifft alle, nicht nur Abbieger.
+21180: Anhalten nur, wenn es gefahrlos möglich ist (wie bei Gelb).
+21181: Es erlaubt kein Rechtsabbiegen.
+21182: Es gilt für alle Kreuzungen.
+21183: Es entspricht Gelb, nicht Rot.
+
+G 4244: Gelbe Blinklichter: Eine Ampel kann gelb blinken, wenn die anderen Lichter aus sind (z. B. nachts) – dann vorsichtig fahren und Vorfahrtsregeln beachten. Ein einzelnes rundes gelbes Blinklicht (Typ A) ist ein allgemeines Gefahrensignal: langsamer und besonders vorsichtig fahren.
+21009: Gelb blinkt allein, wenn die anderen Lichter aus sind.
+21010: Das einzelne gelbe Blinklicht ist ein allgemeines Gefahrensignal.
+21011: Es fordert auf, langsamer zu fahren.
+21012: Es fordert zu besonderer Vorsicht auf.
+21013: Bei Gelb blinkend muss man nicht immer anhalten, nur vorsichtig fahren.
+21014: Vor beweglichen Brücken stehen rote Blinklichter.
+21015: Vor Fähranlegestellen stehen rote Blinklichter.
+21016: Gelbes Blinklicht leuchtet nie zusammen mit Rot.
+
+G 4263: Langer Pfiff des Verkehrspolizisten: Alle Fahrzeuge müssen anhalten (wer noch nicht in der Kreuzung ist) bzw. die Kreuzung sofort räumen und danach anhalten – z. B. um Einsatzfahrzeugen den Weg frei zu machen.
+21194: Bei einem langen Pfiff halten alle sicher an.
+21195: So macht er den Weg für Einsatzfahrzeuge frei.
+21196: Wer in der Kreuzung ist, räumt sie sofort und hält danach an.
+21197: Wer noch nicht in der Kreuzung ist, hält an.
+21198: Zurückfahren ist nicht gemeint.
+21199: Der Pfiff gilt für alle Richtungen.
+21200: Er bedeutet anhalten, nicht losfahren.
+21201: Er gilt für alle Fahrzeuge.
+
+G 4264: Bahnübergang mit leuchtendem Rotlicht und noch offener Halbschranke: an der Haltelinie anhalten – nie beschleunigen, um noch durchzukommen. Das gilt egal, wie viele Gleise es gibt oder ob man einen Zug sieht oder hört.
+21202: Bei Rot an der Haltelinie anhalten.
+21203: Nicht beschleunigen, um vor der Schranke durchzukommen.
+21204: Auch wenn kein Zug zu sehen ist: anhalten.
+21205: Beschleunigen ist verboten und gefährlich.
+21206: Anhalten muss man an der Haltelinie, nicht an einer Bake.
+21207: Auch bei eingleisigen Strecken muss man anhalten.
+21208: Auch ohne Pfiff des Zuges muss man anhalten.
+21209: Auch wenn niemand wartet, muss man anhalten.
+
+G 4265: Bei einer Kontrolle muss man der Polizei vorweisen: Führerschein, Fahrzeugschein (Zulassung), Versicherungsnachweis und – bei Kraftwagen – das Warndreieck. Verbandskasten, Eigentumsbescheinigung, Steuernummer oder Steuerquittung muss man nicht mitführen.
+21210: Der Fahrzeugschein muss vorgezeigt werden.
+21211: Der Führerschein muss vorgezeigt werden.
+21212: Der Versicherungsnachweis muss vorgezeigt werden.
+21213: In Kraftwagen ist das Warndreieck Pflicht und muss vorgezeigt werden.
+21214: Ein Verbandskasten ist in Italien für Pkw nicht vorgeschrieben.
+21215: Die Eigentumsbescheinigung muss man nicht mitführen.
+21216: Die Steuernummer muss man nicht vorweisen.
+21217: Den Nachweis der Kfz-Steuer muss man nicht mitführen.
+
+G 4266: Verkehrspolizisten erkennt man an der Uniform, an der weiß-roten Kelle (Signalstab) und am Dienstausweis/Erkennungszeichen.
+21218: Man erkennt sie an der Uniform.
+21219: Man erkennt sie an der weiß-roten Kelle.
+21220: Man erkennt sie am amtlichen Erkennungszeichen.
+21221: Die Kelle ist weiß-rot, nicht weiß-schwarz.
+21222: Handschuhe und Reflektoren allein machen keinen Polizisten aus.

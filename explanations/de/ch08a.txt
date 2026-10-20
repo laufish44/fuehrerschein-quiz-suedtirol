@@ -1,0 +1,329 @@
+# Kapitel 8 – Hinweiszeichen (Teil 1)
+# Farben der Wegweiser: grün = Autobahn, blau = Freilandstraßen (außerorts), weiß = innerorts, braun = Sehenswürdigkeiten/Tourismus, gelb = Baustellen/vorübergehend.
+
+G 4328: Hinweiszeichen „Staatsgrenze zu einem EU-Land“ (blaues Schild mit EU-Sternenkreis und Landesname). Es zeigt die Grenze zu einem EU-Staat bzw. die Entfernung dorthin an – eine Pflicht zur Zollkontrolle ergibt sich daraus nicht.
+21810: Es kündigt die Grenze zu einem EU-Staat an.
+21811: Es steht an Straßen, die zu dieser Grenze führen.
+21812: Es kann die Entfernung zur Grenze angeben.
+21813: An Binnengrenzen der EU muss man nicht zur Zollkontrolle anhalten.
+21814: Es steht nicht bei einer Straßensperre.
+21815: Es ist ein Verkehrszeichen, kein Länderkennzeichen am Fahrzeug.
+21816: Es ist ein Verkehrszeichen, kein Aufkleber am Fahrzeug.
+21817: Es schreibt kein Anhalten vor.
+21818: Es schreibt keine Zollkontrolle vor.
+
+G 4329: Gelber Wegweiser bei einer Baustelle: zeigt die vorgeschriebene Fahrtrichtung für Lastzüge und Sattelkraftfahrzeuge an. Gelbe Zeichen gelten vorübergehend, für die Dauer der Arbeiten.
+21819: Gelbe Zeichen stehen bei Straßenbaustellen.
+21820: Es zeigt Lastzügen und Sattelkraftfahrzeugen die vorgeschriebene Richtung.
+21821: Es wird für die Dauer der Arbeiten aufgestellt.
+21822: Es zeigt keine Tankstelle an.
+21823: Es gilt nur für die abgebildeten Fahrzeuge.
+21824: Für diese Fahrzeuge ist es eine Pflicht, keine Empfehlung.
+21825: Es gilt nicht für alle Fahrzeuge.
+
+G 4277: Hinweiszeichen „Öffentlicher Fernsprecher“ (Telefonhörer). Zeigt ein öffentliches Telefon in der Nähe an.
+21323: Es zeigt eine öffentliche Fernsprechstelle in der Nähe an.
+21324: In der Nähe gibt es ein öffentliches Telefon.
+21325: In der Nähe kann man öffentlich telefonieren.
+21326: Es steht auch an Freilandstraßen.
+21327: Es zeigt kein Handygeschäft an.
+21328: Erste Hilfe hat ein eigenes Zeichen.
+21329: Es geht nicht ums Handy-Aufladen.
+21330: Es verbietet nichts.
+21331: Es zeigt keine Netzabdeckung an.
+21332: Es regelt nicht das Telefonieren im Auto.
+
+G 4278: Hinweiszeichen „Tankstelle“ (Zapfsäule). In der Nähe – an der Straße – kann man tanken.
+21333: Es zeigt eine Tankstelle an.
+21334: In der Nähe gibt es eine Tankstelle.
+21335: Nicht weit entfernt kann man tanken.
+21336: Die Tankstelle ist nicht weit entfernt.
+21337: Die Tankstelle liegt an der Straße in der Nähe.
+21338: Werkstätten haben ein eigenes Zeichen.
+21339: Telefone haben ein eigenes Zeichen.
+21340: Parkplätze haben das blaue P.
+21341: Es ist eine normale Tankstelle, nicht nur für Flüssiggas.
+21342: Es zeigt keine Raffinerie an.
+21343: Es verbietet nichts.
+
+G 4267: Bestätigungszeichen auf der Autobahn (grün): Nach einer Auffahrt bestätigt es die Richtung und zeigt die Entfernungen in km zu den Orten auf dieser Autobahn (hier z. B. Florenz 180 km). Mit blauem Hintergrund gibt es das gleiche Zeichen an Freilandstraßen.
+21223: Es ist ein Bestätigungszeichen für Autobahnen.
+21224: Es zeigt Orte mit Entfernung in km.
+21225: Mit blauem Hintergrund steht es an Freilandstraßen.
+21226: Grün = Autobahn.
+21227: Laut Schild sind es bis Florenz noch 180 km.
+21228: Auf der Autobahn zeigt es die Entfernung zu erreichbaren Orten.
+21229: Die Orte erreicht man über die Autobahn, nicht alle über die nächste Ausfahrt.
+21230: Die Zahl ist eine Entfernung bzw. Straßennummer, keine Pflicht für Mailand.
+21231: Die Entfernung bezieht sich auf die Stadt, nicht auf eine Raststätte.
+21232: Es zeigt Entfernungen, nicht Straßennummern je Ort.
+21233: Es zeigt die noch zu fahrenden km, nicht die schon gefahrenen.
+21234: Grün steht es an Autobahnen.
+
+G 4268: Schild „Internationale Straße“ (grünes Rechteck mit E und Nummer, hier E55). Kennzeichnet eine Straße von internationaler Bedeutung; kann in Wegweisern vorkommen.
+21235: Es kennzeichnet einen internationalen Hauptverkehrsweg.
+21236: Es zeigt die internationale Straßennummer.
+21237: Es steht an Straßen von internationaler Bedeutung.
+21238: Hier ist es die internationale Strecke E55.
+21239: Es kann in Vorwegweisern vorkommen.
+21240: Es kennzeichnet internationale Straßen.
+21241: Es ist keine Ausfahrtsnummer.
+21242: Die Zahl ist keine Entfernung.
+21243: Die Zahl ist keine Geschwindigkeit.
+21244: Es nummeriert keine Überführung.
+21245: Die Zahl ist keine Kilometerangabe.
+
+G 4269: Schild „Staatsstraße“ (blaues Rechteck mit SS und Nummer, hier SS 2). Zeigt Art und Nummer der Straße an; kann in Wegweisern vorkommen.
+21246: Es zeigt Art und Nummer der Straße.
+21247: Es kann in Vorwegweisern vorkommen.
+21248: SS steht für Staatsstraße.
+21249: Man fährt auf der Staatsstraße Nr. 2.
+21250: Es zählt keine Haltebuchten.
+21251: Die Zahl ist keine Längenangabe.
+21252: Die Zahl ist keine Längenangabe.
+21253: Es zeigt keine Sackgasse an.
+21254: Es sagt nichts über fehlende Zeichen.
+21255: Es sagt nichts über den Belag.
+
+G 4270: Schild „Gemeindestraße“ (weiß mit Nummer, hier 19). Kennzeichnet eine Gemeindestraße und ihre Nummer; kann am Anfang der Straße oder in Wegweisern stehen.
+21256: Es kann am Anfang einer Gemeindestraße stehen.
+21257: Es kann Richtungszeichen ergänzen.
+21258: Es zeigt eine Gemeindestraße an.
+21259: Es steht an der Gemeindestraße Nr. 19.
+21260: Die Zahl ist keine Entfernung.
+21261: Es ist kein Feldweg-Zeichen.
+21262: Schneeketten haben ein eigenes Zeichen.
+21263: Die Zahl ist keine Uhrzeit.
+21264: Es nummeriert keine Überführung.
+
+G 4271: Hinweiszeichen „Campingplatz“ (Zelt und Wohnwagen). In der Nähe darf man zelten und Wohnwagen bzw. Wohnmobile abstellen.
+21265: In der Nähe ist ein Campingplatz.
+21266: Es ist ein Campingplatz für Zelte mit Plätzen für Wohnwagen und Wohnmobile.
+21267: Der Bereich ist zum Campen und Abstellen von Wohnwagen bestimmt.
+21268: Campen und Parken von Wohnwagen sind erlaubt.
+21269: Es erlaubt das Parken, statt es zu verbieten.
+21270: Aussichtspunkte haben ein eigenes Zeichen.
+21271: Es zeigt keine Werkstatt an.
+21272: Es zeigt keine Polizeistation an.
+21273: Es zeigt keine Erste-Hilfe-Stelle an.
+
+G 4272: Hinweiszeichen „Straßenpolizei“: nennt Ort, Anschrift und Telefonnummern der nächsten Dienststelle der Straßenpolizei.
+21274: Es nennt Anschrift und Telefonnummern der nächsten Dienststelle.
+21275: Es nennt den Ort der Dienststelle und ihre Telefonnummern.
+21276: Es nennt Standort und Telefonnummer der Dienststelle.
+21277: Es gibt Ort, Anschrift und Telefonnummern an.
+21278: Es kündigt keine Straßensperre an.
+21279: Es zeigt keine unterbrochene Straße an.
+21280: Es ist kein Polizeiparkplatz.
+21281: Es warnt nicht vor Polizeikolonnen.
+21282: Die Straße ist nicht der Polizei vorbehalten.
+
+G 4274: Hinweiszeichen „Einbahnstraße“ (blaues Rechteck mit weißem Pfeil). Zeigt, dass die Straße bzw. – mit Pfeil nach links (A) – die Straße, in die man einbiegt, eine Einbahnstraße ist: kein Gegenverkehr, Wenden verboten.
+21292: Die Straße, an der es steht, ist eine Einbahnstraße.
+21293: Zeichen A: Nach dem Linksabbiegen ist man in einer Einbahnstraße.
+21294: In der Einbahnstraße kommt einem niemand entgegen.
+21295: In Einbahnstraßen ist Wenden verboten.
+21296: Es schreibt kein Rechtsüberholen vor.
+21297: Es ist ein Hinweis, kein Abbiegegebot.
+21298: Es verbietet nichts.
+21299: Es schreibt kein paralleles Fahren vor.
+21300: Es sagt nichts übers Parken.
+21301: Es zeigt keinen Parkplatz an.
+
+G 4276: Hinweiszeichen „Taxistandplatz“. Kennzeichnet einen Parkplatz nur für Taxis im Dienst (auf der Fahrbahn gelb markiert mit TAXI).
+21313: Es zeigt einen Taxistandplatz an.
+21314: Nur Taxis im Dienst dürfen dort stehen.
+21315: Der Platz ist Taxis im Dienst vorbehalten.
+21316: Der Bereich ist gelb markiert mit der Aufschrift TAXI.
+21317: Es ist kein Überholverbot.
+21318: Es verbietet Taxis nichts.
+21319: Es zeigt keine Rufsäule an.
+21320: Es zeigt keine Funkstation an.
+21321: Eine eigene Beleuchtung ist nicht vorgeschrieben.
+21322: Es zeigt keine Garage an.
+
+G 4279: Gelbes Zeichen „Umleitung wegen Bauarbeiten“. Kündigt an, dass die Straße (hier nach Novara) wegen Arbeiten unterbrochen ist, und zeigt den Umweg; unten steht die Länge der Umleitung.
+21344: Es kündigt eine vorläufige Umleitung an.
+21345: Die Straße ist wegen Bauarbeiten unterbrochen.
+21346: Gelb = vorübergehendes Baustellenzeichen.
+21347: Unten steht die Länge der Umleitung.
+21348: Über die Umleitung erreicht man Novara trotzdem.
+21349: Es schreibt kein Zurückfahren vor.
+21350: Es zeigt keine Haltebucht an.
+21351: Es zeigt keine Raststätte an.
+21353: Die km-Angabe ist die Länge der Umleitung.
+21354: Die km-Angabe ist die Länge der Umleitung, nicht ihr Abstand.
+
+G 4280: Weißer Vorwegweiser = Kreuzung innerorts. Er zeigt, welche Ziele man an der Kreuzung erreicht (hier: rechts Bahnhof und Zentrum, geradeaus Sora und Neapel).
+21355: Weiß = Kreuzung innerorts.
+21356: Er zeigt die von der Kreuzung aus erreichbaren Ziele.
+21357: Rechts geht es zum Bahnhof.
+21358: Rechts geht es ins Zentrum.
+21359: Nach Sora geht es geradeaus.
+21360: Nach Neapel geht es geradeaus.
+21361: Weiße Wegweiser stehen innerorts.
+21362: Rechts geht es ins Zentrum, nicht aus dem Ort.
+21363: Ins Zentrum geht es rechts, nicht zurück.
+21364: Es zeigt keinen Parkplatz an.
+21365: Es zeigt keinen Bahnübergang, nur den Bahnhof.
+
+G 4281: Innerorts-Vorwegweiser für zwei aufeinanderfolgende Kreuzungen. Laut Schild: an der ersten Kreuzung nicht links, rechts in die Gemonastraße; an der zweiten links zum Krankenhaus und nach Österreich, rechts ins Zentrum und nach Triest.
+21366: Er kündigt zwei hintereinander liegende Kreuzungen an.
+21367: An der ersten Kreuzung kann man nicht links abbiegen.
+21368: An der zweiten Kreuzung links zum Krankenhaus.
+21369: An der ersten Kreuzung rechts in die Gemonastraße.
+21370: An der zweiten Kreuzung rechts ins Zentrum.
+21371: An der zweiten Kreuzung rechts Richtung Triest.
+21372: Nach Österreich an der zweiten Kreuzung links.
+21373: Weiß = Ortsstraße.
+21374: Weiße Wegweiser stehen innerorts.
+21375: Es regelt kein Parken.
+21376: Nach Österreich geht es links, nicht zurück.
+21377: An der ersten Kreuzung ist Linksabbiegen nicht möglich.
+21378: Es zeigt keinen Weg aus einem Einkaufszentrum.
+21379: Es zeigt keine Autobahnauffahrt.
+
+G 4282: Innerorts-Vorwegweiser für einen Kreisverkehr. Er zeigt den Verlauf des Kreisverkehrs und welche Ausfahrt zu welchem Ziel führt (hier: erste rechts nach Forlì, zweite zur Umfahrungsstraße).
+21380: Er kündigt einen Kreisverkehr innerorts an.
+21381: Erste Ausfahrt rechts nach Forlì.
+21382: Zweite Ausfahrt zur Umfahrungsstraße.
+21383: Er zeichnet den Verlauf des Kreisverkehrs.
+21384: Er nennt die erreichbaren Orte.
+21385: Er zeigt keine unterbrochene Straße.
+21386: Es ist keine Fußgängerzone.
+21387: Es ist kein Durchfahrtsverbot.
+21388: Weiß = innerorts.
+21389: Es gilt immer, nicht nur nachts.
+
+G 4283: Innerorts-Vorwegweiser mit Fahrverboten: Lkw über 3,5 t dürfen nicht geradeaus (nach Avezzano bzw. ins Zentrum); Pkw dürfen geradeaus nach Pescara; links geht es zur Autobahn Rom–L’Aquila.
+21390: Weiß = Kreuzung innerorts.
+21391: Lkw über 3,5 t dürfen nicht geradeaus nach Avezzano.
+21392: Pkw dürfen geradeaus nach Pescara.
+21393: Links geht es zur Autobahn Rom–L’Aquila.
+21394: Lkw über 3,5 t dürfen nicht geradeaus ins Zentrum.
+21395: Das Verbot gilt nur für Lkw über 3,5 t, nicht für Busse.
+21396: Es steht nicht nur an Einbahnstraßen.
+21397: Es steht innerorts, nicht an einer Autobahneinfahrt.
+21398: Es sperrt keinen Fahrstreifen.
+21399: Es ist ein Hinweis-, kein Vorfahrtszeichen.
+
+G 4284: Blauer Vorwegweiser = Kreuzung außerorts. Laut Schild: geradeaus nach Porto Torres, links zu einem Fremdenverkehrsort (braunes Feld), rechts nach San Giovanni – dort folgt ein Bahnübergang.
+21400: Blau = Kreuzung auf einer Freilandstraße.
+21401: Nach dem Rechtsabbiegen kommt ein Bahnübergang.
+21402: Geradeaus nach Porto Torres.
+21403: Links zu einem Fremdenverkehrsort (braun).
+21404: Rechts nach San Giovanni.
+21405: Nach dem Rechtsabbiegen können Züge die Straße kreuzen.
+21406: Vorwegweiser stehen vor der Kreuzung.
+21407: Braun steht für Tourismus allgemein; ein Badeort ist nicht angegeben.
+21408: Es ist ein Hinweiszeichen.
+21409: San Giovanni erreicht man rechts.
+21410: Blau = außerorts, keine Ortskreuzung.
+
+G 4285: Einordnungswegweiser auf zweispurigen Freilandstraßen: Wer nach Bari will, ordnet sich links ein, wer nach Pescara will, rechts. Er steht dort, wo man noch die Spur wechseln kann.
+21411: Er steht an zweispurigen Freilandstraßen.
+21412: Er zeigt die Einordnung für zwei Ziele.
+21413: Nach Bari: linker Fahrstreifen.
+21414: Nach Pescara: rechter Fahrstreifen.
+21415: Er steht dort, wo man noch wechseln kann.
+21416: Er schreibt kein Rechtsüberholen vor.
+21417: Die Straße nach Bari ist offen.
+21418: Er kündigt keine Gerade an.
+21419: Kurven haben Gefahrenzeichen.
+21420: Er schreibt kein Wenden vor.
+21421: Er kündigt keine Überführung an.
+
+G 4286: Einordnungswegweiser innerorts (weiß) für mehrspurige Straßen: links nach Terni, Mitte zum Fremdenverkehrsort, rechts ins Zentrum. Man kann sich noch einordnen.
+21422: Weiß = Ortsstraße.
+21423: Man kann sich in die Einordnungsstreifen einordnen.
+21424: Zum Fremdenverkehrsort: mittlerer Fahrstreifen.
+21425: Nach Terni: linker Fahrstreifen.
+21426: Ins Zentrum: rechter Fahrstreifen.
+21427: Es ist keine Autobahnkreuzung.
+21428: Es zeigt keinen Parkplatz.
+21429: Die Angabe ist keine Entfernung nach Terni.
+21430: Es schreibt kein Wenden vor.
+21431: Die Straße nach Terni ist offen.
+21432: Man kann den Fahrstreifen noch wechseln.
+
+G 4287: Hinweiszeichen „Krankenhaus“ (weißes H auf blauem Grund). Zeigt ein Krankenhaus bzw. den Weg dorthin; in der Nähe Lärm vermeiden.
+21433: Es zeigt den Eingang eines Krankenhauses an.
+21434: In der Nähe eines Krankenhauses keinen Lärm machen.
+21435: Es zeigt den Weg zum Krankenhaus.
+21436: Es steht an einem Krankenhaus.
+21437: Hotels haben ein anderes Zeichen.
+21438: Es hat nichts mit Schlafwagen zu tun.
+21439: Es ist kein Ärzteparkplatz.
+21440: Es ist kein Nachtasyl.
+
+G 4288: Grüner Vorwegweiser auf der Autobahn für eine Anschlussstelle: geradeaus nach Bologna, links ab zum Flughafen Linate.
+21441: Nach Bologna geradeaus.
+21442: Es kündigt zwei Ziele an.
+21443: Zum Flughafen Linate links abfahren.
+21444: Grün = Autobahnanschlussstelle.
+21445: An der Anschlussstelle geradeaus nach Bologna.
+21446: Grün = Autobahn, nicht Freilandstraße.
+21447: Es verbietet nichts.
+21448: Es gibt keine Entfernung nach Bologna an.
+21449: Nach Bologna geradeaus, ohne Spurwechsel.
+21450: Es steht vor der Anschlussstelle, nicht am Flughafen.
+21451: Es zeigt keinen Spielplatz.
+
+G 4289: Vorwegweiser für zwei Ziele: geradeaus nach Mailand (Autobahn), rechts ins Stadtzentrum. Kann an Ortsstraßen stehen.
+21452: Nach Mailand geradeaus.
+21453: Es zeigt zwei Ziele.
+21454: Ins Zentrum rechts abbiegen.
+21455: Es kann an Ortsstraßen stehen.
+21456: An der Kreuzung geradeaus nach Mailand.
+21457: Es steht nicht nur an Einbahnstraßen.
+21458: Das Symbol ist kein Bogenschießplatz.
+21459: Rechts geht es ins Zentrum, nicht in eine Nebenstraße.
+21460: Es sagt nichts über Einbahnverkehr.
+21461: Rechts geht es ins Zentrum, nicht zum Einkaufszentrum.
+
+G 4290: Blaue Ausfahrtsvorankündigung auf einer erstrangigen Freilandstraße (Schnellstraße): Die Ausfahrt Frosinone ist 500 m entfernt; aufgezählt sind die dort erreichbaren Orte, Fremdenverkehrsorte auf braunem Grund.
+21462: Es steht an erstrangigen Freilandstraßen.
+21463: Die Ausfahrt Frosinone ist 500 m entfernt.
+21464: Es nennt die über diese Ausfahrt erreichbaren Orte.
+21465: Braun = Fremdenverkehrsorte.
+21466: Die Zahl ist die Entfernung zur Ausfahrt.
+21467: Es steht vor der Ausfahrt, nicht am Ortsende.
+21468: Die 500 m beziehen sich auf die Ausfahrt, nicht auf den Ort.
+21469: Nur die Ausfahrt ist 500 m entfernt, nicht die Orte.
+21470: Die Straße ist weiter befahrbar.
+21471: Ortsanfänge haben die Ortstafel.
+
+G 4291: Ortsende-Tafel mit Entfernungstafel: Der durchgestrichene Ortsname zeigt das Ende der Ortschaft; darunter auf blauem Grund die nächsten Orte mit km-Angabe (oben der nächstgelegene; hier S. Cesareo 7 km, Neapel 190 km).
+21472: Es zeigt das Ende der Ortschaft.
+21473: Oben steht die nächste Ortschaft.
+21474: Ortsende und die folgenden Orte.
+21475: Für jeden Ort steht die Entfernung in km.
+21476: Bis Neapel sind es noch 190 km.
+21477: Bis S. Cesareo sind es noch 7 km.
+21478: Es kündigt keine Steigung an.
+21479: Montecompatri ist erreichbar.
+21480: 190 ist eine Entfernung, keine Straßennummer.
+21481: Die Straße ist nicht gesperrt.
+21483: Der durchgestrichene Name bedeutet Ende, nicht Anfang.
+
+G 4292: Hinweiszeichen „Fußgängerzone“. Fahrzeuge sind verboten; die Zusatztafel nennt Ausnahmen, z. B. Lieferverkehr und Fahrzeuge für Menschen mit Behinderung.
+21484: Es zeigt den Anfang einer Fußgängerzone.
+21485: Die Zusatztafel nennt die erlaubten Fahrzeuge.
+21486: Ladeverkehr darf laut Tafel einfahren.
+21487: Fahrzeuge für Menschen mit Behinderung dürfen einfahren.
+21488: Es zeigt keine Polizeiwache.
+21489: Es ist für alle Fußgänger, nicht nur für Menschen mit Behinderung.
+21490: Es zeigt keine Fußstreife an.
+21491: Es zeigt keine Straßenhändler an.
+
+G 4293: Hinweiszeichen „Verkehrsberuhigte Zone“ (Zona a traffico limitato, ZTL). Nur die auf der Tafel genannten Fahrzeugklassen dürfen einfahren.
+21492: Es zeigt den Anfang einer verkehrsberuhigten Zone.
+21493: Nur bestimmte Fahrzeugklassen dürfen hinein.
+21494: Es nennt die erlaubten Fahrzeuge.
+21495: Es nennt die zugelassenen Fahrzeugklassen.
+21496: Es zeigt keine Einbahnstraße.
+21497: Bestimmte Fahrzeuge dürfen durchfahren.
+21498: Es ist keine Militärzone.
+21499: Die Straße ist nicht wegen Verkehrs gesperrt.
+21500: Erlaubt sind die genannten Klassen, nicht nur Anrainer.
+21501: Fußgängerzonen haben ein eigenes Zeichen.

@@ -1,0 +1,398 @@
+# Kapitel 8 – Hinweiszeichen (Teil 2)
+
+G 4294: Hinweistafel zur Befahrbarkeit von Bergstraßen (hier Stilfserjoch). Laut Tafel ist die Straße offen, aber nur für Fahrzeuge mit Schneeketten oder Winterreifen.
+21502: Die Tafel zeigt, ob die Stilfserjoch-Straße befahrbar ist.
+21503: Laut Tafel nur mit Schneeketten oder Winterreifen.
+21504: Offen – aber nur mit Schneeketten oder Winterreifen.
+21505: Solche Tafeln stehen an Bergstraßen.
+21506: Laut Tafel ist das Stilfserjoch erreichbar.
+21507: Es geht um Ketten/Winterreifen, nicht um neue Reifen.
+21508: Laut Tafel ist es Pflicht, nicht nur Empfehlung.
+21509: Ketten an allen vier Rädern verlangt die Tafel nicht.
+21510: Ketten werden verlangt, nicht abgenommen.
+21511: Sie informiert nicht über Skigebiete.
+
+G 4295: Befahrbarkeitstafel mit anderem Inhalt: Das Stilfserjoch ist nicht erreichbar (gesperrt); bis Trafoi kommt man, Schneeketten oder Winterreifen werden empfohlen. Vorsichtig fahren.
+21512: Es empfiehlt besondere Vorsicht.
+21513: Laut Tafel ist das Stilfserjoch nicht erreichbar.
+21514: Bis Trafoi werden Ketten oder Winterreifen empfohlen.
+21515: Bis Trafoi kann man fahren.
+21516: Über Tankstellen sagt sie nichts.
+21517: Hier ist es nur eine Empfehlung, keine Pflicht.
+21518: Es ist kein Verbot.
+21519: Laut dieser Tafel sind Ketten nur empfohlen.
+
+G 4296: Hinweiszeichen „Erstrangige Freilandstraße“ (Schnellstraße mit getrennten Fahrbahnen, blaues Schild mit Straßensymbol). Rot durchgestrichen zeigt es das Ende an.
+21520: Es zeigt den Anfang einer erstrangigen Freilandstraße.
+21521: Rot durchgestrichen = Ende der erstrangigen Freilandstraße.
+21522: Es steht am Anfang einer solchen Straße.
+21523: Diese Straßen haben getrennte Fahrbahnen.
+21524: Es ist keine Wendemöglichkeit.
+21525: Es kündigt keine Steigung an.
+21526: Es zeigt keine Unterführung an.
+21527: Die Straße ist nicht unterbrochen.
+21528: Es schreibt kein paralleles Fahren vor.
+21529: Es kündigt keine Gerade an.
+
+G 4297: Tafel mit den allgemeinen Höchstgeschwindigkeiten in Italien – an der Grenze für Fahrer aus dem Ausland: 50 km/h innerorts, 90 km/h auf zweitrangigen Freilandstraßen, 110 km/h auf erstrangigen Freilandstraßen, 130 km/h auf Autobahnen.
+21530: Sie steht an der Grenze, sichtbar für Einreisende.
+21531: Sie zeigt die allgemeinen Tempolimits in Italien.
+21532: Oben steht das Limit innerorts (50 km/h).
+21533: Zweitrangige Freilandstraßen: 90 km/h.
+21534: Erstrangige Freilandstraßen: 110 km/h.
+21535: Autobahnen: 130 km/h.
+21536: Innerorts gelten 50 km/h, nicht 90.
+21537: Sie hat nichts mit Maut zu tun.
+21538: Erstrangige Freilandstraßen: 110 km/h, nicht 130.
+21539: Sie steht an der Grenze, nicht an jeder Stadteinfahrt.
+21540: Es sind Höchst-, keine Mindestgeschwindigkeiten.
+
+G 4298: Autobahnnummer (grünes Schild mit A und Nummer, hier A25). Kann in Vorwegweisern zu Anschlussstellen vorkommen.
+21541: Es zeigt die Nummer der Autobahn.
+21542: Es kann in einem Vorwegweiser vorkommen.
+21544: Es kennzeichnet die Autobahn Nr. 25.
+21545: Es steht nicht an der Grenze.
+21546: Es nummeriert keine Überführung.
+21547: Die Zahl ist kein Abstand.
+21548: Die Zahl ist keine Entfernung.
+21549: Die Zahl ist keine Entfernung.
+21550: Die Zahl ist keine Geschwindigkeit.
+
+G 4300: Hinweiszeichen „Erste Hilfe“ (rotes Kreuz). Zeigt den Eingang oder die Richtung einer Erste-Hilfe-Stelle.
+21559: Es zeigt den Eingang einer Erste-Hilfe-Stelle.
+21560: Es zeigt den Weg zur Erste-Hilfe-Stelle.
+21561: Es steht bei einer Erste-Hilfe-Stelle.
+21562: Das Kreuz ist kein Schweizer Grenzposten.
+21563: Apotheken haben ein anderes Zeichen.
+21564: Es zeigt keinen Friedhof.
+21565: Es kündigt keine Kreuzung an.
+21566: Es ist kein Ärzteparkplatz.
+
+G 4301: Hinweiszeichen mit Flussnamen (hier Arno). Steht bei der Brücke über den Fluss.
+21567: Es steht bei einer Brücke über den Arno.
+21568: Es zeigt den Namen des Flusses.
+21569: Es ist ein Hinweiszeichen.
+21570: Es warnt nicht vor Überschwemmung.
+21571: Es warnt nicht vor Sturmflut.
+21572: Es hat nichts mit Wasserski zu tun.
+21573: Kurven haben Gefahrenzeichen.
+
+G 4302: Hinweiszeichen „Tourismus-Information“ (i). Hier erhält man Informationen, z. B. über Hotels und Unterkünfte.
+21574: Es kündigt eine Touristeninformation an.
+21575: Dort kann man sich über Unterkünfte informieren.
+21576: Dort gibt es Informationen über Hotels.
+21577: Es zählt keine Hotels.
+21578: Es hat nichts mit einem Krankenhaus zu tun.
+21579: Es hat nichts mit einem Krankenhaus zu tun.
+21580: Es kündigt kein Hotel an.
+
+G 4303: Hinweiszeichen „Fußgängerüberweg“ (blaues Quadrat mit Fußgänger auf Zebrastreifen). Steht direkt am Zebrastreifen (außerorts nach dem dreieckigen Gefahrenzeichen). Man muss anhalten, wenn Fußgänger queren; Fahrzeuge, die für Fußgänger halten, darf man nicht überholen.
+21581: Es zeigt einen Fußgängerüberweg ohne Ampel an.
+21582: Außerorts steht es nach dem Gefahrenzeichen „Fußgängerüberweg“.
+21583: Es steht direkt am Zebrastreifen.
+21584: Queren Fußgänger, muss man anhalten.
+21585: Es zeigt keine Unterführung.
+21586: 150 m vorher steht das dreieckige Gefahrenzeichen; dieses steht direkt am Übergang.
+21587: Es ist blau, auch an Autobahnen gibt es keine grüne Version.
+21588: Es kündigt keine Schule an.
+21589: Haltende Fahrzeuge am Zebrastreifen darf man nicht überholen.
+
+G 4304: Zeichen „Schulbus“ (Kinder). Am Bus zeigt es einen Schulbus an, am Gehsteig eine Schulbushaltestelle. Vorsicht: Kinder können nach dem Aussteigen plötzlich über die Straße laufen.
+21590: Am Gehsteig zeigt es eine Schulbushaltestelle.
+21591: Am Bus zeigt es, dass es ein Schulbus ist.
+21592: Es kann die Haltestelle eines Schulbusses anzeigen.
+21593: Kinder könnten unerwartet queren.
+21594: Ausgestiegene Kinder könnten plötzlich über die Straße laufen.
+21595: Es verbietet nichts.
+21596: Es weist nicht auf Parks hin.
+
+G 4305: Hinweiszeichen „Pannenhilfe/Notrufsäule“ (SOS). Zeigt eine Vorrichtung an, mit der man den Pannendienst rufen kann.
+21598: Mit der Vorrichtung kann man den Pannendienst rufen.
+21599: Es steht an einer Notrufsäule.
+21600: Es zeigt eine Notrufvorrichtung für den Pannendienst.
+21601: Es zeigt keinen Krankenhausbereich.
+21602: Öffentliche Telefone haben ein eigenes Zeichen.
+21603: Es ist kein Krankenwagenparkplatz.
+21604: Es zeigt keine Schule an.
+
+G 4306: Hinweiszeichen „Sackgasse“ (blau mit weißem T und rotem Querbalken). Die Straße hat für Fahrzeuge keine Ausfahrt – gilt auch für Krafträder. Fußgänger kommen oft weiter. Wenden ist nicht verboten.
+21605: Es steht am Anfang einer Sackgasse.
+21606: Es gilt auch für Krafträder.
+21607: Die Straße hat für Fahrzeuge keine Ausfahrt.
+21608: Es verbietet nicht das Parken.
+21609: Es kündigt keine T-Kreuzung an.
+21610: Das T steht nicht für ein Tabakgeschäft.
+21611: Es zeigt keine Straßenarbeiten.
+21612: In einer Sackgasse muss man ja wenden können.
+21613: Fußgänger sind nicht betroffen.
+
+G 4307: Hinweiszeichen „Sackgasse rechts“: Die rechte Straße ist für Fahrzeuge eine Sackgasse. Abbiegen und Geradeausfahren sind erlaubt.
+21614: Rechts liegt eine Sackgasse.
+21615: Rechtsabbiegen ist erlaubt.
+21616: Geradeaus ist erlaubt.
+21617: Es gilt auch für Krafträder.
+21618: Es ist ein Hinweiszeichen.
+21619: Es verbietet nicht das Wenden.
+21620: Es verbietet nicht das Rechtsabbiegen.
+21621: Es zeigt keine Haltebucht.
+21622: Es zeigt keinen Parkplatz.
+21623: Für Fußgänger ist es meist keine Sackgasse.
+
+G 4308: Hinweiszeichen „Empfohlene Geschwindigkeit“ (blaues Quadrat mit Zahl, hier 60). Eine Empfehlung bei guten Bedingungen – schneller zu fahren ist bis zum geltenden Tempolimit erlaubt. Rot durchgestrichen = Ende der Empfehlung.
+21624: Diese Geschwindigkeit sollte man bei guten Bedingungen nicht überschreiten.
+21625: 50 km/h sind erlaubt.
+21626: Eine Tafel kann die Länge des Abschnitts angeben.
+21627: Rot durchgestrichen = Ende der Empfehlung.
+21628: Außerorts darf man bis zum allgemeinen Limit fahren, also auch 70 km/h.
+21629: Die Zahl ist keine Tonnenangabe.
+21630: Es ist keine Mindestgeschwindigkeit.
+21631: Es ist nur eine Empfehlung, kein Verbot.
+21632: Die Zahl ist kein Abstand.
+21633: Langsamer zu fahren ist erlaubt.
+21634: Die Zahl ist keine Kilometerangabe.
+
+G 4309: Hinweiszeichen „Kraftfahrstraße“ (Straße nur für Kraftfahrzeuge, weißes Auto auf blauem Grund). Fahrräder und andere Fahrzeuge ohne Motor sind verboten; Busse und Lkw dürfen fahren. Rot durchgestrichen = Ende.
+21635: Die Straße ist dem Kraftfahrzeugverkehr vorbehalten.
+21636: Fahrräder sind verboten.
+21637: Es steht am Anfang der Kraftfahrstraße.
+21638: Fahrzeuge ohne Motor sind verboten.
+21639: Busse sind Kraftfahrzeuge – erlaubt.
+21640: Rot durchgestrichen = Ende.
+21641: Die Straße ist nicht nur für Taxis.
+21642: Es zeigt keinen Parkplatz.
+21643: Fahrräder sind gerade verboten.
+21644: Lkw sind Kraftfahrzeuge – erlaubt.
+
+G 4310: Hinweiszeichen „Tunnel“ (auf grünem Grund an der Autobahn). Im Tunnel darf man – sofern nicht anders angezeigt – weder halten noch parken. Am Tunnelende mit Seitenwind rechnen und das Lenkrad gut festhalten.
+21645: Es steht am Anfang eines Tunnels.
+21646: Grün = Autobahntunnel.
+21648: Im Tunnel ist Halten und Parken verboten.
+21649: Am Tunnelausgang kann Seitenwind kommen.
+21650: Die Straße ist nicht gesperrt.
+21651: Es zeigt keine Straßenarbeiten.
+21652: Es sagt nichts über die Beleuchtung aus.
+21653: Höhenbegrenzungen haben ein eigenes Zeichen.
+21654: Brücken haben ein eigenes Zeichen.
+21655: Es ist kein Überholverbot.
+
+G 4311: Hinweiszeichen „Brücke/Viadukt/Überführung“. Eine Tafel kann die Länge angeben. Auf Brücken kann starker Seitenwind wehen – Lenkrad fest halten.
+21656: Es kann am Anfang einer Brücke, eines Viadukts oder einer Überführung stehen.
+21657: Eine Tafel kann die Länge angeben.
+21658: Auf Brücken bei starkem Wind besonders vorsichtig sein.
+21659: Lenkrad fest halten wegen möglichen Seitenwinds.
+21660: Es ist kein Überholverbot.
+21661: Tunnels haben ein eigenes Zeichen.
+21662: Man fährt über die Brücke, nicht darunter.
+
+G 4312: Hinweiszeichen „Radfahrerüberweg“ (blaues Quadrat). Steht direkt an der markierten Radfahrerfurt: Querenden Radfahrern muss man Vorrang lassen.
+21663: Es zeigt einen Radfahrerüberweg an.
+21664: Es steht an der Bodenmarkierung des Radfahrerüberweges.
+21665: Querenden Radfahrern muss man Vorrang gewähren.
+21666: Es gehört zur Bodenmarkierung für Radfahrerüberwege.
+21667: Hier können Radfahrer die Fahrbahn queren.
+21668: Es verbietet nichts.
+21669: Radfahrer dürfen hier gerade queren.
+21670: Radwege haben ein rundes blaues Zeichen.
+21671: Es gibt Radfahrern keine Richtung vor.
+21672: Die Radfahrer haben hier Vorrang.
+
+G 4313: Hinweiszeichen „Indirektes Linksabbiegen“. Man kann nicht direkt links abbiegen; das Schild zeigt den Umweg (z. B. rechts herum), um in die linke Straße zu gelangen. Geradeaus und rechts sind erlaubt.
+21673: Es zeigt den Weg in die linke Straße.
+21674: Direkt links abbiegen ist nicht möglich.
+21675: Geradeaus ist erlaubt.
+21676: Rechtsabbiegen ist erlaubt.
+21677: Es betrifft alle, die in die linke Straße wollen.
+21678: Man biegt gerade nicht an der nächsten Kreuzung links ab.
+21679: Es zeigt keinen Parkplatz.
+21680: Es gilt für alle Fahrzeuge.
+21681: Rechtsabbiegen ist gerade erlaubt.
+21682: Es zeigt keine Buslinie.
+
+G 4314: Hinweiszeichen „Wendemöglichkeit“ auf Straßen mit getrennten Fahrbahnen: eine Über- oder Unterführung, über die man umkehren kann (auf grünem Grund an der Autobahn).
+21683: Es zeigt eine Überführung zum Wenden.
+21684: Es kann auch eine Unterführung zum Wenden sein.
+21685: Es steht an Straßen mit getrennten Fahrbahnen.
+21686: Über diese Einrichtung kann man zurückfahren.
+21687: Auf grünem Grund an der Autobahn.
+21688: Die Straße ist nicht unterbrochen.
+21689: Es kündigt keine Gerade an.
+21690: Das hat ein eigenes Zeichen.
+21691: Die Wendemöglichkeit ist kreuzungsfrei, nicht höhengleich.
+21692: Es ist eine Möglichkeit, keine Pflicht.
+
+G 4315: Hinweiszeichen „Haltebucht“ (Ausweichstelle am Fahrbahnrand) an Freilandstraßen. Eine Tafel kann die Entfernung angeben.
+21693: Es zeigt eine Haltebucht am Fahrbahnrand.
+21694: Es steht bei einer Haltebucht.
+21695: Es steht an Freilandstraßen.
+21696: Eine Tafel kann die Entfernung zur Haltebucht angeben.
+21697: Es kündigt keine Verbreiterung an.
+21698: Es regelt keine Parkdauer.
+21699: Campingplätze haben ein eigenes Zeichen.
+21700: Bushaltestellen haben ein eigenes Zeichen.
+21701: Es ist kein Wohnwagenparkplatz.
+21702: Es steht an Freilandstraßen, nicht nur an Autobahnen.
+
+G 4316: Hinweiszeichen „Fahrstreifenbenutzung“ (Freilandstraße): Pkw und Motorräder dürfen beide Streifen benutzen; Lkw über 3,5 t dürfen den linken Fahrstreifen nicht benutzen. Busse sind nicht betroffen.
+21703: Es zeigt, wie die Fahrstreifen zu benutzen sind.
+21704: Krafträder dürfen beide Fahrstreifen benutzen.
+21705: Der linke Streifen ist für Lkw über 3,5 t verboten.
+21706: Es steht an Freilandstraßen.
+21707: Pkw dürfen beide Fahrstreifen benutzen.
+21708: Rechtsüberholen ist nicht erlaubt.
+21709: Lkw über 3,5 t dürfen gerade nicht links fahren.
+21710: Nur Lkw über 3,5 t sind betroffen.
+21711: Busse sind nicht betroffen.
+21712: Es steht an Straßen mit mehreren Streifen in eine Richtung.
+
+G 4317: Hinweiszeichen „Mindestgeschwindigkeiten je Fahrstreifen“ (Autobahn). Auf jedem Fahrstreifen gilt die angezeigte Mindestgeschwindigkeit; wer langsamer ist, muss weiter rechts fahren.
+21713: Es zeigt die Mindestgeschwindigkeit je Fahrstreifen.
+21714: Es steht an Autobahnen.
+21715: Mit 100 km/h darf man laut Schild im mittleren Streifen bleiben.
+21716: Mit 50 km/h muss man ganz rechts fahren.
+21717: Auch auf der Autobahn gilt höchstens 130 km/h.
+21718: Es sind Mindest-, keine Höchstgeschwindigkeiten.
+21719: 80 km/h sind laut Schild zu wenig für den linken Streifen.
+21720: Autobahnen haben getrennte Fahrbahnen.
+21721: Es sind Pflichten, keine Empfehlungen.
+
+G 4318: Hinweiszeichen „Busspur“ innerorts: Der rechte Fahrstreifen ist Linienbussen vorbehalten, die linken Streifen sind für den übrigen Verkehr.
+21722: Es zeigt die Nutzung der Fahrstreifen.
+21723: Rechts fahren nur Stadtbusse im Linienverkehr.
+21724: Die linken Streifen sind für alle anderen Fahrzeuge.
+21725: Es steht an Ortsstraßen.
+21726: Taxis dürfen nicht auf der Busspur bleiben.
+21727: Es ist kein Radweg.
+21728: Auf Autobahnen gibt es keine Busspuren.
+21729: Es erlaubt kein Rechtsüberholen.
+
+G 4319: Hinweiszeichen „Fahrstreifen kommt hinzu“ (von einem auf zwei Fahrstreifen). Eine Tafel kann die Entfernung angeben.
+21730: Es zeigt eine Änderung der Fahrstreifenzahl.
+21731: Aus einem werden zwei Fahrstreifen.
+21732: Eine Tafel kann die Entfernung angeben.
+21733: Es steht an Freilandstraßen.
+21734: Es zeigt keine Wendemöglichkeit.
+21735: Es schreibt kein Abbiegen vor.
+21736: Das hat ein eigenes Gebotszeichen.
+21737: Es erlaubt kein Rechtsüberholen.
+21738: Es ist kein Einordnungsbereich.
+21739: Es ist keine Verzögerungsspur.
+
+G 4320: Hinweiszeichen „Fahrstreifen fällt weg“ (von drei auf zwei, Autobahn). Wegen der Verengung empfiehlt es sich, langsamer zu fahren; eine Tafel kann die Entfernung angeben.
+21740: Die Zahl der Fahrstreifen nimmt ab.
+21741: Aus drei werden zwei Fahrstreifen.
+21742: Wegen der Verengung langsamer fahren.
+21743: Eine Tafel kann die Entfernung angeben.
+21744: Grün = Autobahn.
+21745: Es zeigt keine Straßenarbeiten.
+21746: Es schreibt kein Abbiegen vor.
+21747: Es zeigt keine Wendemöglichkeit.
+21748: Es regelt keine Vorfahrt.
+
+G 4321: Hinweiszeichen „Empfohlene Route für Lastzüge und Sattelkraftfahrzeuge“: empfiehlt diesen Fahrzeugen eine Richtung (hier rechts), damit sie nicht durch den Ort fahren. Es ist kein Gebotszeichen.
+21749: Es empfiehlt den angegebenen Fahrzeugen eine Richtung.
+21750: Es ist eine empfohlene Umleitung für Lastzüge und Sattelkraftfahrzeuge.
+21751: Ihnen wird empfohlen, rechts abzubiegen.
+21752: Es ist eine Empfehlung, kein Gebot.
+21753: So umfahren sie die Ortschaft.
+21754: Es verbietet nichts.
+21755: Es fordert nicht zum Rechtsüberholen auf.
+21756: Es führt um den Ort herum, nicht ins Zentrum.
+21757: Es ist keine Pflicht.
+21758: Es ist keine Pflicht.
+21759: Es geht nicht um ein Hindernis.
+
+G 4322: Hinweiszeichen „Haltestelle für Überlandbusse“. Kann mit einer Tafel mit den Abfahrtszeiten ergänzt sein.
+21760: Es zeigt die Haltestelle von Überlandbussen.
+21761: Eine Tafel kann die Abfahrtszeiten nennen.
+21762: Hier wartet man auf den Überlandbus.
+21763: Es ist kein Verbot.
+21764: Es zeigt keine Busspur.
+21765: Es ist kein Busparkplatz.
+21766: Die Straße ist nicht Bussen vorbehalten.
+
+G 4323: Hinweiszeichen „Park & Ride“: Parkplatz in der Nähe einer Bushaltestelle; man kann das Auto abstellen und mit den angegebenen Buslinien (hier 8 und 45) weiterfahren.
+21767: Parkplatz mit Bushaltestelle in der Nähe.
+21768: Es steht in der Nähe einer Bushaltestelle.
+21769: Nach dem Parken kann man in Bus 8 oder 45 steigen.
+21770: 8 und 45 sind Buslinien.
+21771: Auto parken, mit dem Bus weiter.
+21772: Es ist keine Bushaltebucht.
+21773: Es steht nicht bei einer Erste-Hilfe-Stelle.
+21774: Die Zahlen sind Buslinien.
+21775: Die Zahlen sind keine Minuten.
+21776: Die Zahlen sind keine Uhrzeit.
+
+G 4324: Hinweiszeichen „Autoreisezug“: Großer Bahnhof, an dem Pkw auf Züge verladen werden können; zeigt die Zufahrt dazu.
+21777: Es steht in der Nähe eines Bahnhofs.
+21778: Dort können Pkw per Autoreisezug befördert werden.
+21779: Es steht bei der Zufahrt zur Autoverladung.
+21780: Es zeigt kein Hotel.
+21781: Es sagt nichts übers Sitzenbleiben im Auto.
+21782: Es hat nichts mit GPS zu tun.
+21783: Es ist kein Wohnmobilparkplatz.
+
+G 4325: Hinweiszeichen „Entsorgungsstation“: Hier können Wohnmobile und andere Fahrzeuge mit Sanitäranlagen Abwasser und Toilettenabfälle entsorgen.
+21784: Entsorgungsanlage für Fahrzeuge mit Sanitäranlage.
+21785: Hier entsorgt man die Abwässer von Wohnmobilen.
+21786: Es betrifft alle Fahrzeuge mit Sanitäranlage.
+21787: Hier können organische Abfälle und Abwasser entsorgt werden.
+21788: Es zeigt keine Toiletten für Reisende.
+21789: Die Straße ist nicht Wohnmobilen vorbehalten.
+21790: Es zeigt keine Waage.
+21791: Es warnt nicht vor Schlaglöchern.
+21792: Senken haben ein Gefahrenzeichen.
+
+G 4327: Zeichen „Staatsgrenze zu einem EU-Land“ direkt an der Grenze. Es verpflichtet nicht zum Anhalten.
+21801: Es zeigt die Grenze zu einem EU-Staat.
+21802: Es steht an der Grenze zu einem EU-Staat.
+21803: Es zeigt die Grenze zwischen Italien und einem EU-Staat.
+21804: Anhalten muss man nicht.
+21805: Es kündigt keine Straßensperre an.
+21806: Es ist kein Länderkennzeichen am Auto.
+21807: Es ist kein Aufkleber am Fahrzeug.
+21808: Es verpflichtet nicht zum Anhalten.
+21809: Es schreibt keine Zollkontrolle vor.
+
+G 4273: Hinweiszeichen „Einbahnstraße“ (Pfeil nach oben, frontal). Ab hier gilt Einbahnverkehr; Wenden ist verboten.
+21283: Es zeigt eine Einbahnstraße in Fahrtrichtung.
+21284: Hier herrscht Einbahnverkehr.
+21285: In der Einbahnstraße ist Wenden verboten.
+21286: Es zeigt den Anfang einer Einbahnstraße.
+21287: Es ist kein Gebot, geradeaus zu fahren.
+21288: Es verbietet kein Abbiegen.
+21289: Es sagt nichts über die Zahl der Fahrstreifen.
+21290: Es zeigt keine Verengung.
+21291: Es schreibt kein paralleles Fahren vor.
+
+G 4275: Kilometer- und Ausfahrtstafel an der Autobahn: links die Kilometer ab Beginn der Autobahn (hier 54), rechts die Entfernung zur nächsten Ausfahrt (hier Piacenza, 4 km).
+21302: Es zeigt die Entfernung zur Ausfahrt zum angegebenen Ort.
+21303: Es steht an der Autobahn.
+21304: Links km ab Beginn, rechts Entfernung zur Ausfahrt Piacenza.
+21305: Links: Entfernung vom Anfang der Autobahn.
+21306: Bis zur Ausfahrt Piacenza sind es noch 4 km.
+21307: Es ist ein Hinweiszeichen.
+21308: 54 ist die Kilometrierung, die Ausfahrt ist 4 km entfernt.
+21309: 54 ist ein Kilometerstand, keine Autobahnnummer.
+21310: Links steht ein Kilometerstand, keine Geschwindigkeit.
+21311: Bis Piacenza sind es noch 4 km, nicht schon gefahren.
+21312: Es steht an der Autobahn, nicht am Ortsanfang.
+
+G 4299: Ortstafel (Anfang der geschlossenen Ortschaft, hier Taranto). Steht an allen Zufahrten zum Ort; durchgestrichen bedeutet sie das Ortsende. Innerorts gilt 50 km/h.
+21551: Sie zeigt den Anfang der Ortschaft.
+21552: Sie nennt den erreichten Ort.
+21553: Sie steht an allen Zufahrten.
+21554: Rot durchgestrichen = Ortsende.
+21555: Fremdenverkehrsorte haben braune Schilder.
+21556: Provinzgrenzen haben andere Schilder.
+21557: Es ist kein Wegweiser.
+21558: Viadukte haben ein eigenes Zeichen.
+
+G 4326: Hinweiszeichen „Werkstatt“ (Schraubenschlüssel). In der Nähe gibt es eine Kfz-Reparaturwerkstatt.
+21793: Es zeigt eine Kfz-Werkstatt an.
+21794: In der Nähe ist eine Werkstatt.
+21795: In der Nähe ist eine Reparaturwerkstatt.
+21796: Nicht weit entfernt gibt es eine Werkstatt.
+21797: Es warnt nicht vor Arbeitern.
+21798: Tankstellen haben ein eigenes Zeichen.
+21799: Parkplätze haben das blaue P.
+21800: Straßenarbeiten haben gelbe Zeichen.

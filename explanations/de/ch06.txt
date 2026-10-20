@@ -1,0 +1,319 @@
+# Kapitel 6 – Bodenmarkierungen und Markierungen an Hindernissen
+# Merke: Durchgehende Linien darf man nie überfahren, gestrichelte schon (wenn es sicher ist). Bodenmarkierungen sind weiß; gelb sind z. B. vorübergehende Markierungen, Bushaltestellen und Behindertenparkplätze; blau gebührenpflichtige Parkplätze.
+
+G 4213: Leitlinien in der Kreuzung (gestrichelte, gebogene weiße Linien). Sie zeigen, wie man richtig abbiegt: Beim Linksabbiegen lässt man sie links liegen und schneidet die Kurve nicht. Wer geradeaus fährt, darf sie überfahren.
+20736: Leitlinien sind gestrichelte, gebogene weiße Linien.
+20737: Beim Linksabbiegen lässt man die Kreuzungsmitte rechts liegen – die Leitlinien zeigen diesen Weg.
+20738: Beim Linksabbiegen bleiben die Leitlinien links vom Fahrzeug.
+20739: Sie helfen, beim Linksabbiegen nicht auf die falsche Fahrbahnseite zu geraten.
+20740: Die Leitlinien betreffen vor allem das Linksabbiegen – eine solche Pflicht beim Rechtsabbiegen gibt es nicht.
+20741: Gestrichelte Linien darf man überfahren, auch beim Geradeausfahren.
+20742: Verkehrsinseln bestehen aus weißen Schrägstrichen mit Umrandung.
+
+G 4215: Sperrfläche (Verkehrsinsel aus weißen Schrägstrichen). Darauf darf man weder fahren noch halten oder parken.
+20756: Auf der Sperrfläche ist Fahren und Parken verboten.
+20757: Sie besteht aus weißen Schrägstrichen.
+20758: Auf diesem Teil der Straße darf man nicht fahren.
+20759: Blau sind nur Markierungen für gebührenpflichtiges Parken.
+20760: Parken ist darauf verboten.
+20761: Parken ist darauf überhaupt nicht erlaubt.
+
+G 4220: T-Kreuzung mit Sperrfläche (Verkehrsinsel). Die Insel lenkt den Verkehr: Fahrzeug A fährt geradeaus, B (aus der Seitenstraße) muss rechts abbiegen, C muss rechts in die Seitenstraße abbiegen. Über die Sperrfläche darf niemand fahren.
+20799: Wegen der Verkehrsinsel muss C nach rechts abbiegen.
+20800: Wegen der Verkehrsinsel muss B nach rechts abbiegen.
+20801: A muss geradeaus fahren.
+20802: Die Sperrfläche lässt C nicht jede Richtung.
+20803: B darf wegen der Insel nicht links abbiegen.
+20804: A darf wegen der Insel nicht links abbiegen.
+
+G 4221: Gleiche T-Kreuzung, aber nur mit Leitlinien (gestrichelt, ohne Sperrfläche). Gestrichelte Linien darf man überfahren: A darf in jede Richtung fahren, B darf links abbiegen (muss aber A Vorfahrt gewähren), C darf geradeaus fahren.
+20805: C darf geradeaus fahren.
+20806: B darf links abbiegen, muss aber dem Fahrzeug A Vorfahrt gewähren.
+20807: A darf jede Richtung wählen.
+20808: C muss nicht rechts abbiegen.
+20809: B muss nicht rechts abbiegen.
+20810: A darf auch abbiegen.
+
+G 4222: Fahrstreifen mit Richtungspfeilen: links „geradeaus + links“, Mitte „nur geradeaus“, rechts „geradeaus + rechts“. Den Fahrstreifen wechseln darf man nur, solange die Linien gestrichelt sind.
+20811: Alle drei Pfeile enthalten „geradeaus“.
+20812: Links: geradeaus oder links.
+20813: Mitte: nur geradeaus.
+20814: Rechts: geradeaus oder rechts.
+20815: Solange die Linien gestrichelt sind, darf man wechseln.
+20816: Das Fahrzeug steht bereits auf dem Streifen, der links erlaubt.
+20817: Links erlaubt auch geradeaus.
+20818: Der rechte Fahrstreifen ist nicht für langsame Fahrzeuge reserviert.
+20819: Rechts erlaubt auch geradeaus.
+20820: Durchgehende Linien darf man nie überfahren.
+
+G 4223: Drei Abbiegestreifen ohne Geradeauspfeil: A nur links; keiner der Streifen erlaubt geradeaus. Wechseln nur, wo die Linien noch gestrichelt sind.
+20821: Keiner der Streifen erlaubt geradeaus.
+20822: Fahrstreifen A: nur links.
+20823: Wechseln darf man nur im gestrichelten Bereich.
+20824: Alle drei gehen in dieselbe Richtung – es ist kein Gegenverkehr.
+20825: Geradeaus ist auf keinem Streifen erlaubt.
+20826: B erlaubt kein Geradeausfahren.
+
+G 4224: Fahrstreifen A: nur links; B: geradeaus oder links; C: der einzige für rechts. Wechseln nur im gestrichelten Bereich.
+20827: A erlaubt nur links.
+20828: B erlaubt geradeaus oder links.
+20829: Nur C erlaubt das Rechtsabbiegen.
+20830: Wechseln ist im gestrichelten Bereich erlaubt.
+20831: A erlaubt kein Geradeausfahren.
+20832: Auch B erlaubt das Linksabbiegen.
+20833: B erlaubt auch das Linksabbiegen.
+20834: Laut offizieller Lösung erlaubt C nicht nur das Rechtsabbiegen (z. B. auch geradeaus).
+
+G 4234: Durchgehende weiße Linie (Sperrlinie) in der Fahrbahnmitte. Trennt auf Gegenverkehrsstraßen die Fahrtrichtungen und darf nie überfahren werden – auch nicht teilweise. Sie steht z. B. vor Kurven, auf dem ansteigenden Teil von Kuppen und bei Fußgängerüberwegen. Überholen ist nur erlaubt, wenn man sie nicht überfährt.
+20911: Sie teilt die Fahrbahn in zwei Fahrstreifen.
+20912: Sie darf nicht überfahren werden.
+20913: Auf Gegenverkehrsstraßen trennt sie die Fahrtrichtungen.
+20914: Am ansteigenden Teil von Kuppen sieht man nichts – dort steht sie.
+20915: Sie kann bei Fußgängerüberwegen stehen.
+20916: Überholen ist erlaubt, wenn man die Linie nicht überfährt.
+20917: Sie trennt Fahrstreifen, nicht zwei Fahrbahnen.
+20918: Auf der Linie zu fahren ist verboten.
+20919: Auch nicht mit den linken Rädern.
+20920: Wenden würde das Überfahren bedeuten – verboten.
+
+G 4210: Unterbrochene (gestrichelte) weiße Linie. Sie darf überfahren werden – zum Überholen, Linksabbiegen oder Wenden, wenn es sicher ist. Man darf aber nicht dauernd auf ihr fahren.
+20709: Gestrichelte Linien darf man überfahren.
+20710: Sie unterteilt die Fahrbahn in zwei Fahrstreifen.
+20711: Auf zweispurigen Gegenverkehrsstraßen trennt sie die Richtungen.
+20712: Zum Überholen darf man kurz auf den anderen Fahrstreifen.
+20713: Wenden ist erlaubt, wenn es gefahrlos geht.
+20714: Linksabbiegen ist erlaubt.
+20715: Dauernd auf der Linie zu fahren ist verboten.
+20716: Radwege werden anders abgegrenzt.
+20717: An Bahnübergängen gibt es eigene Markierungen.
+20718: Markierungsnägel ersetzen keine Linie in dieser Form.
+
+G 4227: Gestrichelte Linie auf einer Einbahnstraße: Sie trennt zwei Fahrstreifen in dieselbe Richtung. Man darf sie zum Überholen überfahren – auch in Kurven und an Kuppen, weil kein Gegenverkehr kommt. Der linke Streifen dient in der Regel zum Überholen.
+20854: Auf Einbahnstraßen darf man zum Überholen die Linie überfahren.
+20855: Ohne Gegenverkehr ist Überholen auch in Kurven erlaubt.
+20856: Die Fahrbahn hat zwei Fahrstreifen.
+20857: Der linke Streifen dient in der Regel zum Überholen.
+20858: Ohne Gegenverkehr darf man auch an Kuppen überholen.
+20859: Paralleles Fahren ist nicht „immer“ erlaubt, sondern nur bei dichtem Verkehr.
+20860: Auf Einbahnstraßen ist Wenden verboten.
+20861: Dauernd auf der Linie zu fahren ist verboten.
+20862: Zum Linksabbiegen ordnet man sich links ein.
+
+G 4230: Gestrichelte Mittellinie auf einer Gegenverkehrsstraße: Überholen über die Linie ist erlaubt – aber nur bei ausreichender Sicht und freier Gegenfahrbahn (nicht in Kurven oder an Kuppen). Zum Linksabbiegen ordnet man sich zur Mitte hin ein.
+20882: Man darf die gestrichelte Mittellinie zum Überholen überfahren.
+20883: Dauernd darauf zu fahren ist verboten.
+20884: Zum Linksabbiegen nach links zur Fahrbahnmitte einordnen.
+20885: Überholen nur bei guter Sicht und freier Gegenfahrbahn.
+20886: In unübersichtlichen Kurven ist Überholen verboten – auch in der Stadt.
+20887: Wer wendet, muss den anderen Fahrstreifen benutzen.
+20888: Der linke Fahrstreifen ist für den Gegenverkehr, nicht zum Parken.
+
+G 4233: Auf einer Einbahnfahrbahn grenzt die gestrichelte weiße Linie die Fahrstreifen ab (gleiche Richtung).
+20905: Auf Einbahnfahrbahnen trennt sie die Fahrstreifen.
+20906: Sie trennt die Fahrstreifen voneinander.
+20907: Auf Einbahnstraßen ist Wenden verboten.
+20908: Sie teilt Fahrstreifen, keine Fahrbahnen mit Gegenverkehr.
+20909: Sie kommt auch auf Gegenverkehrsstraßen vor.
+20910: Auf Einbahnstraßen gibt es keine zwei Fahrtrichtungen.
+
+G 4237: Markierung „Bahnübergang“ (Andreaskreuz mit Buchstaben auf der Fahrbahn). Kündigt einen Bahnübergang – mit oder ohne Schranken – an. Hier nicht auf die linke Fahrbahnseite ausweichen und auf Züge achten.
+20945: Sie befindet sich in der Nähe eines Bahnübergangs.
+20946: Sie kann vor einem unbeschrankten Bahnübergang stehen.
+20947: Sie kann auch vor einem beschrankten Bahnübergang stehen.
+20948: Vor dem Bahnübergang darf man nicht auf die linke Seite fahren (Überholverbot).
+20949: Man muss auf nahende Züge achten.
+20950: Es geht um die Eisenbahn, nicht um eine Straßenbahn.
+20951: Sie kommt bei allen Bahnübergängen vor.
+20952: Sie hat nichts mit der Gemeindepolizei zu tun.
+20953: Bushaltestellen haben gelbe Markierungen.
+
+G 4212: Doppelte durchgehende Mittellinie. Trennt auf Gegenverkehrsstraßen die Richtungen und darf nie überfahren werden: kein Wenden, kein Linksabbiegen. Überholen nur, wenn man sie nicht überfährt.
+20726: Sie trennt auf Gegenverkehrsstraßen die Richtungen.
+20727: Sie darf nicht überfahren werden.
+20728: Überholen ist erlaubt, ohne sie zu überfahren.
+20729: Wenden ist verboten.
+20730: Linksabbiegen ist verboten.
+20731: Fahrbahnränder werden mit einer einfachen Linie markiert.
+20732: Sie hat nichts mit parallelem Fahren zu tun.
+20733: Die Haltelinie verläuft quer zur Fahrbahn.
+20734: Mittellinien sind nie blau.
+20735: Sie darf gerade nicht überfahren werden.
+
+G 4228: Fußgängerüberweg (Zebrastreifen, breite weiße Streifen parallel zur Fahrbahn). Gibt es innerorts und außerorts; Fußgänger haben hier Vorrang.
+20863: Zebrastreifen gibt es innerorts und außerorts.
+20864: Auch in kleinen Ortschaften kann es Zebrastreifen geben.
+20865: Die Markierung zeigt einen Fußgängerüberweg.
+20866: Die Markierung zeigt einen Fußgängerüberweg.
+20867: Fußgänger haben hier Vorrang.
+20868: Verkehrsinseln bestehen aus Schrägstrichen.
+20869: Radfahrerüberwege haben zwei gestrichelte Linien.
+20870: Radfahrerüberwege haben zwei gestrichelte Linien.
+20871: Grundstückseinfahrten werden mit einem Schild gekennzeichnet.
+
+G 4232: Am Zebrastreifen muss man anhalten, wenn Fußgänger queren oder queren wollen. Er kann mit dem Hinweiszeichen „Fußgängerüberweg“ ergänzt sein; auf zweitrangigen Freilandstraßen steht vorher das Gefahrenzeichen. Davor kann rechts eine gelbe Zickzacklinie (Halteverbot) sein. Darüberfahren ist erlaubt, wenn niemand quert.
+20896: Er kann mit dem Zeichen „Fußgängerüberweg“ ergänzt werden.
+20897: Queren Fußgänger, muss man anhalten.
+20898: Eine gelbe Zickzacklinie rechts davor zeigt, dass man dort nicht halten darf.
+20899: Auf zweitrangigen Freilandstraßen steht vorher das Gefahrenzeichen.
+20900: Fußgängern, die queren wollen, muss man Vorrang lassen.
+20901: Es ist keine Zufluchtsinsel.
+20902: Darüberfahren ist erlaubt, wenn keine Fußgänger queren.
+20903: Er ist für alle Fußgänger.
+20904: Gerade hier dürfen Fußgänger queren.
+
+G 4214: Richtungspfeile auf der Fahrbahn. Sie stehen vor Kreuzungen in den Fahrstreifen und zeigen die erlaubten Richtungen. Bei durchgehenden Begrenzungslinien sind sie verbindlich; solange die Linien gestrichelt sind, darf man noch wechseln. Sie können durch Ortsnamen ergänzt sein und sind immer weiß.
+20743: Sie stehen vor Kreuzungen in den Fahrstreifen.
+20744: Sie zeigen die erlaubten Richtungen an der Kreuzung.
+20745: Im gestrichelten Bereich darf man noch den Fahrstreifen wählen.
+20746: Bei durchgehenden Linien muss man in Pfeilrichtung fahren.
+20747: Für geradeaus und rechts gibt es den kombinierten Pfeil.
+20748: Sie können durch Ortsnamen auf der Fahrbahn ergänzt werden.
+20749: Sie zeigen die erlaubten Richtungen.
+20750: Bei gestrichelten Linien kann man noch wechseln – der Pfeil bindet erst bei durchgehenden Linien.
+20751: Sie haben nichts mit Notspuren zu tun.
+20752: Durchgehende Linien darf man nicht überfahren.
+20753: Richtungspfeile sind weiß.
+20754: Richtungspfeile sind weiß.
+20755: Auch auf Autobahnen sind sie weiß.
+
+G 4219: Bushaltestelle (gelbe Markierung mit Zickzacklinie und BUS-Schriftzug) für Busse, Oberleitungsbusse und Gelenkbusse im Linienverkehr. Die Zickzacklinie hilft dem Bus beim Ein- und Ausfahren. Im ganzen Bereich ist Parken verboten, kurzes Halten (für andere Fahrzeuge) laut offizieller Liste erlaubt.
+20788: Sie zeigt eine Haltestelle für Linienbusse.
+20789: Auch Oberleitungsbusse halten hier.
+20790: Die Zickzacklinie erleichtert dem Bus das Heranfahren und Wiederanfahren.
+20791: Parken ist im ganzen Bereich verboten; kurzes Halten ist laut offizieller Lösung nicht verboten.
+20792: Auch Gelenkbusse halten hier.
+20793: Taxis dürfen hier nicht parken.
+20794: Pkw dürfen durch den Bereich fahren.
+20795: Eine solche 20-m-Regel gibt es nicht.
+20796: Lkw dürfen durchfahren.
+20797: Bushaltestellen sind gelb markiert.
+20798: Parken ist rund um die Uhr verboten.
+
+G 4229: Haltelinie (durchgehende weiße Querlinie). Hier hält man bei STOP-Zeichen, bei roter Ampel oder auf Anweisung eines Polizisten. Sie kann mit dem Schriftzug STOP ergänzt sein. Bei Grün darf man sie überfahren.
+20872: Sie kann an Kreuzungen mit Ampel vorkommen.
+20873: Sie kann mit dem Schriftzug STOP ergänzt sein.
+20874: Beim STOP-Zeichen hält man an dieser Linie.
+20875: Bei Rot hält man an dieser Linie.
+20876: Sie ist eine Haltelinie.
+20877: Zu „Vorfahrt gewähren“ gehört eine gestrichelte Wartelinie, nicht diese.
+20878: Fußgängerüberwege haben Zebrastreifen.
+20879: Radfahrerüberwege haben gestrichelte Linien.
+20880: Bei Grün oder nach dem Anhalten darf man sie überfahren.
+20881: Sie hat nichts mit Parken zu tun.
+
+G 4239: Haltelinie in verschiedenen Situationen: an der Ampel bei Rot, auf Anweisung des Polizisten oder beim STOP-Zeichen. An einer Ampelkreuzung muss man nicht immer anhalten – nur bei Rot.
+20963: Bei roter Ampel hält man an der Haltelinie.
+20964: Schreibt der Polizist es vor, hält man an der Haltelinie.
+20965: Die Haltelinie zeigt, wo man anhalten muss.
+20967: An einer Ampel muss man nur bei Rot anhalten, nicht immer.
+20968: Die Linie selbst regelt keine Vorfahrt.
+20969: Sie steht nicht an Grundstücksausfahrten.
+
+G 4217: Doppelte Längslinie, auf der eigenen Seite gestrichelt, auf der anderen durchgehend. Das Fahrzeug auf der Seite der gestrichelten Linie darf beide Linien zum Überholen überfahren; für den Gegenverkehr (durchgehende Seite) ist das verboten. Sie steht z. B. nach einer Kurve, nach einem Bahnübergang oder am abfallenden Teil einer Kuppe.
+20771: Nach einer Kurve wird die Sicht wieder frei – dort darf man wieder überholen.
+20772: Die gestrichelte Linie auf der eigenen Seite erlaubt das Überfahren beider Linien.
+20773: Nach dem Bahnübergang ist Überholen wieder erlaubt.
+20774: Am abfallenden Teil einer Kuppe ist die Sicht wieder frei.
+20775: Für den Gegenverkehr ist die Linie durchgehend – er darf nicht überfahren.
+20776: Doppellinien trennen Gegenverkehr, nicht Einbahnstraßen.
+20777: Am ansteigenden Teil ist die Sicht schlecht – dort ist die Linie durchgehend.
+20778: Vor Kreuzungen ist die eigene Seite durchgehend.
+20779: Vor Kurven ist die eigene Seite durchgehend.
+
+G 4216: Doppelte Längslinie, auf der eigenen Seite durchgehend. Das Fahrzeug darf die Linie nicht überfahren (der Gegenverkehr auf der gestrichelten Seite schon). Sie steht vor Kurven, am ansteigenden Teil von Kuppen und vor Kreuzungen.
+20762: Vor einer Kurve ist die eigene Linie durchgehend.
+20763: Am ansteigenden Teil einer Kuppe ist sie durchgehend.
+20764: Vor einer Kreuzung ist sie durchgehend.
+20765: Die durchgehende Linie darf nicht überfahren werden.
+20766: Doppellinien gibt es auf Gegenverkehrsstraßen.
+20767: Auf dem abfallenden Teil ist sie gestrichelt.
+20768: Nicht „immer“ an Bahnübergängen – vor allem vor Kurven, Kuppen, Kreuzungen.
+20769: Wenden würde das Überfahren der Linie bedeuten.
+20770: Durchgehende Linien darf man nie überfahren.
+
+G 4218: Gelb-schwarze Markierung am Gehsteigrand (senkrechte Kante). Auf dieser Straßenseite ist Parken verboten, Halten erlaubt.
+20780: Sie zeigt ein Parkverbot an.
+20781: Sie ist an der senkrechten Kante des Gehsteigs angebracht.
+20782: Auf dieser Seite darf man nicht parken.
+20783: Halten ist erlaubt.
+20784: Sie gilt für alle Fahrzeuge, auch für Busse.
+20785: Hindernisse in der Fahrbahnmitte werden anders markiert.
+20786: Sie ist keine Stufen-Warnung für Fußgänger.
+20787: Halten ist erlaubt – nur Parken verboten.
+
+G 4225: Gelb-schwarzer Gehsteigrand = Parkverbot für alle Fahrzeuge, auch für Taxis.
+20835: Auch Taxis dürfen hier nicht parken.
+20836: Kein Fahrzeug darf parken.
+20837: In diesem Bereich ist Parken verboten.
+20838: Gebührenpflichtiges Parken wird blau markiert.
+20839: Parken ist ganz verboten, nicht zeitlich begrenzt.
+20840: Straßenarbeiten werden anders gekennzeichnet.
+20841: Vorfahrtsstraßen haben die gelbe Raute.
+
+G 4238: Notspur (Pannenstreifen, Spur A) auf Autobahnen, abgegrenzt durch eine durchgehende weiße Linie. Nur im Notfall benutzen (z. B. Panne, max. 3 Stunden) – nie zum Überholen oder Fahren, auch nicht bei Stau.
+20955: Bei einer Panne darf man höchstens 3 Stunden auf der Notspur stehen.
+20956: Zum Überholen darf man die Notspur nie benutzen.
+20958: Die Linie zeigt keinen Parkbereich an.
+20959: Die durchgehende Linie darf auch bei Stau nicht überfahren werden.
+20960: Die Notspur ist nicht zum Abbiegen da.
+20961: Die Notspur ist nicht zum Verlangsamen da.
+20962: Die Notspur ist für alle Fahrzeuge gesperrt, auch für Krafträder.
+
+G 4211: Mittellinien: Gestrichelt darf man sie überfahren, durchgehend nicht – auch eine Doppellinie nicht (und nicht darauf fahren). Mittellinien sind weiß.
+20719: Gestrichelte Mittellinien darf man überfahren.
+20720: Durchgehende Mittellinien darf man nicht überfahren.
+20721: Bei einfacher durchgehender Linie ist Überholen erlaubt, ohne sie zu überfahren.
+20722: Auf einer Doppellinie zu fahren ist ebenso verboten.
+20723: Mittellinien sind weiß, nicht blau.
+20724: Markierungsnägel im Abstand von 50 cm sind dafür nicht vorgesehen.
+20725: Überholen ist erlaubt, solange man die Linie nicht überfährt.
+
+G 4231: Mittellinien auf Gegenverkehrsfahrbahnen können gestrichelt, durchgehend oder doppelt durchgehend sein. Gestrichelt darf man sie zum Überholen überfahren; durchgehende Linien nicht – Überholen ist dann nur erlaubt, wenn man sie nicht berührt.
+20889: Die Mittellinie kann durchgehend oder gestrichelt sein.
+20890: Gestrichelte Mittellinien darf man zum Überholen überfahren.
+20891: Die Mittellinie kann auch doppelt durchgehend sein.
+20892: Überholen ist erlaubt, solange man die durchgehenden Linien nicht überfährt.
+20893: Die Mittellinien trennen die Fahrtrichtungen.
+20894: Eine durchgehende Linie darf man gar nicht überfahren – auch nicht mit den linken Rädern.
+20895: Die Mittellinie trennt zwei Fahrstreifen, nicht zwei Fahrbahnen.
+
+G 4226: Schriftzüge auf der Fahrbahn: BUS (gelb) an Bushaltestellen, TAXI (gelb) bei Taxiständen, STOP vor dem STOP-Zeichen, P L mit Andreaskreuz vor Bahnübergängen, Ortsnamen zu Richtungspfeilen. Querstreifen auf der Fahrbahn mahnen zum Langsamfahren. Werbung oder andere Aufschriften sind nicht erlaubt.
+20842: Gelbes BUS gehört zu Haltestellen von Linienbussen.
+20843: Gelbes TAXI kennzeichnet Taxistandplätze.
+20844: STOP auf der Fahrbahn ergänzt das STOP-Zeichen.
+20845: P L mit Andreaskreuz zeigt einen Bahnübergang.
+20846: Diese Querlinien mahnen, langsamer zu fahren.
+20847: Ortsnamen ergänzen Richtungspfeile.
+20848: STOP gehört zum STOP-Zeichen, nicht zu „Vorfahrt gewähren“.
+20849: Hinweise auf Raststätten auf der Fahrbahn sind nicht vorgesehen.
+20850: Werbung auf der Fahrbahn ist verboten.
+20851: Anfeuerungen gehören nicht zur Straßenmarkierung.
+20852: TAXI ist gelb, nicht weiß.
+20853: „SPIELPLATZ“ ist keine vorgesehene Fahrbahnaufschrift.
+
+G 4235: Weitere Markierungen: eine Zahl auf der Fahrbahn zeigt die empfohlene Geschwindigkeit; die quer liegende Erhöhung ist eine Bremsschwelle zur Geschwindigkeitsbegrenzung; gelbe Linien grenzen Parkplätze für Menschen mit Behinderung ab, die gelben Schrägstriche daneben müssen zum Ein- und Aussteigen frei bleiben.
+20921: Die Zahl auf der Fahrbahn ist die empfohlene Geschwindigkeit.
+20922: Das ist eine Bremsschwelle.
+20923: Sie begrenzt die Geschwindigkeit.
+20924: Sie ist eine Vorrichtung zur Geschwindigkeitsbegrenzung.
+20925: Gelbe Begrenzungen kennzeichnen Behindertenparkplätze.
+20926: Die Schrägstreifen müssen frei bleiben, damit man ein- und aussteigen kann.
+20927: Die Zahl ist eine Geschwindigkeit, keine Tonnenangabe.
+20929: Radfahrerüberwege sind gestrichelte Linien.
+20930: Fußgängerüberwege sind Zebrastreifen.
+20931: Taxis haben gelbe TAXI-Aufschriften.
+20932: Ladezonen werden anders gekennzeichnet.
+
+G 4236: Gestrichelte weiße Randlinien trennen die Fahrbahn von Haltebuchten, Grundstückseinfahrten, Beschleunigungsstreifen oder Nebenstraßen; in Kreuzungen sind gestrichelte Linien Leitlinien. Man darf sie überfahren.
+20933: Sie trennt die Fahrbahn von einer Haltebucht.
+20934: Sie trennt die Fahrbahn von einer Grundstückseinfahrt.
+20935: In der Kreuzung sind das Leitlinien.
+20936: Sie trennt die Fahrbahn von einem Beschleunigungsstreifen.
+20937: Sie markiert den Rand der Hauptstraße zur Nebenstraße.
+20938: Gestrichelte Linien darf man normal überfahren.
+20939: Sie sagt nichts über Parken.
+20940: Die Notspur wird mit einer durchgehenden Linie abgegrenzt.
+20941: Ein Bankett beginnt hinter einer durchgehenden Randlinie.
+20942: Leitlinien helfen beim Abbiegen.
+20943: Laut Bild ist es eine Grundstückseinfahrt, kein Radweg.
+20944: Laut Bild ist es ein Beschleunigungsstreifen.
