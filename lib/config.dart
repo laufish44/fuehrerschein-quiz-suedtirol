@@ -9,11 +9,14 @@ class AppConfig {
   static const latestReleaseApi =
       'https://api.github.com/repos/$githubOwner/$githubRepo/releases/latest';
 
-  /// Google-OAuth-Client vom Typ "Desktop-App" für den Google-Drive-Sync.
-  /// Bei Desktop-Clients gilt das Secret laut Google nicht als geheim und darf
-  /// in der App stehen. Leer = Sync noch nicht eingerichtet.
-  static const googleClientId = '';
-  static const googleClientSecret = '';
+  /// Kennung der App bei Google (OAuth-Client vom Typ "Desktop-App") für den Drive-Sync.
+  /// Das ist KEIN Zugang zu einem Drive – jeder Nutzer meldet sich mit seinem eigenen Konto an,
+  /// und sein Token bleibt nur auf seinem Gerät. Die Werte stehen nicht im Quellcode, sondern
+  /// werden beim Bauen über GitHub-Secrets gesetzt:
+  ///   flutter build ... --dart-define=GOOGLE_CLIENT_ID=... --dart-define=GOOGLE_CLIENT_SECRET=...
+  /// Leer = Sync nicht eingerichtet (z. B. lokale Entwicklungs-Builds).
+  static const googleClientId = String.fromEnvironment('GOOGLE_CLIENT_ID');
+  static const googleClientSecret = String.fromEnvironment('GOOGLE_CLIENT_SECRET');
   static const driveScope = 'https://www.googleapis.com/auth/drive.appdata';
   static const driveFileName = 'fuehrerschein-quiz-sync.json';
 

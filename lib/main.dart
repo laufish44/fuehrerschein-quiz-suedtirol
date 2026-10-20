@@ -12,6 +12,7 @@ import 'services/update_service.dart';
 import 'ui/exam_tab.dart';
 import 'ui/home_tab.dart';
 import 'ui/learn_tab.dart';
+import 'ui/login_screen.dart';
 import 'ui/more_tab.dart';
 import 'ui/question_list_screen.dart';
 import 'ui/settings_screen.dart';
@@ -71,8 +72,21 @@ class QuizApp extends StatelessWidget {
       locale: Locale(app.settings.uiLanguage),
       supportedLocales: const [Locale('de'), Locale('it')],
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
-      home: const HomeShell(),
+      home: const AuthGate(),
     );
+  }
+}
+
+/// Ohne Google-Anmeldung keine App: Der Lernstand liegt im eigenen Google Drive.
+class AuthGate extends StatelessWidget {
+  const AuthGate({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    context.watch<AppState>();
+    final sync = context.watch<DriveSync>();
+    if (DriveSync.supported && !sync.connected) return const LoginScreen();
+    return const HomeShell();
   }
 }
 

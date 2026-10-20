@@ -507,7 +507,31 @@ class SyncScreen extends StatelessWidget {
                               ),
                             ),
                             const SizedBox(width: 8),
-                            OutlinedButton(onPressed: sync.disconnect, child: Text(context.tr('Trennen', 'Scollega'))),
+                            OutlinedButton(
+                              onPressed: () async {
+                                final ok = await showDialog<bool>(
+                                  context: context,
+                                  builder: (ctx) => AlertDialog(
+                                    title: Text(context.trNow('Abmelden?', 'Uscire?')),
+                                    content: Text(context.trNow(
+                                      'Zum Weiterlernen musst du dich danach wieder mit Google anmelden. Dein Lernstand bleibt in deinem Drive und auf diesem Gerät gespeichert.',
+                                      'Per continuare dovrai accedere di nuovo con Google. I tuoi progressi restano nel tuo Drive e su questo dispositivo.',
+                                    )),
+                                    actions: [
+                                      TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(context.trNow('Abbrechen', 'Annulla'))),
+                                      FilledButton(onPressed: () => Navigator.pop(ctx, true), child: Text(context.trNow('Abmelden', 'Esci'))),
+                                    ],
+                                  ),
+                                );
+                                if (ok == true) {
+                                  await app.save();
+                                  await sync.syncNow();
+                                  await sync.disconnect();
+                                  if (context.mounted) Navigator.of(context).popUntil((r) => r.isFirst);
+                                }
+                              },
+                              child: Text(context.tr('Abmelden', 'Esci')),
+                            ),
                           ],
                         ),
                       ],

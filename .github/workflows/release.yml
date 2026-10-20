@@ -45,12 +45,14 @@ jobs:
         run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
       - run: flutter pub get
       - name: APK bauen
-        run: flutter build apk --release --target-platform android-arm,android-arm64 --build-name="$VERSION" --build-number="$BUILD"
+        run: flutter build apk --release --target-platform android-arm,android-arm64 --build-name="$VERSION" --build-number="$BUILD" --dart-define=GOOGLE_CLIENT_ID="$GOOGLE_CLIENT_ID" --dart-define=GOOGLE_CLIENT_SECRET="$GOOGLE_CLIENT_SECRET"
         env:
           ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.jks
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
       - run: mv build/app/outputs/flutter-apk/app-release.apk "FuehrerscheinQuiz-$VERSION-android.apk"
       - uses: actions/upload-artifact@v4
         with:
@@ -78,7 +80,7 @@ jobs:
           "BUILD=$($p[0] * 10000 + $p[1] * 100 + $p[2])" >> $env:GITHUB_ENV
       - run: flutter pub get
       - name: Windows-App bauen
-        run: flutter build windows --release --build-name=${{ env.VERSION }} --build-number=${{ env.BUILD }}
+        run: flutter build windows --release --build-name=${{ env.VERSION }} --build-number=${{ env.BUILD }} --dart-define=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }} --dart-define=GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
       - name: Installer bauen (Inno Setup)
         shell: pwsh
         run: |
