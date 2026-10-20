@@ -60,7 +60,7 @@
 - Optional: eigenen kostenlosen Gemini-Schlüssel eintragen und direkt in der App chatten (inkl. Bild der Frage)
 
 **Sync & Backup**
-- Optionaler Abgleich über den eigenen Google Drive (versteckter App-Ordner) – Handy und PC bleiben auf demselben Stand
+- Anmeldung mit dem eigenen Google-Konto: Der Lernstand liegt in einem versteckten App-Ordner im eigenen Google Drive – Handy und PC bleiben auf demselben Stand. Die App sieht nur ihre eigene Datei, und die Anmeldung bleibt auf dem eigenen Gerät ([Datenschutz](https://laufish44.github.io/fuehrerschein-quiz-suedtirol/privacy.html))
 - Export/Import als Datei; beim Import wird nichts überschrieben, sondern zusammengeführt
 
 ## Hinweise
@@ -80,9 +80,11 @@ python tools/extract_questions.py "Conseguimento A-B tedesco.pdf" "Conseguimento
 Neue Version veröffentlichen: Version in `CHANGELOG.md` eintragen, dann
 
 ```bash
-git tag v1.2.0 && git push origin v1.2.0
+git tag v1.3.0 && git push origin v1.3.0
 ```
 
 GitHub Actions baut daraufhin APK und Windows-Installer und erstellt das Release ([release.yml](.github/workflows/release.yml)).
+
+Die Google-Anmeldung braucht einen OAuth-Client vom Typ „Desktop-App“ mit dem Bereich `drive.appdata`. Client-ID und Secret stehen nicht im Code, sondern als Repository-Secrets `GOOGLE_CLIENT_ID` und `GOOGLE_CLIENT_SECRET` und werden beim Bauen mit `--dart-define` gesetzt. Lokale Builds ohne diese Werte laufen ohne Anmeldung.
 
 Lizenz des Codes: MIT.

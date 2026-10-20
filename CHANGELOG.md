@@ -1,5 +1,13 @@
 # Änderungen
 
+## 1.3.0
+
+- Anmeldung mit dem eigenen Google-Konto ist jetzt Voraussetzung: Der Lernstand wird in einem versteckten App-Ordner im eigenen Google Drive gesichert und beim Start zwischen Handy und PC abgeglichen. Der bisherige Lernstand auf dem Gerät bleibt erhalten und wird bei der ersten Anmeldung hochgeladen
+- Die App sieht nur ihre eigene Sicherungsdatei, nicht den Rest des Drives; die Anmeldung bleibt nur auf dem eigenen Gerät
+- Abmelden unter Einstellungen → Sync & Backup
+- Offline-Erklärungen für Kapitel 1 (Straßen und Fahrzeuge) und 9 (Lichtzeichen und Handzeichen der Polizei) – damit sind 3.620 der 7.020 Aussagen erklärt
+- Webseite mit Datenschutzerklärung: https://laufish44.github.io/fuehrerschein-quiz-suedtirol/
+
 ## 1.2.0
 
 - Kapitel wie im Theoriebuch (24 Kapitel, gleiche Nummern und Namen) – die Prüfungssimulation folgt weiter dem Ministeriumsprogramm
