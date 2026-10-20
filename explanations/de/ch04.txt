@@ -1,0 +1,505 @@
+# Kapitel 4 – Gebotszeichen
+# Gebotszeichen sind rund und blau mit weißem Symbol. Sie schreiben etwas vor (Vorschriftszeichen).
+
+G 4189: Vorankündigung „Vorgeschriebene Fahrtrichtung für Lkw über 3,5 t“ (blaues Rechteck mit Lkw und Pfeil). Lastkraftwagen über 3,5 t müssen an der folgenden Kreuzung in Pfeilrichtung (hier rechts) abbiegen – geradeaus oder links ist für sie verboten. Für andere Fahrzeuge gilt es nicht.
+20454: Lkw über 3,5 t müssen nach rechts abbiegen.
+20455: Für Lkw über 3,5 t ist geradeaus verboten.
+20456: Die abgebildeten Fahrzeuge (Lkw) müssen rechts abbiegen.
+20457: Für Lkw über 3,5 t ist auch links abbiegen verboten.
+20458: Die abgebildeten Fahrzeuge müssen abbiegen.
+20459: Lkw über 3,5 t müssen in Pfeilrichtung abbiegen.
+20460: Tankstellen werden mit eigenen Hinweiszeichen angekündigt.
+20461: Es ist eine Pflicht, keine Empfehlung.
+20462: Es ist das Gegenteil: Rechtsabbiegen ist Pflicht.
+20463: Parkplätze werden mit dem blauen P angezeigt.
+20464: Der Pfeil zeigt nach rechts, und nur Lkw über 3,5 t sind betroffen.
+20465: Es ist kein Gefahrenzeichen.
+
+G 4150: Vorankündigung „Vorgeschriebene Fahrtrichtung links“ (blauer Kreis, Pfeil geradeaus und dann links). Steht vor einer Kreuzung, an der man nach links abbiegen muss; dort folgt das Zeichen „Vorgeschriebene Fahrtrichtung – links“. Geradeaus und rechts sind verboten.
+20033: An der Kreuzung darf man nicht geradeaus weiterfahren.
+20034: Rechts abbiegen ist ebenfalls nicht erlaubt.
+20035: Es steht vor der Kreuzung.
+20036: An der Kreuzung selbst folgt das Zeichen „Vorgeschriebene Fahrtrichtung – links“.
+20037: Blau und rund = Gebotszeichen.
+20038: Gebotszeichen sind Vorschriftszeichen.
+20039: Einbahnstraßen haben ein blaues rechteckiges Hinweiszeichen.
+20040: Es ist ein Gebots-, kein Hinweiszeichen.
+20041: Das Vorbeifahren an Hindernissen hat einen schräg nach unten zeigenden Pfeil.
+20042: Es hat nichts mit Gefälle zu tun.
+20043: Es schreibt keinen Spurwechsel vor.
+20044: Kurven werden mit Gefahrenzeichen angekündigt.
+
+G 4158: Das Zeichen kündigt an, dass man an der nächsten Kreuzung nach links abbiegen muss – es ist die einzig erlaubte Richtung. Eine Tafel kann die Entfernung zur Kreuzung angeben.
+20144: Man muss nach links abbiegen.
+20145: An der Kreuzung darf man weder geradeaus noch rechts fahren.
+20146: An der nächsten Kreuzung muss man links einbiegen.
+20147: Es steht vor der Kreuzung, an der man links abbiegen muss.
+20148: Es kündigt die vorgeschriebene Fahrtrichtung an.
+20149: Links ist die einzig erlaubte Richtung.
+20150: Eine Tafel kann die Entfernung bis zur Kreuzung angeben.
+20151: Im Gegenteil: Linksabbiegen ist Pflicht.
+20152: Geradeaus ist nicht erlaubt – nur links.
+20153: Geradeaus ist nicht erlaubt.
+20154: Es sagt nichts über Einbahnverkehr.
+20155: Es ist ein Gebots-, kein Verbotszeichen.
+20156: Es hat nichts mit einer Beschleunigungsspur zu tun.
+20157: Es ist eine Pflicht, keine Empfehlung.
+
+G 4170: Gebotszeichen „Kreisverkehr“ (drei weiße Pfeile im Kreis auf blauem Grund). Steht vor der Einfahrt in einen Kreisverkehr: Man muss in Pfeilrichtung (gegen den Uhrzeigersinn) fahren. Es steht an der Einfahrt, nicht auf der Mittelinsel.
+20274: Es zeigt eine Kreuzung mit Kreisverkehr an.
+20275: Auf einem Platz mit diesem Zeichen muss man in Pfeilrichtung fahren.
+20276: Es steht vor der Einfahrt in den Kreisverkehr.
+20277: Es ist ein Vorschriftszeichen.
+20278: Es ist ein Gebots-, kein Verbotszeichen.
+20279: Es schreibt den Kreisverkehr vor, nicht „links abbiegen“.
+20280: Es steht an der Einfahrt, nicht auf der Mittelinsel.
+20281: Es wird nicht mit „Vorbeifahrt links“ ergänzt.
+20282: Es ist kein Hinweiszeichen.
+
+G 4171: Vor einem Kreisverkehr steht dieses Gebotszeichen (A); außerorts geht ihm das Gefahrenzeichen „Kreisverkehr“ (B) voraus. Es gilt für alle Fahrzeuge.
+20283: Es steht vor der Einfahrt in einen Platz mit Kreisverkehr.
+20284: In der Kreuzung herrscht Kreisverkehr.
+20285: Blau und rund = Gebotszeichen.
+20286: Man muss in Pfeilrichtung fahren.
+20287: Außerorts kündigt das dreieckige Gefahrenzeichen (B) den Kreisverkehr vorher an.
+20288: Es gilt für alle Fahrzeuge.
+20289: Es steht an der Einfahrt, nicht in der Mitte.
+20290: Es hat nichts mit einer Sackgasse zu tun.
+20291: Es schreibt kein Umkehren vor.
+20292: Es gilt auch für Kleinkrafträder.
+
+G 4172: Gebotszeichen „Mindestgeschwindigkeit“ (hier 30 km/h, blau). Man muss mindestens so schnell fahren (wenn es der Verkehr zulässt); schneller ist bis zur allgemeinen Höchstgeschwindigkeit erlaubt. Fahrzeuge, die diese Geschwindigkeit nicht erreichen, dürfen die Straße nicht benutzen.
+20293: 40 km/h liegt über der Mindestgeschwindigkeit von 30 – erlaubt.
+20294: Es zeigt die Geschwindigkeit, die man nicht unterschreiten darf.
+20295: Blau und rund = Gebotszeichen.
+20296: Man muss mindestens 30 km/h fahren.
+20297: Die angegebene Geschwindigkeit ist das Minimum.
+20298: Fahrzeuge, die nicht so schnell fahren können, dürfen nicht durch.
+20299: 20 km/h ist zu langsam.
+20300: Es hebt nichts auf, es schreibt etwas vor.
+20301: Höchstgeschwindigkeiten sind rot umrandet; hier ist es eine Mindestgeschwindigkeit.
+20302: Schneller darf man nur bis zur allgemeinen Höchstgeschwindigkeit fahren.
+20303: Man muss nicht konstant 30 fahren, sondern mindestens 30.
+20304: Es ist kein Hinweiszeichen.
+
+G 4173: Mindestgeschwindigkeit 30 km/h: Nur Fahrzeuge, die mindestens 30 km/h fahren können, dürfen fahren. Nach oben gilt die normale Höchstgeschwindigkeit der Straße.
+20305: Fahrzeuge, die keine 30 km/h schaffen, dürfen nicht durch.
+20306: Es ist eine Mindestgeschwindigkeit.
+20307: Man muss mindestens 30 km/h fahren.
+20308: Nach oben gilt die Höchstgeschwindigkeit der Straße.
+20309: Wer mindestens die angegebene Geschwindigkeit fährt, darf fahren.
+20310: Es ist keine Höchstgeschwindigkeit.
+20311: Im Gegenteil: Langsame Fahrzeuge sind ausgeschlossen.
+20312: Es verbietet nicht, schneller zu fahren.
+20313: 25 km/h ist zu langsam.
+20314: Die Zahl ist eine Geschwindigkeit, kein Abstand.
+20315: Die Zahl ist kein Gewicht.
+20316: Langsamer als angegeben ist verboten.
+20317: Es ist eine Pflicht, keine Empfehlung.
+
+G 4186: Gebotszeichen „Halt – Zoll“ (Dogana). Man muss langsamer fahren und an der Zollstelle zur Kontrolle anhalten – alle, nicht nur wer etwas zu verzollen hat.
+20426: Man muss an der Zollstelle anhalten.
+20427: Anhalten zur Zollkontrolle an der Grenze ist Pflicht.
+20428: Langsamer fahren und an der Zollstelle anhalten.
+20429: Es zeigt eine Zollstelle mit Anhaltepflicht an.
+20430: Es hat nichts mit einem Polizeikommissariat zu tun.
+20431: Anhalten müssen alle, nicht nur wer Waren anmelden muss.
+20432: Es zeigt keine Carabinieri-Dienststelle an.
+20433: Es kann an jeder Staatsgrenze mit Zollstelle stehen.
+
+G 4187: Gebotszeichen „Halt – Polizei“ (polizeiliche Straßensperre). Man muss an der Straßensperre anhalten. Es steht in angemessener Entfernung vorher und wird an der Haltestelle wiederholt.
+20434: Es kündigt eine polizeiliche Straßensperre an.
+20435: In der Nähe der Straßensperre muss man anhalten.
+20436: An der Straßensperre muss man anhalten.
+20437: Es zeigt eine Straßensperre mit Anhaltepflicht.
+20438: Es steht vorher und wird an der Haltestelle wiederholt.
+20440: Staatsgrenzen haben das Zeichen „Zoll“.
+20441: Mautstellen haben ein eigenes Zeichen.
+20442: Es geht ums Anhalten an der Sperre, nicht um Vorfahrt.
+20443: Zollstellen haben ein eigenes Zeichen.
+
+G 4188: Gebotszeichen „Halt – Mautstelle“ (Stazione). Man muss an der Autobahneinfahrt bzw. -mautstelle anhalten, um die Gebühr zu bezahlen oder das Ticket zu nehmen.
+20444: An der Autobahneinfahrt muss man anhalten.
+20445: Langsamer fahren und anhalten, um die Maut zu bezahlen.
+20446: Es zeigt eine Mautstelle mit Anhaltepflicht.
+20447: An der Mautstelle muss man anhalten und bezahlen.
+20448: Es steht an kontrollierten Autobahneinfahrten.
+20449: Es hat nichts mit Carabinieri zu tun.
+20450: Es kündigt keinen Bahnhof an.
+20451: Es verbietet keine Zufahrt.
+20452: Es hat nichts mit Autozügen zu tun.
+20453: Es ist für Autobahnmautstellen, nicht für Fähren.
+
+G 4151: Gebotszeichen „Vorgeschriebene Fahrtrichtung – geradeaus“ (weißer Pfeil nach oben). An der Kreuzung darf man nur geradeaus fahren; Abbiegen nach rechts oder links ist verboten. Gegenverkehr kann es trotzdem geben.
+20045: Man muss geradeaus weiterfahren.
+20046: Links einbiegen ist nicht erlaubt.
+20047: Vor der Kreuzung: nur geradeaus.
+20048: An der Kreuzung darf man weder rechts noch links abbiegen.
+20049: Geradeaus ist die einzige erlaubte Richtung.
+20050: Es ist ein Vorschriftszeichen.
+20051: Es zeigt die vorgeschriebene Fahrtrichtung.
+20052: Blau und rund = Gebotszeichen.
+20053: Rechts abbiegen ist nicht erlaubt.
+20054: Abbiegen ist gerade verboten.
+20055: Abbiegen ist verboten.
+20056: Einbahnstraßen haben ein eigenes Hinweiszeichen.
+20057: Es sagt nichts über Gegenverkehr.
+20058: Es schreibt kein Fahren in einer Reihe vor.
+20059: Es ist ein Gebotszeichen.
+20060: Es ist ein Gebots-, kein Verbotszeichen.
+20061: Fahrspurzeichen sind rechteckig mit mehreren Pfeilen.
+20062: Es ist eine Pflicht, keine Empfehlung.
+20063: Abbiegen ist verboten.
+20064: Gegenverkehr ist nicht ausgeschlossen.
+20065: Es zeigt keine Einbahnstraße an.
+
+G 4152: Gebotszeichen „Vorgeschriebene Fahrtrichtung – links“ (Pfeil nach links). An der Kreuzung muss man nach links abbiegen; geradeaus und rechts sind verboten.
+20066: Man muss nach links abbiegen.
+20067: Rechts einbiegen ist nicht erlaubt.
+20068: Vor der Kreuzung: links abbiegen ist Pflicht.
+20069: Geradeaus ist nicht erlaubt.
+20070: Links ist die einzig erlaubte Richtung.
+20071: Es ist ein Vorschriftszeichen.
+20072: Es zeigt die vorgeschriebene Fahrtrichtung.
+20073: Blau und rund = Gebotszeichen.
+20074: Geradeaus ist verboten.
+20075: Rechts abbiegen ist verboten.
+20076: Es sagt nichts über Einbahnverkehr.
+20077: Es sagt nichts über Gegenverkehr.
+20078: Vorbeifahren an Hindernissen zeigt ein schräger Pfeil nach unten.
+20079: Es ist kein Hinweiszeichen.
+20080: Es ist kein Verbotszeichen.
+20081: Es sagt nichts über die Querstraße.
+20082: Es zeigt keine Einbahnstraße an.
+
+G 4153: Vorgeschriebene Fahrtrichtung links: Man darf nur nach links abbiegen, nicht geradeaus.
+20083: Nur Linksabbiegen ist möglich.
+20084: Geradeaus ist nicht erlaubt.
+20085: Linksabbiegen ist Pflicht, nicht verboten.
+20086: Es hat nichts mit Halten zu tun.
+20087: Geradeaus ist verboten.
+20088: Das ist ein anderes Zeichen (Pfeil schräg nach unten).
+20089: Kurven haben Gefahrenzeichen.
+
+G 4154: Gebotszeichen „Vorgeschriebene Fahrtrichtung – rechts“ (Pfeil nach rechts). An der Kreuzung muss man nach rechts abbiegen; geradeaus und links sind verboten.
+20090: Man muss nach rechts abbiegen.
+20091: Links abbiegen ist nicht erlaubt.
+20092: An der Kreuzung: rechts abbiegen ist Pflicht.
+20093: Geradeaus ist nicht erlaubt.
+20094: Es ist ein Vorschriftszeichen.
+20095: Blau und rund = Gebotszeichen.
+20096: Es zeigt die vorgeschriebene Fahrtrichtung.
+20097: Rechts ist die einzig erlaubte Richtung.
+20098: Es warnt nicht vor Gefahr, es schreibt vor.
+20099: Geradeaus ist verboten.
+20100: Es sagt nichts über Einbahnverkehr.
+20101: Es sagt nichts über Gegenverkehr.
+20102: Es ist kein Hinweiszeichen.
+20103: Es ist kein Verbotszeichen.
+20104: Es sagt nichts über die Querstraße.
+20105: Es zeigt keine Einbahnstraße an.
+
+G 4155: Vorgeschriebene Fahrtrichtung rechts: Man muss nach rechts abbiegen und darf nicht geradeaus fahren.
+20106: Es zeigt die vorgeschriebene Fahrtrichtung rechts.
+20107: Nur Rechtsabbiegen ist erlaubt.
+20108: Geradeaus ist nicht erlaubt.
+20109: Man muss nach rechts abbiegen.
+20110: Rechtsabbiegen ist Pflicht, nicht verboten.
+20111: Parkplätze haben das blaue P.
+20112: Geradeaus ist verboten.
+20113: Das Vorbeifahren am Hindernis zeigt ein schräger Pfeil nach unten.
+20114: Kurven haben Gefahrenzeichen.
+
+G 4156: Vorankündigung „Vorgeschriebene Fahrtrichtung rechts“ (Pfeil geradeaus und dann rechts). Steht vor einer Kreuzung, an der man nach rechts abbiegen muss; dort steht dann das Zeichen „Vorgeschriebene Fahrtrichtung – rechts“. Eine Tafel kann die Entfernung angeben.
+20115: Es kündigt die Pflicht an, nach rechts abzubiegen.
+20116: Weder geradeaus noch links ist erlaubt.
+20117: Es steht vor einer Kreuzung, an der man rechts abbiegen muss.
+20118: An der Kreuzung darf man nicht geradeaus.
+20119: Links abbiegen ist nicht erlaubt.
+20120: Es ist ein Vorschriftszeichen.
+20121: Rechts ist die einzig erlaubte Richtung.
+20122: Blau und rund = Gebotszeichen.
+20123: Eine Tafel kann die Entfernung bis zur Kreuzung angeben.
+20124: Rechts abbiegen ist Pflicht, nicht verboten.
+20125: Geradeaus ist nicht erlaubt.
+20126: Das Vorbeifahren am Hindernis zeigt ein anderes Zeichen.
+20127: Kurven haben Gefahrenzeichen.
+20128: Einmündungen haben Gefahrenzeichen.
+20129: Es betrifft alle Fahrzeuge und keine Fahrspur.
+20130: Es ist kein Verbotszeichen.
+20131: Es ist kein Hinweiszeichen.
+20132: Es ist ein Gebots-, kein Gefahrenzeichen.
+20133: Es hat nichts mit einer Verzögerungsspur zu tun.
+
+G 4157: Vorankündigung der vorgeschriebenen Fahrtrichtung rechts: Es steht vor der Kreuzung und vor dem Zeichen „Vorgeschriebene Fahrtrichtung – rechts“.
+20134: Danach folgt das Zeichen „Vorgeschriebene Fahrtrichtung – rechts“.
+20135: Geradeaus ist nicht erlaubt.
+20136: Links abbiegen ist nicht erlaubt.
+20137: Es steht vor einer Kreuzung.
+20138: Blau und rund = Gebotszeichen.
+20139: Es zeigt keine Einbahnstraße an.
+20140: Abbiegen muss man erst an der Kreuzung, nicht sofort.
+20141: Rechtsabbiegen ist gerade Pflicht.
+20142: Das ist ein anderes Zeichen.
+20143: Der Pfeil zeigt nach rechts, nicht nach links.
+
+G 4159: Gebotszeichen „Vorgeschriebene Fahrtrichtungen rechts und links“ (Pfeil teilt sich nach beiden Seiten). An der Kreuzung muss man rechts oder links abbiegen; geradeaus ist verboten.
+20158: Erlaubt sind rechts und links.
+20159: An der nächsten Kreuzung rechts oder links abbiegen.
+20160: Geradeaus ist nicht erlaubt.
+20161: Blau und rund = Gebotszeichen.
+20162: Geradeaus ist nicht möglich.
+20163: Rechts und links sind die einzigen erlaubten Richtungen.
+20164: Es ist ein Vorschriftszeichen.
+20165: Es geht ums Abbiegen, nicht ums Einordnen.
+20166: Es hat nichts mit Überholen zu tun.
+20167: Es zeigt keinen Gegenverkehr an.
+20168: Das ist ein anderes Zeichen (zwei schräge Pfeile nach unten).
+20169: Das ist ein anderes Zeichen (zwei schräge Pfeile nach unten).
+20170: Es ist kein Verbotszeichen.
+20171: Es ist kein Hinweiszeichen.
+20172: Es hat nichts mit parallelen Reihen zu tun.
+
+G 4160: Bei „Fahrtrichtungen rechts und links“ kann man zwischen rechts und links wählen; geradeaus ist verboten.
+20173: Rechts abbiegen ist erlaubt.
+20174: Links abbiegen ist erlaubt.
+20175: Geradeaus ist verboten.
+20176: Man wählt zwischen rechts und links.
+20177: Gabelungen haben eigene Zeichen.
+20178: Geradeaus ist gerade verboten.
+20179: Es hat nichts mit Längslinien zu tun.
+20180: Es zeigt keine Einbahnstraßen an.
+
+G 4161: Gebotszeichen „Vorgeschriebene Fahrtrichtungen geradeaus und rechts“. An der Kreuzung darf man nur geradeaus fahren oder rechts abbiegen; links ist verboten.
+20181: Geradeaus oder rechts – beides ist erlaubt.
+20182: Nur geradeaus oder rechts.
+20183: Links abbiegen ist nicht erlaubt.
+20184: Links einbiegen ist nicht möglich.
+20185: Geradeaus und rechts sind die einzig erlaubten Richtungen.
+20186: Es ist ein Vorschriftszeichen.
+20187: Blau und rund = Gebotszeichen.
+20188: Auch rechts abbiegen ist erlaubt.
+20189: Auch geradeaus ist erlaubt.
+20190: Vorbeifahren an Baustellen zeigt ein anderes Zeichen.
+20191: Es ist kein Hinweiszeichen.
+20192: Es ist kein Gefahrenzeichen.
+20193: Es hat nichts mit einer Zusatzspur zu tun.
+
+G 4162: Bei „geradeaus und rechts“ kann man zwischen diesen beiden Richtungen wählen; links ist verboten.
+20194: Links abbiegen ist verboten.
+20195: Rechts einbiegen ist erlaubt.
+20196: Geradeaus ist erlaubt.
+20197: Man wählt zwischen geradeaus und rechts.
+20198: Auch geradeaus ist erlaubt.
+20199: Auch rechts ist erlaubt.
+20200: Es regelt keine Vorfahrt.
+20201: Es schreibt kein Rechtsfahren am Rand vor.
+20202: Gabelungen haben eigene Zeichen.
+
+G 4163: Gebotszeichen „Vorgeschriebene Fahrtrichtungen geradeaus und links“. Man darf nur geradeaus fahren oder links abbiegen; rechts ist verboten. Es steht innerorts und außerorts.
+20203: Nur geradeaus oder links.
+20204: Rechts abbiegen ist nicht erlaubt.
+20205: Entweder links abbiegen oder geradeaus.
+20206: Rechts soll (darf) man nicht abbiegen.
+20207: Es ist ein Vorschriftszeichen.
+20208: Es steht auch außerorts.
+20209: Auch links ist erlaubt.
+20210: Auch geradeaus ist erlaubt.
+20211: Vorbeifahren an Baustellen zeigt ein anderes Zeichen.
+20212: Vorbeifahren am Fahrbahnteiler zeigt ein anderes Zeichen.
+20213: Es ist kein Hinweiszeichen.
+20214: Es ist kein Gefahrenzeichen.
+
+G 4164: Bei „geradeaus und links“ kann man zwischen diesen beiden Richtungen wählen.
+20215: Geradeaus ist erlaubt.
+20216: Links abbiegen ist erlaubt.
+20217: Man wählt zwischen geradeaus und links.
+20218: Es regelt keine Vorfahrt.
+20219: Auch links ist erlaubt.
+20220: Auch geradeaus ist erlaubt.
+20221: Gabelungen haben eigene Zeichen.
+20222: Es schreibt nicht vor, zur Mitte zu fahren.
+20223: Es kündigt keine zusätzlichen Fahrspuren an.
+
+G 4165: Gebotszeichen „Vorgeschriebene Vorbeifahrt links“ (Pfeil schräg nach links unten). Man muss links an einem Hindernis, einer Verkehrs- oder Schutzinsel, einer Baustelle oder einem Fahrbahnteiler vorbeifahren – das Hindernis bleibt rechts.
+20224: Man muss links am Hindernis vorbeifahren.
+20225: Links an der Verkehrsinsel vorbei.
+20226: Links an der Schutzinsel vorbei.
+20227: Links an der Baustelle vorbei.
+20228: Links am Fahrbahnteiler vorbei.
+20229: Es folgt nicht auf das Zeichen „Kreisverkehr“.
+20230: Es hat nichts mit Gefälle zu tun.
+20231: Es schreibt kein Abbiegen vor, nur das Vorbeifahren.
+20232: Es schreibt kein Abbiegen vor.
+20233: Man fährt links vorbei, nicht rechts ab.
+20234: Es ist kein Hinweiszeichen.
+
+G 4166: Bei „Vorbeifahrt links“ lässt man das Hindernis rechts liegen – rechts daran vorbei ist verboten.
+20235: Man muss links vorbeifahren.
+20236: Rechts am Hindernis vorbei ist verboten.
+20237: Links an der Baustelle vorbei.
+20238: Das Hindernis bleibt rechts.
+20239: Es schreibt kein Abbiegen vor.
+20240: Man lässt die Schutzinsel rechts, nicht links liegen.
+20241: Das wäre der waagrechte Pfeil nach links.
+20242: Es hat nichts mit einer Kreuzung zu tun.
+20243: Man darf weiterfahren – nur links am Hindernis vorbei.
+
+G 4167: Gebotszeichen „Vorgeschriebene Vorbeifahrt rechts“ (Pfeil schräg nach rechts unten). Man muss rechts an einem Hindernis, einer Insel, einer Baustelle oder einem Fahrbahnteiler vorbeifahren – das Hindernis bleibt links.
+20244: Man muss rechts am Hindernis vorbeifahren.
+20245: An der Verkehrsinsel rechts vorbei.
+20246: An der Schutzinsel rechts vorbei.
+20247: An der Baustelle rechts vorbei.
+20248: Rechts am Fahrbahnteiler vorbei.
+20249: Kurven haben Gefahrenzeichen.
+20250: Unebene Straßen haben Gefahrenzeichen.
+20251: Es schreibt kein Abbiegen vor.
+20252: Es schreibt kein Abbiegen vor.
+
+G 4168: Bei „Vorbeifahrt rechts“ bleibt das Hindernis links liegen – links daran vorbei ist verboten.
+20253: Man muss rechts vorbeifahren.
+20254: Links am Hindernis vorbei ist verboten.
+20255: Rechts am Fahrbahnteiler vorbei.
+20256: Die Schutzinsel bleibt links.
+20257: Rechts an der Baustelle vorbei.
+20258: Es schreibt kein Abbiegen vor.
+20259: Das Hindernis bleibt links, nicht rechts.
+20260: Das wäre der waagrechte Pfeil nach rechts.
+20261: Es hat nichts mit einer Kreuzung zu tun.
+20262: Man darf weiterfahren – nur rechts vorbei.
+
+G 4169: Gebotszeichen „Vorbeifahrt rechts oder links erlaubt“ (zwei schräge Pfeile nach unten). Man darf an der Insel, Baustelle, dem Fahrbahnteiler oder Hindernis auf beiden Seiten vorbeifahren.
+20263: Es zeigt die einzig zulässigen Vorbeifahrmöglichkeiten.
+20264: An der Verkehrsinsel rechts oder links vorbei.
+20265: An der Schutzinsel rechts oder links vorbei.
+20266: An der Baustelle rechts oder links vorbei.
+20267: Am Fahrbahnteiler rechts oder links vorbei.
+20268: Vorbeifahren auf beiden Seiten ist erlaubt.
+20269: Es geht ums Vorbeifahren, nicht ums Abbiegen.
+20270: Es verbietet die Weiterfahrt nicht.
+20271: Es steht nicht in der Regel nach dem Kreisverkehrszeichen.
+20272: Es ist kein Hinweiszeichen.
+20273: Es ist kein Verbotszeichen.
+
+G 4174: Zeichen „Ende der Mindestgeschwindigkeit“ (blau, rot durchgestrichen). Man muss nicht mehr mindestens die angegebene Geschwindigkeit fahren; nach oben gilt weiter die Höchstgeschwindigkeit der Straße.
+20318: Es hebt eine Vorschrift auf.
+20319: Es hebt die Mindestgeschwindigkeit auf.
+20320: Man muss nicht mehr mindestens die angegebene Geschwindigkeit fahren.
+20321: Nach oben gilt die Höchstgeschwindigkeit der Straße.
+20322: Schneller als angegeben ist erlaubt.
+20324: Die Zahl ist kein Gewicht.
+20325: Es verbietet nichts.
+20326: Es geht nicht um Längen.
+20327: Die Zahl ist kein Abstand.
+20328: Es verbietet nicht, 30 km/h zu fahren.
+
+G 4175: Gebotszeichen „Schneeketten oder Winterreifen vorgeschrieben“. Nur Fahrzeuge mit Schneeketten oder Winterreifen dürfen fahren. Es steht an Straßen, die verschneit oder vereist sein können.
+20329: Man muss mit Schneeketten oder Winterreifen fahren.
+20330: Verkehr nur mit Schneeketten oder Winterreifen.
+20331: Nur so ausgerüstete Fahrzeuge dürfen durchfahren.
+20332: Fahrzeuge ohne Schneeketten oder Winterreifen dürfen nicht durch.
+20333: Auf diesem Abschnitt ist besondere Vorsicht geboten.
+20334: Es steht an Straßen, die verschneit oder vereist sein können.
+20335: Schneeketten sind gerade erlaubt bzw. vorgeschrieben.
+20337: Es geht nicht um die Profiltiefe.
+20338: Ketten sind vorgeschrieben, nicht verboten.
+20339: Es gibt keine Entfernung zu einem Reifendienst an.
+
+G 4176: Gebotszeichen „Gehweg“ (blau mit Fußgänger). Hier dürfen nur Fußgänger gehen; Fahrzeuge sind verboten – rund um die Uhr.
+20340: Hier beginnt ein Gehweg.
+20341: Blau und rund = Gebotszeichen.
+20342: Es gilt auch tagsüber (rund um die Uhr).
+20343: Es zeigt einen Gehweg an.
+20344: Fahrzeuge dürfen auf dem Gehweg nicht fahren.
+20345: Fußgänger dürfen gerade hier gehen.
+20346: Fußgängerüberwege haben ein anderes Zeichen.
+20347: Es regelt keinen Vorrang an einem Übergang.
+20348: Der gemischte Geh- und Radweg hat Fußgänger und Fahrrad im Zeichen.
+
+G 4177: Zeichen „Ende des Gehweges“ (rot durchgestrichen). Ab hier gibt es keinen eigenen Weg mehr für Fußgänger.
+20349: Es steht am Ende eines Gehweges.
+20350: Es steht am Ende eines Gehweges.
+20351: Ab hier gehen Fußgänger nicht mehr auf einer eigenen Strecke.
+20352: Es kündigt keinen Fußgängerüberweg an.
+20353: Es ist kein Verbot für Fußgänger.
+20354: Es verbietet kein Überqueren.
+20355: Es ist das Ende eines Gehweges, nicht eines Verbots.
+
+G 4178: Gebotszeichen „Radweg“ (blau mit Fahrrad). Die Strecke ist Fahrrädern vorbehalten; andere Fahrzeuge wie Pkw und Motorräder dürfen sie nicht benutzen.
+20356: Pkw und Krafträder dürfen hier nicht fahren.
+20358: Die Strecke ist Fahrrädern vorbehalten.
+20360: Es steht am Radweg, nicht an einem Radfahrerüberweg mit Ampel.
+20361: Fahrräder dürfen gerade hier fahren.
+20362: Der Geh- und Radweg hat beide Symbole.
+20363: Kleinkrafträder dürfen den Radweg nicht benutzen.
+20364: Fußgänger haben hier keinen eigenen Weg – es ist ein reiner Radweg.
+20365: Es ist kein Verbot für Fahrräder.
+
+G 4179: Zeichen „Ende des Radweges“ (rot durchgestrichen). Ab hier gibt es keinen eigenen Weg mehr für Fahrräder.
+20366: Es steht am Ende des Radweges.
+20367: Es steht am Ende eines reinen Fahrradweges.
+20369: Es steht am Ende eines den Fahrrädern vorbehaltenen Weges.
+20370: Es ist kein Parkverbot.
+20371: Es verbietet nichts.
+20372: Das Ende des gemischten Weges hat beide Symbole.
+20373: Radfahrer dürfen weiterfahren – auf der Fahrbahn.
+20374: Es ist kein Fahrradverbot.
+
+G 4180: Gebotszeichen „Radweg neben Gehweg“ (geteiltes Zeichen mit Fahrrad und Fußgänger nebeneinander, durch Linie getrennt). Radfahrer und Fußgänger haben je einen eigenen Teil.
+20375: Hier beginnt ein Radweg neben dem Gehsteig.
+20377: Der Radweg führt am Gehweg entlang.
+20378: Radweg neben einem Gehweg.
+20380: Der gemischte Weg hat Fußgänger und Fahrrad übereinander ohne Trennlinie.
+20381: Hier sind die Wege getrennt, nicht gemischt.
+20382: Es ist der Anfang, nicht das Ende.
+20383: Man muss das Fahrrad nicht schieben.
+20384: Man muss nicht absteigen.
+
+G 4181: Gebotszeichen „Gemischter Geh- und Radweg“ (Fußgänger und Fahrrad übereinander). Fußgänger und Radfahrer benutzen denselben Weg gemeinsam.
+20385: Es ist ein gemischter Geh- und Radweg.
+20386: Der Weg ist Fußgängern und Radfahrern gemeinsam vorbehalten.
+20387: Nur Fußgänger und Radfahrer dürfen ihn benutzen.
+20389: Getrennte Wege zeigt das geteilte Zeichen.
+20390: Getrennte Wege zeigt das geteilte Zeichen.
+20391: Es zeigt keine Fußgängerzone an.
+20392: Getrennte Wege zeigt das geteilte Zeichen.
+20393: Man darf mit dem Fahrrad fahren.
+
+G 4182: Zeichen „Ende des Radweges neben dem Gehweg“ (geteiltes Zeichen, rot durchgestrichen). Hier enden der getrennte Rad- und Gehweg.
+20394: Ende des Radweges entlang des Gehsteiges.
+20395: Ende des Radweges neben dem Fußgängerbereich.
+20396: Ende des Gehweges entlang des Radweges.
+20397: Ende des Gehweges entlang des Radweges.
+20398: Es verbietet niemandem die Durchfahrt.
+20399: Es verbietet nichts.
+20400: Es gibt keine Regelung nach Tagen.
+20401: Es verbietet Fußgängern nichts.
+
+G 4183: Zeichen „Ende des gemischten Geh- und Radweges“ (rot durchgestrichen). Ab hier endet der gemeinsame Weg für Fußgänger und Radfahrer.
+20402: Ende des gemischten Geh- und Radweges.
+20404: Ende der gemeinsamen Strecke für Fußgänger und Radfahrer.
+20405: Es ist das Ende, nicht der Weg selbst.
+20406: Es ist das Ende des gemischten, nicht des reinen Radweges.
+20407: Es verbietet nichts.
+20408: Es ist das Ende des gemischten, nicht des reinen Gehweges.
+
+G 4184: Gebotszeichen „Reitweg“ (blau mit Reiter). Die Strecke ist Reit- und Lasttieren vorbehalten; Fahrzeuge – auch Fahrräder und Elektrofahrzeuge – sind nicht zugelassen.
+20409: Fahrzeuge dürfen nicht durch.
+20410: Auch Fahrräder dürfen nicht durch.
+20411: Auch Elektrofahrzeuge dürfen nicht durch.
+20412: Die Strecke ist Reittieren vorbehalten.
+20413: Auch Lasttiere dürfen sie benutzen.
+20414: Es zeigt keine Reitschule an.
+20415: Blau und rund = Gebotszeichen, nicht Gefahrenzeichen.
+20416: Reit- und Lasttiere dürfen gerade hier gehen.
+20417: Freilaufende Tiere zeigt ein Gefahrenzeichen.
+20418: Es regelt keinen Vortritt.
+
+G 4185: Zeichen „Ende des Reitweges“ (rot durchgestrichen). Ab hier ist die Strecke nicht mehr Reit- und Lasttieren vorbehalten.
+20419: Ende der Strecke für Lasttiere.
+20420: Ende der Strecke für Reittiere.
+20421: Ende der Strecke für Last- und Reittiere.
+20422: Es zeigt keine Pferderennbahn an.
+20423: Es verbietet keine Fuhrwerke.
+20424: Es ist das Ende eines Reitweges, nicht eines Verbots.
+20425: Es betrifft alle Reittiere, nicht nur Rennpferde.

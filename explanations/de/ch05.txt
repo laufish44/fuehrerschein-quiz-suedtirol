@@ -1,0 +1,284 @@
+# Kapitel 5 – Vorfahrtszeichen
+# Merke: Anweisungen eines Polizisten gehen vor Ampel und Zeichen; Ampeln gehen vor Zeichen. Blinkt die Ampel gelb oder ist sie aus, gelten die Zeichen.
+
+G 4205: Vorfahrtszeichen „Einmündung mit Beschleunigungsspur von links“ (Dreieck). Steht auf Vorfahrtsstraßen mit Einbahnverkehr (z. B. Autobahnen): Links fädeln Fahrzeuge ein, die selbst „Vorfahrt gewähren“ haben. Man hat Vorfahrt, muss aber vorsichtig fahren.
+20653: Es kündigt eine Einmündung mit Beschleunigungsspur auf der linken Seite an.
+20654: Die einmündende Straße liegt links.
+20655: Es steht an Fahrbahnen mit Einbahnverkehr.
+20656: Einfädelnde Fahrzeuge können in den Verkehr kommen – vorsichtig fahren.
+20657: Es steht auf der Straße mit Vorfahrt.
+20658: Auf der einmündenden Straße steht „Vorfahrt gewähren“.
+20659: Als dreieckiges Zeichen steht es in der Regel 150 m vorher, nicht maximal 25 m.
+20660: Wer auf der Hauptfahrbahn fährt, hat Vorfahrt.
+20661: Man hat Vorfahrt; die Einfädelnden müssen warten.
+20662: Es steht auf der Vorfahrtsstraße, nicht vor „Vorfahrt gewähren“.
+20663: Es hat nichts mit Linksabbiegen zu tun.
+20664: Es regelt kein Abbiegen.
+
+G 4202: Vorfahrtszeichen „Kreuzung mit Nebenstraße von rechts“ (Dreieck mit dicker senkrechter und dünner Linie nach rechts). Man hat Vorfahrt gegenüber den von rechts kommenden Fahrzeugen, muss sich der Kreuzung aber vorsichtig nähern.
+20617: Rechts mündet eine weniger wichtige Straße ein.
+20618: Die Nebenstraße kommt von rechts.
+20619: Man nähert sich einer Kreuzung – vorsichtig fahren.
+20620: Es gehört zu den Vorfahrtszeichen.
+20621: Die kreuzende Straße hat kein Vorfahrtsrecht.
+20622: Man hat Vorfahrt gegenüber Fahrzeugen von rechts.
+20623: Sackgassen haben ein eigenes Hinweiszeichen.
+20624: Es verbietet kein Abbiegen.
+20625: Für Beschleunigungsspuren gibt es ein eigenes Zeichen.
+20626: Für Einmündungen mit Beschleunigungsspur gibt es ein eigenes Zeichen.
+20627: Man hat Vorfahrt; anhalten muss man nicht.
+20628: Haltebuchten werden anders angezeigt.
+
+G 4203: Vorfahrtszeichen „Kreuzung mit Nebenstraße von links“. Man hat Vorfahrt gegenüber den von links kommenden Fahrzeugen; vorsichtig an die Kreuzung heranfahren.
+20629: Links kreuzt eine weniger wichtige Straße.
+20630: An der Kreuzung hat man Vorfahrt.
+20631: Man nähert sich einer Kreuzung – vorsichtig fahren.
+20632: Es gehört zu den Vorfahrtszeichen.
+20633: Die kreuzende Straße hat kein Vorfahrtsrecht.
+20634: Man hat Vorfahrt gegenüber Fahrzeugen von links.
+20635: Sackgassen haben ein eigenes Zeichen.
+20636: Es verbietet kein Abbiegen.
+20637: Autobahneinmündungen haben eigene Zeichen.
+20638: Die Nebenstraße kommt von links, nicht von rechts.
+20639: Es steht nicht an Autobahnzufahrten.
+20640: Gleise haben eigene Zeichen.
+
+G 4195: Gefahrenzeichen „Kreuzung mit Vorfahrt von rechts“ (schwarzes Kreuz im Dreieck). An der Kreuzung gilt die allgemeine Regel „rechts vor links“ – man muss Fahrzeugen von rechts Vorfahrt gewähren. Es steht in der Regel 150 m vorher, auf Straßen ohne Vorfahrtsrecht. Langsam fahren.
+20536: An der Kreuzung gilt „rechts vor links“.
+20537: Man muss besonders langsam fahren, um Fahrzeugen von rechts Vorfahrt geben zu können.
+20538: Man muss Fahrzeugen von rechts Vorfahrt geben.
+20539: Es zählt zu den Vorfahrtszeichen.
+20540: Auf einer Vorfahrtsstraße würde es nicht stehen.
+20541: Bahnübergänge haben eigene Zeichen.
+20542: „Vorfahrt gewähren“ folgt nicht – es gilt „rechts vor links“.
+20543: Ein STOP-Zeichen folgt nicht.
+20544: Wie Gefahrenzeichen steht es in der Regel 150 m vorher.
+20545: Auf Autobahnen gibt es keine solchen Kreuzungen.
+20546: Das Andreaskreuz ist ein Bahnzeichen.
+
+G 4201: Vorfahrtszeichen „Kreuzung mit einer Straße ohne Vorfahrtsrecht“ (dicke senkrechte, dünne waagrechte Linie). Man hat an der Kreuzung Vorfahrt gegenüber Fahrzeugen von rechts und links. Trotzdem langsamer fahren und sich vergewissern, dass die anderen warten. Regelt ein Polizist den Verkehr, gilt dessen Anweisung.
+20602: Man kreuzt eine weniger wichtige Straße.
+20603: Man hat Vorfahrt gegenüber Fahrzeugen aus den Nebenstraßen.
+20604: Die kreuzende Straße hat kein Vorfahrtsrecht.
+20605: Vorfahrt gilt gegenüber rechts und links.
+20606: Ein Polizist geht immer vor Zeichen.
+20607: Es kann auf einer Vorfahrtsstraße (gelbe Raute) stehen.
+20608: Langsamer fahren und sich vergewissern, dass die anderen Vorfahrt geben.
+20609: Man hat an der Kreuzung Vorfahrt.
+20610: Es ist eine Kreuzung, keine bloße Einmündung.
+20611: Es verbietet kein Abbiegen.
+20612: Man hat Vorfahrt nach beiden Seiten.
+20613: Autobahnen haben keine Kreuzungen.
+20614: Es steht in der Regel 150 m vor der Kreuzung.
+20615: Man hat Vorfahrt, muss sie nicht gewähren.
+20616: Es kündigt keine Beschleunigungsspuren an.
+
+G 4204: Vorfahrtszeichen „Einmündung mit Beschleunigungsspur von rechts“. Kann auf Autobahnen stehen: Rechts fädeln Fahrzeuge ein, die „Vorfahrt gewähren“ haben. Man hat Vorfahrt, muss aber aufmerksam sein und gegebenenfalls langsamer fahren.
+20641: Rechts mündet eine Straße mit Beschleunigungsspur ein.
+20642: Die Einmündung kommt von rechts.
+20643: Es kann an Autobahnen stehen.
+20644: Mit größter Vorsicht fahren, um Unfälle mit Einfädelnden zu vermeiden.
+20645: Man hat Vorfahrt gegenüber den Einfädelnden.
+20646: An der Autobahnzufahrt steht für die Einfädelnden „Vorfahrt gewähren“.
+20647: Es steht in der Regel 150 m vorher, nicht maximal 25 m.
+20648: Man hat Vorfahrt, nicht die anderen.
+20649: Es steht auf der Straße mit Vorfahrt.
+20650: Es steht auf der Vorfahrtsstraße; „Vorfahrt gewähren“ steht für die anderen.
+20651: Auch auf der Autobahn kann es nötig sein, langsamer zu fahren.
+20652: Es regelt kein Abbiegen.
+
+G 4192: Vorschriftszeichen „STOP – Anhalten und Vorfahrt gewähren“ (rotes Achteck). Man muss an der Haltelinie immer anhalten – auch wenn niemand kommt – und Fahrzeugen von rechts und links Vorfahrt gewähren. Gilt auch bei gelb blinkender Ampel. Es steht an gefährlichen Kreuzungen mit schlechter Sicht oder an Bahnübergängen; außerorts wird es vorher angekündigt.
+20491: An der Haltelinie anhalten und Vorfahrt gewähren.
+20492: Vor dem Befahren der Kreuzung anhalten und Vorfahrt gewähren.
+20493: Vorfahrt nach rechts und links.
+20494: Blinkt die Ampel gelb, gilt das STOP-Zeichen.
+20495: Es steht an der Kreuzung mit einer Vorfahrtsstraße.
+20496: Typisch sind Kreuzungen mit schlechter Sicht.
+20497: Außerorts wird es mit einem Zeichen mit Entfernungsangabe angekündigt.
+20498: Es wird an besonders gefährlichen Kreuzungen eingesetzt.
+20499: Es kann auch an einem Bahnübergang stehen.
+20500: Für wechselnden Einbahnverkehr gibt es ein eigenes Zeichen.
+20501: Für den Zoll gibt es ein eigenes Zeichen.
+20502: Anhalten muss man immer, nicht nur wenn jemand kommt.
+20503: Vorfahrt nach beiden Seiten, nicht nur nach rechts.
+20504: Es steht direkt an der Kreuzung.
+20505: Die Durchfahrt ist nicht verboten – nach dem Anhalten darf man fahren.
+20506: Bei grüner Ampel gilt die Ampel, nicht das Zeichen.
+20507: Polizeisperren haben ein eigenes Zeichen.
+20508: Anhalten muss man immer.
+
+G 4196: Vorschriftszeichen „Vorfahrt gewähren dem Gegenverkehr“ (roter Rand, roter Pfeil nach oben, schwarzer nach unten). Vor einer Engstelle oder Baustelle mit wechselndem Einbahnverkehr: Man muss entgegenkommende Fahrzeuge zuerst durchlassen, weil nur eine Reihe Platz hat.
+20547: In der Engstelle haben Entgegenkommende Vorfahrt.
+20548: An Baustellen muss man dem Gegenverkehr Vorfahrt geben.
+20549: Den Entgegenkommenden muss man Vorfahrt geben.
+20550: Vorfahrt für die aus der Gegenrichtung.
+20551: Es regelt den wechselnden Einbahnverkehr – man muss warten.
+20552: Es steht an Gegenverkehrsstraßen vor einer Engstelle für nur eine Reihe.
+20553: Beide Richtungen können nicht gleichzeitig durchfahren.
+20554: Es hat nichts mit geraden und ungeraden Tagen zu tun.
+20555: Vorfahrt haben hier die anderen.
+20556: Es kündigt keinen Gegenverkehr auf einer Einbahnstraße an.
+20557: Es zeigt kein Ende eines Einbahnverkehrs an.
+20558: Es zeigt kein Ende an.
+20559: Es steht an Gegenverkehrsstraßen.
+
+G 4197: „Vorfahrt gewähren dem Gegenverkehr“ ist ein Vorschriftszeichen. Es steht vor Engstellen, wo nur eine Reihe Platz hat, oder wo ein Teil der Fahrbahn gesperrt ist – nicht vor jeder Verengung.
+20560: Es ist ein Vorschriftszeichen.
+20561: Es kann stehen, wo ein Teil der Fahrbahn gesperrt ist.
+20562: Es kann an einer Engstelle stehen.
+20563: Man muss dem Gegenverkehr Vorfahrt geben.
+20564: Es regelt den wechselnden Einbahnverkehr.
+20565: An der Engstelle hat nur eine Reihe Platz.
+20566: Nur bei Engstellen, an denen nicht beide Richtungen gleichzeitig durchpassen.
+20567: Es ist kein Verbotszeichen.
+20568: Es steht nicht am Anfang einer Einbahnstraße.
+20569: Es geht um den Gegenverkehr, nicht um Kreuzungen.
+20570: Es ist kein Gefahrenzeichen.
+20571: Die Vorfahrt haben hier die anderen.
+
+G 4198: Zeichen „Vorfahrt gewähren dem Gegenverkehr“ zusammen mit einer Ampel: Die Ampel geht dem Zeichen vor, ein Polizist geht allem vor. Grün = wir fahren; Ampel aus oder gelb blinkend = das Zeichen gilt, wir müssen warten.
+20572: Bei Grün gilt die Ampel: Wir haben Vorfahrt.
+20573: Ist die Ampel aus, gilt das Zeichen: Wir müssen Vorfahrt gewähren.
+20574: Der Polizist geht der roten Ampel vor – wir dürfen fahren.
+20575: Gelb blinkend = Ampel gilt nicht, das Zeichen gilt: Vorfahrt gewähren.
+20576: Bei Grün gilt die Ampel, nicht das Zeichen.
+20577: Bei gelb blinkender Ampel gilt das Zeichen: Wir müssen warten.
+20578: Der Polizist geht der grünen Ampel vor – wir müssen anhalten.
+20579: Der Polizist geht dem Zeichen vor – wir dürfen fahren.
+
+G 4194: Vorankündigung „Anhalten und Vorfahrt gewähren“ (umgekehrtes Dreieck mit STOP-Schriftzug und Entfernungsangabe, hier 320 m). Kündigt eine Kreuzung mit STOP-Zeichen an: Dort muss man anhalten und nach rechts und links Vorfahrt gewähren. Es ist ein Vorschriftszeichen und steht innerorts wie außerorts.
+20522: Es kündigt die Pflicht an, anzuhalten und Vorfahrt zu gewähren.
+20523: In 320 m kommt ein STOP-Zeichen.
+20524: An der nächsten Kreuzung muss man anhalten und nach beiden Seiten Vorfahrt geben.
+20525: 320 m nach dem Zeichen muss man anhalten.
+20526: Langsamer fahren, weil gleich eine STOP-Kreuzung kommt.
+20527: Es ist ein Vorschriftszeichen.
+20528: An der Kreuzung muss man anhalten, nicht nur „falls nötig“ Vorfahrt geben.
+20529: Es steht 320 m vor dem STOP-Zeichen.
+20530: Es steht auch außerorts.
+20531: Zollstellen haben eigene Zeichen.
+20532: Mautstellen haben eigene Zeichen.
+20533: Es steht vor einem STOP-Zeichen.
+20534: Man hält nur einmal an – an der Kreuzung.
+20535: Es ist kein Gefahrenzeichen.
+
+G 4199: Zeichen „Ende der Vorfahrtsstraße“ (gelbe Raute, schwarz durchgestrichen). Ab hier hat man keine Vorfahrt mehr: Ohne weitere Zeichen gilt „rechts vor links“; es kann auch STOP oder „Vorfahrt gewähren“ folgen. Vorsichtiger fahren.
+20580: Ohne Vorfahrtsrecht muss man vorsichtiger fahren.
+20581: Ohne andere Zeichen gilt „rechts vor links“.
+20582: Es ist ein Vorfahrtszeichen.
+20583: Die Straße ist keine Vorfahrtsstraße mehr.
+20584: Es kann von einem STOP-Zeichen gefolgt sein.
+20585: An den folgenden Kreuzungen gelten andere Regeln als bisher.
+20586: Es ist kein Hinweiszeichen.
+20587: Im Gegenteil: Die Vorfahrtsstraße endet.
+20588: Es schreibt kein Anhalten vor.
+20589: Den Verlauf der Hauptstraße zeigen Zusatztafeln.
+20590: Es kann auch STOP oder „Vorfahrt gewähren“ folgen, nicht immer „rechts vor links“.
+20591: Es hebt keine Gebote auf.
+20592: Sackgassen haben ein eigenes Zeichen.
+
+G 4200: „Ende der Vorfahrtsstraße“: Es gelten wieder die allgemeinen Vorfahrtsregeln (rechts vor links). Gilt innerorts und außerorts.
+20593: Wieder gelten die allgemeinen Vorfahrtsregeln.
+20594: Die Vorfahrtsstraße endet.
+20595: Danach gilt in der Regel „rechts vor links“.
+20596: Es gilt auch innerorts.
+20597: Das Autobahnende hat ein grünes Zeichen.
+20598: Das Ende einer Einbahnstraße wird anders angezeigt.
+20599: Es geht um die Vorfahrt, nicht um Gegenverkehr.
+20600: Es betrifft keine Geschwindigkeit.
+20601: Es hebt nur das Vorfahrtsrecht auf.
+
+G 4206: Vorfahrtszeichen „Vorfahrtsstraße“ (gelbe Raute mit weißem Rand). Ab hier hat man an allen Kreuzungen Vorfahrt; auf den Seitenstraßen stehen STOP oder „Vorfahrt gewähren“. Einsatzfahrzeugen mit Blaulicht und Martinshorn muss man trotzdem Vorfahrt lassen, und man sollte sich vergewissern, dass die anderen warten.
+20665: Hier beginnt eine Straße mit Vorfahrt.
+20666: Es kann an einer Staatsstraße stehen.
+20667: Einsatzfahrzeuge mit Blaulicht und Sirene haben immer Vorrang.
+20668: Es ist ein Vorfahrtszeichen.
+20669: Man muss sich vergewissern, dass die anderen wirklich warten.
+20670: Es ist ein Vorschriftszeichen.
+20671: Man muss nicht anhalten – man hat Vorfahrt.
+20672: Es schützt keine Fußgängerübergänge.
+20673: Es steht auch innerorts und auf anderen Straßen.
+20674: Man hat Vorfahrt nach beiden Seiten.
+20675: Busspuren werden anders gekennzeichnet.
+20676: Baustellen haben gelbe Zeichen.
+
+G 4207: Die Vorfahrtsstraße kann innerorts oder außerorts beginnen; das Zeichen kann vor und nach Kreuzungen klein wiederholt und mit einer Tafel (B) ergänzt werden. Auf den kreuzenden Straßen steht STOP oder „Vorfahrt gewähren“. An Kreuzungen trotzdem langsamer fahren.
+20677: Es kann am Anfang einer Orts- oder Freilandstraße mit Vorfahrt stehen.
+20678: Es kann vor und nach Kreuzungen klein wiederholt werden.
+20679: Es kann klein wiederholt und mit der Tafel (B) ergänzt werden.
+20680: Auf den Querstraßen steht STOP oder „Vorfahrt gewähren“.
+20681: In der Nähe von Kreuzungen trotzdem langsamer fahren.
+20682: Es steht am Anfang einer Straße mit Vorfahrt.
+20683: Autobahnen haben eigene grüne Zeichen.
+20684: Es steht nicht nur an Staatsstraßen.
+20685: Auch mit Vorfahrt ist Vorsicht nötig.
+20686: Das Ende hat ein durchgestrichenes Zeichen.
+20687: Es zeigt kein Ende an.
+20688: Die Vorfahrt gilt bis zum Ende-Zeichen, nicht bis zum Ortsende.
+
+G 4208: Vorschriftszeichen „Vorfahrt vor dem Gegenverkehr“ (blaues Rechteck, weißer Pfeil nach oben, roter nach unten). An einer Engstelle mit wechselndem Einbahnverkehr hat man Vorfahrt – man darf durchfahren, nachdem man sich vergewissert hat, dass der Gegenverkehr wartet.
+20689: Man muss sich vergewissern, dass die Entgegenkommenden warten.
+20690: Nach dem Vergewissern darf man durch die Engstelle fahren.
+20691: Auch mit Vorfahrt vorsichtig fahren.
+20692: Erst durchfahren, wenn klar ist, dass die anderen Vorfahrt geben.
+20693: Man hat Vorfahrt, nicht die anderen.
+20694: Auch mit Vorfahrt nie „bedachtlos“ weiterfahren.
+20695: Es ist keine Einbahnstraße – es gibt Gegenverkehr.
+20696: Es kündigt keinen Beginn des Gegenverkehrs an.
+20698: Es hat nichts mit Wenden zu tun.
+20699: Es hat nichts mit Abbiegen zu tun.
+
+G 4209: Zeichen „Vorfahrt vor dem Gegenverkehr“ mit Ampel: Grün, Ampel aus oder gelb blinkend → wir haben Vorfahrt (bei aus/blinkend gilt das Zeichen). Rot → anhalten. Ein Polizist geht allem vor.
+20700: Bei Grün haben wir Vorfahrt.
+20701: Ist die Ampel aus, gilt das Zeichen – wir haben Vorfahrt.
+20702: Der Polizist geht der roten Ampel vor – wir fahren.
+20703: Der Polizist geht dem Zeichen vor – wir müssen anhalten.
+20704: Gelb blinkend = Zeichen gilt – wir haben Vorfahrt.
+20705: Bei Rot muss man anhalten.
+20706: Gelb blinkend = Zeichen gilt, und das gibt uns Vorfahrt.
+20707: Der Polizist geht der grünen Ampel vor – anhalten.
+20708: Der Polizist geht dem Zeichen vor – anhalten.
+
+G 4190: Vorfahrtszeichen „Vorfahrt gewähren“ (umgekehrtes Dreieck). Steht direkt an der Kreuzung auf Nebenstraßen oder an Autobahnzufahrten: Man muss den Fahrzeugen auf der Straße, in die man einfährt, von rechts und links Vorfahrt gewähren. Anhalten muss man nur, wenn jemand kommt. Außerorts wird es vorher angekündigt.
+20466: Es ist ein Vorfahrtszeichen.
+20467: Vorfahrt gewähren nach rechts und links.
+20468: Vorfahrt haben die Fahrzeuge auf der Straße, die man kreuzt.
+20469: Es steht an Nebenstraßen.
+20470: Es steht an Beschleunigungsspuren zur Autobahn.
+20471: Außerorts kündigt ein Zeichen mit Entfernung es vorher an.
+20472: Man muss langsamer werden und bei Bedarf anhalten.
+20473: Kommt niemand, muss man nicht anhalten – das ist der Unterschied zu STOP.
+20474: Das Zeichen „Vorfahrtsstraße“ steht auf der anderen, der bevorrechtigten Straße.
+20475: Es steht auf Straßen ohne Vorfahrt.
+20476: Es steht direkt an der Kreuzung.
+20477: Es steht direkt an der Einmündung.
+20478: Anhalten muss man nur, wenn Fahrzeuge kommen.
+20479: Es steht innerorts und außerorts.
+20480: Es ist ein Vorfahrtszeichen.
+20481: Vorfahrt muss man allen Fahrzeugen auf der Querstraße geben.
+
+G 4191: „Vorfahrt gewähren“ ist ein Vorschriftszeichen. Es gilt auch, wenn eine Ampel gelb blinkt, und steht z. B. an Autobahnzufahrten. Größte Vorsicht beim Einfahren.
+20482: Es ist ein Vorschriftszeichen.
+20483: Vorfahrt haben die Fahrzeuge auf der Straße, auf die man auffährt.
+20484: Blinkt die Ampel gelb, gilt das Zeichen.
+20485: Es steht an Autobahnzufahrten.
+20486: Größte Vorsicht beim Einfahren.
+20487: Die STOP-Vorankündigung steht vor dem STOP-Zeichen, nicht vor diesem.
+20488: Es kündigt keine Raststätte an.
+20489: Anhalten muss man nur bei Bedarf.
+20490: Es steht auch innerorts.
+
+G 4193: Vorankündigung „Vorfahrt gewähren“ (umgekehrtes Dreieck mit Entfernungsangabe, hier 320 m). Weiter vorne steht „Vorfahrt gewähren“ – z. B. an einer T-Kreuzung: Man muss nach rechts und links Vorfahrt geben, aber nicht unbedingt anhalten.
+20509: Es ist ein Vorschriftszeichen.
+20510: Man muss nach rechts und links Vorfahrt gewähren.
+20511: Weiter vorne steht „Vorfahrt gewähren“.
+20512: Die Zahl ist die Entfernung zur Kreuzung.
+20513: Langsamer fahren, um bei Bedarf anhalten zu können.
+20514: Es kann eine T-Kreuzung ankündigen.
+20515: Es steht auf einer Straße ohne Vorfahrt.
+20516: Anhalten muss man nur bei Bedarf – STOP hat eine eigene Vorankündigung.
+20517: Es kündigt „Vorfahrt gewähren“ an, nicht STOP.
+20518: Man muss nicht unbedingt anhalten.
+20519: Anhalten ist nur bei Bedarf nötig.
+20520: Vorfahrt nach beiden Seiten, nicht nur rechts.
+20521: Ampeln haben ein eigenes Gefahrenzeichen.

@@ -58,7 +58,8 @@ jobs:
           path: '*.apk'
 
   windows:
-    runs-on: windows-latest
+    # Flutter 3.32 kennt das Visual Studio der neuesten Windows-Images noch nicht.
+    runs-on: windows-2022
     steps:
       - uses: actions/checkout@v4
         with:
