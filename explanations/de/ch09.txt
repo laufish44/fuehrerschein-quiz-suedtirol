@@ -1,0 +1,218 @@
+# Kapitel 9 (Ministerium) – Zusätzliche und vorübergehende Zeichen, Baustellen
+# Vorübergehende Zeichen an Baustellen haben gelben Hintergrund und gehen den normalen Zeichen vor.
+
+G 4338: Gelbes Baustellenzeichen „Fahrstreifen rechts gesperrt“: Aus zwei Fahrstreifen wird einer, weil rechts gearbeitet wird. Eine Tafel kann die Entfernung zur Sperre angeben. Rechtzeitig links einordnen.
+21901: Der rechte Fahrstreifen ist wegen Arbeiten gesperrt.
+21902: Zwei Fahrstreifen werden zu einem.
+21903: Gelb = Straßenbaustelle in der Nähe.
+21904: Eine Tafel kann die Entfernung angeben.
+21905: Die Fahrbahn wird wegen der Arbeiten enger.
+21906: Es erlaubt kein Rechtsüberholen.
+21907: Es zeigt keine Wendemöglichkeit.
+21908: Es steht bei einer Baustelle, nicht an einer Kreuzung.
+21909: Es zeigt keine Bushaltebucht.
+21910: Gesperrt ist der rechte Fahrstreifen allgemein, nicht eine Spur für langsame Fahrzeuge.
+21911: Es regelt keine Vorfahrt.
+
+G 4337: Gelber Vorwegweiser bei einer Baustelle: Fahrzeuge mit einem tatsächlichen Gewicht über 7 t dürfen Richtung Lucca nicht geradeaus weiter und müssen eine andere Straße nehmen. Leichtere Fahrzeuge fahren normal weiter.
+21891: Fahrzeuge über 7 t Richtung Lucca müssen eine andere Straße nehmen.
+21892: Lkw unter 7 t dürfen geradeaus.
+21893: Über 7 t ist geradeaus Richtung Lucca verboten.
+21894: Für einen Abschnitt gilt eine Beschränkung über 7 t tatsächlichem Gewicht.
+21895: Es steht an einer Kreuzung vor einer Baustelle.
+21896: Gelb = vorübergehendes Baustellenzeichen.
+21897: Nur Fahrzeuge über 7 t sind betroffen.
+21898: Nur die schweren Fahrzeuge müssen ausweichen.
+21899: Es ist kein Überholverbot.
+21900: Die 7 bedeutet Tonnen, nicht Meter.
+
+G 4339: Gelbes Zeichen „Fahrstreifenbenutzung bei Baustellen“: zeigt, welche Fahrzeugklassen welche Fahrstreifen benutzen dürfen – hier dürfen Lkw über 3,5 t nur rechts fahren.
+21912: Es zeigt den Fahrzeugklassen ihre Fahrstreifen an der Baustelle.
+21913: Es zeigt die Benutzung der Fahrstreifen.
+21914: Es zeigt, auf welchem Streifen man fahren muss.
+21916: Lkw über 3,5 t nur rechts.
+21917: Es hat nichts mit Mautstellen zu tun.
+21918: Es schreibt kein paralleles Fahren vor.
+21919: Es erlaubt kein Rechtsüberholen.
+21920: Krafträder dürfen auch links fahren.
+
+G 4342: Leitpfosten für Einbahntunnels: zusätzliche Einrichtung am Tunnelrand, die den Verlauf kenntlich macht. Er hat kein eigenes Licht.
+21940: Er steht am Rand von Einbahntunnels.
+21941: Er ist eine Zusatzeinrichtung für Einbahntunnels.
+21943: Er ist eine Zusatzeinrichtung.
+21944: Er zeigt keine Kreuzung an.
+21945: Er zeigt keine gesperrte Straße an.
+21946: Er steht am Rand, nicht in der Mitte.
+21947: Fahrstreifen werden mit Linien getrennt.
+21948: Baken an Bahnübergängen sehen anders aus.
+21949: Er reflektiert nur, hat kein eigenes Licht.
+
+G 4345: Leitpfosten für T-Kreuzungen: steht gegenüber der Einmündung, die Pfeilspitzen zeigen nach rechts und links – geradeaus geht es nicht weiter.
+21971: Man muss rechts oder links abbiegen.
+21972: Die Pfeilspitzen zeigen die möglichen Richtungen.
+21973: Er steht an einer T-Kreuzung.
+21974: Geradeaus kann man nicht weiterfahren.
+21975: Bahnübergänge haben eigene Zeichen.
+21976: Bewegliche Brücken haben eigene Zeichen.
+21977: Gesperrte Straßen haben Absperrschranken.
+21978: Er zeigt keine zusätzlichen Fahrstreifen.
+21979: Er zeigt keine Kurve.
+21980: Tunnels haben eigene Zeichen.
+
+G 4336: Zeichen für Wanderbaustellen (oft auf einem Fahrzeug): zeigt die verfügbaren Fahrstreifen (hier von drei auf zwei, Engstelle links) und kann durch gelbe Blinklichter ergänzt sein.
+21884: Es kündigt eine mobile Baustelle mit Engstelle links an.
+21885: Es kann auf einem Fahrzeug angebracht sein.
+21886: Es zeigt die verfügbaren Fahrstreifen.
+21887: Aus drei werden zwei Fahrstreifen.
+21888: Gelbe Blinklichter können es ergänzen.
+21889: Es zeigt keine Zahl von Fahrzeugen.
+21890: Es zeigt keine Haltebucht.
+
+G 4335: Pfeil an Arbeitsfahrzeugen (stehend oder langsam fahrend): zeigt, auf welcher Seite man das Fahrzeug passieren muss. Geschwindigkeit herabsetzen.
+21875: Es kann an stehenden oder langsamen Arbeitsfahrzeugen angebracht sein.
+21876: Es zeigt die Seite, auf der man vorbeifahren muss.
+21877: Es kann an geparkten Instandhaltungsfahrzeugen sein.
+21878: Es kann an langsam fahrenden Instandhaltungsfahrzeugen sein.
+21879: Langsamer fahren, weil Arbeitsfahrzeuge stehen oder langsam fahren.
+21880: Der Pfeil zeigt die Seite laut Bild – laut offizieller Lösung nicht links.
+21881: Es schreibt kein Abbiegen vor.
+21882: Es sperrt keinen Fahrstreifen allgemein.
+21883: Es schreibt kein Parken vor.
+
+G 4331: Gelbes Zeichen „Empfohlene Fahrtrichtung für Lkw über 3,5 t“ bei einer Baustelle: empfiehlt schweren Lkw eine Umfahrung. Es kann vorher angekündigt werden. Es ist eine Empfehlung, keine Pflicht.
+21836: Es empfiehlt Lkw über 3,5 t eine Richtung.
+21837: Es zeigt, welche Fahrzeugklassen abbiegen sollen.
+21838: Es steht dort, wo die Umfahrung empfohlen wird.
+21839: Es kann vorher angekündigt werden.
+21840: Es steht an einer Kreuzung vor einer Baustelle.
+21841: Es verbietet nichts.
+21842: Es zeigt keinen Parkplatz.
+21843: Es zeigt keine Deponie.
+21844: Es zeigt keine Einbahnstraße.
+21845: Es ist eine Empfehlung, keine Pflicht.
+
+G 4332: Gelbes Gefahrenzeichen „Baustelle“ (Arbeiter): kündigt Straßenarbeiten, Baustellen, Material- und Maschinenlager sowie Arbeiter neben oder auf der Fahrbahn an. Eine Tafel kann die Länge angeben. Langsam und vorsichtig fahren.
+21846: Es kündigt Straßenarbeiten an.
+21847: Es kündigt Baustellen an.
+21848: Es kündigt vorübergehende Material- und Maschinenlager an.
+21849: Arbeiter können neben oder auf der Fahrbahn arbeiten.
+21850: Eine Tafel kann die Länge angeben.
+21851: Es regelt keine Vorfahrt.
+21852: Es regelt keine Vorfahrt.
+21853: Es schreibt kein Wenden vor.
+21854: Es regelt keinen Vorrang – man muss aber vorsichtig sein.
+21855: Wechselnder Einbahnverkehr hat eigene Zeichen.
+
+G 4347: Gelbes Gefahrenzeichen „Baustellenampel“: kündigt eine Ampel an einer Baustelle an (z. B. vor einer Verengung), innerorts wie außerorts. Das mittlere Feld ist ein gelbes Blinklicht.
+21990: Es kündigt eine Baustellenampel an.
+21991: Es steht innerorts und außerorts.
+21992: Es kann vor einer Verengung wegen Arbeiten stehen.
+21993: Das mittlere Feld blinkt gelb.
+21994: Für bewegliche Brücken gibt es ein eigenes Zeichen.
+21995: Es kündigt kein STOP an.
+21996: Es hat nichts mit Fähren zu tun.
+21997: Bahnübergänge haben eigene Zeichen.
+
+G 4344: Leitpfosten für enge Kurven (Pfeil, hier nach links): steht in engen Kurven mit schlechter Sicht, meist nach dem Zeichen „Gefährliche Linkskurve“. In Weiß-Rot zeigt er eine vorübergehende Kurve an.
+21960: Er steht in engen, unübersichtlichen Kurven.
+21961: Er folgt meist dem Zeichen „Gefährliche Kurve links“.
+21962: Weiß-rot = vorübergehende Linkskurve.
+21963: Er zeigt eine gefährliche Kurve an.
+21964: Er mahnt zur Vorsicht in der Kurve.
+21965: Baustellen haben eigene Zeichen.
+21966: Steigungen haben eigene Zeichen.
+21967: Hindernisse haben eigene Leitpfosten.
+21968: Der Pfeil zeigt nach links.
+21969: Bahnübergänge haben eigene Zeichen.
+21970: Er wird auf allen Straßen eingesetzt.
+
+G 4346: Mehrere Leitpfosten hintereinander (Pfeile nach rechts) kennzeichnen eine gefährliche Rechtskurve. Sie stehen in der Kurve selbst, nicht 150 m davor.
+21981: Sie stehen mehrmals hintereinander in der Kurve.
+21982: Sie sind Zusatzeinrichtungen.
+21984: Die Pfeile zeigen eine Rechtskurve.
+21985: Die Pfeile zeigen nach rechts.
+21986: Sie stehen in der Kurve.
+21987: Tunnels haben eigene Leitpfosten.
+21988: Bei defekten Schranken nimmt man Absperrschranken.
+21989: Sie gelten auch auf Gegenverkehrsstraßen.
+
+G 4330: Zusatztafel „Kehre“ mit Nummer: zeigt eine enge Kurve (Spitzkehre) an und nummeriert die Kehren einer Serie fortlaufend.
+21826: Sie zeigt eine enge Kurve an.
+21827: Sie nummeriert gefährliche Kurven.
+21828: Sie kann den Anfang einer Kehrenreihe zeigen.
+21829: In einer Kehrenreihe zeigt sie die laufende Nummer.
+21830: Sie zeigt keinen Kreisverkehr.
+21831: Die Zahl ist keine Entfernung.
+21832: Die Zahl ist keine Entfernung.
+21833: Sie zählt keine Kreuzungen.
+21834: Die Zahl ist keine Entfernung.
+21835: Sie nummeriert keine Überführungen.
+
+G 4333: Absperrschranke (rot-weiß): grenzt Baustellen und gesperrte Bereiche ab. Sie wird auch an Bahnübergängen mit defekten Schranken eingesetzt und kann bei schlechter Sicht eine rote Leuchte haben.
+21856: Sie zeigt einen Baustellenbereich an.
+21857: Sie grenzt den Arbeitsbereich ab.
+21858: Sie steht am Rand der Baustelle.
+21859: Sie kann defekte Bahnschranken ersetzen.
+21860: Bei schlechter Sicht kann eine rote Leuchte dazukommen.
+21861: Sie steht nicht an Garageneinfahrten.
+21862: Sie zeigt keinen Parkplatz.
+21863: An Mautstellen gibt es andere Abgrenzungen.
+21864: Kurven haben Leitpfosten.
+21865: Radwege haben eigene Zeichen.
+
+G 4334: Leitkegel (Pylon): grenzt kurzzeitige Baustellen, Umleitungen und Unfallstellen ab oder trennt vorübergehend die Fahrtrichtungen.
+21866: Er grenzt kurzzeitige Baustellen ab.
+21867: Er kann Umleitungen anzeigen.
+21868: Er kann Unfallstellen anzeigen.
+21869: Er kann die Fahrtrichtungen vorübergehend trennen.
+21870: Er reserviert keine Parkplätze.
+21871: Für lange Baustellen nimmt man feste Absperrungen.
+21872: Für Schnee gibt es Schneestangen.
+21873: Radwege werden anders abgegrenzt.
+21874: Er steht auf der Fahrbahn.
+
+G 4340: Leitpfosten am Fahrbahnrand von Einbahnstraßen oder Einbahnfahrbahnen: Zusatzeinrichtung, die den Straßenverlauf besser erkennen lässt.
+21921: Sie stehen am Rand von Einbahnstraßen.
+21922: Sie sind Zusatzeinrichtungen.
+21923: Sie stehen am Rand einer Einbahnstraße oder -fahrbahn.
+21924: Sie machen den Verlauf besser sichtbar.
+21925: Diese Form ist für Einbahnstraßen.
+21926: Sie stehen nicht vor Zebrastreifen.
+21927: Sie stehen am Rand.
+21928: Sie teilen keine Fahrstreifen.
+21929: Sie reservieren keine Parkplätze.
+21930: Sie sind auch tagsüber sichtbar.
+
+G 4341: Leitpfosten am Rand von Gegenverkehrsstraßen: zeigen den Straßenverlauf, besonders nützlich bei schlechter Sicht. Sie stehen am Rand, in kurzen Abständen.
+21931: Sie helfen besonders bei schlechter Sicht.
+21932: Sie sind Zusatzeinrichtungen.
+21933: Sie stehen am Rand von Gegenverkehrsstraßen.
+21934: Sie machen den Verlauf besser sichtbar.
+21935: Sie helfen nicht nur nachts.
+21936: Sie stehen in kürzeren Abständen.
+21937: Sie stehen am Rand.
+21938: Sie teilen keine Fahrstreifen.
+21939: Diese Form ist für Gegenverkehrsstraßen.
+
+G 4343: Schneestange (Leitpfosten an Bergstraßen): steht am Fahrbahnrand von Bergstraßen, auf denen oft Schnee liegt, damit man den Rand auch bei Schnee erkennt.
+21950: Sie steht an verschneiten Bergstraßen.
+21951: Sie ist eine Zusatzeinrichtung.
+21952: Sie steht am Rand von Bergstraßen.
+21953: Sie macht den Rand verschneiter Straßen sichtbar.
+21954: Sie steht nicht an Bushaltestellen.
+21955: Sie steht am Rand.
+21956: Sie steht nicht an Zebrastreifen.
+21957: Sie ist kein Fahrradständer.
+21958: Sie steht unabhängig von Leitplanken.
+21959: Sie zeigt kein Parkverbot.
+
+G 4348: Leitpfosten für Hindernisse auf der Fahrbahn: rückstrahlend, kennzeichnet ein Hindernis oder den Anfang einer Verkehrsinsel. Er steht auf der Fahrbahn, am Hindernis.
+21998: Er zeigt ein Hindernis an.
+21999: Er steht bei einem Hindernis auf der Fahrbahn.
+22000: Er reflektiert, damit man ihn nachts sieht.
+22001: Er kann den Anfang einer Verkehrsinsel markieren.
+22002: Er hat kein eigenes Licht.
+22003: Er steht am Hindernis, nicht am Straßenrand.
+22004: Er trennt keinen Radweg ab.
+22005: Er kündigt keine Busspur an.
+22006: Er steht auf der Fahrbahn.

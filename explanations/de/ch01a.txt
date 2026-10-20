@@ -1,0 +1,300 @@
+# Kapitel 1 (Ministerium) – Definitionen, Fahrzeuge, Pflichten (Teil 1)
+
+G 4003: Straße mit drei Fahrbahnen (durch Fahrbahnteiler getrennt) und insgesamt acht Fahrstreifen: Die seitlichen Fahrbahnen sind meist Einbahnfahrbahnen, die mittlere hat Gegenverkehr. Auf Einbahnfahrbahnen darf man auch in Kurven überholen; Wenden ist dort verboten.
+18330: Fahrbahnteiler trennen die Straße in drei Fahrbahnen.
+18331: Zusammen haben die Fahrbahnen acht Fahrstreifen.
+18332: Die seitlichen Fahrbahnen haben in der Regel nur eine Fahrtrichtung.
+18333: Die mittlere Fahrbahn hat in der Regel Gegenverkehr.
+18334: Ohne Gegenverkehr (seitliche Fahrbahnen) ist Überholen auch in Kurven erlaubt.
+18335: Es sind drei Fahrbahnen, nicht vier.
+18336: Acht sind die Fahrstreifen, nicht die Fahrbahnen.
+18337: Nur die mittlere Fahrbahn hat Gegenverkehr.
+18338: Es sind acht Fahrstreifen, nicht drei.
+18340: Auf Einbahnfahrbahnen ist Wenden verboten.
+
+G 4002: Eine Fahrbahn mit drei Fahrstreifen pro Richtung: Der rechte Streifen ist für den normalen Verkehr, Mitte und links dienen zum Überholen.
+18322: Rechts fährt man normal.
+18323: Es gibt drei Fahrstreifen je Richtung.
+18324: Mittlerer und linker Streifen dienen zum Überholen.
+18325: Es ist eine einzige Fahrbahn (ohne Fahrbahnteiler).
+18326: Normal fährt man rechts, nicht in der Mitte.
+18327: Rechts überholt man nicht; rechts fährt man normal.
+18329: Links ist zum Überholen, nicht für den normalen Verkehr.
+
+G 4001: Gegenverkehrsfahrbahn mit vier Fahrstreifen – zwei je Richtung, in der Mitte durch eine doppelte durchgehende Linie getrennt. Weil man zum Überholen nicht auf die Gegenseite muss, ist Überholen auch in Kurven erlaubt; außerorts dienen die inneren Streifen dem Überholen. Wenden ist wegen der Doppellinie verboten. Überholt wird links – und nicht, wenn der Hintermann schon zum Überholen angesetzt hat.
+18315: Man bleibt beim Überholen auf den eigenen zwei Streifen – deshalb ist es auch in der Kurve erlaubt.
+18316: Laut offizieller Lösung ist die abgebildete Fahrbahn eine Gegenverkehrsfahrbahn.
+18317: Außerorts sind die inneren Fahrstreifen zum Überholen da.
+18318: Auf dieser Fahrbahn ist Wenden nicht erlaubt.
+18319: Überholt wird links; rechts nur in Ausnahmefällen.
+18320: Paralleles Fahren ist nur bei dichtem Verkehr erlaubt, nicht immer.
+18321: Hat der Hintermann schon mit dem Überholen begonnen, darf man selbst nicht ansetzen.
+
+G 4004: Fußgängerüberweg (Zebrastreifen): ein Teil der Fahrbahn mit weißen parallelen Streifen, auf dem Fußgänger queren. Fahrzeuge müssen querenden Fußgängern Vortritt lassen; Halten und Parken sind darauf verboten. Fahren darf man darüber.
+18341: Der Zebrastreifen besteht aus weißen parallelen Streifen.
+18342: Auf dem Zebrastreifen ist Halten verboten.
+18343: Fahrzeuge müssen querenden Fußgängern Vortritt geben.
+18344: Er ist für das Queren der Fußgänger bestimmt.
+18345: Parken ist darauf verboten.
+18346: Er ist weiß und Teil der Fahrbahn, nicht durch gelbe Streifen getrennt.
+18347: Fahrzeuge dürfen darüberfahren – sie müssen nur Vortritt lassen.
+18348: Er ist sehr wohl Teil der Fahrbahn.
+18349: Er liegt auf der Fahrbahn, nicht außerhalb.
+18350: Auch Halten ist verboten.
+
+G 4005: Erstrangige Freilandstraße (Schnellstraße): getrennte Fahrbahnen mit je mindestens zwei Fahrstreifen, keine höhengleichen Kreuzungen, Beschleunigungsstreifen und eigene Parkplätze, mit Anfangs- und Endzeichen. Nur bestimmte Kraftfahrzeuge dürfen sie benutzen. Höchstgeschwindigkeit 110 km/h (nicht 130).
+18351: Erstrangige Freilandstraßen haben getrennte Fahrbahnen.
+18352: Sie haben eigene Parkplätze.
+18353: Kreuzungen sind dort nie höhengleich.
+18354: Anfang und Ende werden durch eigene Zeichen angezeigt.
+18355: Nur bestimmte Kraftfahrzeugklassen dürfen sie befahren.
+18356: Kreuzungen sind höhenfrei (Brücken, Rampen).
+18357: Auffahren erfolgt über Beschleunigungsstreifen.
+18358: Dort gelten 110 km/h, 130 km/h nur auf Autobahnen.
+18359: Grün ist die Autobahn; erstrangige Freilandstraßen sind blau beschildert.
+18361: Das Tempolimit ist niedriger als auf Autobahnen.
+18362: Leichte vierrädrige Kraftfahrzeuge (wie Mopeds) sind verboten.
+18363: Sie haben mindestens zwei Fahrstreifen pro Richtung.
+18364: Kleinkrafträder sind verboten.
+18365: Auch dort gibt es Kurven und Kuppen.
+
+G 4006: Verkehrsinsel (Sperrfläche): Teil der Straße zur Lenkung der Verkehrsströme. Sie kann erhöht oder höhengleich (weiße Schrägstriche mit durchgehender Umrandung) sein. Darauf darf kein Fahrzeug fahren, halten oder parken.
+18367: Sie hilft, die Fahrzeuge in verschiedene Richtungen einzuordnen.
+18368: Sie ist durch durchgehende weiße Linien begrenzt.
+18369: Sie kann höhengleich oder erhöht sein.
+18370: Sie wird durch weiße Sperrflächen markiert.
+18371: Auch Krafträder dürfen nicht darauf fahren.
+18372: Die höhengleiche Verkehrsinsel besteht aus weißen Sperrflächen.
+18373: Vor einer erhöhten Insel ist meist eine weiße Sperrfläche markiert.
+18374: Fahrzeuge dürfen darauf nicht fahren.
+18375: Fahrbahn und Bankett trennt die Randlinie.
+18376: Für Fußgänger gibt es Schutzinseln, keine Verkehrsinseln.
+18377: Sie ist keine Haltebucht.
+18378: Niemand darf darauf fahren.
+18379: Sie hat nichts mit der Verkehrsdichte zu tun.
+18380: Sie hat nichts mit der Altstadt zu tun.
+18381: Sie ist kein Wendeplatz.
+18382: Sie liegt auf der Straße.
+18383: Halten ist darauf verboten.
+18384: Das Ein- und Aussteigen erleichtert die Schutzinsel.
+18385: Parken ist darauf verboten.
+18386: Sie ist keine Fußgängerzone.
+18387: Auch Kleinkrafträder dürfen nicht darauf fahren.
+
+G 4007: Höhenfreie Kreuzung (Anschlussstelle): Straßen auf verschiedenen Ebenen werden mit Rampen, Über- oder Unterführungen verbunden. Fahrzeuge kreuzen sich nicht direkt; Ampeln braucht es nicht. Die Tempolimits gelten weiter.
+18388: Die Straßen liegen auf unterschiedlicher Höhe.
+18389: Fahrzeuge kreuzen sich nicht direkt – das macht den Verkehr flüssiger.
+18390: Dazu gehören Rampen, Über- und Unterführungen.
+18391: Diese Bauwerke verbinden die Straßen auf verschiedenen Ebenen.
+18392: Höhengleiche Kreuzungen mit Schienen sind Bahnübergänge.
+18393: Auch dort gelten die Geschwindigkeitsbegrenzungen.
+18394: Höhenfreie Kreuzungen brauchen meist keine Ampeln.
+
+G 4008: Höhengleiche Kreuzung: Zwei oder mehr Straßen kreuzen sich auf derselben Ebene; sie kann durch Ampeln geregelt sein. Man muss auf Fahrzeuge aus den Querstraßen achten.
+18395: Die Straßen kreuzen sich auf derselben Ebene.
+18396: Sie kann durch Ampeln geregelt sein.
+18397: Kreuzung zweier oder mehrerer Straßen auf derselben Ebene.
+18398: Man muss auf Fahrzeuge aus den Querstraßen achten.
+18399: Das wäre eine Kreuzung mit Straßenbahngleisen.
+18400: Eine Grundstückseinfahrt ist keine Kreuzung.
+18401: Ein Bahnübergang ist keine Straßenkreuzung.
+18402: Unterschiedliche Ebenen = höhenfrei.
+18403: Über- und Unterführungen gehören zur höhenfreien Kreuzung.
+
+G 4009: Verkehrsberuhigte Zone (ZTL): Bereich, in dem nur bestimmte Fahrzeugklassen oder Nutzergruppen fahren dürfen, eventuell nur zu bestimmten Zeiten. Anfang und Ende sind beschildert.
+18404: Der Verkehr kann auf bestimmte Stunden beschränkt sein.
+18405: Er kann auf bestimmte Fahrzeugklassen beschränkt sein.
+18406: Nur berechtigte Fahrzeuge dürfen hinein.
+18407: Er kann auf bestimmte Nutzergruppen beschränkt sein.
+18408: Anfang und Ende sind beschildert.
+18409: Es geht um Fahrzeugklassen, nicht um eine Höchstzahl.
+18410: Je nach Regelung dürfen auch andere Fahrzeuge hinein.
+18411: Berechtigte Kraftfahrzeuge dürfen fahren.
+18412: Fußgänger dürfen immer gehen.
+
+G 4010: Bahnübergang: Kreuzung von Straße und Eisenbahn auf gleicher Höhe. Es kann Schranken, Halbschranken, rote Lichter, akustische Signale und das Andreaskreuz geben; davor stehen Baken.
+18413: Er kann Schranken haben.
+18414: Er kann Halbschranken haben.
+18415: Er kann rote Lichter haben.
+18416: Davor stehen Baken (150/100/50 m).
+18417: Bei unbeschrankten Übergängen steht das Andreaskreuz.
+18418: Es kann ein akustisches Signal geben.
+18419: Ein Bahnübergang ist höhengleich, keine Überführung.
+18420: An Bahnübergängen blinken rote Lichter, keine gelben.
+18421: Er hat nichts mit Autobahnen zu tun.
+18422: Dort gibt es keine Beschleunigungsstreifen.
+18423: Er ist keine Grundstücksausfahrt.
+18424: Eine Unterführung ist kreuzungsfrei – kein Bahnübergang.
+
+G 4011: Fußgängerzone: Hier dürfen nur Fußgänger gehen. Ausnahmen gelten für Einsatzfahrzeuge mit Blaulicht und Sirene, für Fahrzeuge von Menschen mit Behinderung und – wenn ausdrücklich erlaubt – für emissionsfreie Fahrzeuge.
+18425: Elektrofahrzeuge nur, wenn es ausdrücklich erlaubt ist.
+18426: Fußgänger dürfen sie benutzen.
+18428: Fahrzeuge im Dienst von Menschen mit Behinderung dürfen fahren.
+18429: Polizei im Einsatz mit Blaulicht und Sirene darf fahren.
+18430: Die Feuerwehr im Einsatz darf fahren.
+18431: Krafträder sind nicht erlaubt.
+18432: Sattelzugmaschinen sind nicht erlaubt.
+18433: Kleinkrafträder sind nicht erlaubt.
+18434: Kraftwagen sind nicht erlaubt.
+18435: Vierrädrige Kraftfahrzeuge sind nicht erlaubt.
+
+G 4012: Die Straße ist für Fußgänger, Tiere und Fahrzeuge bestimmt. Sie kann in Fahrbahnen geteilt sein, Einbahn- oder Gegenverkehr haben und Radwege, Gehsteige und Bankette umfassen.
+18436: Eine Straße kann aus mehreren Fahrbahnen bestehen.
+18437: Sie kann Radwege umfassen.
+18438: Sie kann eine Einbahnstraße sein.
+18439: Sie kann Gegenverkehr haben.
+18440: Sie ist für Fußgänger, Tiere und Fahrzeuge da.
+18441: Bankette gehören zur Straße.
+18442: Auch Fußgänger, Tiere und andere Fahrzeuge dürfen sie benutzen.
+18443: Auch Fußgänger gehören dazu.
+18444: Gehsteige gehören zur Straße.
+18445: Das ist keine Definition der Straße.
+
+G 4013: Autobahn: getrennte Fahrbahnen, keine höhengleichen Kreuzungen, eigene Auffahrt- und Ausfahrtstreifen (Beschleunigung/Verzögerung), seitlich eingezäunt. Nur bestimmte Fahrzeuge dürfen fahren – z. B. Krafträder ab 150 cm³ (bzw. elektrisch entsprechend), keine Mopeds, keine landwirtschaftlichen Maschinen, keine Fahrräder.
+18446: Kreuzungen sind dort nie höhengleich.
+18447: Auf- und Abfahrten haben eigene Fahrstreifen.
+18448: Die Fahrbahnen sind getrennt.
+18449: Krafträder ab 150 cm³ dürfen auf die Autobahn.
+18450: Landwirtschaftliche Maschinen sind verboten.
+18451: Nicht jedes Fahrzeug darf auf die Autobahn.
+18452: Man fährt über den Verzögerungsstreifen ab.
+18453: Autobahnen müssen eingezäunt sein.
+18454: Auch Lkw, Busse und Motorräder dürfen fahren.
+18455: Kleine Krafträder unter 150 cm³ sind verboten.
+18456: Radwege gibt es auf Autobahnen nicht.
+18457: Mopeds und Krafträder bis 125 cm³ sind verboten.
+18458: Auch große Krafträder dürfen fahren.
+18459: Mopeds und kleine Krafträder sind verboten.
+
+G 4014: Fahrbahn: der Teil der Straße, der in der Regel für Fahrzeuge bestimmt ist. Sie kann Einbahn- oder Gegenverkehr haben und in Fahrstreifen geteilt sein; Gehsteige, Radwege und Haltebuchten gehören nicht dazu.
+18460: Die Fahrbahn kann Einbahnverkehr haben.
+18461: Sie kann Gegenverkehr haben.
+18462: Sie kann in Fahrstreifen geteilt sein.
+18463: Radwege gehören nicht zur Fahrbahn.
+18464: Gehsteige gehören nicht zur Fahrbahn.
+18465: Sie ist für den Fahrzeugverkehr bestimmt.
+18466: Sie ist für alle Fahrzeuge da, nicht nur Fuhrwerke.
+18467: Sie ist zum Fahren da, nicht zum Notparken.
+18468: Sie ist nicht zum Parken von Lkw bestimmt.
+18469: Das wäre eine Spur im Schnee, keine Fahrbahn.
+18470: Haltebuchten liegen außerhalb der Fahrbahn.
+
+G 4015: Zur Fahrbahn gehören Fahrstreifen, Überholstreifen sowie Fußgänger- und Radfahrerüberwege; Bankette und Gehsteige liegen außerhalb.
+18471: Fahrstreifen gehören zur Fahrbahn.
+18472: Radfahrerüberwege liegen auf der Fahrbahn.
+18473: Fußgängerüberwege liegen auf der Fahrbahn.
+18474: Überholstreifen gehören zur Fahrbahn.
+18476: Bankette liegen außerhalb der Fahrbahn.
+18477: Gehsteige liegen außerhalb der Fahrbahn.
+
+G 4016: Fahrstreifen: Teil der Fahrbahn, breit genug für eine Reihe von Fahrzeugen, begrenzt durch durchgehende oder gestrichelte Linien. Er kann für normales Fahren, Überholen, Abbiegen, Beschleunigen, Verzögern, Notparken oder bestimmte Fahrzeuge (Bus, Taxi) bestimmt sein; eine Mindestgeschwindigkeit kann vorgeschrieben sein. Zwei Zweiräder nebeneinander sind nicht erlaubt.
+18478: Er kann für normales Fahren bestimmt sein.
+18479: Er ist durch durchgehende oder gestrichelte Linien begrenzt.
+18480: Es kann ein Beschleunigungsstreifen sein.
+18481: Es kann ein Verzögerungsstreifen sein.
+18482: Er kann für bestimmte Fahrzeuge gesperrt sein.
+18483: Er kann z. B. Bussen oder Taxis vorbehalten sein.
+18484: Er kann zum Überholen bestimmt sein.
+18485: Der Straßeneigentümer kann eine Mindestgeschwindigkeit vorschreiben.
+18486: In einem Fahrstreifen fährt man in einer Reihe.
+18487: Er kann als Notspur dienen.
+18488: Er kann für Abbieger bestimmt sein.
+18489: Er kann zum Verlangsamen bei der Autobahnausfahrt dienen.
+18490: Fahrstreifen sind für Fahrzeuge da.
+18491: Ein Fahrstreifen hat nur eine Fahrtrichtung.
+18492: Er ist keine Rennstrecke.
+18493: Fußgänger dürfen Fahrstreifen überqueren (z. B. am Zebrastreifen).
+18494: Fahrstreifen sind Teile einer Fahrbahn, nicht umgekehrt.
+18495: Er ist keine eigene Straße.
+18496: Krafträder dürfen nicht nebeneinander im selben Fahrstreifen fahren.
+18497: Auch Kleinkrafträder dürfen nicht nebeneinander fahren.
+
+G 4017: Beschleunigungsstreifen: dient zum Auffahren auf Autobahn oder erstrangige Freilandstraße (auch nach der Raststätte) und zum Beschleunigen. Nicht zum Überholen.
+18498: Er erleichtert das Auffahren.
+18499: Er dient zum korrekten Auffahren auf die Autobahn.
+18500: Auf ihm erhöht man die Geschwindigkeit.
+18501: Auch nach der Raststätte fährt man über ihn wieder auf.
+18502: Auf dem Beschleunigungsstreifen überholt man nicht.
+18503: Aus Haltebuchten fährt man ohne eigenen Streifen.
+18504: Zum Abfahren dient der Verzögerungsstreifen.
+
+G 4018: Verzögerungsstreifen: dient zum Abfahren von Autobahnen oder erstrangigen Freilandstraßen und zum Abbremsen, z. B. vor einer Raststätte. Nicht zum Parken, nicht zum Auffahren.
+18505: Er erleichtert das Ausfahren aus der Autobahn.
+18506: Er dient zum korrekten Ausfahren aus erstrangigen Freilandstraßen.
+18507: Auch zur Raststätte fährt man über ihn ab.
+18508: Parken ist dort verboten.
+18509: Haltebuchten haben keinen Verzögerungsstreifen.
+18510: Aufgefahren wird über den Beschleunigungsstreifen.
+
+G 4019: Bankett: Teil der Straße außerhalb der Fahrbahn bzw. jenseits der durchgehenden Randlinie. Fahrzeuge dürfen darauf in der Regel nicht fahren.
+18511: Auf dem Bankett fährt man in der Regel nicht.
+18512: Das Bankett liegt außerhalb der Fahrbahn.
+18513: Es liegt jenseits der durchgehenden Randlinie.
+18514: Es ist keine Spur für langsame Fahrzeuge.
+18515: Es gibt keine solche Parkerlaubnis.
+18516: Es trennt keine Fahrstreifen.
+18517: Es gehört nicht zur Fahrbahn und ist nicht zum Parken da.
+
+G 4020: Gehsteig: erhöhter oder sonst abgegrenzter Teil der Straße außerhalb der Fahrbahn, für Fußgänger. Parken ist dort nur erlaubt, wenn eine Markierung es vorsieht.
+18518: Er ist erhöht oder abgegrenzt und für Fußgänger da.
+18519: Er ist in der Regel den Fußgängern vorbehalten.
+18520: Parken nur, wenn eigens markiert.
+18521: Er liegt außerhalb der Fahrbahn und ist für Fußgänger.
+18522: Er gehört nicht zur Fahrbahn.
+18523: Fahrräder gehören nicht auf den Gehsteig.
+18524: Auch nicht erhöhte Gehsteige sind nicht zum Parken da.
+18525: Mopeds dürfen dort in der Regel nicht parken.
+
+G 4021: Schutzinsel: Insel für Fußgänger beim Queren der Straße oder an Haltestellen von Straßenbahn und Bussen (Ein- und Aussteigen). Sie kann durch Leuchtsäulen mit gelbem Licht gekennzeichnet sein.
+18526: Sie schützt querende Fußgänger und dient ihnen zum Warten.
+18527: Sie erleichtert das Ein- und Aussteigen an Haltestellen.
+18528: Sie kann durch gelb leuchtende Säulen markiert sein.
+18529: Das ist die Aufgabe von Mittellinien oder Fahrbahnteilern.
+18530: Das ist die Aufgabe der Verkehrsinsel.
+18531: Sie ist ein Bauwerk, keine Person.
+18532: Sie ist kein Rad- und Gehweg.
+
+G 4022: Grundstückseinfahrt (Passo carrabile): Zufahrt zu angrenzenden Privatgrundstücken (Garagen, Höfe). Sie muss mit einem Schild mit Behörde und Genehmigungsnummer gekennzeichnet sein. Halten ist erlaubt, Parken nicht.
+18533: Sie verbindet die Straße mit Privatgrundstücken.
+18535: Das Schild muss Behörde und Genehmigungsnummer enthalten.
+18536: Sie ist der Bereich für die Zufahrt zu Privatgrundstücken.
+18537: Kurz halten ist erlaubt.
+18538: Sie ist kein Parkplatz.
+18539: Sie ist keine Straße für Fuhrwerke.
+18540: Sie ist keine Straße für Lkw.
+18541: Sie ist keine Schutzinsel.
+18542: Sie ist kein Kreisverkehrszeichen.
+18543: Parken vor der Einfahrt ist verboten.
+
+G 4023: Kleinkrafträder (Mopeds): zwei oder drei Räder, Verbrennungsmotor bis 50 cm³, bauartbedingt höchstens 45 km/h. Hauptuntersuchung vier Jahre nach Erstzulassung, dann alle zwei Jahre. Fahrräder mit Tretunterstützung bis 0,25 kW sind keine Mopeds.
+18544: Bis 50 cm³ und bis 45 km/h = Kleinkraftrad.
+18545: Kleinkrafträder können zwei oder drei Räder haben.
+18546: Zweiräder über 50 cm³ sind Krafträder.
+18547: Mehr als 50 cm³ Hubraum sind nicht erlaubt.
+18548: Hauptuntersuchung nach vier Jahren, dann alle zwei Jahre.
+18549: Sie können auch drei Räder haben.
+18550: E-Bikes bis 0,25 kW gelten als Fahrräder.
+18551: Über 50 cm³ sind es Krafträder.
+18552: Eine Handschaltung ist nicht vorgeschrieben.
+18553: Mehr als 45 km/h dürfen sie nicht fahren.
+18554: Auch Mopeds müssen zur Hauptuntersuchung.
+
+G 4024: Dreirädrige Kraftfahrzeuge: drei symmetrisch angeordnete Räder, Hubraum über 50 cm³ (bzw. über 45 km/h). Führerschein nötig; Hauptuntersuchung nach vier Jahren, dann alle zwei Jahre. Ein Motorrad mit Beiwagen ist etwas anderes.
+18555: Sie haben drei symmetrisch angeordnete Räder.
+18556: Ihr Motor hat mehr als 50 cm³.
+18558: Hauptuntersuchung nach vier Jahren, dann alle zwei Jahre.
+18559: Man braucht einen Führerschein.
+18560: Kraftrad mit Beiwagen ist nicht symmetrisch – das ist etwas anderes.
+18562: Sie müssen zur Hauptuntersuchung.
+
+G 4025: Vierrädrige Kraftfahrzeuge: Leichte (bis 50 cm³ bzw. 45 km/h) sind im Verkehr Kleinkrafträdern gleichgestellt; die anderen (Quads bis 15 kW) brauchen den entsprechenden Führerschein. Alle müssen zur Hauptuntersuchung; Manipulationen (Auspuff, Hubraum) sind verboten.
+18563: Leichte mit Benzinmotor haben bis 50 cm³.
+18566: Vierrädrige Kraftfahrzeuge haben vier Räder.
+18567: Leichte sind den Kleinkrafträdern gleichgestellt.
+18569: Sie müssen regelmäßig zur Hauptuntersuchung.
+18570: Ohne Führerschein dürfen sie nicht gefahren werden.
+18571: Nur die leichten sind den Mopeds gleichgestellt.
+18573: Den Auspuff zu verändern, um schneller zu werden, ist verboten.
+18574: Mit 14 Jahren darf man sie nicht fahren.
+18575: Ohne Karosserie gilt die Helmpflicht.
+18576: Den Hubraum zu erhöhen ist verboten.

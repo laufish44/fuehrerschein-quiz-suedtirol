@@ -1,0 +1,319 @@
+# Kapitel 1 (Ministerium) – Definitionen, Fahrzeuge, Pflichten (Teil 2)
+
+18577: Den Motor zu tauschen, um über 45 km/h zu kommen, ist eine verbotene Manipulation.
+18578: Auch vierrädrige Kraftfahrzeuge müssen zur Hauptuntersuchung.
+
+G 4026: Landwirtschaftliche Maschinen und Arbeitsmaschinen: mit Rädern oder Raupen, selbstfahrend oder als Anhänger, mit Spezialgeräten. Sie dürfen – zugelassen – auf der Straße für Überführungsfahrten und landwirtschaftliche Transporte fahren. Höchstgeschwindigkeit 40 km/h (Raupen 15 km/h), höchstens 3 Personen inklusive Fahrer, nie stehend.
+18579: Zugelassene landwirtschaftliche Maschinen dürfen für Überführungsfahrten auf die Straße.
+18580: Sie können Räder oder Raupenketten haben.
+18581: Sie dürfen landwirtschaftliche Erzeugnisse für Betriebe befördern.
+18582: Sie können selbstfahrend oder Anhänger sein.
+18583: Sie können Spezialgeräte für die Feldarbeit haben.
+18584: Arbeitsmaschinen können selbstfahrend oder Anhänger sein.
+18585: Schneeräumfahrzeuge zählen zu den Arbeitsmaschinen.
+18586: Arbeitsmaschinen dürfen höchstens 40 km/h fahren.
+18587: Mit Raupenketten sind höchstens 15 km/h erlaubt.
+18588: Erlaubt sind höchstens 3 Personen inklusive Fahrer.
+18589: Klasse A ist für Krafträder; für Arbeitsmaschinen gilt das nicht pauschal.
+18590: Höchstens 3 Personen inklusive Fahrer.
+18591: Mitfahren im Stehen ist verboten.
+18592: Mit A darf man nur kleine landwirtschaftliche Maschinen innerhalb bestimmter Maße fahren.
+18593: Sonderarbeitsmaschinen erfordern eine höhere Führerscheinklasse.
+
+G 4027: Wohnanhänger (Wohnwagen): Anhänger, eingerichtet als Unterkunft – aber nur bei stehendem Fahrzeug. Während der Fahrt darf niemand darin sitzen. Er hat ein eigenes Kennzeichen.
+18594: Wohnwagen sind als Unterkunft ausgestattete Anhänger.
+18595: Bewohnt werden dürfen sie nur im Stand.
+18596: Sie haben ein eigenes Kennzeichen.
+18597: Während der Fahrt darf niemand im Wohnwagen sein.
+18598: Sie sind nicht für Feldarbeit bestimmt.
+18599: Sie sind nicht nur für Sportgeräte gedacht.
+
+G 4028: Wohnmobil (Camper): Kraftfahrzeug mit besonderem Aufbau zur Beförderung und Unterkunft von höchstens so vielen Personen, wie im Fahrzeugschein stehen. Es ist kein Anhänger. Mitfahren nur sitzend und angeschnallt. Hauptuntersuchung nach vier Jahren, dann alle zwei.
+18600: Es dient zur Beförderung und Unterkunft von Personen.
+18601: Höchstens so viele Personen wie im Fahrzeugschein.
+18602: Es kann ständig zu Beförderung und Unterkunft dienen.
+18603: Wohnmobile müssen zur Hauptuntersuchung.
+18604: Ein Wohnmobil hat einen eigenen Motor – kein Anhänger.
+18605: Es ist kein landwirtschaftliches Fahrzeug.
+18606: Es ist keine Baumaschine.
+18607: Stehend mitzufahren ist verboten.
+18608: Die Hauptuntersuchung ist alle zwei Jahre (erstmals nach vier), nicht alle fünf.
+
+G 4029: Rückstrahlende Kennzeichnungen: Lkw über 3,5 t und schwere Anhänger/Sattelanhänger tragen hinten eigene rückstrahlende Tafeln (gelb-rot) sowie seitlich und hinten Konturstreifen (seitlich weiß oder gelb, hinten rot oder gelb). Die orange Tafel zeigt Gefahrgut, eine rot-weiß gestreifte Tafel herausragende Ladung.
+18609: Lkw über 3,5 t brauchen hinten diese rückstrahlenden Tafeln.
+18610: Auch schwere Anhänger und Sattelanhänger brauchen hinten solche Tafeln.
+18611: Lkw und Anhänger über 3,5 t brauchen hinten und seitlich Konturstreifen.
+18613: Die orange Tafel kennzeichnet Gefahrgut.
+18614: Diese Tafel kennzeichnet herausragende Ladung.
+18615: Seitliche Streifen sind weiß oder gelb.
+18616: Hintere Streifen sind rot oder gelb.
+18617: Diese Tafeln zeigen: vorne fährt ein Lkw über 3,5 t.
+18618: Diese Tafeln zeigen: vorne fährt ein schwerer Anhänger.
+18619: Die Pflicht gilt erst über 3,5 t.
+18620: Die Tafeln sind erst über 3,5 t Pflicht.
+18621: Eine solche Plakette ist für Busse nicht vorgeschrieben.
+18622: Eine solche Plakette ist für Pkw nicht vorgeschrieben.
+18623: Wohnwagen brauchen keine solchen Streifen.
+18624: Busse brauchen keine solchen Streifen.
+
+G 4030: Krafträder (Motorräder): zweirädrige Kraftfahrzeuge über 50 cm³; Mopeds zählen nicht dazu. Sie können ein Automatikgetriebe haben. Hauptuntersuchung nach vier Jahren, dann alle zwei.
+18626: Krafträder haben zwei Räder.
+18627: Sie haben mehr als 50 cm³ Hubraum.
+18628: Kleinkrafträder sind eigene Fahrzeugklasse.
+18629: Ein Automatikgetriebe ist möglich.
+18630: Hauptuntersuchung nach vier Jahren, dann alle zwei.
+18631: Dreirädrige sind eine eigene Klasse.
+18632: Krafträder haben zwei Räder.
+18633: Nicht jedes Zweirad ist ein Kraftrad (Fahrrad, Moped).
+18634: Auch über 125 cm³ sind es Krafträder.
+18635: Das beschreibt ein Kleinkraftrad.
+18636: Leichte Vierräder sind Mopeds gleichgestellt, nicht Motorrädern.
+
+G 4031: Kraftwagen: Kraftfahrzeuge mit mindestens vier Rädern – außer den „vierrädrigen Kraftfahrzeugen“ (Quads). Dazu gehören Pkw, Busse und Lkw; dreirädrige zählen nicht dazu.
+18637: Mindestens vier Räder, ohne die Quads.
+18638: Nicht weniger als vier Räder, ohne die Quads.
+18639: Ein Bus ist ein Kraftwagen.
+18640: Ein Lkw ist ein Kraftwagen.
+18641: Quads sind keine Kraftwagen.
+18642: Quads sind ausgenommen.
+18643: Zweiräder sind keine Kraftwagen.
+18644: Ohne Motor ist es kein Kraftwagen.
+18645: Dreirädrige sind keine Kraftwagen.
+18646: Nicht jedes Motorfahrzeug ist ein Kraftwagen (z. B. Motorräder).
+18647: Auch Pkw und Busse sind Kraftwagen.
+
+G 4032: Personenkraftwagen (Pkw): Kraftwagen für höchstens 9 Personen inklusive Fahrer – egal welcher Antrieb (auch elektrisch). Ein Bus ist kein Pkw. Pkw dürfen Anhänger ziehen. Hauptuntersuchung nach vier Jahren, dann alle zwei.
+18648: Höchstens neun Personen inklusive Fahrer.
+18649: Ein Pkw ist ein Kraftwagen.
+18650: Nicht mehr als neun Plätze inklusive Fahrer.
+18651: Ein Bus hat mehr als neun Plätze.
+18652: Pkw können elektrisch sein.
+18653: Pkw müssen zur Hauptuntersuchung.
+18654: Der Antrieb spielt keine Rolle.
+18655: Pkw dürfen Anhängekarren und Anhänger ziehen.
+18656: Die Motorlage spielt keine Rolle.
+18657: Höchstens neun Plätze, nicht zehn.
+18658: Das wäre ein Spezialfahrzeug (Geldtransporter).
+18659: Ein Lkw ist kein Pkw.
+18660: Bis zu neun Plätze sind möglich.
+18661: Erste Prüfung nach vier Jahren, dann alle zwei.
+
+G 4033: Anhänger und Sattelanhänger: Fahrzeuge ohne Motor, die gezogen werden. Leichte Anhänger bis 750 kg Gesamtgewicht. Wohnwagen sind Anhänger, Wohnmobile und Gelenkbusse nicht.
+18662: Anhänger haben keinen Motor und werden gezogen.
+18663: Leicht = bis 750 kg.
+18664: Ein Gelenkbus ist ein Fahrzeug, kein Anhänger.
+18665: Ein Wohnmobil hat einen Motor.
+18666: Ein Wohnwagen ist ein Anhänger.
+18667: Die Grenze liegt bei 750 kg.
+18668: Sattelanhänger haben Bremsen.
+18669: Ohne Motor brauchen sie keinen Schalldämpfer.
+
+G 4034: Bei dichtem Verkehr und Kolonnen muss man Kreuzungen, Einmündungen und Zufahrten, Bahnübergänge, Straßenbahngleise sowie Fußgänger- und Radfahrerüberwege freihalten – also nicht darauf stehen bleiben.
+18670: Kreuzungen müssen frei bleiben.
+18671: Bahnübergänge und Straßenbahnschienen müssen frei bleiben.
+18672: Fußgänger- und Radfahrerüberwege müssen frei bleiben.
+18673: Einmündungen und Zufahrten müssen frei bleiben.
+18674: Alle Kreuzungen, nicht nur mit Ampel.
+18675: Überführungen muss man nicht freihalten.
+18676: Tunnels muss man nicht freihalten.
+
+G 4035: Fahren in der Kolonne: auch weiter vorne den Verkehr beobachten, Sicherheitsabstand halten, Einmündungen freihalten, nicht ablenken lassen. Bei Staubwolke und schlechter Sicht nicht überholen.
+18679: Man muss auch weiter nach vorne schauen.
+18680: Seitenstraßen-Einmündungen freihalten.
+18681: Auch in der Kolonne gilt der Sicherheitsabstand.
+18682: Nicht zu nah auffahren.
+18683: Die Warnblinkanlage ist dafür nicht gedacht.
+18684: Auch langsam darf man sich nicht ablenken lassen.
+18685: Man fährt rechts, nicht links.
+18686: Man fährt rechts, nicht in der Mitte.
+18687: Bei schlechter Sicht nicht überholen.
+
+G 4036: Innerorts ist mehr los: Vorfahrtsregeln wechseln oft, Fahrzeuge halten, fahren an oder biegen ein, Fußgänger und Radfahrer sind häufiger. Deshalb aufmerksam, vorsichtig und tolerant fahren und sich nicht ablenken lassen.
+18688: Die Vorfahrtsregeln können sich oft ändern.
+18689: Haltende, anfahrende und einbiegende Fahrzeuge behindern den Verkehr.
+18690: Fußgänger und Radfahrer mischen sich häufiger in den Verkehr.
+18691: Mehr Verkehrsteilnehmer = mehr Aufmerksamkeit nötig.
+18692: Trotz mehr Ablenkung aufs Fahren konzentrieren.
+18693: An Kreuzungen ist Parken verboten.
+18694: Nebeneinander fahren ist nur unter bestimmten Bedingungen erlaubt.
+18695: Fußgänger haben an Zebrastreifen Vortritt.
+
+G 4037: Verkehrszeichen und -einrichtungen (auch Absperrungen und Kegel) darf man weder verstellen, beschmieren noch entfernen – das gefährdet andere.
+18696: Verstellen oder Beschmieren ist verboten.
+18697: Entfernen ist verboten.
+18698: Verstellte Zeichen sind gefährlich.
+18699: Es gilt für alle Zeichen.
+18700: Auch mit Polizei-Info nicht.
+18701: Auch Absperrungen und Kegel nicht.
+
+G 4038: Wettrennen auf öffentlichen Straßen sind verboten. Wer an nicht genehmigten Rennen teilnimmt oder darauf wettet, wird mit Haft bestraft.
+18702: Wettrennen sind verboten.
+18703: Teilnahme an nicht genehmigten Rennen wird mit Haft bestraft.
+18704: Teilnahme an Rennen auf öffentlichen Straßen wird mit Haft bestraft.
+18705: Auch das Wetten darauf wird mit Haft bestraft.
+18706: Ohne Genehmigung sind sie verboten.
+18707: Auch nachts nicht.
+18708: Auch mit nur zwei Autos nicht.
+18709: Auch mit Motorrädern nicht.
+
+G 4039: Straße sauber und sicher halten: keine Gegenstände oder glühenden Zigaretten aus dem Fenster werfen, keinen Schlamm auf die Straße bringen (Räder säubern), bei Öl- oder Treibstoffverlust Gefahren vermeiden und Straßeneigentümer oder Polizei verständigen. Langsam durch Pfützen fahren. Haustiere auf Zweirädern nur im Käfig, der höchstens 50 cm herausragt.
+18710: Glühende Zigaretten wegwerfen ist verboten.
+18711: Sie können Zweiradfahrer treffen.
+18712: Sie können Wald- und Wiesenbrände auslösen.
+18713: Schlamm auf die Straße zu tragen ist verboten.
+18714: Bei Ölverlust Gefahren für andere abwenden.
+18715: Bei großem Verlust Straßeneigentümer oder Polizei informieren.
+18716: Haustiere auf Zweirädern nur im Käfig, max. 50 cm herausragend.
+18717: Durch Pfützen langsam fahren (nicht bespritzen, Aquaplaning).
+18718: Starke Verschmutzung der Straße wird bestraft.
+18719: Räder vorher säubern.
+18720: Darauf achten, dass keine Erde herunterfällt.
+18721: Verkehrszeichen verstellen ist verboten.
+18722: Auch Papier darf man nicht wegwerfen.
+18723: Auch aufs Bankett darf man nichts werfen.
+18724: Auf Splitt langsam fahren.
+18725: Drängeln und Zickzackfahren ist gefährlich und verboten.
+
+G 4040: Grundpflichten des Fahrers: Regeln einhalten, rücksichtsvoll und tolerant fahren, eigene und fremde Sicherheit schützen, Verkehrspolizisten befolgen, das Verhalten anderer vorhersehen – und sich nicht blind darauf verlassen. Auch mit Vorfahrt vorsichtig an Kreuzungen heranfahren und nicht auf der Vorfahrt bestehen, wenn man sie nicht bekommt.
+18726: Regeln einhalten und tolerant fahren.
+18727: Auch mit Vorfahrt an Kreuzungen vorsichtig sein.
+18728: Eigene und fremde Sicherheit schützen.
+18729: Verkehrsbeamte beachten und mit ihnen zusammenarbeiten.
+18730: Das Verhalten anderer vorhersehen.
+18731: Auch bei Stau geduldig bleiben.
+18732: Andere machen Fehler – nicht blind vertrauen.
+18733: Wird die Vorfahrt nicht gewährt, nicht darauf bestehen.
+18734: Vorfahrt erlaubt kein unvorsichtiges Fahren.
+18735: Die Größe des Fahrzeugs gibt keine Vorfahrt.
+18736: Motorleistung ersetzt keine Vorfahrtsregel.
+18737: Auch schwere Fahrzeuge müssen rücksichtsvoll fahren.
+18738: Auch Beamte in Zivil mit Kelle sind zu beachten.
+18739: Auch mit Vorfahrt ist Vorsicht nötig.
+18740: Ungeduld ist fehl am Platz.
+
+G 4041: Schutz von Radfahrern und Motorradfahrern: Schon bei geringer Geschwindigkeit können sie schwer verletzt werden. Oft in den Rückspiegel schauen, vor dem Türöffnen nach hinten schauen, an die Sichtbehinderung durch die Dachsäulen denken. Motorräder dürfen nicht zwischen stehenden Autos durchschlängeln, auf dem Gehsteig fahren oder dort parken.
+18741: Zweiradfahrer und Fußgänger sind ungeschützt.
+18742: Oft in den Rückspiegel schauen.
+18743: Vor dem Türöffnen nach Radfahrern schauen.
+18744: Die Dachsäulen verdecken die Sicht.
+18745: Hinter den Dachsäulen verschwinden Radfahrer leicht.
+18746: Auch langsame Unfälle können schwere Folgen haben.
+18747: Vor dem Aussteigen muss man schauen.
+18748: Man muss alle Verkehrsteilnehmer kontrollieren.
+18749: Durchschlängeln zwischen wartenden Autos ist verboten.
+18750: Parken auf dem Gehsteig nur auf markierten Flächen.
+18751: Auf dem Gehsteig darf man nicht fahren.
+
+G 4042: Besondere Vorsicht gilt gegenüber schwächeren und unsicheren Verkehrsteilnehmern: Menschen mit Behinderung, ältere Menschen, Kinder, Radfahrer, Personen mit eingeschränkter Beweglichkeit, unsicher fahrende Fahrer und Fahrer umgebauter Fahrzeuge.
+18752: Gegenüber Menschen mit Behinderung ist mehr Vorsicht nötig.
+18753: Gegenüber älteren Menschen ist mehr Vorsicht nötig.
+18754: Gegenüber querenden Kindern ist mehr Vorsicht nötig.
+18755: Gegenüber unsicheren Fahrern ist mehr Vorsicht nötig.
+18756: Gegenüber Fahrern behindertengerechter Fahrzeuge ist mehr Vorsicht nötig.
+18757: Gegenüber Radfahrern und eingeschränkt Beweglichen ist mehr Vorsicht nötig.
+18758: Ein ausländischer Führerschein ist kein Grund für besondere Vorsicht.
+18759: Elektroautos sind kein besonderer Grund.
+18760: Taxifahrer sind kein besonderer Grund.
+18762: Weißer Stock (blind) und weiß-roter Stock (taubblind) – beide brauchen besondere Rücksicht.
+
+G 4043: Ältere Fußgänger: Sie sehen und hören oft schlechter, schätzen Geschwindigkeiten falsch ein, reagieren langsamer, schauen manchmal nicht und bleiben plötzlich stehen. Abstand halten, nicht hupen oder drängen.
+18763: Sie achten oft nicht genug auf Fahrzeuge.
+18764: Sie können plötzlich mitten auf der Straße stehen bleiben.
+18765: Sie schauen manchmal weder rechts noch links.
+18766: Sie reagieren langsamer.
+18767: Nicht zu nah heranfahren, sonst erschrecken sie.
+18768: Seh- und Hörvermögen lassen nach.
+18769: Sie schätzen die Geschwindigkeit falsch ein.
+18770: Sie reagieren langsamer, nicht schneller.
+18771: Sie gehen meist langsam.
+18772: Ihr Gesichtsfeld wird eher kleiner.
+18773: Hupen oder Lichthupe verunsichert sie.
+18774: Vortritt von beiden Seiten.
+
+G 4044: Blinde mit weißem Stock und Taubblinde mit weiß-rotem Stock: Man muss anhalten und ihnen das Queren ermöglichen – auch außerhalb von Zebrastreifen und ohne Blindenhund. Sanft bremsen, nicht hupen.
+18775: Anhalten und Vortritt lassen, auch außerhalb des Zebrastreifens.
+18776: Anhalten und das Queren erleichtern.
+18777: Auch ohne Blindenhund.
+18778: Auch Taubblinden mit weiß-rotem Stock Vortritt lassen.
+18779: Vortritt für weißen und weiß-roten Stock, auch abseits des Zebrastreifens.
+18780: Anhalten, aber nicht abrupt bremsen.
+18781: Beschleunigen ist falsch – anhalten.
+18782: Der Fußgänger hat Vortritt.
+18783: Die Entfernung zum Zebrastreifen spielt keine Rolle.
+18784: Auch beim weißen Stock.
+18785: Blinde gehen eher vorsichtig und langsam.
+18786: Hupen ist falsch.
+
+G 4045: Am Zebrastreifen: Fußgänger können zögern, umkehren oder stehen bleiben; ältere Menschen gehen langsam; Kinder reagieren unvorhersehbar und können zwischen parkenden Autos hervortreten; geparkte Autos verdecken die Sicht.
+18787: Fußgänger können unsicher werden und umkehren.
+18788: Ältere Menschen queren langsam.
+18789: Kinder reagieren unvorhersehbar.
+18790: Kinder können plötzlich umkehren.
+18791: Fußgänger können plötzlich stehen bleiben.
+18792: Kinder können zwischen Autos hervortreten.
+18793: Geparkte Autos verdecken die Sicht.
+18794: Von Kindern kann man kein korrektes Verhalten erwarten.
+18795: Ein Handzeichen ist nicht vorgeschrieben.
+18796: Blinde brauchen besondere Rücksicht.
+18797: Bei beiden Stöcken muss man anhalten.
+18798: Knapp vorbeifahren ist gefährlich.
+18799: Stehenbleiben heißt nicht verzichten.
+18800: Fußgänger müssen nicht nebeneinander gehen.
+
+G 4046: Kinder an der Ampel können unerwartet losgehen – beim Wechsel auf Gelb, bei Rot aus Ungeduld oder weil sie sich schubsen. Auch bei Grün erst fahren, wenn alle Fußgänger gequert haben.
+18801: Kinder können beim Wechsel auf Gelb losgehen.
+18802: Kinder können aus Ungeduld bei Rot queren.
+18803: Kinder können sich schubsen und auf die Fahrbahn geraten.
+18804: Kinder können bei Rot vom Gehsteig steigen.
+18805: Bei Grün erst fahren, wenn die Fußgänger drüben sind.
+18806: Kinder dürfen auch allein queren.
+18807: Kinder brauchen keine Zustimmung der Autofahrer.
+18808: Man kann sich bei Kindern nie sicher sein.
+18809: Man kann sich bei Kindern nie sicher sein.
+
+G 4047: An Schulbus-Haltestellen: Kinder können hinter dem Bus hervor über die Straße laufen, zum Bus rennen oder ohne zu schauen aussteigen. Langsam fahren und bremsbereit sein – besonders wenn der Bus dasteht.
+18810: Kinder können vom Bus verdeckt queren.
+18811: Kinder können zum Bus rennen.
+18812: Bremsbereit sein.
+18813: Mit unvorhersehbarem Verhalten rechnen.
+18814: Kinder steigen oft aus, ohne auf Autos zu achten.
+18815: Langsamer fahren, besonders wenn der Bus dasteht.
+18816: Langsamer fahren ist wichtiger als der Verkehrsfluss.
+18817: Kinder haben Vorrang.
+18818: Hupen ist falsch.
+18819: Langsam fahren muss man schon vorher.
+18820: Busse fahren nach dem Halten nicht rückwärts.
+18821: Eine solche allgemeine Regel gibt es nicht – man muss aber sehr vorsichtig sein.
+18822: Gerade dann ist Vorsicht nötig.
+
+G 4048: Am Taxistand: Fußgänger steigen ein und aus und queren oft ohne zu schauen – langsam fahren. Nur Taxis dürfen dort parken; Taxis haben beim Abfahren keine besondere Vorfahrt.
+18823: Langsamer fahren und notfalls anhalten.
+18824: Auf ein- und aussteigende Fahrgäste achten.
+18825: Andere Fahrzeuge dürfen dort nicht parken.
+18826: Fußgänger queren dort oft unvorsichtig.
+18827: Taxis haben keine Vorfahrt.
+18828: Taxis haben keine Vorfahrt.
+18829: Taxiplätze sind auch nachts reserviert.
+
+G 4049: Radfahrer oder Fußgänger auf der Fahrbahn überholen: mit großem, angemessenem Seitenabstand und viel Vorsicht (Radfahrer können schwanken). Ist nicht genug Platz, nicht überholen.
+18830: Ausreichend Seitenabstand halten.
+18831: Ohne genügend Abstand nicht überholen.
+18833: Sehr vorsichtig sein.
+18834: Radfahrer schwanken leicht – das berücksichtigen.
+18835: Vorgeschrieben ist ein angemessener Abstand, nicht pauschal 2 m.
+18836: Überholen ist erlaubt, wenn es sicher geht.
+18837: Auch nachts haben Fußgänger am Zebrastreifen Vortritt.
+18838: Eine 30-km/h-Regel gibt es dafür nicht.
+
+G 4050: Schwangere und Fußgänger mit Kinderwagen: mehr Vorsicht, nicht drängen, nicht zu nahe heranfahren. Gehsteigabsenkungen (Rampen) nicht zuparken.
+18839: Schwangere ohne Drängen queren lassen.
+18840: Gegenüber Schwangeren mehr Vorsicht.
+18841: Gegenüber Kinderwagen mehr Vorsicht.
+18842: Rampen am Gehsteig dürfen nicht versperrt werden.
+18843: Nicht zu nah heranfahren.
+18844: Schwangere gehen eher langsamer.
+18845: Mit Kinderwagen geht man eher langsam.
+18846: Rampen dürfen nie zugeparkt werden.
+18847: Vortritt von beiden Seiten.
+18848: Vortritt von beiden Seiten.
+18849: Auf dem Gehsteig parken ist verboten.

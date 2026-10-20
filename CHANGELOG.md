@@ -10,7 +10,7 @@
 ## 1.1.0
 
 - Offline-Erklärungen für Kapitel 6 (Bodenmarkierungen), 7 (Ampeln und Polizei) und 8 (Hinweiszeichen)
-- Damit sind jetzt über 3.000 der 7.020 Aussagen erklärt
+- Damit sind jetzt 2.926 der 7.020 Aussagen erklärt
 
 ## 1.0.0
 
