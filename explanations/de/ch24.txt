@@ -1,0 +1,136 @@
+# Kapitel 24 (Ministerium) – Verbrauch, Lärm, Umweltschutz
+# Sparsam und sauber fahren: gleichmäßig, vorausschauend, nicht im Stand Gas geben, Motor bei langem Halt aus,
+# richtiger Reifendruck, nichts aufs Dach, Fenster bei hohem Tempo zu, Klimaanlage nur wenn nötig.
+
+G 4671: Mehr Verbrauch durch: elektrische Verbraucher, hohes Gewicht, zu niedrigen Reifendruck, Dachgepäck, offene Fenster oder Schiebedach bei hohem Tempo, Klimaanlage, heftiges Beschleunigen und Bremsen. Weniger Verbrauch durch: gleichmäßige, angepasste Geschwindigkeit, ebene und freie Straßen.
+25065: Elektrische Geräte erhöhen den Verbrauch.
+25066: Gleichmäßig fahren spart.
+25067: Mehr Gewicht = mehr Verbrauch.
+25068: Langsamer fahren spart.
+25069: Fenster zu bei hohem Tempo.
+25070: Ebene, freie Straßen sparen.
+25071: Zu wenig Luftdruck = mehr Verbrauch.
+25072: Dachgepäck = mehr Verbrauch.
+25073: Ein offenes Schiebedach erhöht den Luftwiderstand.
+25074: Die Klimaanlage erhöht den Verbrauch.
+25075: Hybridfahrzeuge belasten die Umwelt weniger.
+25076: Dachgepäck erhöht den Verbrauch.
+25077: Heftig beschleunigen und bremsen kostet Kraftstoff.
+
+G 4672: Lärm vermeiden: Auspuff in Ordnung halten, wenig hupen (nur für die Sicherheit), nicht unnötig abrupt bremsen, im Stand nicht Gas geben, Türen nicht zuschlagen.
+25078: Auspuff prüfen lassen.
+25079: Viel Hupen = viel Lärm.
+25080: Nicht unnötig abrupt bremsen.
+25081: Im Stand nicht Gas geben.
+25082: Hupen nur für die Sicherheit.
+25083: Im Stand Gas geben macht Lärm.
+25084: Türen zuschlagen macht Lärm.
+25085: Die Lichthupe ersetzt die Hupe nicht einfach.
+
+G 4673: Ein abgenutzter Auspuff macht mehr Lärm; sanftes Fahren verringert Lärm. Lärm kommt nicht nur vom Motor, auch von Reifen, Bremsen und Aufbau.
+25086: Abgenutzter Auspuff = mehr Lärm.
+25087: Sanft fahren = weniger Lärm.
+25088: Auch Reifen und Bremsen machen Lärm.
+
+G 4674: Gegen Lärm: zugelassener, funktionierender Auspuff (abgenutzten ersetzen), im Stand kein Gas, quietschende Bremsen prüfen lassen (auch für die Sicherheit), wenig hupen. Nie am Auspuff herumbasteln.
+25089: Zugelassener, funktionierender Auspuff.
+25090: Abgenutzten Auspuff ersetzen.
+25091: Im Stand kein Gas.
+25092: Quietschende Bremsen prüfen.
+25093: Mehr Sicherheit und weniger Lärm.
+25094: Wenig hupen.
+25095: Löcher machen ihn lauter.
+25096: Das verändert die Zulassung.
+25097: Ohne Endteil wird es lauter.
+
+G 4675: Quietschende Reifen in schnellen Kurven und klappernde leere Anhänger machen Lärm.
+25098: Quietschende Reifen machen Lärm.
+25099: Leere Anhänger klappern.
+
+G 4676: Weniger Abgase: sanft anfahren, nicht unnötig lange im kleinen Gang fahren, defekten oder alten Katalysator ersetzen. Kalt arbeitet der Katalysator noch nicht – dann ist der Ausstoß höher.
+25100: Sanft anfahren.
+25101: Nicht lange im kleinen Gang.
+25102: Katalysator ersetzen, wenn defekt.
+25103: Kupplung und Differenzial beeinflussen die Abgase nicht.
+25104: Stoßdämpfer beeinflussen die Abgase nicht.
+25105: Zu wenig Luftdruck erhöht den Verbrauch.
+25106: Im Stand Gas geben verschmutzt.
+25107: Kalt ist der Ausstoß höher.
+
+G 4677: Ein schlecht eingestellter Motor verschmutzt mehr. Fahrzeug gut warten (Luftfilter sauber) und sparsam fahren verringert die Verschmutzung. Euro-0-Fahrzeuge sind am schmutzigsten.
+25108: Ein schlechter Motor verschmutzt mehr.
+25109: Gute Wartung hilft.
+25110: Sparsam fahren hilft.
+25111: Luftfilter sauber halten.
+25112: Vollgas verschmutzt mehr.
+25113: Die Klimaanlage erhöht den Verbrauch.
+25114: Euro 0 ist am schmutzigsten.
+
+G 4678: Abgase entstehen bei der Verbrennung im Motor. Defekte Einspritzdüsen und dunkler, starker Rauch bedeuten mehr Schadstoffe. Abgase schaden Atemwegen und Augen und tragen zu Smog, saurem Regen und Treibhauseffekt bei.
+25115: Defekte Düsen = mehr Schadstoffe.
+25116: Mehr Rauch = mehr Schadstoffe.
+25117: Dunkler Rauch = mehr Schadstoffe.
+25118: Schaden für Atemwege und Augen.
+25119: Smog, saurer Regen, Treibhauseffekt.
+25120: Vor allem durch die Verbrennung.
+25121: Die Luftfeuchtigkeit ist nicht die Ursache.
+
+G 4679: Weniger Abgase: leichteres Fahrzeug, Elektro-, Erdgas- oder Flüssiggasantrieb, Motor bei längerem Halt aus, kurze Strecken nicht mit dem Auto. Wer zu viele Abgase ausstößt, riskiert Strafe und Abnahme des Fahrzeugscheins.
+25122: Weniger Gewicht hilft.
+25123: Elektro, Erdgas, Flüssiggas.
+25124: Bei langem Halt Motor aus.
+25125: Kurze Strecken nicht mit dem Auto.
+25126: Strafe und Abnahme des Fahrzeugscheins.
+25127: Dachgepäck erhöht den Verbrauch.
+25128: Immer im kleinen Gang verschmutzt mehr.
+25129: Gas mit getretener Kupplung ist Verschwendung.
+25130: Im Leerlauf Gas geben ist Verschwendung.
+
+G 4680: Gegen Abgase: Luftfilter regelmäßig tauschen, beim Diesel Einspritzpumpe und Düsen prüfen, bei dunklen Abgasen den Motor prüfen lassen, gleichmäßig fahren.
+25131: Luftfilter tauschen.
+25132: Einspritzanlage prüfen.
+25133: Bei dunklen Abgasen prüfen.
+25134: Gleichmäßig fahren.
+25135: Zwischengas ist unnötig.
+25136: Höchstdrehzahl verschmutzt mehr.
+25137: Der Pollenfilter betrifft nur die Innenluft.
+25138: Der Ölfilter folgt dem Wartungsplan, nicht den Jahreszeiten.
+
+G 4681: Die Klimaanlage nur benutzen, wenn man sie wirklich braucht. Gas pumpen oder durchdrücken (kalt oder beim Schalten) verschmutzt und macht Lärm.
+25139: Klimaanlage sparsam benutzen.
+25140: Gas pumpen ist sinnlos.
+25141: Durchdrücken verschmutzt.
+25142: Durchdrücken beim Schalten verschmutzt und lärmt.
+
+G 4682: Mehr Verbrauch durch offene Fenster oder Schiebedach bei höherem Tempo, Dachgepäck, Schnee auf dem Dach und Anhänger. Im Tunnelstau ist die Umluft gut, damit keine Abgase hereinkommen. Euro 4 stößt weniger aus als Euro 0.
+25143: Fenster zu bei höherem Tempo.
+25144: Gepäck ins Auto.
+25145: Schnee auf dem Dach erhöht den Verbrauch.
+25146: Offenes Schiebedach erhöht den Verbrauch.
+25147: Im Tunnel ist Umluft gerade gut.
+25148: Euro 4 ist sauberer als Euro 0.
+25149: Ein Anhänger erhöht den Verbrauch.
+
+G 4683: Wer mit verändertem Motor oder Auspuff fährt, riskiert hohe Strafen; frei verändern ist verboten.
+25150: Hohe Strafen.
+25151: Veränderungen sind verboten.
+
+G 4684: Umwelt: Frostschutzmittel nicht in den Kanal, Batterien nicht wegwerfen (der Händler nimmt die alte kostenlos zurück), Autos nur bei zugelassenen Verwertern abgeben, Altöl nicht lange auf der Haut, Abwasser von Wohnmobilen nur an Entsorgungsstationen. Gefährliche Abfälle wegzuwerfen ist strafbar.
+25152: Frostschutz nicht in den Kanal.
+25153: Batterien schaden Boden und Grundwasser.
+25154: Der Händler nimmt die alte Batterie zurück.
+25155: Zum zugelassenen Verschrotter.
+25156: Altöl nicht lange auf der Haut.
+25157: Nur an Entsorgungsstationen.
+25158: Das wird bestraft.
+25159: Jeder zugelassene Verwerter ist erlaubt.
+
+G 4685: Verboten: Bauten beschädigen, Gegenstände aus dem Auto werfen, die Fahrbahn verschmutzen, Schlamm aufwirbeln. Üben, Hupen bei Bedarf, lange Fahrzeuge und Parken in Wohnzonen sind nicht allgemein verboten.
+25160: Bauten beschädigen ist verboten.
+25161: Nichts aus dem Auto werfen.
+25162: Die Fahrbahn nicht verschmutzen.
+25163: Keinen Schlamm aufwerfen.
+25164: Üben ist mit Fahrschule erlaubt.
+25165: Hupen ist bei Gefahr erlaubt.
+25166: Ein allgemeines 10-m-Verbot gibt es nicht.
+25167: In Wohnzonen darf man parken, wo erlaubt.

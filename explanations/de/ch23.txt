@@ -1,0 +1,179 @@
+# Kapitel 23 (Ministerium) – Haftung, Kfz-Haftpflicht und Aufmerksamkeit beim Fahren
+# Zivilrechtlich: Schäden ersetzen (Halter und Fahrer). Strafrechtlich: bei Schwerverletzten oder Toten (nur der Fahrer).
+# Verwaltungsrechtlich: Strafen der StVO. Die drei sind unabhängig voneinander.
+# Kfz-Haftpflicht ist Pflicht, gilt in der EU, deckt Schäden an Personen und Sachen bis zur Haftungshöchstgrenze – keine Bußgelder, keine Strafen.
+
+G 4657: Wer zivilrechtlich haftet, befreit sich, indem er den Geschädigten entschädigt – Höhe kann vereinbart werden, man darf sich beraten lassen und das eigene Auto reparieren. Strafrechtliche Folgen bleiben davon unberührt.
+24968: Durch Entschädigung.
+24969: Die Höhe kann vereinbart werden.
+24970: Das eigene Auto darf man reparieren lassen.
+24971: Ein Berater darf helfen.
+24972: Den Führerschein abzugeben ersetzt keinen Schadenersatz.
+24973: Zahlen hebt keine Strafbarkeit auf.
+
+G 4658: Wer straf- und zivilrechtlich verantwortlich ist: Strafen nach Strafgesetzbuch, Schadenersatz, Strafen nach der StVO und eventuell zeitweiliger Entzug, Widerruf oder Revision des Führerscheins – aber nicht automatisch Haft oder Widerruf.
+24974: Strafen nach Strafgesetzbuch.
+24975: Schadenersatz.
+24976: Auch die StVO-Strafen.
+24977: Zeitweiliger Entzug möglich.
+24978: Widerruf möglich.
+24979: Revision möglich.
+24980: Haft nicht in jedem Fall.
+24981: Eine Herabstufung der Klasse gibt es nicht.
+24982: Widerruf nicht in jedem Fall.
+24983: Die StVO-Strafen gelten zusätzlich.
+
+G 4659: Keine strafrechtliche Verantwortung bei nur unbeabsichtigten Sachschäden, wenn keine Straftat vorliegt oder bei höherer Gewalt. Hilfe leisten, Schadenersatz oder Zahlung der Versicherung heben sie nicht auf.
+24984: Nur Sachschäden = keine Straftat.
+24985: Ohne Straftat keine Strafbarkeit.
+24986: Höhere Gewalt schließt sie aus.
+24987: Helfen ist Pflicht, hebt aber nichts auf.
+24988: Schadenersatz hebt sie nicht auf.
+24989: Die Versicherung hebt sie nicht auf.
+
+G 4660: Strafrechtliche Verantwortung entsteht bei Schwerverletzten, bei fahrlässiger Tötung oder anderen Straftaten – nicht bei jedem StVO-Verstoß, nicht bei bloßem Sachschaden. Sie trifft nur den Fahrer, nie den Halter an seiner Stelle.
+24990: Bei Schwerverletzten.
+24991: Bei fahrlässiger Tötung.
+24992: Bei Verstößen gegen das Strafgesetzbuch.
+24993: Nicht bei jedem StVO-Verstoß.
+24994: Ein Totalschaden allein ist keine Straftat.
+24995: Sachschäden allein nicht.
+24996: Strafrecht trifft nur den Täter.
+
+G 4661: Zivilrechtliche Verantwortung heißt: alle Personen- und Sachschäden ersetzen. Sie trifft Halter und Fahrer, ist unabhängig von Straf- und Verwaltungsrecht und gilt auch bei kleinen Schäden oder wenn der Geschädigte stirbt. Die Versicherung zahlt nur bis zur Höchstgrenze.
+24997: Personen- und Sachschäden ersetzen.
+24998: Halter und Fahrer.
+24999: Zum Schadenersatz verpflichtet.
+25000: Unabhängig von den anderen Haftungen.
+25001: Alle Schäden werden ersetzt.
+25002: Auch dann besteht sie (gegenüber den Erben).
+25003: Auch Personenschäden.
+25004: Auch kleine Schäden.
+25006: Über der Höchstgrenze zahlt der Verursacher selbst.
+
+G 4662: Die Pflichtversicherung deckt Schäden an Mitfahrern (wenn das Fahrzeug für Personen zugelassen ist). Direktentschädigung (über die eigene Versicherung) gilt bei Sachschäden und leichten Verletzungen des Fahrers, wenn höchstens zwei Fahrzeuge beteiligt sind – auch Motorräder. Fotos sind keine Pflicht.
+25007: Mitfahrer sind versichert.
+25009: Bei Sachschäden und leichten Verletzungen.
+25010: Nicht bei mehr als zwei Fahrzeugen.
+25011: Auch mit Motorrädern möglich.
+25012: Fotos sind keine Pflicht.
+25013: Mitfahrer in allen Personenfahrzeugen sind versichert.
+
+G 4663: Zivilrechtlich haften Fahrer und Halter; strafrechtlich nur der Fahrer. Der Halter haftet nicht, wenn er beweist, dass das Fahrzeug gegen seinen Willen benutzt wurde.
+25014: Zivil: Fahrer und Halter.
+25015: Straf: der Fahrer.
+25016: Bei Benutzung gegen seinen Willen haftet der Halter nicht.
+25017: Strafrechtlich haftet der Halter nicht.
+25018: Auch bei Sachschäden haftet der Halter mit.
+
+G 4664: Ohne gültige Haftpflichtversicherung darf das Fahrzeug weder fahren noch auf öffentlichen Straßen stehen; es kann beschlagnahmt werden.
+25021: Beschlagnahme ist möglich.
+25022: Auch kurze Strecken sind verboten.
+25023: Auch in Italien verboten.
+25024: Auch Parken auf der Straße ist verboten.
+25025: Eine technische Abnahme braucht es nicht – nur eine Versicherung.
+25026: Selbst zahlen zu wollen ersetzt die Versicherung nicht.
+
+G 4665: Der Garantiefonds für Verkehrsopfer ersetzt Personenschäden durch nicht versicherte oder nicht ermittelte Fahrzeuge.
+25027: Bei nicht versicherten Fahrzeugen.
+25028: Bei nicht ermittelten Fahrzeugen.
+25029: Er zahlt keine Rente.
+25030: Er ist kein Preis.
+25031: Er ist gesetzlich geregelt.
+25032: Minderjährige Fahrer sind nicht der Grund.
+
+G 4666: Kasko, Diebstahl-, Brand- und Naturschadenversicherung sind freiwillig. Bei Diebstahl oder Brand zahlt sie höchstens den damaligen Wert. Diebstahl im Ausland meldet man auch in Italien.
+25033: Sie sind freiwillig.
+25034: Höchstens der damalige Wert.
+25035: Auch in Italien melden.
+25036: Es gibt keine Rente.
+25037: Ein Batterietrennschalter ist nicht Pflicht.
+25038: Eine Diebstahlsicherung ist nicht Pflicht.
+25039: Auch unbeabsichtigter Brand ist gedeckt.
+
+G 4667: Die Haftungshöchstgrenze ist der Höchstbetrag, den die Versicherung pro Unfall zahlt. Ein Mindestwert ist gesetzlich festgelegt; gegen höhere Prämie kann man sie erhöhen.
+25040: Höchstbetrag pro Unfall.
+25041: Mindestwert per Gesetz.
+25042: Gegen Aufpreis erhöhbar.
+25043: Das wäre die Prämie.
+25044: Sie steigt nicht von selbst.
+25045: Sie wird nicht zurückgezahlt.
+
+G 4668: Bonus-Malus: Die Prämie wird jedes Jahr nach der Zahl der verursachten Unfälle angepasst – auch bei Motorrädern.
+25046: Jährliche Anpassung nach Unfällen.
+25047: Auch für Motorräder.
+25048: Der Vertrag wird nicht annulliert.
+25049: Kein Richter bestimmt ihn.
+
+G 4669: Die Haftpflicht gilt auch in der EU, deckt Personen- und Sachschäden bis zur Höchstgrenze und die Haftung von Fahrer und Halter – keine Strafen und keine Bußgelder.
+25050: Auch in der EU.
+25051: Strafrechtliche Risiken deckt sie nicht.
+25052: Bußgelder deckt sie nicht.
+25053: Nur bis zur Höchstgrenze.
+25054: Auch die Haftung des Halters.
+25055: Auch Sachschäden.
+
+G 4670: Die Kfz-Haftpflicht ist gesetzlich vorgeschrieben. Nach Vertragsabschluss erhält man den Versicherungsschein, der immer im Fahrzeug mitgeführt wird. Sie gilt egal, wer fährt.
+25057: Man erhält den Versicherungsschein.
+25059: Gesetzlich vorgeschrieben.
+25060: Immer im Fahrzeug mitführen.
+25061: Eine Werkstattliste ist nicht vorgeschrieben.
+25062: Eine Erste-Hilfe-Broschüre ist nicht vorgeschrieben.
+25063: Ein Handbuch ist nicht vorgeschrieben.
+25064: Sie gilt auch, wenn jemand anders fährt.
+
+G 4716: Aufmerksamkeit: Ablenkung ist eine Hauptursache schwerer Unfälle. Schon Sekundenbruchteile ohne Blick auf die Straße sind gefährlich. Handy (auch mit Freisprecher), Navi bedienen, laute Musik, angeregte Gespräche, Müdigkeit, Angst und Gefühle mindern die Aufmerksamkeit. Man muss andere Verkehrsteilnehmer – auch Regelbrecher – im Blick haben und darf sich nicht überschätzen. Unsere Sinne nehmen nicht alles wahr. Verkehrsregeln dienen der Sicherheit aller und gelten immer.
+31011: Ablenkung kann schwere Unfälle verursachen.
+31012: An Kreuzungen höchste Konzentration.
+31013: Schon kurz wegsehen ist gefährlich.
+31014: Andere genau beobachten.
+31015: Umweltbedingungen beeinflussen Erkennen und Reagieren.
+31016: Angst schränkt die Aufmerksamkeit ein.
+31017: Man schätzt sich nicht immer richtig ein.
+31018: Laute Musik lenkt ab.
+31019: Angeregte Gespräche lenken ab.
+31020: Wenn unsicher: anhalten und warten.
+31021: Lärmende Mitfahrer stören.
+31022: Nach vorne und zur Seite achten.
+31023: Das Navi kann ablenken.
+31024: Sich nie überschätzen.
+31025: Regeln sorgen für Sicherheit aller.
+31026: Regeln begrenzen Risiken für alle Fahrzeuge.
+31027: Regeln verringern Behinderungen.
+31028: Das Handy lenkt ab.
+31029: Auch mit Freisprecher.
+31030: Ablenkung ist eine Hauptursache.
+31031: Müdigkeit mindert die Aufmerksamkeit.
+31032: Das Navi einzustellen lenkt ab.
+31033: Aufmerksamkeit kann man trainieren.
+31034: Die Sinne nehmen nicht alles wahr.
+31035: Gefühle beeinflussen die Aufmerksamkeit.
+31036: Man überschätzt oft, was man kontrollieren kann.
+31037: Nie wegsehen – Gefahren kommen unerwartet.
+31038: Auch beim Warten keine SMS schreiben.
+31039: Schneller zur Kreuzung zu fahren gibt keine Vorfahrt.
+31040: Beim Fahren keine Nummer wählen.
+31041: Das Verhalten anderer beeinflusst die Sicherheit stark.
+31042: Gerade Regelbrecher muss man beachten.
+31043: Umweltbedingungen beeinflussen sehr wohl.
+31044: Gefahren darf man nicht unterschätzen.
+31045: Man fährt nicht schneller, weil Mitfahrer drängen.
+31046: Man schaut weit voraus, nicht nur 3 m.
+31047: Das Navi stellt man im Stand ein.
+31048: Alle benutzen alle Spiegel.
+31049: Spiegel stellt man im Stand ein.
+31050: Regeln gelten nicht wegen der Strafe, sondern für die Sicherheit.
+31051: Regeln gelten für alle.
+31052: Regeln gelten immer.
+31053: Ein Überholverbot gilt immer.
+31054: Die Fahrbahnposition ist eine wichtige Regel.
+31055: Aufmerksamkeit ist immer wichtig.
+31056: Alkohol senkt die Aufmerksamkeit.
+31057: Auch Radio bedienen lenkt ab.
+31058: Auch leichte Trunkenheit ist gefährlich.
+31059: Die Aufmerksamkeit ist begrenzt.
+31060: Alkohol verschlechtert die Konzentration.
+31061: Die Sinne nehmen nicht alles wahr.
+31062: Nicht jede Intensität wird wahrgenommen.
+31063: Stress schadet der Aufmerksamkeit.
+31064: Das Gehör ist wichtig (Sirenen, Hupen).
