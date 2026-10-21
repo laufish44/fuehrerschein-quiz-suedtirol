@@ -1,0 +1,186 @@
+# Kapitel 22 (Ministerium) – Fahrtüchtigkeit (Müdigkeit, Alkohol, Drogen, Medikamente) und Erste Hilfe
+# Alkohol baut sich nur mit der Zeit ab – Kaffee oder Essen helfen nicht. Hilfe leisten ist Pflicht.
+# Erste Hilfe: Lage sichern, Rettung rufen, Blutung abdrücken, nichts aus Wunden ziehen, Verletzte nicht unnötig bewegen.
+
+G 4636: Wer müde wird, fährt zur nächsten Haltebucht und ruht sich aus – nie dicht hinter anderen herfahren.
+24827: Anhalten und ausruhen.
+24828: Dicht auffahren ist bei Müdigkeit besonders gefährlich.
+
+G 4637: Nach zu viel Alkohol dauert es Stunden, bis man wieder fahren kann – mit Medikamenten noch länger. Salziges Essen oder Kaffee beschleunigen das nicht.
+24829: Es dauert einige Stunden.
+24830: Mit Medikamenten noch länger.
+24831: Salziges Essen hilft nicht.
+24832: Kaffee hilft nicht.
+
+G 4638: Beruhigungsmittel, Antidepressiva, Halluzinogene und Alkohol können die Fahrtauglichkeit beeinträchtigen. Kaffee, Sprudel, Mineralsalze oder Nahrungsergänzung nicht.
+24833: Beruhigungsmittel können beeinträchtigen.
+24834: Antidepressiva können beeinträchtigen.
+24835: Halluzinogene beeinträchtigen.
+24836: Alkohol beeinträchtigt.
+24837: Kaffee beeinträchtigt nicht.
+24838: Sprudel beeinträchtigt nicht.
+24839: Mineralsalze beeinträchtigen nicht.
+24840: Nahrungsergänzung beeinträchtigt nicht.
+
+G 4639: Alle Drogen (Haschisch, Marihuana, Heroin, Kokain, LSD, Amphetamine) und manche Beruhigungsmittel beeinträchtigen das Fahren.
+24841: Haschisch und Marihuana beeinträchtigen.
+24842: Heroin und Kokain beeinträchtigen.
+24843: Manche Beruhigungsmittel beeinträchtigen.
+24844: LSD und Amphetamine beeinträchtigen.
+24845: Haschisch und Marihuana beeinträchtigen.
+
+G 4640: Ein schweres, üppiges Essen macht müde und verlängert die Reaktionszeit. Schnaps zum Essen beeinträchtigt das Fahren auf jeden Fall.
+24846: Vor dem Fahren nicht schwer essen.
+24847: Schweres Essen macht unaufmerksam.
+24848: Alkohol beeinträchtigt immer.
+
+G 4641: Alkohol macht euphorisch und lässt Gefahren unterschätzen; wer betrunken fährt, kann festgenommen werden. Auch aufgewühlt sollte man nicht fahren. Auch auf dem Fahrrad ist Trunkenheit strafbar, und die Reaktion wird langsamer.
+24849: Euphorie, Gefahren werden unterschätzt.
+24850: Festnahme ist möglich.
+24851: Nicht aufgewühlt fahren.
+24852: Auch ohne Motor ist es strafbar.
+24853: Die Reaktionszeit wird länger.
+
+G 4642: Verletzten zu helfen ist gesetzliche Pflicht für jeden – und kann Leben retten und weitere Schäden verhindern.
+24854: Es ist gesetzliche Pflicht.
+24855: Es kann Leben retten.
+24856: Es verhindert weitere Schäden.
+24857: Es ist eine gesetzliche Pflicht.
+24858: Man hilft immer.
+24859: Helfen geht vor dem Verkehrsfluss.
+24860: Die Pflicht gilt für alle.
+24861: Man hilft – und sichert sich dabei selbst ab.
+
+G 4643: Erste Hilfe hält den Verletzten mit einfachen, sofortigen Maßnahmen am Leben, bis der Arzt kommt, und verhindert weitere Schäden und falsche Behandlungen. Man bewegt ihn nur, wenn es nötig ist.
+24862: Am Leben halten.
+24863: Beistehen, bis Hilfe kommt.
+24864: Weitere Schäden vermeiden.
+24865: Keine falschen Behandlungen.
+24866: Fragen nach dem Hergang ist nicht der Zweck.
+24867: Man bewegt ihn nur, wenn Gefahr droht.
+24868: Man muss helfen, ohne auf die Polizei zu warten.
+
+G 4644: Blutende Wunde: steril oder möglichst sauber abdecken und abdrücken, mit Erde verschmutzte Wunden mit Wasser auswaschen. Fremdkörper bleiben drin. Bewusstlosen nie etwas zu trinken geben.
+24869: Sauber abdecken, Blutung stillen.
+24870: Mit Erde verschmutzt: mit Wasser waschen.
+24871: Fremdkörper nicht herausziehen.
+24872: Mit sauberem Tuch abdrücken.
+24873: Fremdkörper bleiben drin.
+24874: Bewusstlose trinken nichts.
+24875: Abdecken hilft der Blutstillung.
+24876: Warmes Wasser stillt keine Blutung.
+
+G 4645: Starke Blutung: sofort sauber abdrücken, Rettung rufen, Blutverlust verringern; den Verletzten sitzen oder liegen lassen. Man achtet auch auf andere Verletzungen.
+24877: Abdrücken und Rettung rufen.
+24878: Sofort sauber abdrücken.
+24879: Blutverlust verringern.
+24880: Sitzen oder liegen lassen.
+24881: Man achtet auch auf anderes.
+24882: Der Verletzte soll nicht gehen.
+24883: Ein Verbot „auf keinen Fall Wasser“ gibt es so nicht.
+
+G 4646: Fremdkörper im Auge: nichts entfernen, das Auge verbinden und den Verletzten bitten, es nicht zu berühren, bis der Arzt kommt.
+24884: Verbinden, sonst nichts.
+24885: Nicht berühren.
+24886: Verbinden bis zum Arzt.
+24887: Nicht selbst entfernen.
+24888: Nicht zwingen, die Augen offen zu halten.
+24889: Nicht massieren.
+24890: Verbinden ist richtig.
+
+G 4647: Zeichen eines Schocks: sehr blasse, kalte Haut, kalter Schweiß, Zittern, schneller Puls, eventuell verwirrtes Reden – kein Fieber, keine rote Haut.
+24891: Blass und kalt.
+24892: Kalter Schweiß.
+24893: Zittern, blass, kalter Schweiß.
+24894: Blass, Schweiß, schneller Puls.
+24895: Verwirrtes Reden ist möglich.
+24896: Kein Fieber.
+24897: Keine dunklen Flecken.
+24898: Die Haut ist blass, nicht rot.
+
+G 4648: Bei Schock: hinlegen, Beine hoch, warm zudecken. Nicht gehen lassen, nicht hinsetzen, nicht tätscheln, keinen Alkohol geben.
+24899: Hinlegen, Beine hoch.
+24900: Zudecken.
+24901: Beine hochlagern.
+24902: Nicht gehen lassen.
+24903: Liegen, nicht sitzen.
+24904: Tätscheln hilft nicht.
+24905: Kein Alkohol.
+
+G 4649: Bewusstloser Verletzter: Atmung prüfen (Hand auf Brust oder Bauch), Mund und Nase frei machen, nur bewegen, wenn sicher keine Wirbelsäulenverletzung vorliegt, ständig beobachten bis zur Ankunft der Rettung.
+24906: Hand auf Brust oder Bauch.
+24907: Nur ohne Wirbelsäulenverletzung bewegen.
+24908: Mund und Nase frei machen.
+24909: Ständig beobachten.
+24910: Kein Alkohol.
+24911: Hände festhalten ist sinnlos.
+24912: Kopf verbinden ist nicht die Maßnahme.
+24913: Halbsitzend ist für Brustverletzungen, nicht für Bewusstlose.
+
+G 4650: Brustkorbverletzung bei Bewusstsein: halbsitzend lagern (erleichtert das Atmen), tiefe Wunden sauber abdrücken, betreuen bis die Rettung kommt.
+24914: Halbsitzend lagern.
+24915: Tiefe Wunde abdrücken.
+24916: Betreuen bis zur Rettung.
+24917: Tiefes Atmen tut weh und schadet.
+24918: Beine hoch ist für Schock, nicht hier.
+24919: Aufrecht ist zu viel – halbsitzend.
+
+G 4651: Knochenbrüche: nicht bewegen, behelfsmäßig ruhigstellen, Wunden sauber abdecken, bei Bedarf Schockmaßnahmen. Nie einrichten, nie gehen lassen, keinen Alkohol.
+24920: Nicht bewegen.
+24921: Ruhigstellen, sonst nichts.
+24922: Wunden sauber abdecken.
+24923: Ruhigstellen, dann Schockmaßnahmen.
+24924: Nicht gehen lassen.
+24925: Nicht bewegen lassen.
+24926: Offene Brüche nie einrichten.
+24927: Kein Alkohol.
+
+G 4652: Verbrennungen: Flammen mit einer Decke ersticken, mit kaltem Wasser kühlen, angeklebte Kleidung nicht abreißen, Wunden sauber abdecken. Kein Alkohol auf die Wunden.
+24928: Flammen mit Decke ersticken.
+24929: Angeklebte Kleidung nicht abreißen.
+24930: Mit kaltem Wasser kühlen.
+24931: Sauber abdecken.
+24932: Sofort löschen.
+24933: Angeklebtes bleibt.
+24934: Alkohol schadet.
+
+G 4653: Wer hilft, sichert zuerst die Unfallstelle vor weiteren Gefahren und hilft nach Wissen und Können – ohne ärztliche Maßnahmen und ohne Medikamente zu geben. Wer beteiligt ist, bleibt da.
+24935: Lage einschätzen und sichern.
+24936: Helfen, aber keine ärztlichen Maßnahmen.
+24937: Nach Wissen und Können.
+24938: Beteiligte bleiben da.
+24939: Man muss handeln.
+24940: Zuerst geht es um die Sicherheit, nicht um den Namen.
+24941: Medikamente gibt man nicht.
+
+G 4654: Schock kann durch starke Schmerzen, starke Gefühle, Blutverlust oder schwere Verletzungen entstehen und ist gefährlich.
+24942: Starke Schmerzen.
+24943: Starke Gefühle.
+24944: Starker Blutverlust.
+24945: Schweres Trauma.
+24946: Auch Aufregung kann Schock auslösen.
+24947: Gerade nach Traumata.
+24948: Gerade bei Blutverlust.
+24949: Er ist gefährlich.
+
+G 4655: Alkohol macht das Fahren unsicher: Er macht leichtsinnig, verlangsamt die Reaktion, macht schläfrig und senkt Konzentration und Aufmerksamkeit. Er verbessert nichts – auch nicht das Sehen.
+24950: Er macht leichtsinnig.
+24951: Er verlangsamt die Reaktion.
+24952: Er macht schläfrig.
+24953: Er stört die Konzentration.
+24954: Er senkt die Aufmerksamkeit.
+24955: Er macht nicht sicherer.
+24956: Er senkt die Konzentration.
+24957: Er macht weniger wachsam.
+24958: Er macht unsicherer.
+24959: Er verschlechtert das Sehen.
+
+G 4656: Brille oder Kontaktlinsen trägt man beim Fahren, wenn es im Führerschein steht (ausgeschrieben oder als Code 01) – immer, nicht nur nachts oder auf der Autobahn.
+24960: Wenn im Führerschein vermerkt.
+24961: Code 01 = Sehhilfe.
+24962: Ausgeschrieben oder als Code.
+24963: Wenn im Führerschein angegeben.
+24964: Es zählt der Eintrag, nicht die Dioptrienzahl.
+24965: Immer, nicht nur nachts.
+24966: Immer, nicht nur bei schlechter Sicht.
+24967: Auf allen Straßen.

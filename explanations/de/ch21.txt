@@ -1,0 +1,155 @@
+# Kapitel 21 (Ministerium) – Unfälle vermeiden, Wetter, Verhalten bei Unfällen, Zweiräder
+# Bei Regen, Schnee, Eis und Nebel gilt immer: langsamer, mehr Abstand, sanft lenken, bremsen und beschleunigen.
+# Nach einem Unfall: anhalten, helfen, Daten austauschen, Spuren nicht verwischen.
+
+G 4623: Straßenbedingte Unfallursachen: enge Straßen, nicht angekündigte Kreuzungen oder Engstellen, fehlende Markierungen, verformter oder rutschiger Belag. Getrennte Fahrtrichtungen, Fahrstreifen, Einbahnverkehr, Leitplanken und Ampeln machen sicherer.
+24697: Enge Straßen sind gefährlich.
+24698: Unangekündigte Kreuzungen.
+24699: Fehlende Markierungen.
+24700: Verformter Belag.
+24701: Rutschiger Belag.
+24702: Nicht angekündigte Engstellen.
+24703: Getrennte Verkehrsströme machen sicherer.
+24704: Fahrstreifen machen sicherer.
+24705: Einbahnverkehr verhindert Frontalunfälle.
+24706: Eine ebene Straße ist kein Risiko.
+24707: Leitplanken schützen.
+24708: Ampeln regeln sicher.
+24709: Fehlende gefährliche Kurven sind kein Risiko.
+
+G 4624: Bei Regen: langsamer, Scheibenwischer an, mehr Abstand, Scheiben beschlagfrei halten, sanft lenken und bremsen. Langsam durch Pfützen.
+24710: Langsamer fahren.
+24711: Scheibenwischer an.
+24712: Mehr Abstand.
+24713: Scheiben nicht beschlagen lassen.
+24714: Vorsichtig lenken.
+24715: Schnell durch Pfützen = Aquaplaning.
+24716: Eine Kühlerabdeckung braucht man nicht.
+24717: Heftiges Bremsen führt zum Rutschen.
+24718: Warnblinker nur bei Gefahr oder Stillstand.
+24719: Mit getretener Kupplung fehlt die Kontrolle.
+
+G 4625: Aquaplaning: Die Reifen schwimmen auf einer Wasserschicht und haben keinen Kontakt zur Straße – je schneller, je abgefahrener die Reifen und je leichter das Fahrzeug, desto eher. Dann gibt es keinen Grip, das Auto kann schleudern.
+24720: Die Reifen rutschen auf dem Wasser.
+24721: Abgefahrene Reifen = schon bei weniger Tempo.
+24722: Leichte Fahrzeuge sind anfälliger.
+24723: Es tritt eher bei hoher Geschwindigkeit auf.
+24724: Die Schleudergefahr steigt.
+24725: Starke Querneigung lässt das Wasser ablaufen.
+24726: Die Haftung sinkt.
+24727: Die Haftung sinkt.
+24728: Profil und Rillentiefe sind entscheidend.
+
+G 4626: Auf Schnee: Winterreifen auf allen vier Rädern oder Ketten auf den Antriebsrädern, langsamer, mehr Abstand, keine abrupten Manöver, sanft beschleunigen.
+24729: Winterreifen oder Ketten.
+24730: Langsamer.
+24731: Mehr Abstand.
+24732: Keine abrupten Manöver.
+24733: Nicht stark beschleunigen.
+24734: Sanft bremsen, nicht heftig.
+24735: Vollgas lässt die Räder durchdrehen.
+24736: Abrupt lenken führt zum Schleudern.
+24737: Eine Vollbremsung verschlimmert das Schleudern.
+
+G 4627: Auf Eis: langsam, viel Abstand, weg vom Gegenverkehr, bergab im kleinen Gang, sanft beschleunigen, besonders vorsichtig an schattigen Stellen, Allradantrieb einschalten.
+24738: Mäßige Geschwindigkeit.
+24739: Mehr Abstand.
+24740: Abstand zum Gegenverkehr.
+24741: Bergab im kleinen Gang.
+24742: Nicht plötzlich beschleunigen.
+24743: Im Schatten bleibt Eis länger.
+24744: Allrad einschalten.
+24745: Zu nah an der Leitplanke ist gefährlich.
+24746: Ketten sind erlaubt und sinnvoll.
+24747: Heftiges Bremsen lässt das Auto rutschen.
+24748: Im Leerlauf fehlt die Motorbremse.
+
+G 4628: Bei dichtem Nebel: an der Bodenmarkierung orientieren, langsam fahren, Nebel- oder Abblendlicht und Nebelschlussleuchte an. Anhalten möglichst neben der Fahrbahn; muss man auf der Fahrbahn halten, Warnblinker an.
+24749: Sich an der Markierung orientieren.
+24750: Geschwindigkeit an die Sicht anpassen.
+24751: Wenn nötig neben der Fahrbahn halten.
+24752: Auf der Fahrbahn Warnblinker an.
+24753: Auf der Fahrbahn nur im Notfall halten.
+24754: Nebel- oder Abblendlicht.
+24755: Nebelschlussleuchte.
+24756: Sehr vorsichtig und konzentriert.
+24757: Standlicht reicht nicht.
+24758: Ein Dauerblinker verwirrt andere.
+24759: Zickzack ist gefährlich.
+24760: Abstand halten, nicht dicht auffahren.
+24761: Dauerhupen ist sinnlos.
+24762: Der Gurt bleibt Pflicht.
+
+G 4629: Nach einem Unfall muss man anhalten, Verletzten helfen, Personalien, Führerschein-, Kennzeichen- und Versicherungsdaten austauschen und Spuren nicht verwischen. Für die Versicherung gibt es Unfallberichtsformulare. Das Warndreieck stellt man außerorts auf die Straße (nicht in die Heckscheibe).
+24763: Anhalten und helfen.
+24764: Daten austauschen.
+24765: Spuren nicht verwischen.
+24766: Formulare der Versicherung verwenden.
+24767: Das Warndreieck gehört auf die Straße.
+24768: Eine Plane ist nicht vorgeschrieben.
+24769: Es gilt nicht nur nachts.
+24770: Der Gehsteig ist tabu.
+24771: Im Ort ist das Warndreieck nicht Pflicht.
+24772: Die Einspritzpumpe wartet die Werkstatt.
+24773: Der Reaktionsweg hängt stark von der Geschwindigkeit ab.
+24774: Die rote Öllampe zeigt einen Fehler.
+24775: Den Hubraum zu verändern ist verboten.
+24776: Ungleiche Bremsen muss man einstellen lassen.
+24777: Voll durchtreten lässt die Räder blockieren.
+24778: Die Motorelektronik darf man nicht verändern.
+
+G 4630: Ein- und Aussteigen: auf der Gehsteigseite oder der verkehrsabgewandten Seite, erst wenn das Auto steht, Tür nur ohne Gefahr öffnen. Kinder steigen unter Aufsicht eines Erwachsenen aus.
+24779: Auf der Gehsteigseite.
+24780: Tür nur ohne Gefahr öffnen.
+24781: Erst wenn das Auto steht.
+24782: Kinder unter Aufsicht.
+24783: Auch rechts kann es gefährlich sein (Radfahrer, Fußgänger).
+
+G 4631: Steckt man in Schnee oder Sand fest: etwas Griffiges (Holz, Fußmatte) unter das durchdrehende Rad legen; geht es im ersten Gang nicht, einen höheren Gang probieren (weniger Kraft am Rad). Schnee hat mehr Haftung als Eis.
+24784: Etwas Griffiges unterlegen.
+24785: Ein höherer Gang dreht weniger durch.
+24786: Eis ist rutschiger als Schnee.
+
+G 4632: Auffahrunfälle entstehen vor allem durch zu hohe Geschwindigkeit, zu wenig Abstand und Unaufmerksamkeit.
+24787: Zu hohe Geschwindigkeit.
+24788: Zu wenig Abstand.
+24789: Unaufmerksamkeit.
+24790: Die Handbremse ist nicht die Ursache.
+24791: Die Servolenkung hat damit nichts zu tun.
+
+G 4633: Im langen Tunnel: in Kolonnen mehr Abstand halten, damit sich ein Brand nicht ausbreitet. Bei Brand das Fahrzeug schnell verlassen, den Fluchtwegschildern folgen – und den Anweisungen von Personal und Feuerwehr, die Vorrang haben.
+24792: Mehr Abstand gegen Brandausbreitung.
+24793: Aussteigen und den Fluchtwegen folgen.
+24794: Den Anweisungen des Personals folgen.
+24798: Die Feuerwehr hat Vorrang vor den Schildern.
+
+G 4634: Motorräder sind von vorne schmal und schlecht sichtbar. Autofahrer achten deshalb besonders auf sie – an Kreuzungen, beim Öffnen der Tür und im Stau (sie überholen oft rechts). Beim Überholen seitlich genug Abstand. Motorräder fahren auch am Tag mit Abblendlicht; helle Kleidung hilft.
+24799: Schmales Profil = schlecht sichtbar.
+24800: Besonders auf Zweiräder achten.
+24801: Vor dem Türöffnen auf Zweiräder achten.
+24802: An Kreuzungen mit Zweirädern rechnen.
+24803: Im Stau können Zweiräder rechts vorbeikommen.
+24804: Seitlich Abstand halten.
+24805: Auch am Tag Abblendlicht.
+24806: Im Ort hupt man nicht einfach vor Kreuzungen.
+24808: Bei Kettenpflicht dürfen Zweiräder nicht fahren.
+24809: Lärm macht sie nicht sichtbarer.
+24810: Das schmale Profil macht sie schlechter sichtbar.
+24811: Fernlicht nur, wenn erlaubt.
+24812: Helle Kleidung verbessert die Sichtbarkeit.
+
+G 4635: Straßenbahnschienen, Zebrastreifen und Kanaldeckel sind für Zweiräder gefährlich, besonders bei Nässe. Darauf nicht bremsen und nicht schnell darüberfahren; Schienen möglichst schräg kreuzen, nie in der Rille fahren.
+24813: Schienen sind gefährlich.
+24814: Zebrastreifen sind rutschig.
+24815: Kanaldeckel sind rutschig.
+24816: Bei Nässe besonders.
+24817: Bei Nässe besonders.
+24818: Bei Nässe besonders.
+24819: Darauf nicht bremsen.
+24820: Zu schnell = Sturzgefahr.
+24821: Sie sind gefährlich.
+24822: Nicht beschleunigen, ruhig darüber.
+24823: Auf den Pedalen stehen hilft nicht.
+24824: Das Vorderrad hochziehen ist gefährlich.
+24825: Die Gefahr besteht bei jedem Getriebe.
+24826: In der Rille bleibt das Rad stecken.
