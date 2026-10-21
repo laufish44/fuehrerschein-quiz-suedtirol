@@ -1,0 +1,161 @@
+# Kapitel 19 (Ministerium) – Gurte, Kindersitze, Airbag, Helm, Schutzkleidung
+# Gurt: Pflicht für alle Insassen, vorne und hinten, immer – Airbag ersetzt ihn nicht.
+# Ausnahmen nur mit Bescheinigung (z. B. Schwangere mit Risiko, bestimmte Krankheiten) und für Fahrlehrer im Dienst.
+# Kindersitz rückwärts vorne nur mit abgeschaltetem Beifahrerairbag. Helm: Pflicht auf Mopeds, Motorrädern und Quads, immer geschlossen.
+
+G 4593: Den Gurt muss man richtig anlegen – wer seine Wirkung einschränkt (z. B. Klemmen), wird bestraft. Ohne Gurt wird man beim harten Bremsen gegen die Scheibe geschleudert. Airbags ersetzen den Gurt nicht; er gilt bei jeder Geschwindigkeit.
+24318: Ein eingeschränkter Gurt wird bestraft.
+24319: Ohne Gurt fliegt man nach vorne.
+24320: Airbags ersetzen den Gurt nicht.
+24321: Der Gurt gilt bei jeder Geschwindigkeit.
+
+G 4594: Ein rückwärtsgerichteter Kindersitz vorne ist nur erlaubt, wenn der Beifahrerairbag abgeschaltet ist; ohne Abschalter gar nicht – der Airbag würde das Kind verletzen.
+24322: Vorher den Airbag abschalten.
+24323: Ohne Abschalter kein Kindersitz vorne.
+24325: Der Gurt ist trotz Airbag Pflicht.
+
+G 4595: Die Kopfstütze verhindert ein Schleudertrauma – wenn Höhe und Neigung richtig eingestellt sind.
+24326: Sie schützt vor Schleudertrauma.
+24327: Nur richtig eingestellt.
+24328: Sie dient der Sicherheit, nicht der Entspannung.
+24329: Sie ist ein Sicherheitsteil.
+
+G 4596: Vom Gurt befreit sind nur: Schwangere mit ärztlicher Bescheinigung über ein besonderes Risiko, Personen mit bestimmten Krankheiten mit Bescheinigung, Fahrlehrer bei der Arbeit. Alter oder Fahrschüler-Status befreien nicht.
+24330: Mit Bescheinigung befreit.
+24331: Mit Bescheinigung befreit.
+24332: Fahrlehrer im Dienst sind befreit.
+24333: Briefträger sind nicht befreit.
+24334: Das Alter befreit nicht.
+24335: Fahrschüler müssen sich anschnallen.
+
+G 4597: Helmpflicht gilt für Fahrer und Beifahrer von Mopeds und Motorrädern (ohne Sicherheitszelle) – unabhängig von Alter und Führerschein.
+24336: Mopedfahrer tragen Helm.
+24337: Motorradfahrer tragen Helm.
+24338: Auch Beifahrer.
+24339: Auch volljährige Beifahrer.
+24340: Für alle, nicht nur Minderjährige.
+24341: Auch mit Führerschein B.
+24342: Die Pflicht gilt.
+
+G 4598: Gurte begrenzen Verletzungen: Sie halten den Körper im Sitz, verhindern den Aufprall im Innenraum und das Herausschleudern. Pflicht für alle Insassen vorne und hinten, in jeder Situation; sie müssen zugelassen, funktionstüchtig und regelmäßig geprüft sein. Keine Ausnahmen für Alter, kurze Strecken oder Airbag; Kinder nie auf dem Schoß.
+24343: Sie begrenzen Verletzungen.
+24344: Für Fahrer und Mitfahrer Pflicht.
+24345: Regelmäßig prüfen.
+24346: Zugelassen und funktionstüchtig.
+24347: Sie halten im Sitz.
+24348: Kein Aufprall im Innenraum.
+24349: Kein Herausschleudern.
+24350: In jeder Situation.
+24351: Auch hinten.
+24352: Zugelassen und funktionstüchtig.
+24353: Auch unter 30 km/h.
+24354: Hinten ist es Pflicht.
+24355: Auch über 70 Jahren Pflicht.
+24356: Auch mit Airbag Pflicht.
+24357: Die Warnleuchte lässt sich nicht abschalten.
+24358: Klemmen oder Lockern ist verboten.
+24359: Die Aufrollautomatik darf man nicht verändern.
+24360: Auch in der Stadt sehr nützlich.
+24361: Auch auf kurzen Strecken Pflicht.
+24362: Kinder nie auf dem Schoß.
+
+G 4599: Kinder unter 3 Jahren fahren nur mit geeignetem Kindersitz mit. Vorne nur mit abschaltbarem Airbag. Kindersitze müssen zugelassen und intakt sein; es gibt verschiedene Gruppen nach Größe und Gewicht. Ohne Kindersitz zu fahren ist nie erlaubt.
+24364: Unter 3 Jahren nur mit Kindersitz.
+24366: Vorne nur mit Airbag-Abschalter.
+24368: Zugelassen und funktionstüchtig.
+24369: Es gibt verschiedene Gruppen.
+24370: Auch im Ort Pflicht.
+24371: Bei jeder Geschwindigkeit Pflicht.
+24372: Vorne ohne Sitz ist verboten.
+24373: Auf dem Schoß ist verboten.
+24374: Die Grenze für Kindersitze ist nicht 1,30 m.
+24375: Selbstgebaute Sitze sind nicht erlaubt.
+
+G 4600: Der Airbag ist ein Kissen aus Nylon o. Ä., das ein Sensor bei starkem Aufprall in Millisekunden aufbläst. Er begrenzt Verletzungen, wirkt nur zusammen mit dem Gurt und kann manchmal abgeschaltet werden.
+24376: Ein Kissen aus Kunstfaser.
+24377: Er löst bei starkem Aufprall aus.
+24378: Ohne Gurt kann er gefährlich sein.
+24379: Er begrenzt Verletzungen im Innenraum.
+24380: Er kann abschaltbar sein.
+24381: Ein Sensor löst ihn aus.
+24382: In Millisekunden.
+24383: Millisekunden, nicht Sekunden.
+24384: Es gibt keinen Knopf zum Auslösen.
+24385: Man testet ihn nicht durch Aufblasen.
+24386: Er ist überall nützlich.
+24387: Er wirkt zusammen mit dem Gurt.
+24388: Auch kleine Autos haben Airbags.
+24389: Die Auslöseschwelle kann man nicht einstellen.
+
+G 4601: Helm: richtige Größe, immer geschlossen, auch auf kurzen, langsamen Fahrten und auf Quads. Mit mildem Reinigungsmittel putzen, nie mit Benzin oder Lösungsmitteln (auch Lacke und Kleber schaden). Er altert durch Licht und Hitze und muss nach einem starken Aufprall ersetzt werden. Das Visier schützt Augen und Gesicht und muss klar sein. Ohne Helm gibt es Punkteabzug.
+24390: Licht und Hitze lassen ihn altern.
+24391: Mit milden Mitteln reinigen.
+24392: Keine Lösungsmittel.
+24393: Kein Benzin.
+24394: Er mildert Kopfverletzungen.
+24395: Der Integralhelm schützt auch das Gesicht.
+24396: Ein Visier ist sinnvoll.
+24397: Es schützt vor Insekten.
+24398: Die Größe muss passen.
+24399: Nach starkem Aufprall ersetzen.
+24400: Lösungsmittel schwächen die Schale.
+24401: Immer geschlossen.
+24402: Offen ist er gefährlich.
+24403: Auch auf kurzen Fahrten.
+24404: Auch auf Quads.
+24405: Zerkratztes Visier ersetzen.
+24406: Das Visier muss klar sein.
+24407: Belüftung verhindert Beschlagen.
+24408: Ohne Helm Punkteabzug.
+24409: Aufkleber können die Schale schwächen.
+24410: Benzin schadet dem Helm.
+24412: Immer geschlossen.
+24413: Die Pflicht gilt immer.
+24414: Auf Quads ohne Karosserie gilt sie.
+24415: Er hält nicht 20 Jahre.
+24416: Der Integralhelm ist überall erlaubt.
+24417: Er ist auch auf dem Moped nützlich.
+24418: Die Pflicht gilt für alle.
+24419: Auch bei Hitze Pflicht.
+24420: Das Visier hilft der Sicht.
+24421: Eine beschädigte Schale ersetzt man.
+24422: Ein beschädigtes Visier ersetzt man.
+24423: Auch Mopedhelme müssen zugelassen sein.
+
+G 4602: Zugelassene Motorradstiefel schützen Füße und Knöchel vor Verletzungen, Kälte und Abschürfungen, haben keine losen Bänder und bleiben beim Sturz am Fuß.
+24424: Sie schützen Füße und Knöchel.
+24425: Gegen Umknicken und Kälte.
+24426: Keine losen Bänder.
+24427: Gegen Abschürfungen.
+24428: Sie sind genormt.
+24429: Man schlüpft nicht heraus.
+24430: Wanderschuhe sind kein Ersatz.
+24431: Sie haben keine Schnürsenkel.
+24432: Sie haben keine Stahlsohle.
+24433: Sie reichen nicht über das Knie.
+24434: Sie sind nicht nur aus Gummi.
+24435: Es gibt eigene Motorradstiefel.
+
+G 4603: Motorradhandschuhe – auch im Sommer – schützen Handrücken und Handflächen, geben guten Griff und sitzen mit Verschluss fest. Je nach Jahreszeit gibt es verschiedene Füllungen.
+24436: Handschuhe sind ratsam.
+24437: Sie schützen den Handrücken.
+24438: Sie schützen die Handfläche.
+24439: Guter Griff.
+24440: Verschiedene Füllungen.
+24441: Auch im Sommer.
+24442: Sie haben Verschlüsse.
+24443: Es gibt zugelassene Handschuhe.
+24444: Skihandschuhe sind kein Ersatz.
+24445: Ohne Handschuhe ist man nicht schneller.
+24446: Farbe und Logo sind kein Merkmal.
+24447: Sie reichen nicht bis zum Ellbogen.
+24448: Sie sind auch für Mopeds geeignet.
+24449: Sie dienen vor allem dem Schutz bei Stürzen.
+
+G 4604: Motorradjacken schützen vor Abschürfungen, haben Protektoren an den Gelenken und werden auf Schnitt- und Abriebfestigkeit getestet. Es gibt sie auch für den Sommer und in allen Farben.
+24450: Schutz vor Abschürfungen.
+24451: Protektoren an den Gelenken.
+24452: Auf Schnitt- und Abriebfestigkeit getestet.
+24453: Getestet wird die Festigkeit, nicht das Waschen.
+24454: Es gibt Sommerjacken.
+24455: Die Farbe ist egal.

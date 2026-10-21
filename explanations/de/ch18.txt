@@ -1,0 +1,222 @@
+# Kapitel 18 (Ministerium) – Beleuchtung, Blinker, Lichthupe, Kontrollleuchten
+# Farben der Kontrollleuchten: grün = an (Abblendlicht, Blinker), blau = Fernlicht, rot = Gefahr/sofort handeln
+# (Bremse, Öldruck, Kühlmittel, Batterie, Gurt, Handbremse, Warnblinker).
+# Abblendlicht: außerorts und im Tunnel immer, nachts überall, bei Regen, Schnee, Nebel. Fernlicht nur außerorts ohne Gegenverkehr.
+
+G 4580: Symbol Abblendlicht (Scheinwerfer mit schrägen Strahlen nach unten): steht auf dem Schalter und auf einer grünen Kontrollleuchte.
+24203: Es steht auf dem Abblendlichtschalter.
+24204: Die Kontrollleuchte ist grün.
+24205: Blau ist das Fernlicht.
+24206: Nebelleuchten haben ein eigenes Symbol.
+24207: Fernlicht hat waagrechte Strahlen und ist blau.
+24208: Das Standlicht hat ein anderes Symbol.
+24209: Blinker haben Pfeile.
+
+G 4591: Rotes Bremssymbol (Kreis mit Ausrufezeichen): Störung der Bremsanlage, z. B. abgenutzte Beläge oder zu wenig Bremsflüssigkeit. Sofort zur Werkstatt.
+24301: Es ist rot.
+24302: Störung an der Bremsanlage.
+24303: Kann abgenutzte Beläge anzeigen.
+24304: Kann zu wenig Bremsflüssigkeit anzeigen.
+24305: Bremsanlage sofort reparieren lassen.
+24306: Das Steuergerät hat eine andere Leuchte.
+24307: Wartungshinweise haben ein anderes Symbol.
+24308: Die Hauptuntersuchung wird nicht so angezeigt.
+24309: Es zeigt keinen Feuerlöscher.
+24310: Es warnt nicht vor Hochspannung.
+24311: Offene Türen haben ein anderes Symbol.
+
+G 4582: Warnblinker-Symbol (rotes Dreieck): steht auf dem Schalter der Warnblinkanlage, die man im Notfall einschaltet. Sie schaltet sich nicht bei jedem Unfall von selbst ein.
+24216: Schalter der Warnblinkanlage.
+24217: Mit ihm schaltet man die Warnblinkanlage ein.
+24218: Die Leuchte ist rot.
+24219: Für den Notfall.
+24220: Das Warndreieck stellt man von Hand auf.
+24221: Die Handbremse hat ein anderes Symbol.
+24222: Man schaltet sie selbst ein.
+
+G 4581: Blinker-Symbol (zwei Pfeile): Schalter und grün blinkende Kontrollleuchte der Fahrtrichtungsanzeiger.
+24210: Schalter der Blinker.
+24211: Die Leuchte ist grün.
+24212: Sie blinkt grün.
+24213: Nicht rot, sondern grün.
+24214: Das Standlicht hat ein anderes Symbol.
+24215: Es ist nicht der Standlichtschalter.
+
+G 4588: Rotes Thermometer-Symbol: Die Kühlflüssigkeit ist zu heiß – der Motor überhitzt. Es betrifft die Temperatur, nicht den Stand des Kühlmittels, nicht das Öl.
+24273: Es ist rot.
+24274: Der Motor ist zu heiß.
+24275: Zu hohe Kühlmitteltemperatur.
+24276: Die Höchstgrenze ist überschritten.
+24277: Ergänzt die Temperaturanzeige des Kühlmittels.
+24278: Es ist kein Einfüllstutzen für Scheibenwasser.
+24279: Es zeigt die Temperatur, nicht den Stand.
+24280: Es geht um Kühlmittel, nicht Motoröl.
+24281: Kühlmittel, nicht Öl.
+24282: Getriebeöl hat damit nichts zu tun.
+
+G 4579: Fernlicht-Symbol (Scheinwerfer mit waagrechten Strahlen): Fernlichtschalter, blaue Kontrollleuchte.
+24197: Fernlichtschalter.
+24198: Die Leuchte ist blau.
+24199: Grün ist das Abblendlicht.
+24200: Abblendlicht hat schräge Strahlen.
+24201: Nebelleuchten haben ein anderes Symbol.
+24202: Es erinnert nicht an das Standlicht.
+
+G 4589: Rotes Batterie-Symbol: Leuchtet es beim Fahren, lädt die Lichtmaschine die Batterie nicht richtig.
+24283: Die Lichtmaschine lädt nicht.
+24284: Die Batterie wird nicht richtig geladen.
+24285: Die Lichtmaschine lädt nicht.
+24286: Man sieht, ob richtig geladen wird.
+24287: Sie zeigt fehlendes Laden, nicht völlige Entladung.
+24288: Die Batterie muss nicht sofort getauscht werden.
+24289: Vertauschte Kabel zeigt sie nicht.
+24290: Sie zeigt keine Überladung.
+
+G 4590: Rotes Ölkannen-Symbol: Öldruck. Leuchtet es beim Fahren, ist der Öldruck zu niedrig – Motor sofort abstellen. Ist es aus, ist der Druck in Ordnung.
+24291: Hinweise zum Motoröldruck.
+24292: Es ist rot.
+24293: Aus = Öldruck in Ordnung.
+24294: An = Öldruck zu niedrig.
+24295: Motor sofort abstellen.
+24296: Es ist rot, nicht gelb.
+24297: Es zeigt den Druck, nicht die Temperatur.
+24298: Es zeigt nicht den Verbrauch.
+24299: Getriebeöl hat damit nichts zu tun.
+
+G 4592: Rotes Gurt-Symbol: Fahrer oder Mitfahrer sind nicht angeschnallt; meist mit Warnton. Man kann es nicht einfach abschalten.
+24312: Es ist rot.
+24313: Jemand ist nicht angeschnallt.
+24314: Meist mit Warnton.
+24315: Es lässt sich nicht einfach abschalten.
+24316: Rot, nicht gelb.
+24317: Es ist kein Knopf für den Gurtstraffer.
+
+G 4571: Auf Autobahnen und Freilandstraßen fährt man auch tagsüber mit Abblendlicht oder Tagfahrlicht. Falsch eingestellte Scheinwerfer oder nicht zugelassene Lampen blenden andere; nur zugelassene Lampen verwenden.
+24141: Auch tagsüber Abblend- oder Tagfahrlicht.
+24142: Falsch eingestellt = schlechte Sicht oder Blendung.
+24143: Falsch eingestelltes Abblendlicht blendet.
+24144: Falsche Lampen blenden auch mit Abblendlicht.
+24145: Nur zugelassene Lampen.
+24146: Standlicht reicht nicht.
+24147: Tagsüber kein Fernlicht.
+24148: Abseits der Fahrbahn ist kein Standlicht vorgeschrieben.
+24149: Die Farben sind vorgeschrieben.
+
+G 4572: Im Ort fährt man von einer halben Stunde nach Sonnenuntergang bis eine halbe Stunde vor Sonnenaufgang mit Abblendlicht; bei Schnee, Regen oder Nebel immer mit Licht. Nebelschlussleuchte bei Sicht unter 50 m. Im Ort darf ein nachts am Rand geparktes Auto mit Standlicht gekennzeichnet werden.
+24150: Im Ort nachts Abblendlicht.
+24151: Bei schlechter Sicht Stand- und Abblendlicht.
+24152: Unter 50 m Sicht Nebelschlussleuchte.
+24153: Geparkt im Ort: Standlicht möglich.
+24154: Nachts nicht immer Fernlicht.
+24155: Geparkt abseits der Fahrbahn: kein Licht nötig.
+24156: Auf einem Parkplatz ist kein Standlicht nötig.
+
+G 4573: Im Tunnel immer Abblendlicht, auch tagsüber und auch in beleuchteten Tunneln. Bei schlechter Sicht mit Licht fahren.
+24157: Im Tunnel Abblendlicht.
+24158: Bei schlechter Sicht Licht.
+24159: In jedem Tunnel, nicht nur in dunklen.
+
+G 4574: Bei starkem Regen oder Schneefall: Abblendlicht und Nebelschlussleuchte (falls vorhanden). Außerorts immer Abblendlicht, nachts auch bei guter Straßenbeleuchtung.
+24160: Bei starkem Regen auch Nebelschlussleuchte.
+24161: Bei starkem Schneefall auch Nebelschlussleuchte.
+24162: Außerorts immer Abblendlicht.
+24163: Falsch eingestellt blendet.
+24164: Nachts immer Abblendlicht.
+24165: Im Tunnel ist Abblendlicht Pflicht.
+24166: Standlicht ersetzt das Abblendlicht nicht.
+24167: Beim Überholen der Polizei gilt nichts Besonderes.
+
+G 4575: Rückstrahler reflektieren Licht, man schaltet sie nicht ein. Hinten rot, an Anhängern hinten rot und dreieckig, vorne an Anhängern weiß.
+24168: Sie reflektieren Licht.
+24169: Hinten sind sie rot.
+24170: An Anhängern hinten rot und dreieckig.
+24171: Auch an Anhängern.
+24172: Vorne an Anhängern weiß.
+24173: Man kann sie nicht einschalten.
+24174: Sie leuchten nicht selbst.
+24175: Sie ersetzen kein Licht.
+
+G 4576: Rückstrahler machen Fahrzeuge sichtbar, wenn Licht auf sie fällt – z. B. geparkte Fahrzeuge oder solche mit defektem Rücklicht. Weiße Rückstrahler kennzeichnen die Vorderseite von Anhängern.
+24176: Sie zeigen das Fahrzeug an.
+24177: Weiß = Vorderseite von Anhängern.
+24178: Nachts werden geparkte Fahrzeuge sichtbar.
+24179: Hilfreich, wenn das Rücklicht ausfällt.
+24180: Sie zeigen kein Abbiegen.
+24181: Weiß hat mit Gefahrgut nichts zu tun.
+24182: Sie ersetzen keine Blinker.
+
+G 4577: Das hintere Kennzeichen wird mit weißem Licht beleuchtet, damit man es lesen kann – immer, wenn die Beleuchtung an ist.
+24183: Damit man es lesen kann.
+24184: Mit weißem Licht.
+24185: Es leuchtet immer mit dem Licht, nicht nur nachts.
+24186: Geparkt abseits der Straße braucht es kein Licht.
+
+G 4578: Rot sind Kontrollleuchten für Warnblinker, Kühlmitteltemperatur, Öldruck, Sicherheitsgurt und Handbremse. Blinker und Abblendlicht sind grün, Fernlicht blau, Nebelleuchten und Entfrostung nicht rot.
+24187: Warnblinker: rot.
+24188: Kühlmitteltemperatur: rot.
+24189: Öldruck: rot.
+24190: Gurt: rot.
+24191: Handbremse: rot.
+24192: Blinker: grün.
+24193: Abblendlicht: grün.
+24194: Fernlicht: blau.
+24195: Nebelleuchten: nicht rot.
+24196: Entfrostung: nicht rot.
+
+G 4583: Blinken muss man vor jedem Spurwechsel (auch auf Einbahnstraßen), vor jedem Abbiegen, vor dem Verlassen der Fahrbahn zum Anhalten, beim Einfügen in den Verkehr, beim Wechsel auf die Verzögerungsspur und beim Auffahren von der Beschleunigungsspur. Nicht blinken muss man, wenn man nur dem Straßenverlauf folgt.
+24223: Vor jedem Spurwechsel.
+24224: Auch auf Einbahnstraßen.
+24225: Vor jedem Abbiegen.
+24226: Vor dem Verlassen der Fahrbahn.
+24227: Beim Einfügen in den Verkehr.
+24228: Vor der Verzögerungsspur.
+24229: Beim Auffahren.
+24230: Auch dort ist Blinken Pflicht.
+24231: Auch dort ist Blinken Pflicht.
+24232: Auch links heranfahren muss man ankündigen.
+24233: Bremsen zeigen die Bremslichter.
+24234: Auch zu einer Einfahrt blinkt man.
+24235: Auch rechts abbiegen.
+24236: Einer Kehre folgt man ohne Blinker – das ist der Straßenverlauf.
+
+G 4584: Blinken ist nötig vor Spurwechsel, Überholen (Aus- und Einscheren), Parken links in der Einbahnstraße, jedem Abbiegen und beim Rückwärtsrangieren. Nicht nötig beim Halten an der Ampel oder im Stau.
+24237: Vor dem Spurwechsel.
+24238: Vor dem Überholen.
+24239: Vor dem Parken links in der Einbahnstraße.
+24240: Vor jedem Abbiegen.
+24241: Bei Rückfahrmanövern.
+24242: Ohne Spurwechsel blinkt man nicht.
+24243: Nach dem Überholen blinkt man nicht weiter.
+24244: Auch beim Zurückwechseln blinken.
+24245: Auch zum Parken rechts blinken.
+24246: An der roten Ampel blinkt man nicht.
+24247: Im Stau blinkt man nicht.
+
+G 4585: Fernlicht ist im Ort in der Regel verboten. Außerorts benutzt man es, wenn die Beleuchtung fehlt oder nicht reicht und niemand entgegenkommt. Bei Gegenverkehr abblenden.
+24248: Im Ort meist verboten.
+24249: Außerorts bei schwacher Beleuchtung und ohne Gegenverkehr.
+24250: Außerorts ohne Beleuchtung und ohne Gegenverkehr.
+24251: Bei Gegenverkehr abblenden.
+24252: Bei Nebel blendet Fernlicht zurück.
+24253: In Tunneln im Ort kein Fernlicht.
+24254: Kranke an Bord erlauben kein Fernlicht.
+24255: Gegen die Sonne hilft Fernlicht nicht.
+
+G 4586: Die Lichthupe ist tagsüber und nachts, auch im Ort, erlaubt, um Unfälle zu vermeiden und um das Überholen anzukündigen.
+24256: Tag und Nacht zur Unfallvermeidung.
+24257: Auch im Ort.
+24258: Zum Ankündigen des Überholens.
+24259: Auch im Ort.
+24260: Nicht nur außerorts.
+24261: Auch nachts.
+24262: Dafür gibt es keine solche Regel.
+24264: Auch zum Ankündigen des Überholens.
+
+G 4587: Außerorts abblenden, wenn man andere Verkehrsteilnehmer, Fußgänger oder Fahrer auf anderen Straßen blenden könnte, beim Begegnen und wenn man dicht hinter jemandem fährt (egal welches Fahrzeug).
+24265: Wenn man andere blenden könnte.
+24266: Auch Fußgänger nicht blenden.
+24267: Auch Fahrer auf anderen Straßen.
+24268: Beim Begegnen.
+24269: Dicht hinter einem anderen.
+24270: Die Batterie ist kein Grund.
+24271: Hinter jedem Fahrzeug, nicht nur Pkw.
