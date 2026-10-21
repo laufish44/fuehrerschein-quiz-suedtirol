@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -10,6 +11,7 @@ import '../config.dart';
 import '../data/progress.dart';
 import '../data/question_bank.dart';
 import '../data/study_features.dart';
+import '../services/update_service.dart';
 import 'exam_screen.dart';
 import 'quiz_screen.dart';
 import 'widgets.dart';
@@ -777,7 +779,7 @@ Future<void> reportProblem(BuildContext context, Question q) async {
       ],
     ),
   );
-  if (reason == null) return;
+  if (reason == null || !context.mounted) return;
   final exp = app.bank.explanation(q, false);
   final body = StringBuffer()
     ..writeln('**Frage:** ${q.id} (Kapitel ${q.chapter.id}, Gruppe ${q.group.id})')
@@ -794,10 +796,104 @@ Future<void> reportProblem(BuildContext context, Question q) async {
     'body': body.toString(),
     'labels': 'erklaerung',
   });
+  await _openIssue(context, url, body.toString());
+}
+
+Future<void> _openIssue(BuildContext context, Uri url, String body) async {
   if (!await launchUrl(url, mode: LaunchMode.externalApplication) && context.mounted) {
-    await Clipboard.setData(ClipboardData(text: body.toString()));
+    await Clipboard.setData(ClipboardData(text: body));
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(context.trNow('Text kopiert', 'Testo copiato'))));
     }
+  }
+}
+
+// ---------- Verbesserungsvorschlag ----------
+
+/// Dialog für einen Verbesserungsvorschlag; öffnet danach ein vorausgefülltes GitHub-Issue.
+Future<void> suggestImprovement(BuildContext context) async {
+  final result = await showDialog<(String, String)>(context: context, builder: (_) => const _SuggestionDialog());
+  if (result == null || !context.mounted) return;
+  final version = context.read<UpdateService>().currentVersion;
+  final body = StringBuffer()
+    ..writeln(result.$2)
+    ..writeln()
+    ..writeln('---')
+    ..writeln('App-Version $version, ${defaultTargetPlatform.name}');
+  final url = Uri.https('github.com', '/${AppConfig.githubOwner}/${AppConfig.githubRepo}/issues/new', {
+    'title': 'Vorschlag: ${result.$1}',
+    'body': body.toString(),
+    'labels': 'enhancement',
+  });
+  await _openIssue(context, url, body.toString());
+}
+
+class _SuggestionDialog extends StatefulWidget {
+  const _SuggestionDialog();
+
+  @override
+  State<_SuggestionDialog> createState() => _SuggestionDialogState();
+}
+
+class _SuggestionDialogState extends State<_SuggestionDialog> {
+  final _title = TextEditingController();
+  final _text = TextEditingController();
+
+  @override
+  void dispose() {
+    _title.dispose();
+    _text.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final ok = _title.text.trim().isNotEmpty;
+    return AlertDialog(
+      title: Text(context.tr('Verbesserung vorschlagen', 'Suggerisci un miglioramento')),
+      content: SizedBox(
+        width: 480,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: _title,
+              autofocus: true,
+              textCapitalization: TextCapitalization.sentences,
+              decoration: InputDecoration(
+                labelText: context.tr('Kurz: Was wünschst du dir?', 'In breve: cosa desideri?'),
+                border: const OutlineInputBorder(),
+              ),
+              onChanged: (_) => setState(() {}),
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: _text,
+              minLines: 4,
+              maxLines: 8,
+              textCapitalization: TextCapitalization.sentences,
+              decoration: InputDecoration(
+                labelText: context.tr('Beschreibung (optional)', 'Descrizione (facoltativa)'),
+                alignLabelWithHint: true,
+                border: const OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              context.tr('Öffnet GitHub mit deinem Vorschlag – dort nur noch absenden (GitHub-Konto nötig).',
+                  'Apre GitHub con il tuo suggerimento – basta inviarlo (serve un account GitHub).'),
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ],
+        ),
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.pop(context), child: Text(context.tr('Abbrechen', 'Annulla'))),
+        FilledButton(
+          onPressed: ok ? () => Navigator.pop(context, (_title.text.trim(), _text.text.trim())) : null,
+          child: Text(context.tr('Weiter zu GitHub', 'Continua su GitHub')),
+        ),
+      ],
+    );
   }
 }

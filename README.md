@@ -37,7 +37,7 @@
 - **Gegensatzpaare:** fast gleiche Aussagen mit gegenteiliger Lösung nebeneinander
 - **Bilder-Quiz:** Zeichen sehen, passende Aussage wählen
 - **Prüfung mit Freunden:** gleicher Code = gleiche 30 Fragen
-- **Erfolge und Abzeichen**, **Android-Widget** für den Startbildschirm, **Fehler melden** an jeder Frage
+- **Erfolge und Abzeichen**, **Android-Widget** für den Startbildschirm, **Fehler melden** an jeder Frage, **Verbesserung vorschlagen** unter Mehr
 
 **Prüfung**
 - **Offizielle Simulation:** 30 Fragen aus allen Kapiteln, 20 Minuten, bestanden mit max. 3 Fehlern – Oberfläche wie bei der echten Prüfung (Nummernleiste 1–30, Antworten änderbar bis zur Abgabe)

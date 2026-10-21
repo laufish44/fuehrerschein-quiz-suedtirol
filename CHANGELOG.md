@@ -1,5 +1,9 @@
 # Änderungen
 
+## 1.5.1
+
+- **Verbesserung vorschlagen** (unter Mehr): kurzen Titel und Beschreibung eingeben – die App öffnet einen vorausgefüllten Vorschlag auf GitHub
+
 ## 1.5.0
 
 - **Lernplan:** Aus dem Prüfungstermin rechnet die App aus, wie viele Fragen du pro Tag schaffen solltest (die letzten Tage bleiben für Prüfungssimulationen frei) – auf Wunsch direkt als Tagesziel

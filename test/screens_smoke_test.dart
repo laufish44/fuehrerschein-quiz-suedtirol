@@ -80,6 +80,22 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('Verbesserungsvorschlag-Dialog', (tester) async {
+    await pump(tester, const MoreTab());
+    await tester.scrollUntilVisible(find.text('Verbesserung vorschlagen'), 300, scrollable: find.byType(Scrollable).first);
+    await tester.tap(find.text('Verbesserung vorschlagen'));
+    await tester.pumpAndSettle();
+    final weiter = find.widgetWithText(FilledButton, 'Weiter zu GitHub');
+    expect(tester.widget<FilledButton>(weiter).onPressed, isNull);
+    await tester.enterText(find.byType(TextField).first, 'Dunkles Widget');
+    await tester.pump();
+    expect(tester.widget<FilledButton>(weiter).onPressed, isNotNull);
+    await tester.tap(find.text('Abbrechen'));
+    await tester.pumpAndSettle();
+    expect(find.text('Weiter zu GitHub'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('Gegensatzpaare durchspielen', (tester) async {
     final pair = app.bank.oppositePairs.first;
     await pump(tester, PairsScreen(pairs: [pair]));

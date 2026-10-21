@@ -26,6 +26,8 @@ class MoreTab extends StatelessWidget {
           context.tr('Was du schon geschafft hast', 'Cosa hai già raggiunto'), () => open(const AchievementsScreen())),
       (Icons.traffic_outlined, context.tr('Prüfungsreif-Ampel', 'Semaforo di preparazione'),
           context.tr('Welche Kapitel noch Lücken haben', 'Quali capitoli hanno ancora lacune'), () => open(const ReadinessScreen())),
+      (Icons.lightbulb_outline, context.tr('Verbesserung vorschlagen', 'Suggerisci un miglioramento'),
+          context.tr('Idee für die App an GitHub schicken', 'Invia un\'idea per l\'app su GitHub'), () => suggestImprovement(context)),
       (Icons.search, context.tr('Suche', 'Cerca'), context.tr('Alle Fragen durchsuchen', 'Cerca tra tutte le domande'),
           () => open(const SearchScreen())),
       (Icons.star_outline, context.tr('Favoriten', 'Preferite'), '${favorites.length}',
