@@ -22,6 +22,9 @@ class LocalSettings {
   bool drivePrompted;
   bool geminiPrompted;
 
+  /// Abzeichen, die schon angezeigt wurden (für den „Neu“-Hinweis).
+  List<String> seenAchievements;
+
   LocalSettings({
     String? deviceId,
     this.themeMode = 'system',
@@ -40,7 +43,9 @@ class LocalSettings {
     this.keyboardHints = true,
     this.drivePrompted = false,
     this.geminiPrompted = false,
-  }) : deviceId = deviceId ?? randomId();
+    List<String>? seenAchievements,
+  })  : deviceId = deviceId ?? randomId(),
+        seenAchievements = seenAchievements ?? [];
 
   Map<String, dynamic> toJson() => {
         'deviceId': deviceId,
@@ -60,6 +65,7 @@ class LocalSettings {
         'keyboardHints': keyboardHints,
         'drivePrompted': drivePrompted,
         'geminiPrompted': geminiPrompted,
+        'seenAchievements': seenAchievements,
       };
 
   factory LocalSettings.fromJson(Map<String, dynamic> j) {
@@ -80,6 +86,7 @@ class LocalSettings {
       ..onboardingDone = j['onboardingDone'] as bool? ?? d.onboardingDone
       ..keyboardHints = j['keyboardHints'] as bool? ?? d.keyboardHints
       ..drivePrompted = j['drivePrompted'] as bool? ?? d.drivePrompted
-      ..geminiPrompted = j['geminiPrompted'] as bool? ?? d.geminiPrompted;
+      ..geminiPrompted = j['geminiPrompted'] as bool? ?? d.geminiPrompted
+      ..seenAchievements = [for (final s in (j['seenAchievements'] as List?) ?? const []) s as String];
   }
 }

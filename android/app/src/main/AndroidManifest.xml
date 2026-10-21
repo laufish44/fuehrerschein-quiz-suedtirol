@@ -51,6 +51,16 @@
             </intent-filter>
         </receiver>
 
+        <!-- Startbildschirm-Widget (Tagesziel, Serie, Prüfungstermin) -->
+        <receiver android:name=".LernWidgetProvider" android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/lern_widget_info" />
+        </receiver>
+
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />

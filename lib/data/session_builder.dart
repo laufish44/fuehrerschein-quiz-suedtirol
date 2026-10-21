@@ -51,12 +51,14 @@ class SessionBuilder {
 
   /// Offizielle Prüfung: eine Frage aus jedem der 25 Kapitel und 5 weitere aus
   /// zufälligen Kapiteln (gewichtet nach Umfang), nie zwei Fragen aus derselben Gruppe.
-  List<Question> officialExam() {
+  /// Mit [code] (Prüfung teilen) ergibt sich bei allen dieselbe Zusammenstellung.
+  List<Question> officialExam({int? code}) {
+    final rng = code == null ? _rng : Random(code);
     final weights = examChapterWeights(bank);
     final slots = [for (final c in bank.examChapters) c.id];
     final extra = <int>{};
     while (extra.length < 30 - bank.examChapters.length) {
-      var r = _rng.nextDouble();
+      var r = rng.nextDouble();
       for (final e in weights.entries) {
         r -= e.value;
         if (r <= 0) {
@@ -71,9 +73,9 @@ class SessionBuilder {
     final result = <Question>[];
     for (final chapterId in slots) {
       final groups = bank.examChapters[chapterId - 1].groups.where((g) => !usedGroups.contains(g.id)).toList();
-      final g = groups[_rng.nextInt(groups.length)];
+      final g = groups[rng.nextInt(groups.length)];
       usedGroups.add(g.id);
-      result.add(g.questions[_rng.nextInt(g.questions.length)]);
+      result.add(g.questions[rng.nextInt(g.questions.length)]);
     }
     return result;
   }

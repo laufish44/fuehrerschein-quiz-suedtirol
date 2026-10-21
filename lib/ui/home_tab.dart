@@ -11,6 +11,7 @@ import 'exam_screen.dart';
 import 'learn_tab.dart';
 import 'quiz_screen.dart';
 import 'settings_screen.dart';
+import 'study_features_ui.dart';
 import 'widgets.dart';
 
 class HomeTab extends StatelessWidget {
@@ -72,6 +73,13 @@ class HomeTab extends StatelessWidget {
         final all = [...app.bank.questions]..shuffle(Random());
         startQuiz(context, context.trNow('Zufällige Fragen', 'Domande casuali'), all.take(app.settings.sessionSize).toList());
       }),
+      _Action(Icons.compare_arrows, context.tr('Gegensatzpaare', 'Coppie opposte'),
+          context.tr('fast gleich, gegenteilig', 'quasi uguali, opposte'), const Color(0xFFAD1457), () => PairsScreen.open(context)),
+      _Action(Icons.image_search, context.tr('Bilder-Quiz', 'Quiz figure'), context.tr('Was bedeutet das Zeichen?', 'Cosa significa?'),
+          const Color(0xFF2E7D32), () => ImageQuizScreen.open(context)),
+      _Action(Icons.traffic_outlined, context.tr('Prüfungsreif-Ampel', 'Semaforo'),
+          context.tr('Kapitel grün machen', 'Rendi verdi i capitoli'), const Color(0xFF455A64),
+          () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ReadinessScreen()))),
       _Action(Icons.trending_down, context.tr('Schwächstes Kapitel', 'Capitolo più debole'),
           '${weakest.chapter.id}. ${weakest.chapter.name(app.italianUi)}', const Color(0xFF5D4037), () {
         Navigator.of(context).push(MaterialPageRoute(builder: (_) => ChapterScreen(chapter: weakest.chapter)));
@@ -86,6 +94,7 @@ class HomeTab extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const _UpdateBanner(),
+              const NewAchievementsBanner(),
               SectionCard(
                 child: Row(
                   children: [
@@ -184,6 +193,7 @@ class HomeTab extends StatelessWidget {
                   ),
                 ],
               ),
+              const StudyPlanCard(),
               const SizedBox(height: 8),
               LayoutBuilder(builder: (context, c) {
                 final cols = c.maxWidth >= 700 ? 3 : 2;

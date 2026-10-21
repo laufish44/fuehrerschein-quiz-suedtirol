@@ -10,6 +10,7 @@ import 'app_state.dart';
 import 'services/drive_sync.dart';
 import 'services/notification_service.dart';
 import 'services/update_service.dart';
+import 'services/widget_service.dart';
 import 'ui/exam_tab.dart';
 import 'ui/home_tab.dart';
 import 'ui/learn_tab.dart';
@@ -121,8 +122,12 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     final sync = context.read<DriveSync>();
     if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive || state == AppLifecycleState.detached) {
       app.save();
-      if (state == AppLifecycleState.paused) sync.syncNow();
+      if (state == AppLifecycleState.paused) {
+        sync.syncNow();
+        WidgetService.update(app);
+      }
     } else if (state == AppLifecycleState.resumed) {
+      WidgetService.update(app);
       final last = sync.lastSync;
       if (last == null || DateTime.now().difference(last).inMinutes >= 10) sync.syncNow();
     }
@@ -149,6 +154,7 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     }
 
     unawaited(sync.syncNow());
+    unawaited(WidgetService.update(app));
 
     if (NotificationService.supported) {
       await NotificationService.init();

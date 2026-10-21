@@ -33,6 +33,11 @@
 - **Intelligent lernen:** Spaced Repetition – falsch beantwortete Fragen kommen öfter, gelernte seltener
 - **Meine Fehler:** jede falsche Frage bleibt drin, bis du sie mehrmals in Folge richtig hast
 - Auflösung sofort oder erst am Ende der Runde (umschaltbar)
+- **Lernplan** bis zum Prüfungstermin und **Prüfungsreif-Ampel** je Kapitel
+- **Gegensatzpaare:** fast gleiche Aussagen mit gegenteiliger Lösung nebeneinander
+- **Bilder-Quiz:** Zeichen sehen, passende Aussage wählen
+- **Prüfung mit Freunden:** gleicher Code = gleiche 30 Fragen
+- **Erfolge und Abzeichen**, **Android-Widget** für den Startbildschirm, **Fehler melden** an jeder Frage
 
 **Prüfung**
 - **Offizielle Simulation:** 30 Fragen aus allen Kapiteln, 20 Minuten, bestanden mit max. 3 Fehlern – Oberfläche wie bei der echten Prüfung (Nummernleiste 1–30, Antworten änderbar bis zur Abgabe)

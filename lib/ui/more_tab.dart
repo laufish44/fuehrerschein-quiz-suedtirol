@@ -5,6 +5,7 @@ import '../app_state.dart';
 import 'lexicon_screen.dart';
 import 'question_list_screen.dart';
 import 'settings_screen.dart';
+import 'study_features_ui.dart';
 import 'widgets.dart';
 
 class MoreTab extends StatelessWidget {
@@ -21,6 +22,10 @@ class MoreTab extends StatelessWidget {
     void open(Widget page) => Navigator.of(context).push(MaterialPageRoute(builder: (_) => page));
 
     final items = [
+      (Icons.emoji_events_outlined, context.tr('Erfolge und Abzeichen', 'Traguardi e medaglie'),
+          context.tr('Was du schon geschafft hast', 'Cosa hai già raggiunto'), () => open(const AchievementsScreen())),
+      (Icons.traffic_outlined, context.tr('Prüfungsreif-Ampel', 'Semaforo di preparazione'),
+          context.tr('Welche Kapitel noch Lücken haben', 'Quali capitoli hanno ancora lacune'), () => open(const ReadinessScreen())),
       (Icons.search, context.tr('Suche', 'Cerca'), context.tr('Alle Fragen durchsuchen', 'Cerca tra tutte le domande'),
           () => open(const SearchScreen())),
       (Icons.star_outline, context.tr('Favoriten', 'Preferite'), '${favorites.length}',

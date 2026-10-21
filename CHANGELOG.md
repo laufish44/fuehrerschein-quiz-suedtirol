@@ -1,5 +1,16 @@
 # Änderungen
 
+## 1.5.0
+
+- **Lernplan:** Aus dem Prüfungstermin rechnet die App aus, wie viele Fragen du pro Tag schaffen solltest (die letzten Tage bleiben für Prüfungssimulationen frei) – auf Wunsch direkt als Tagesziel
+- **Prüfungsreif-Ampel:** Jedes Kapitel ist grün, gelb oder rot; mit einem Knopf übst du gezielt die roten und gelben
+- **Gegensatzpaare:** 571 Paare fast gleich klingender Aussagen mit gegenteiliger Lösung – beide nebeneinander beantworten
+- **Bilder-Quiz:** Verkehrszeichen sehen und aus vier Aussagen die passende wählen
+- **Prüfung mit Freunden:** Ein sechsstelliger Code ergibt bei allen genau dieselben 30 Prüfungsfragen
+- **Erfolge und Abzeichen:** 19 Abzeichen (Serien, Prüfungen, Kapitel grün, fehlerfrei …), neue werden auf der Startseite angezeigt
+- **Widget für den Android-Startbildschirm:** Tagesziel, Lernserie, Bestehenschance und Tage bis zur Prüfung
+- **Fehler melden:** Fahne an jeder Frage öffnet einen vorausgefüllten Fehlerbericht auf GitHub
+
 ## 1.4.0
 
 - Offline-Erklärungen für alle 7.020 Aussagen: neu sind Zusatztafeln, Geschwindigkeit, Abstand, Fahrbahnposition und Abbiegen, Vorfahrt-Beispiele, Überholen, Halten und Parken, Autobahn, Ladung und Anhänger, Licht und Kontrollleuchten, Gurte und Helm, Führerschein und Punkte, Unfälle und Erste Hilfe, Alkohol, Haftung und Versicherung, Umwelt sowie Fahrzeugtechnik. Die Erklärung erscheint nach jeder Antwort – auch wenn sie richtig war (nicht während der Prüfungssimulation)

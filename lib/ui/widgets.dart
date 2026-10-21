@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../data/question_bank.dart';
 import '../services/tts_service.dart';
+import 'study_features_ui.dart';
 
 const correctColor = Color(0xFF2E7D32);
 const wrongColor = Color(0xFFC62828);
@@ -146,6 +147,11 @@ class QuestionToolbar extends StatelessWidget {
           icon: Icon(hasNote ? Icons.sticky_note_2 : Icons.sticky_note_2_outlined,
               color: hasNote ? Colors.amber.shade700 : null),
           onPressed: () => editNote(context, question),
+        ),
+        IconButton(
+          tooltip: context.tr('Fehler melden', 'Segnala un errore'),
+          icon: const Icon(Icons.outlined_flag),
+          onPressed: () => reportProblem(context, question),
         ),
         IconButton(
           tooltip: context.tr('Favorit', 'Preferita'),

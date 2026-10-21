@@ -44,6 +44,9 @@ class Question {
   /// verwechseln kann (0..1). Hoch = "Fallen-Frage".
   double trickiness = 0;
 
+  /// Die ähnlichste Aussage derselben Gruppe mit gegenteiliger Lösung.
+  Question? trapPartner;
+
   Question(this.id, this.group, this.answer, this.de, this.it, this.image);
 
   Chapter get chapter => group.chapter;
@@ -186,6 +189,27 @@ class QuestionBank {
     return list;
   }();
 
+  /// Gegensatzpaare: zwei fast gleich klingende Aussagen derselben Gruppe mit gegenteiliger Lösung.
+  /// Jedes Paar kommt nur einmal vor; die richtige Aussage steht zuerst.
+  late final List<(Question, Question)> oppositePairs = () {
+    final seen = <String>{};
+    final pairs = <(Question, Question)>[];
+    for (final q in trickyQuestions) {
+      final o = q.trapPartner;
+      if (o == null) continue;
+      final key = q.id < o.id ? '${q.id}-${o.id}' : '${o.id}-${q.id}';
+      if (!seen.add(key)) continue;
+      pairs.add(q.answer ? (q, o) : (o, q));
+    }
+    return pairs;
+  }();
+
+  /// Bilder für das Bilder-Quiz: Bild → Gruppe mit mindestens einer richtigen Aussage.
+  late final List<QuestionGroup> imageGroups = [
+    for (final g in groups)
+      if (g.images.length == 1 && g.questions.any((q) => q.answer && q.image == g.images.first)) g,
+  ];
+
   /// Alle Bilder (Verkehrszeichen/Situationen) mit ihren Fragen, für das Lexikon.
   List<({String image, List<Question> questions})> imageEntries() {
     final map = <String, List<Question>>{};
@@ -219,15 +243,20 @@ class QuestionBank {
       for (final q in g.questions) {
         final a = tokens[q.id]!;
         var best = 0.0;
+        Question? partner;
         for (final o in g.questions) {
           if (o.answer == q.answer) continue;
           final b = tokens[o.id]!;
           final union = a.union(b).length;
           if (union == 0) continue;
           final sim = a.intersection(b).length / union;
-          if (sim > best) best = sim;
+          if (sim > best) {
+            best = sim;
+            partner = o;
+          }
         }
         q.trickiness = best;
+        q.trapPartner = partner;
       }
     }
   }

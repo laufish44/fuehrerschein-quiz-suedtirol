@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../config.dart';
 import 'exam_screen.dart';
+import 'study_features_ui.dart';
 import 'widgets.dart';
 
 class ExamTab extends StatelessWidget {
@@ -76,6 +77,7 @@ class ExamTab extends StatelessWidget {
                   'Scegli numero, tempo, errori ammessi e capitoli – ad es. solo errori o solo segnali.',
                 )),
               ),
+              const ShareExamCard(),
               const SizedBox(height: 12),
               Text(context.tr('Verlauf (${exams.length})', 'Cronologia (${exams.length})'), style: theme.textTheme.titleMedium),
               const SizedBox(height: 8),

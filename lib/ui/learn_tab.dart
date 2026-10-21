@@ -9,6 +9,7 @@ import '../data/question_bank.dart';
 import '../data/session_builder.dart';
 import 'lexicon_screen.dart';
 import 'quiz_screen.dart';
+import 'study_features_ui.dart';
 import 'widgets.dart';
 
 class LearnTab extends StatelessWidget {
@@ -55,6 +56,34 @@ class LearnTab extends StatelessWidget {
                       icon: Icons.image_outlined,
                       label: context.tr('Nach Bild lernen', 'Studia per figura'),
                       onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const LexiconScreen())),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  Expanded(
+                    child: _BigButton(
+                      icon: Icons.compare_arrows,
+                      label: context.tr('Gegensatzpaare', 'Coppie opposte'),
+                      onTap: () => PairsScreen.open(context),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: _BigButton(
+                      icon: Icons.image_search,
+                      label: context.tr('Bilder-Quiz', 'Quiz figure'),
+                      onTap: () => ImageQuizScreen.open(context),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: _BigButton(
+                      icon: Icons.traffic_outlined,
+                      label: context.tr('Prüfungsreif-Ampel', 'Semaforo'),
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ReadinessScreen())),
                     ),
                   ),
                 ],
@@ -156,6 +185,8 @@ class _ChapterTile extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(width: 8),
+              ReadinessDot(stat: stat),
               const Icon(Icons.chevron_right),
             ],
           ),
