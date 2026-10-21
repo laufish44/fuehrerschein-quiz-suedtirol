@@ -1,0 +1,404 @@
+# Kapitel 17 (Ministerium) – Liegenbleiben, Warndreieck, Autobahn, Ladung, Personen, Anhänger
+# Warndreieck: mindestens 50 m hinter dem Hindernis, aus mindestens 100 m sichtbar, auf der blockierten Spur.
+# Außerorts Pflicht, wenn das Hindernis nicht aus 100 m gut zu sehen ist; beim Aufstellen immer Warnweste.
+# Autobahn: kein Wenden, kein Rückwärtsfahren, Pannenstreifen nur im Notfall, Abblendlicht auch am Tag.
+
+G 4564: Rot-weiß gestreifte, rückstrahlende Tafel (50 × 50 cm): kennzeichnet Ladung, die hinten hinausragt – schon bei geringem Überstand. Sie sitzt ganz am Ende der Ladung. Sie darf auch an abgeschleppten Fahrzeugen ohne funktionierende Warnblinkanlage hängen.
+24061: Am äußersten Ende der Ladung.
+24062: Sie zeigt hinten überstehende Ladung.
+24063: Sie muss rückstrahlend sein.
+24064: Schon bei kleinem Überstand.
+24065: Auch an abgeschleppten Fahrzeugen ohne Warnblinker.
+24066: Ganz am Ende, gut sichtbar.
+24067: Die Hinterleute sollen vorsichtig fahren.
+24068: Schon bei wenig Überstand, nicht erst ab 3/10.
+24069: Sie gilt für hinten, nicht seitlich.
+24070: Sie kennzeichnet keine Baustofflaster.
+24071: Sie gehört nicht an Müllwagen.
+24072: Eine 50-cm-Grenze gibt es nicht.
+24073: Nur bei überstehender Ladung, nicht an allen Lkw.
+24074: Eine rote Fahne ersetzt sie nicht.
+
+G 4530: Fällt Ladung auf die Fahrbahn: wenn möglich sofort wegräumen und die Fahrbahn freimachen; außerorts mit dem Warndreieck sichern.
+23805: Wenn möglich wegräumen.
+23806: Außerorts mit Warndreieck sichern.
+23807: Die Fahrbahn rasch freimachen.
+23808: Man sichert mit dem Warndreieck, nicht mit STOP.
+23809: Man muss handeln, nicht im Auto warten.
+
+G 4531: Bei Panne oder Hindernis: die Fahrbahn so schnell wie möglich freimachen – das Fahrzeug von der Fahrbahn schieben oder ganz an den rechten Rand.
+23810: Fahrbahn rasch freimachen.
+23811: Wegschieben oder ganz rechts.
+23812: Hindernisse wenn möglich wegräumen.
+23813: Auch bei wenig Verkehr wegfahren bzw. wegschieben.
+23814: Die Sicherheit geht vor – wegräumen.
+
+G 4532: Blockieren Unfallfahrzeuge die Fahrbahn und können nicht weg, sichern Fahrer oder Mitfahrer außerorts mit dem Warndreieck. Man muss den Bereich kennzeichnen und gegebenenfalls die Polizei benachrichtigen.
+23816: Außerorts Warndreieck aufstellen.
+23817: Man muss den Bereich trotzdem kennzeichnen.
+23818: Auch Handzeichen ersetzen die Meldung nicht.
+
+G 4533: Fallen rutschige, brennbare oder gefährliche Stoffe herunter: mit dem Warndreieck sichern (auch mitten auf der Fahrbahn), auf der anderen Seite mit Handzeichen warnen, Stoffe wegräumen oder mit Sand, Erde oder Sägemehl abstreuen.
+23819: Warndreieck, notfalls auch mitten auf der Fahrbahn.
+23820: Außerorts Warndreieck, auch in der Mitte.
+23821: Handzeichen auf der Seite ohne Dreieck.
+23822: Wegräumen oder abstreuen.
+23823: Handzeichen auf der Seite ohne Dreieck.
+23824: Hupen ersetzt das Warndreieck nicht.
+
+G 4534: Das Warndreieck ist Pflichtausstattung. Außerorts ist es Pflicht: nachts, wenn Licht oder Warnblinker fehlen, und tagsüber, wenn das Hindernis nicht aus 100 m gut zu sehen ist. Es steht mindestens 50 m dahinter (vor einer nahen Kreuzung so sichtbar wie möglich) und muss aus 100 m sichtbar sein.
+23826: Nachts außerorts ohne Licht: Warndreieck.
+23827: Nachts außerorts für herabgefallene Ladung.
+23828: Tagsüber, wenn nicht aus 100 m sichtbar.
+23829: Tagsüber für schlecht sichtbare Ladung.
+23830: Es gehört zur Pflichtausstattung.
+23831: Mindestens 50 m dahinter.
+23832: Vor einer nahen Kreuzung gut sichtbar aufstellen.
+23833: Sichtbar aus mindestens 100 m.
+23836: Das ist Pflicht, nicht freiwillig.
+23837: Die Pflicht gilt außerorts.
+23838: Für Zweiräder gilt diese Pflicht im Ort nicht.
+23839: Es steht dahinter, nicht auf der Ladung.
+23840: Sichtbar aus 100 m, nicht 50 m.
+
+G 4535: Das Warndreieck steht auf der blockierten Spur, mindestens 1 m vom äußeren Fahrbahnrand.
+23841: Auf der blockierten Spur.
+23842: Mindestens 1 m vom Rand.
+23843: Auf der blockierten Spur, nicht daneben.
+23844: Der Abstand gilt zum äußeren Rand, nicht zur Mittellinie.
+
+G 4536: Wer das Warndreieck aufstellt, trägt eine zugelassene Warnweste oder einen Reflexgurt – auch auf dem Pannenstreifen oder in der Haltebucht.
+23845: Weste oder Gurt anziehen.
+23846: Sie müssen zugelassen sein.
+23847: Auch auf dem Pannenstreifen.
+23848: Ohne Weste nicht aussteigen und gehen.
+23849: Die Weste ist Pflicht.
+23850: Auch dort ist sie Pflicht.
+
+G 4537: Auf Autobahnen und erstrangigen Freilandstraßen verboten: Pkw, die nicht 80 km/h schaffen, landwirtschaftliche Maschinen, schlecht gesicherte oder zu weit überstehende Ladung, undichte Fahrzeuge mit offener Schüttladung und Fahrzeuge in gefährlichem Zustand. Kleinkrafträder sind ebenfalls verboten.
+23853: Pkw unter 80 km/h verboten.
+23854: Landwirtschaftliche Maschinen verboten.
+23855: Schlecht gesicherte Ladung verboten.
+23856: Offene Schüttgutladung verboten.
+23857: Gefährliche Fahrzeuge verboten.
+23858: Schulbusse dürfen fahren.
+23860: Tiertransporte dürfen fahren.
+23861: Kleinkrafträder sind dort verboten.
+23862: Landwirtschaftliche Maschinen sind immer verboten.
+23863: Unbereifte Fahrzeuge sind verboten.
+
+G 4538: Fußgänger und Tiere sind dort nur auf Rast- und Parkplätzen erlaubt, Tiere nur beaufsichtigt. Auf dem Pannenstreifen geht man nur zur Notrufsäule. Abschleppen auf der Autobahn nur durch zugelassene Pannenfahrzeuge.
+23864: Nur auf Rast- und Parkplätzen.
+23865: Tiere nur beaufsichtigt.
+23866: Nur zur Notrufsäule.
+23867: Nur zugelassene Pannenfahrzeuge schleppen ab.
+23868: Auf Rastplätzen ist es erlaubt.
+23869: Beaufsichtigt ist es erlaubt.
+
+G 4539: Auf der Autobahn verboten: Trampen und Anhalter mitnehmen, Handel ohne Genehmigung, Campen außerhalb eigener Bereiche, Parken auf Raststätten länger als 24 Stunden.
+23870: Trampen verboten.
+23871: Handel nur mit Genehmigung.
+23872: Campen nur in eigenen Bereichen.
+23873: Höchstens 24 Stunden parken.
+23874: Auch Invalide nimmt man nicht mit.
+23875: Auch auf Rastplätzen verboten.
+23876: Nur in eigenen Bereichen.
+23877: Die Grenze ist 24, nicht 3 Stunden.
+
+G 4540: Auf Autobahnen und erstrangigen Freilandstraßen fährt man auch tagsüber mit Abblendlicht.
+23878: Abblendlicht auch am Tag.
+23879: Auch bei bester Sicht Pflicht.
+
+G 4541: Auf Autobahnen und erstrangigen Freilandstraßen verboten: wenden, den Mittelstreifen queren (auch durch Öffnungen), in falscher Richtung fahren, rückwärts fahren – auch auf dem Pannenstreifen. Der Pannenstreifen ist kein Ausweichstreifen bei Stau.
+23880: Wenden und Mittelstreifen queren verboten.
+23881: Geisterfahren verboten.
+23882: Rückwärts verboten.
+23884: Auch auf dem Pannenstreifen nicht rückwärts.
+23885: Wenden ist immer verboten.
+23886: Auch im Notfall nicht wenden.
+23887: Auch kurze Strecken nicht.
+23888: Der Pannenstreifen ist bei Stau tabu.
+
+G 4542: Auffahren: auf der Beschleunigungsspur den Fahrzeugen auf der Fahrbahn Vorfahrt lassen. Ausfahren: rechtzeitig nach rechts und von Anfang an auf die Verzögerungsspur. Spurwechsel immer blinken. Bei Stau ohne Pannenstreifen hält sich die rechte Spur möglichst links, damit Rettungsfahrzeuge durchkommen. Den Pannenstreifen darf man im Stau nur ab dem Schild 500 m vor der Ausfahrt zum Ausfahren benutzen.
+23889: Auf der Beschleunigungsspur Vorfahrt lassen.
+23890: Rechtzeitig rechts und von Anfang an auf die Verzögerungsspur.
+23891: Immer blinken.
+23892: So entsteht eine Gasse für Rettungsfahrzeuge.
+23893: Pannenstreifen nur ab dem 500-m-Schild zum Ausfahren.
+23894: Man wechselt am Anfang, nicht später.
+23895: Blinken ist immer Pflicht.
+23896: Nebeneinander nur bei viel Verkehr.
+
+G 4543: Auf der Autobahn darf man nur im Notfall parken (Panne, Unwohlsein) – auf dem Pannenstreifen, so kurz wie nötig, höchstens drei Stunden.
+23897: Nur im Notfall.
+23898: Bei Unwohlsein auf dem Pannenstreifen halten.
+23899: Bei Unwohlsein auf dem Pannenstreifen halten.
+23900: Höchstens 3 Stunden.
+23901: Bei Unwohlsein ist es erlaubt.
+23903: Höchstens 3, nicht 24 Stunden.
+
+G 4544: Auf der Autobahn darf man liegengebliebene Fahrer nicht mitnehmen, nicht zurückfahren und nicht abschleppen. Hilfe kommt über die Notrufsäule.
+23904: Mitnehmen ist verboten.
+23905: Mitnehmen ist verboten.
+23906: Anhalten zum Helfen ist nicht Pflicht – man ruft Hilfe.
+23907: Rückwärtsfahren ist verboten.
+23908: Abschleppen nur durch Pannendienst.
+
+G 4545: Mitfahrer dürfen den Fahrer nicht behindern oder ihm die Sicht nehmen. Die Plätze stehen im Fahrzeugschein (inklusive Fahrer). Ein Haustier ist erlaubt, wenn es nicht stört; mehrere nur im Käfig oder hinter einem Netz.
+23909: Der Fahrer muss sich frei bewegen und sehen können.
+23910: Die Plätze stehen im Fahrzeugschein.
+23911: Ein Haustier, wenn es nicht stört.
+23912: Mehrere nur im Käfig oder hinter Netz.
+23913: Der Fahrer ist mitgezählt.
+23914: Höchstens neun Plätze inklusive Fahrer.
+23915: Leinen reichen nicht – Käfig oder Netz.
+
+G 4546: Auf Krafträdern: keine Kinder unter 5 Jahren, nicht abschleppen oder sich ziehen lassen, Gegenstände nur gut befestigt und ohne die Sicht zu stören.
+23917: Keine Kinder unter 5 Jahren.
+23918: Nicht ziehen oder sich ziehen lassen.
+23919: Gegenstände gut befestigen.
+23920: Nichts, was die Sicht nimmt.
+23921: Beifahrer müssen nicht volljährig sein.
+23922: Krafträder werden nicht gezogen.
+
+G 4547: Ladung darf nicht herabfallen, den Fahrer nicht behindern, das Fahrzeug nicht instabil machen und weder Lichter, Kennzeichen noch Handzeichen verdecken – immer, nicht nur außerorts oder nachts.
+23924: Sie darf nicht herabfallen.
+23925: Den Fahrer nicht behindern.
+23926: Die Stabilität nicht stören.
+23927: Lichter und Kennzeichen nicht verdecken.
+23928: Das gilt überall.
+23929: Das gilt immer.
+
+G 4548: Ladung bleibt innerhalb der zulässigen Umrisse. Auf Kraftwagen: nach vorne gar nicht, nach hinten bei unteilbaren Gegenständen höchstens 3/10 der Länge, seitlich höchstens 30 cm über die Linie der Standlichter. Nichts darf über den Boden schleifen.
+23930: Innerhalb der zulässigen Umrisse.
+23931: Nach vorne nicht.
+23932: Hinten höchstens 3/10.
+23933: Seitlich höchstens 30 cm.
+23934: Nichts darf schleifen.
+23935: Bei Überstand besonders vorsichtig.
+23936: Die abgebildeten Tafeln sind nicht die für überstehende Ladung.
+23937: Seitlich gilt 30 cm, nicht 3/10.
+23938: Schleifen ist immer verboten.
+
+G 4549: Überstehende Ladung hinten (bis 3/10 der Länge) kennzeichnet man mit einer rot-weiß gestreiften quadratischen Tafel – bei Überstand über die ganze Breite mit zwei Tafeln quer zueinander an den Außenseiten. Andere Tafeln haben andere Bedeutungen.
+23939: Eine oder zwei rot-weiße Tafeln.
+23940: Schon bei geringem Überstand.
+23941: Für hinten überstehende unteilbare Ladung.
+23942: Bei voller Breite zwei Tafeln an den Seiten.
+23943: Diese Tafeln sind Heckmarkierungen schwerer Lkw.
+23944: Das ist nicht die Tafel für überstehende Ladung.
+23945: Die gelbe Tafel kennzeichnet Lastzüge, nicht Überstand.
+
+G 4550: Orange Tafel = Gefahrguttransport. Rot-gelbe Heckmarkierungen machen schwere Lkw über 3,5 t von hinten besser sichtbar. Gelbe Tafel mit rotem Rand hinten am Anhänger = Lastzug oder Sattelzug.
+23946: Orange = Gefahrgut.
+23947: Lkw über 3,5 t besser sichtbar.
+23948: Gelb mit rotem Rand = Lastzug/Sattelzug.
+23949: Orange kennzeichnet Gefahrgut, nicht Überstand.
+23950: Sie sind am Lkw, nicht auf der Straße.
+23951: Sie gehört an Lastzüge, nicht an Busse.
+
+G 4551: Ein Fahrzeug darf nur ein Fahrzeug ziehen. Ein Kraftwagen darf ein Fahrzeug mit Panne abschleppen – mit fester, gut gekennzeichneter Verbindung (Seil, Kette, Stange). Auf der Autobahn nur Pannendienste. Verstoß: 2 Punkte.
+23952: Nur ein Fahrzeug ziehen.
+23953: Pannenfahrzeuge dürfen abgeschleppt werden.
+23954: Feste, gekennzeichnete Verbindung.
+23955: Die Verbindung muss gut sichtbar sein.
+23956: 2 Punkte Abzug.
+23957: Auf der Autobahn nur Pannendienste.
+23958: Die Kennzeichnung ist Pflicht.
+23960: 2, nicht 4 Punkte.
+
+G 4552: Radfahrer sind leicht, langsam und schwanken seitlich; Kinder und ältere Menschen sind besonders unsicher. Radfahrer können die Geschwindigkeit nahender Autos schlecht einschätzen und sich schlecht umdrehen. Deshalb vorsichtig und mit Abstand fahren.
+23961: Radfahrer schwanken und sind langsam.
+23962: Fahrstil an Radfahrer anpassen.
+23963: Bei Kindern und Älteren besonders vorsichtig.
+23964: Sie schätzen unsere Geschwindigkeit schlecht ein.
+23965: Beim Linksabbiegen schätzen sie schlecht ein.
+23966: Ältere drehen sich schwer um.
+23967: Kinder auf dem Rad sind gefährdet.
+23968: Stürze sind nicht vorhersehbar.
+23969: Für Radfahrer ist das schwer einzuschätzen.
+
+G 4553: Junge Mopedfahrer sind unerfahren. Linksabbiegen ist für sie besonders gefährlich. Plötzliche Manöver und Zickzack einplanen, seitlich genug Abstand halten und nicht ausscheren.
+23970: Mopedfahrer sind oft unerfahren.
+23971: Linksabbiegen ist für sie gefährlich.
+23972: Entfernung vorsichtig einschätzen.
+23973: Zickzack einplanen.
+23974: Seitlich Abstand halten.
+23975: Nicht ausscheren.
+23976: Man muss Fehler anderer vorhersehen.
+23977: Das ist schwer einzuschätzen.
+23978: Mit wenig Abstand nie überholen.
+
+G 4554: Sehr langsame Fahrzeuge (dreirädrige Mopeds, landwirtschaftliche Maschinen) sind auf Freilandstraßen gefährlich, weil man ihre Geschwindigkeit schlecht einschätzt und schnell auf sie auffährt.
+23979: Langsame Fahrzeuge sind ein Risiko.
+23980: Plötzliche Manöver sind gefährlich.
+23981: Ihre Geschwindigkeit ist schwer einzuschätzen.
+23982: Große Geschwindigkeitsunterschiede sind gefährlich.
+23983: Das ist schwer einzuschätzen.
+
+G 4555: Zusammenstöße zwischen sehr unterschiedlich schweren Fahrzeugen sind besonders gefährlich – für das leichtere.
+23984: Unterschiedliche Gewichte = gefährlich.
+23985: Im kleinen Auto ist das Risiko höher.
+23986: Schwere Autos sind für Kleine gefährlich.
+23987: Große Unterschiede sind unsicherer.
+23988: Unterschiede erhöhen die Gefahr.
+
+G 4556: SUVs sind hoch und schwer: gefährlich für Fußgänger, Radfahrer und kleine Autos, Bullbars verursachen große Schäden. In der Stadt ist ein SUV anspruchsvoll zu fahren.
+23989: Größe und Gewicht sind gefährlich für andere.
+23990: Bullbars richten große Schäden an.
+23991: In der Stadt anspruchsvoll.
+23992: Für andere ist es nicht sicher.
+23993: Bullbars sind gefährlicher.
+23994: In der Stadt ist es nicht besonders geeignet.
+
+G 4557: Schwere Nutzfahrzeuge und Busse sind wegen ihres Gewichts für Pkw und Motorräder besonders gefährlich – vor allem, wenn sie zu schnell fahren.
+23995: Schwere Fahrzeuge sind eine Gefahr.
+23996: Zu schnelle Lkw sind sehr gefährlich.
+23997: Ihr Gewicht macht sie gefährlicher.
+
+G 4558: Trotz guter Sicht aus dem Auto muss man aufmerksam schauen: Kopfstützen und Säulen verdecken andere. Windschutzscheibe und vordere Seitenscheiben dürfen nicht foliert werden. Vor einem SUV können Kinder unsichtbar sein.
+23998: Immer aufmerksam schauen.
+23999: Kopfstützen und Säulen verdecken.
+24000: Keine Folien vorne.
+24001: Kinder können unsichtbar sein.
+24002: Ein kurzer Blick reicht nicht.
+24003: Auch abnehmbare Folien sind verboten.
+24004: Kinder direkt davor sieht man nicht.
+
+G 4559: Lkw-Fahrer sehen den Bereich direkt vor und neben dem Fahrzeug schlecht. Vor dem Anfahren auf Fußgänger und Radfahrer achten; als Fußgänger nie dicht vor einem Lkw queren.
+24005: Vor dem Anfahren nach vorne achten.
+24006: Verdeckte Fußgänger und Radfahrer einplanen.
+24007: Der Bereich vor dem Lkw ist schlecht sichtbar.
+24008: Er sieht nicht alles.
+24009: Direkt davor wird man nicht gesehen.
+24010: Neben der Front sieht er schlecht.
+
+G 4560: Die Warnweste macht sichtbar – nicht mehr. Sie ersetzt nicht das Warndreieck, schützt nicht vor Feuer oder Chemie und ist nicht nur zum Reifenwechseln da.
+24011: Sie ersetzt das Warndreieck nicht.
+24012: Sie muss nicht gelb sein.
+24013: Sie schützt nicht vor Feuer oder Chemie.
+24014: Nicht für jeden Platz eine Pflicht.
+24015: Weste und Gurt gelten gleich, unabhängig vom Ort.
+24016: Sie ist kein Hilferuf.
+24017: Sie ist in jeder Notlage nützlich.
+
+G 4561: Hinter einem Fahrzeug mit instabiler oder überstehender Ladung: mehr Abstand (vor allem bergauf), vorsichtig beim Bremsen und Abbiegen, wenn möglich bald überholen, notfalls den Fahrer warnen. Überstehende Ladung kann den Blinker verdecken.
+24018: Mehr Abstand, besonders bergauf.
+24019: Mehr Abstand und bald überholen.
+24020: Den Fahrer warnen.
+24021: Nicht zu nah auffahren.
+24022: Beim Bremsen und Abbiegen kann Ladung fallen.
+24023: Ladung kann den Blinker verdecken.
+24024: Man fährt nicht links.
+24025: Man wechselt nicht nach links.
+24026: In der Kurve nie überholen.
+24027: Abrupt bremsen ist gefährlich.
+24028: Mehr, nicht weniger Abstand.
+
+G 4562: Mit Anhänger: längerer Bremsweg, mehr Seitenwindempfindlichkeit, Motor wird bergauf heiß. Schwere Ladung nahe an die Achse. Beim Rechtsabbiegen schneidet das Hinterrad die Kurve. Vorher Licht und Spiegelsicht prüfen. Anhänger haben eigenes Kennzeichen, meist eine Auflaufbremse und brauchen auch abgestellt eine Versicherung.
+24029: Bergauf wird der Motor heißer.
+24030: Der Bremsweg wird länger.
+24031: Leichte Anhänger sind windempfindlich.
+24032: Schweres nahe an die Achse.
+24033: Beim Rechtsabbiegen nicht auf den Gehsteig.
+24034: Ohne Motor ist die Servolenkung schwer.
+24035: Licht und Signale prüfen.
+24036: Sicht im Spiegel prüfen.
+24037: Abgestellte Anhänger brauchen Versicherung.
+24038: Meist mit Auflaufbremse.
+24039: Anhänger haben ein eigenes Kennzeichen.
+24040: Schweres gehört an die Achse, nicht an die Kupplung.
+24041: Eine elektrische Verbindung ist Pflicht.
+24042: Zum Abschleppen braucht man keinen BE-Führerschein.
+24043: Auch der Fahrer im geschleppten Auto braucht einen Führerschein.
+24044: Das geschleppte Auto steht im Leerlauf.
+24045: Sie müssen geschmiert werden.
+24046: Sie müssen immer zugelassen sein.
+24047: Das Lenkrad ist nicht blockiert, nur schwer.
+24048: Im Gefälle schiebt der Anhänger.
+24049: Auch leichte Anhänger brauchen Strom für die Lichter.
+24050: Eine 3-m-Mindestvorgabe gibt es nicht.
+24051: In Kurven braucht man mehr Platz.
+
+G 4563: Die Zahl der Plätze und der beförderbaren Personen steht im Fahrzeugschein – inklusive Fahrer. Ein Pkw hat höchstens neun Plätze.
+24052: Im Fahrzeugschein.
+24053: Im Fahrzeugschein.
+24055: Höchstens neun mit Fahrer.
+24056: Höchstens neun Personen mit Fahrer.
+24057: Auf dem Motorrad höchstens ein Beifahrer, wenn zugelassen.
+24058: Bis zu neun, nicht nur vier.
+24059: Es gilt der Fahrzeugschein.
+24060: Der Fahrer ist mitgezählt.
+
+G 4565: Im Wohnanhänger schwere Dinge tief und gleichmäßig links und rechts verstauen, damit er nicht kippt. Ein Wohnanhänger ist ein Anhänger, und während der Fahrt darf niemand darin sitzen.
+24075: Schwerpunkt tief.
+24076: Links und rechts gleich beladen.
+24077: Er ist ein Anhänger.
+24078: Während der Fahrt darf niemand drin sein.
+
+G 4566: Anhänger haben eine Abreißbremse. Die Auflaufbremse bremst, wenn der Anhänger auf das Zugfahrzeug aufläuft – also etwas später; nach langer Standzeit kann sie wegen Rost schwächer sein. Abgestellt: Handbremse und am Hang Keile.
+24079: Abreißbremse bei versehentlichem Abhängen.
+24080: Rost kann die Bremse schwächen.
+24081: Handbremse und Keile.
+24082: Sie bremst etwas später.
+24083: Sie bremst beim Auflaufen.
+24084: Beim Bremsen schiebt die Ladung nach vorne.
+24085: Beim Beschleunigen drückt sie nach hinten.
+24086: ABS verhindert keinen ungebremsten Anhänger.
+24087: Nicht gleichzeitig, sondern etwas später.
+24088: Er bremst nach, nicht vor dem Zugfahrzeug.
+
+G 4567: Anhänger-Regeln: im Ort nicht abgehängt parken; Außenspiegel höchstens 20 cm über die breiteste Stelle; Gewichtsverhältnis Anhänger/Zugfahrzeug höchstens 1 (mit Bremse, bis 3,5 t) bzw. 0,5 (ohne Bremse); unbenutzte Kupplung abnehmen; Gespanne über 3,5 t: 0,0 Promille; Gespanne über 7 m nur auf den zwei rechten Spuren.
+24089: Im Ort nicht abgehängt parken.
+24091: Spiegel höchstens 20 cm hinaus.
+24092: Mit Bremse höchstens Verhältnis 1.
+24093: Ohne Bremse höchstens 0,5.
+24094: Unbenutzte Kupplung abnehmen.
+24095: Nur Freizeitausrüstung, kein Handel.
+24096: Über 3,5 t gilt 0,0 Promille.
+24097: Über 7 m nur die zwei rechten Spuren.
+24099: Anhänger müssen immer zugelassen sein.
+24100: Ein Anhänger ist ein eigenes Fahrzeug.
+24101: Er darf breiter sein – dann braucht man breitere Spiegel.
+24102: Er darf an andere geeignete Fahrzeuge.
+24103: Ein rechter Spiegel ist Pflicht.
+24104: 20 cm, nicht 50 cm.
+24105: Diese 50-cm-Regel gibt es nicht.
+24106: Für CE braucht man den CE-Führerschein.
+24108: Tiertransport verlangt keinen Warnblinker.
+24109: Der Anhänger hat ein eigenes Kennzeichen.
+24110: Steht nichts im Schein, darf man nicht ziehen.
+24112: Nach vorne darf nichts hinausragen.
+24113: Überstand muss immer gekennzeichnet werden.
+24114: Pferdeanhänger dürfen auf die Autobahn.
+
+G 4568: Mit Anhänger braucht man in Kurven mehr Platz, weil der Anhänger innen eine engere Kurve fährt (beim Rechtsabbiegen auf Fußgänger am Rand achten). Bergab schiebt der Anhänger. Das Auto beschleunigt schlechter und verbraucht mehr. Schwappende Flüssigkeit macht Gespanne instabil. Die Stützlast darf Fahrwerk und Scheinwerfer nicht verstellen.
+24115: Beim Rechtsabbiegen auf Fußgänger achten.
+24116: In Kurven mehr Platz.
+24117: Im Gefälle schiebt er.
+24118: Schlechtere Beschleunigung.
+24119: Vor Manövern den Bereich prüfen.
+24120: Der Anhänger schneidet die Kurve.
+24121: Schwappende Flüssigkeit macht instabil.
+24122: Die Stützlast darf nichts verstellen.
+24123: Er folgt nicht genau der Spur.
+24124: Das Stützrad wird hochgeklappt.
+24125: Parksensoren verhindern das nicht.
+24126: Mit Anhänger verbraucht man mehr.
+
+G 4569: Die Anhängerkupplung muss sauber, geschmiert, ohne Spiel und Risse sein und senkrecht beweglich. Die Stützlast darf den Herstellerwert (Plakette an der Kupplung) nicht überschreiten. Kupplungen müssen zugelassen sein, und eine elektrische Verbindung ist Pflicht.
+24127: Sauber und geschmiert.
+24128: Ohne Spiel und Risse.
+24129: Senkrecht beweglich.
+24130: Stützlast nicht überschreiten.
+24131: Der Wert steht auf einer Plakette.
+24132: Sie müssen geschmiert werden.
+24133: Sie müssen zugelassen sein.
+24134: Eine elektrische Verbindung ist Pflicht.
+24136: Schweres gehört an die Achse.
+
+G 4570: Ladung im Anhänger so sichern, dass nichts rutscht, kippt oder scheuert. Bei langer Standzeit den Anhänger aufbocken oder den Reifendruck erhöhen und ihn ab und zu bewegen, damit die Reifen nicht verformen.
+24137: Ladung sichern.
+24138: Reifendruck erhöhen und Auflage ändern.
+24139: Am besten aufbocken.
+24140: Die Reifendrücke können verschieden sein.
