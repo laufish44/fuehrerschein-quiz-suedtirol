@@ -323,12 +323,29 @@ class _GeminiKeyTileState extends State<_GeminiKeyTile> {
   late final _key = TextEditingController(text: context.read<AppState>().local.geminiKey);
   late final _model = TextEditingController(text: context.read<AppState>().local.geminiModel);
   bool _visible = false;
+  bool _testing = false;
+  String? _status;
 
   @override
   void dispose() {
     _key.dispose();
     _model.dispose();
     super.dispose();
+  }
+
+  Future<void> _test() async {
+    final app = context.read<AppState>();
+    setState(() {
+      _testing = true;
+      _status = null;
+    });
+    final status = await AiService.keyTestStatus(_key.text, _model.text, italian: app.italianUi);
+    if (mounted) {
+      setState(() {
+        _testing = false;
+        _status = status;
+      });
+    }
   }
 
   @override
@@ -372,14 +389,30 @@ class _GeminiKeyTileState extends State<_GeminiKeyTile> {
             ),
             onChanged: (v) => app.updateLocal((x) => x.geminiModel = v.trim()),
           ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: TextButton.icon(
-              onPressed: () => launchUrl(Uri.parse('https://aistudio.google.com/apikey'), mode: LaunchMode.externalApplication),
-              icon: const Icon(Icons.open_in_new, size: 18),
-              label: Text(context.tr('Kostenlosen Schlüssel holen (Google AI Studio)', 'Ottieni una chiave gratuita (Google AI Studio)')),
-            ),
+          const SizedBox(height: 4),
+          Wrap(
+            spacing: 8,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            children: [
+              OutlinedButton.icon(
+                onPressed: _testing ? null : _test,
+                icon: _testing
+                    ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))
+                    : const Icon(Icons.check_circle_outline, size: 18),
+                label: Text(context.tr('Schlüssel testen', 'Prova la chiave')),
+              ),
+              TextButton.icon(
+                onPressed: () => launchUrl(Uri.parse('https://aistudio.google.com/apikey'), mode: LaunchMode.externalApplication),
+                icon: const Icon(Icons.open_in_new, size: 18),
+                label: Text(context.tr('Kostenlosen Schlüssel holen (Google AI Studio)', 'Ottieni una chiave gratuita (Google AI Studio)')),
+              ),
+            ],
           ),
+          if (_status != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text(_status!, style: Theme.of(context).textTheme.bodySmall),
+            ),
         ],
       ),
     );

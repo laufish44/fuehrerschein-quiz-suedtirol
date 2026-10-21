@@ -20,7 +20,12 @@ class DriveSync extends ChangeNotifier {
   Timer? _debounce;
   String? _accessToken;
   DateTime? _tokenExpiry;
-  bool _running = false;
+
+  /// Laufender Abgleich (null = keiner).
+  Future<void>? _current;
+
+  /// Während eines Abgleichs kam ein neuer Anlass dazu → danach noch einmal abgleichen.
+  bool _pending = false;
 
   DriveSync(this.app) {
     status = connected ? SyncStatus.idle : SyncStatus.off;
@@ -99,9 +104,40 @@ class DriveSync extends ChangeNotifier {
     return _accessToken!;
   }
 
-  Future<void> syncNow() async {
-    if (!connected || !supported || _running) return;
-    _running = true;
+  /// Gleicht sofort ab. Läuft schon ein Abgleich, wird danach noch einmal abgeglichen,
+  /// damit nichts verloren geht, was währenddessen dazukam. Das Future endet erst,
+  /// wenn alles hochgeladen ist (oder ein Fehler auftrat).
+  Future<void> syncNow() {
+    _debounce?.cancel();
+    if (!connected || !supported) return Future.value();
+    if (_current != null) {
+      _pending = true;
+      return _current!;
+    }
+    return _current = _syncLoop();
+  }
+
+  Future<void> _syncLoop() async {
+    try {
+      bool ok;
+      do {
+        _pending = false;
+        ok = await _syncOnce();
+      } while (ok && _pending && connected);
+    } finally {
+      _current = null;
+    }
+  }
+
+  /// Beim Beenden der App: offene Änderungen noch hochladen (höchstens [timeout] lang).
+  Future<void> flush({Duration timeout = const Duration(seconds: 8)}) async {
+    if (!connected || !supported) return;
+    try {
+      await syncNow().timeout(timeout);
+    } catch (_) {}
+  }
+
+  Future<bool> _syncOnce() async {
     _set(SyncStatus.syncing);
     try {
       final token = await _token();
@@ -162,11 +198,11 @@ class DriveSync extends ChangeNotifier {
         l.lastSyncError = '';
       });
       _set(SyncStatus.ok);
+      return true;
     } catch (e) {
       app.updateLocal((l) => l.lastSyncError = e.toString());
       _set(SyncStatus.error, e.toString());
-    } finally {
-      _running = false;
+      return false;
     }
   }
 }

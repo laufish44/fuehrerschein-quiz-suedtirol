@@ -153,10 +153,12 @@ class _AiSheetState extends State<_AiSheet> {
   final _scroll = ScrollController();
   bool _loading = false;
   String? _error;
+  String? _retryStatus;
   bool _chatMode = false;
 
   Future<void> _ask([String? followUp]) async {
     final app = context.read<AppState>();
+    final italian = app.italianUi;
     if (followUp != null && followUp.trim().isNotEmpty) {
       _messages.add(AiMessage(true, followUp.trim()));
       _input.clear();
@@ -164,6 +166,7 @@ class _AiSheetState extends State<_AiSheet> {
     setState(() {
       _loading = true;
       _error = null;
+      _retryStatus = null;
       _chatMode = true;
     });
     try {
@@ -171,15 +174,23 @@ class _AiSheetState extends State<_AiSheet> {
         apiKey: app.local.geminiKey,
         model: app.local.geminiModel,
         question: widget.question,
-        italian: app.italianUi,
+        italian: italian,
         history: _messages,
+        onRetry: (r) {
+          if (mounted) setState(() => _retryStatus = r.message(italian: italian));
+        },
       );
       _messages.add(AiMessage(false, answer));
+    } on AiException catch (e) {
+      _error = e.message(italian: italian);
     } catch (e) {
       _error = e.toString().replaceFirst('Exception: ', '');
     }
     if (!mounted) return;
-    setState(() => _loading = false);
+    setState(() {
+      _loading = false;
+      _retryStatus = null;
+    });
     await Future.delayed(const Duration(milliseconds: 50));
     if (_scroll.hasClients) _scroll.animateTo(_scroll.position.maxScrollExtent, duration: const Duration(milliseconds: 250), curve: Curves.easeOut);
   }
@@ -203,11 +214,50 @@ class _AiSheetState extends State<_AiSheet> {
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   children: [
                     for (final m in _messages) _Bubble(message: m),
-                    if (_loading) const Padding(padding: EdgeInsets.all(16), child: Center(child: CircularProgressIndicator())),
+                    if (_loading)
+                      Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Column(
+                          children: [
+                            const CircularProgressIndicator(),
+                            if (_retryStatus != null)
+                              Padding(
+                                padding: const EdgeInsets.only(top: 12),
+                                child: Text(
+                                  _retryStatus!,
+                                  textAlign: TextAlign.center,
+                                  style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.outline),
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
                     if (_error != null)
                       Padding(
                         padding: const EdgeInsets.all(8),
-                        child: Text('⚠️ $_error', style: TextStyle(color: theme.colorScheme.error)),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('⚠️ $_error', style: TextStyle(color: theme.colorScheme.error)),
+                            const SizedBox(height: 8),
+                            Wrap(
+                              spacing: 8,
+                              runSpacing: 8,
+                              children: [
+                                OutlinedButton.icon(
+                                  onPressed: () => _ask(),
+                                  icon: const Icon(Icons.refresh),
+                                  label: Text(context.tr('Nochmal versuchen', 'Riprova')),
+                                ),
+                                OutlinedButton.icon(
+                                  onPressed: () => _open(preferred, prompt),
+                                  icon: const Icon(Icons.open_in_new),
+                                  label: Text(context.tr('In ${preferred.name} fragen', 'Chiedi a ${preferred.name}')),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                   ],
                 ),

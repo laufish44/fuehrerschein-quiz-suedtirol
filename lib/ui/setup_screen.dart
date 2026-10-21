@@ -79,12 +79,7 @@ class _SetupScreenState extends State<SetupScreen> {
       _testing = true;
       _keyStatus = null;
     });
-    try {
-      await AiService.testGeminiKey(_key.text, app.local.geminiModel);
-      _keyStatus = app.italianUi ? '✅ La chiave funziona!' : '✅ Der Schlüssel funktioniert!';
-    } catch (e) {
-      _keyStatus = '⚠️ ${e.toString().replaceFirst('Exception: ', '')}';
-    }
+    _keyStatus = await AiService.keyTestStatus(_key.text, app.local.geminiModel, italian: app.italianUi);
     if (mounted) setState(() => _testing = false);
   }
 

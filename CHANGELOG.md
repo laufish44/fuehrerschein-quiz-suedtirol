@@ -1,5 +1,14 @@
 # Änderungen
 
+## 1.3.1
+
+- Sync: Änderungen, die während eines laufenden Abgleichs entstehen (z. B. ein Quiz direkt nach dem Start), werden sofort danach hochgeladen statt erst beim nächsten Mal
+- Sync unter Windows: Beim Schließen des Fensters und vor einem Update wird der Lernstand noch ins Google Drive hochgeladen
+- KI-Chat mit eigenem Gemini-Schlüssel: Bei Überlastung („high demand“), Minutenlimit oder Zeitüberschreitung versucht die App es automatisch erneut und weicht notfalls auf ein kleineres Gemini-Modell aus; während des Wartens steht da, was passiert
+- Schnellere Gemini-Antworten (weniger „Nachdenken“), dadurch seltener Zeitüberschreitungen
+- Verständliche Fehlermeldungen (ungültiger Schlüssel, Tageslimit, kein Internet, …) mit Knopf „Nochmal versuchen“ und einem Knopf, der die Frage stattdessen an den bevorzugten KI-Dienst (z. B. ChatGPT) schickt
+- Schlüssel testen jetzt auch in den Einstellungen
+
 ## 1.3.0
 
 - Anmeldung mit dem eigenen Google-Konto ist jetzt Voraussetzung: Der Lernstand wird in einem versteckten App-Ordner im eigenen Google Drive gesichert und beim Start zwischen Handy und PC abgeglichen. Der bisherige Lernstand auf dem Gerät bleibt erhalten und wird bei der ersten Anmeldung hochgeladen

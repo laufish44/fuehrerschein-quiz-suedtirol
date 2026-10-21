@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:ui' show AppExitResponse;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -127,6 +128,16 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     }
   }
 
+  /// Fenster wird geschlossen (Windows): erst speichern und offene Änderungen hochladen.
+  @override
+  Future<AppExitResponse> didRequestAppExit() async {
+    final app = context.read<AppState>();
+    final sync = context.read<DriveSync>();
+    await app.save();
+    await sync.flush();
+    return AppExitResponse.exit;
+  }
+
   Future<void> _startup() async {
     final app = context.read<AppState>();
     final sync = context.read<DriveSync>();
@@ -183,7 +194,9 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
 
   Future<void> _install(UpdateService updates) async {
     final app = context.read<AppState>();
+    final sync = context.read<DriveSync>();
     await app.save();
+    await sync.flush();
     if (!mounted) return;
     if (defaultTargetPlatform == TargetPlatform.windows) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
