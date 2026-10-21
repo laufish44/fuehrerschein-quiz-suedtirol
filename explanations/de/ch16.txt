@@ -1,0 +1,233 @@
+# Kapitel 16 (Ministerium) – Halten, Parken, Anhalten und Anfahren
+# Anhalten = verkehrsbedingt (rote Ampel, Stau). Halten = ganz kurz, Fahrer bleibt da (Ein-/Aussteigen, kurz etwas fragen).
+# Parken = länger, Fahrer darf weggehen. Notparken = wegen Panne oder Unwohlsein.
+# Wo Halten verboten ist, ist auch Parken verboten – umgekehrt nicht.
+
+G 4507: Gebührenpflichtige Parkzonen und Parkscheibe: Parkschein gut sichtbar auslegen; auf der Parkscheibe die Ankunftszeit einstellen. Nur zum Ein- und Aussteigenlassen (Halten) braucht man keinen Parkschein. Fahrzeuge für Menschen mit Behinderung sind von der Höchstparkdauer befreit.
+23614: Der Parkschein muss gut sichtbar sein.
+23615: Die Ankunftszeit muss sichtbar sein.
+23616: Halten zum Ein- und Aussteigen ist kein Parken.
+23617: Behindertenfahrzeuge müssen die Höchstdauer nicht einhalten.
+23618: Man stellt die Ankunftszeit ein, nicht die Abfahrtszeit.
+23619: Die Scheibe neu stellen, ohne wegzufahren, ist unzulässig.
+23620: Auch kurzes Parken kostet.
+23621: Ohne Parkscheibe geht es nicht, und Minuten zählen.
+
+G 4508: Vor dem Öffnen der Tür auf nahende Fahrzeuge achten – zur Straßenseite auf den Verkehr, zum Gehsteig auf Fußgänger; Mitfahrer daran erinnern. Beim Parken den Motor abstellen.
+23622: Vor dem Öffnen auf den Verkehr achten.
+23623: Auf schmalen Straßen vor dem Aussteigen schauen.
+23624: Links in der Einbahnstraße ist die Beifahrertür zur Straße – Mitfahrer erinnern.
+23625: Auf der Gehsteigseite auf Fußgänger achten.
+23626: Beim Parken muss der Motor aus sein.
+23627: Man achtet auf Fahrzeuge aus beiden Richtungen.
+
+G 4509: Vor der Fahrt: Sitz, Kopfstütze und Spiegel einstellen, Papiere dabeihaben (Führerschein, Fahrzeugschein, Versicherung), passende Führerscheinklasse, Fahrzeug in Ordnung, Ladung gesichert, freie Sicht, Bedienelemente kennen, Mitfahrer angeschnallt.
+23628: Sitz und Kopfstütze einstellen.
+23629: Alle Spiegel einstellen.
+23630: Auch am Motorrad die Spiegel einstellen.
+23631: Alle Papiere gültig mitführen.
+23632: Die Führerscheinklasse muss passen.
+23633: Das Fahrzeug muss funktionieren.
+23634: Gegenstände sichern.
+23635: Sicht nach hinten und zur Seite frei halten.
+23636: Die Bedienelemente kennen.
+23637: Alle müssen angeschnallt sein.
+23638: Den Tageskilometerzähler einzustellen ist keine Pflicht.
+23639: Den Fahrerairbag schaltet man nie ab.
+23641: Die Prüfung gilt vor jeder Fahrt.
+
+G 4510: Anhalten ist verkehrsbedingt (z. B. rote Ampel). Halten ist eine kurze Unterbrechung, um Personen ein- oder aussteigen zu lassen oder etwas sehr Kurzes zu erledigen (z. B. die Polizei um Auskunft fragen).
+23642: Anhalten = vom Verkehr bedingt.
+23643: Halten = Personen ein- oder aussteigen lassen.
+23644: Halten = sehr kurze Erledigung.
+23645: Halten = sehr kurze Unterbrechung.
+23646: Das wäre Halten, nicht Anhalten.
+23647: Das wäre Anhalten, nicht Halten.
+23648: Eine Grenze von zehn Minuten gibt es nicht.
+23649: Mehrere Fahrgäste dürfen aussteigen.
+
+G 4511: Beim Halten den Verkehr nicht behindern, niemanden gefährden, beim Fahrzeug bleiben und jederzeit weiterfahren können. Nach dem Weg fragen nur, wenn man den Verkehr nicht aufhält.
+23650: Halten darf nicht behindern.
+23651: Den Verkehrsfluss nicht behindern.
+23652: Niemanden gefährden.
+23653: Der Fahrer bleibt da und ist bereit.
+23654: Unfälle vermeiden.
+23655: Nicht anhalten, wenn es den Verkehr aufhält.
+23656: Wer weggeht, parkt – Halten heißt dableiben.
+23657: Nicht, wenn es den Verkehr behindert.
+23658: Wer weggeht, stellt den Motor ab.
+
+G 4512: Ohne erhöhten Gehsteig mindestens 1 m für Fußgänger frei lassen. Außerorts möglichst neben der Fahrbahn halten (nicht auf dem Radweg), sonst ganz rechts.
+23659: Mindestens 1 m für Fußgänger.
+23660: Außerorts möglichst neben der Fahrbahn.
+23661: Aber nicht auf dem Radweg.
+23662: Sonst ganz rechts an den Rand.
+23664: Radwege sind tabu.
+
+G 4513: Halteverbot: an und nahe Bahnübergängen, auf oder zu nahe an Gleisen, in Tunneln, Unterführungen, unter Bögen und in Laubengängen, auf Kuppen und in Kurven (außerorts und auf Durchgangsstraßen auch in ihrer Nähe). Am rechten Rand, links in Einbahnstraßen und an Einfahrten darf man halten.
+23665: Nicht am Bahnübergang.
+23666: Nicht auf oder zu nahe an Gleisen.
+23667: Nicht im Tunnel.
+23668: Nicht in Unterführungen und unter Bögen.
+23669: Nicht auf Kuppen.
+23670: Außerorts auch nicht in der Nähe von Kuppen.
+23671: Nicht in Kurven, außerorts auch nicht in der Nähe.
+23672: Rechts halten ist normal.
+23673: In Einbahnstraßen darf man links halten.
+23674: In Kurven auch nicht kurz.
+23675: An Einfahrten ist Halten erlaubt – Parken nicht.
+23676: Halten ist dort erlaubt.
+
+G 4514: Halteverbot auch: wenn man Zeichen oder Ampeln verdeckt, auf Pfeilen und Einordnungsspuren, außerorts an Kreuzungen und in ihrer Nähe, im Ort an Kreuzungen und unter 5 m davon. Auf der Autobahn nur im Notfall auf dem Pannenstreifen.
+23677: Nicht, wenn man Zeichen verdeckt.
+23678: Nicht, wenn man Ampeln verdeckt.
+23679: Nicht auf Pfeilen und Einordnungsspuren.
+23680: Außerorts nicht an Kreuzungen.
+23681: Im Ort nicht an Kreuzungen und näher als 5 m.
+23682: Eine solche Regel für Tankstellen gibt es nicht.
+23683: Nach PARKVERBOT ist Halten erlaubt.
+23684: Nur verboten, wenn man sie verdeckt.
+23685: Im Notfall darf man auf dem Pannenstreifen halten.
+23686: Die Grenze ist unter 5 m, nicht über 5 m.
+23687: Auf Beschleunigungsspuren nie.
+
+G 4515: Auf Zebrastreifen, Radwegen und ihren Einmündungen und auf Gehsteigen (ohne Zeichen) ist Halten und Parken verboten. Vor Einfahrten und vor Müllcontainern darf man halten, nicht parken.
+23688: Auf Zebrastreifen nie.
+23689: Auf Radwegen und Einmündungen nie.
+23690: Auf Gehsteigen nicht.
+23691: Halten vor Einfahrten ist erlaubt.
+23692: Halten vor Mülltonnen ist erlaubt.
+23693: Auch nicht zum Aussteigen.
+23694: Auch an den Einmündungen verboten.
+23695: Halten ist dort erlaubt.
+23696: Nicht immer – Halten in zweiter Reihe ist ohne Behinderung möglich.
+23697: Nachts ist Halten nicht allgemein verboten.
+
+G 4516: Parken ist eine längere Unterbrechung; der Fahrer darf weggehen, muss aber Unfälle verhindern und verhindern, dass jemand das Fahrzeug ohne Erlaubnis benutzt.
+23698: Länger, Fahrer darf weg.
+23699: Man darf weggehen.
+23700: Unfälle verhindern.
+23701: Vor Diebstahl und Fremdbenutzung schützen.
+23702: Standlicht ist nicht in jedem Fall nötig.
+23703: Eine Grenze von drei Stunden gibt es nicht allgemein.
+
+G 4517: Beim Parken: Motor aus, Handbremse an und Gang einlegen (bergauf erster, bergab Rückwärtsgang); an steilen Straßen die Räder zum Gehsteig drehen. Das Fahrzeug darf nicht wegrollen – egal wie steil.
+23704: Handbremse und kleiner Gang.
+23705: Immer sichern, egal wie steil.
+23706: Handbremse, Gang, Räder zum Gehsteig.
+23707: Motor aus.
+23708: Bergauf der erste, nicht der vierte Gang.
+23709: Im Leerlauf kann es wegrollen.
+
+G 4518: Parken im Ort mit erhöhtem Gehsteig: ganz rechts, parallel und in Fahrtrichtung. Ohne Gehsteig 1 m für Fußgänger frei lassen. Außerorts möglichst neben der Fahrbahn, aber nicht auf Radwegen oder Banketten; sonst ganz rechts.
+23710: Rechts, parallel und in Fahrtrichtung.
+23711: Ohne Gehsteig 1 m frei lassen.
+23712: Außerorts möglichst neben der Fahrbahn.
+23713: Aber nicht auf Radwegen.
+23714: Und nicht auf dem Bankett.
+23715: Sonst ganz rechts.
+23716: Ohne Gehsteig muss man 1 m Platz lassen.
+23717: Radwege sind tabu.
+
+G 4519: Auf Ortsstraßen mit Einbahnverkehr darf man auch links parken, wenn mindestens eine Fahrzeugreihe (3 m) frei bleibt. In Parkzonen nach Beschilderung und innerhalb der markierten Felder parken.
+23719: Links erlaubt, wenn eine Reihe frei bleibt.
+23720: Mindestens 3 m frei.
+23721: Wie die Beschilderung es zeigt.
+23722: Innerhalb der Felder.
+23723: Nur wenn genug Platz bleibt.
+23725: Auch kurz nicht außerhalb der Felder.
+23726: Auch kurzes Parken kostet.
+
+G 4520: Parkverbot gilt überall dort, wo auch Halten verboten ist: an und nahe Bahnübergängen, auf Gleisen (auch Straßenbahn), in Tunneln (auch beleuchteten), in Unterführungen und unter Bögen, auf und außerorts nahe Kuppen.
+23727: Nicht am Bahnübergang.
+23728: Nicht auf oder nahe an Gleisen.
+23729: Nicht im Tunnel.
+23730: Nicht in Unterführungen.
+23731: Nicht auf Kuppen.
+23732: Außerorts auch nicht nahe Kuppen.
+23733: Auch in der Nähe verboten.
+23734: Auch auf Straßenbahngleisen verboten.
+23735: Auch in beleuchteten Tunneln verboten.
+23736: Dort ist auch Halten verboten.
+23737: Nahe Kuppen ist es außerorts verboten.
+
+G 4521: Halten und Parken verboten: in Kurven (außerorts und auf Durchgangsstraßen auch in ihrer Nähe), wenn man Zeichen oder Ampeln verdeckt, auf Pfeilen und Einordnungsspuren, außerorts an und nahe Kreuzungen.
+23738: In und nahe Kurven verboten.
+23739: Wenn man Zeichen verdeckt.
+23740: Wenn man Ampeln verdeckt.
+23741: Auf Pfeilen und Einordnungsspuren.
+23742: Außerorts an und nahe Kreuzungen.
+23743: Auch in der Nähe ist es verboten.
+23744: Auch Halten ist verboten.
+23745: Auch entlang der Einordnungsspuren.
+23746: Auch in der Nähe ist es verboten.
+
+G 4522: Vor Grundstückseinfahrten ist Parken verboten. Auf Zebrastreifen, Radwegen (und deren Einmündungen) und Gehsteigen ist sogar das Halten verboten.
+23747: Einfahrten nicht zuparken.
+23748: Auch Halten ist verboten.
+23749: Auch an den Einmündungen verboten.
+23750: Auf Gehsteigen nicht – auch nicht kurz.
+
+G 4523: Parkverbot, wenn man ein ordnungsgemäß geparktes Fahrzeug einsperrt, sowie an Bushaltestellen und weniger als 15 m vom Haltestellenschild (wenn die Haltestelle nicht markiert ist). Zweite Reihe ist nicht erlaubt – auch nicht mit Warnblinker.
+23751: Andere nicht zuparken.
+23752: Andere müssen wegfahren können.
+23754: Nicht an Haltestellen.
+23755: Mindestens 15 m vom Haltestellenschild.
+23756: Zweite Reihe ist verboten, auch mit Warnblinker.
+23757: Zweite Reihe ist verboten.
+23758: Auch kurz nicht.
+
+G 4524: Parkverbot auf Taxiplätzen, auf Markt- und Ladezonen zu den angegebenen Zeiten, auf Banketten, auf Plätzen und Rampen für Menschen mit Behinderung – auch nicht kurz.
+23759: Taxiplätze freihalten.
+23760: Markt- und Ladezonen zu den Zeiten freihalten.
+23761: Nicht auf dem Bankett.
+23762: Behindertenparkplätze freihalten.
+23763: Rampen freihalten.
+23764: Auch kurz nicht.
+23765: Auch kurz nicht.
+23766: Auch kurz nicht.
+
+G 4525: Parkverbot auf Bus- und Taxispuren, in Fußgängerzonen, in verkehrsberuhigten Bereichen (für Unberechtigte), in Zonen für Rettungsdienste und vor Müllcontainern. Vor Müllcontainern darf man halten.
+23767: Nicht auf Busspuren.
+23768: Nicht in Fußgängerzonen.
+23769: Nicht in verkehrsberuhigten Bereichen ohne Berechtigung.
+23770: Nicht in Rettungszonen.
+23771: Nicht vor Müllcontainern.
+23772: Auch kurz nicht.
+23774: Halten vor Müllcontainern ist erlaubt.
+
+G 4526: Im Ort darf man keinen abgehängten Anhänger parken (außer wo erlaubt). Gesetzliche Parkverbote gelten auch ohne Schild.
+23776: Abgehängte Anhänger nicht im Ort parken.
+23777: Gesetzliche Verbote gelten auch ohne Schild.
+23778: Eine solche 5-m-Regel für Tankstellen gibt es nicht.
+
+G 4527: Parken an Haltestellen, näher als 15 m am Haltestellenschild, auf Behindertenplätzen und Rampen sowie auf Busspuren kostet Geld und Punkte.
+23780: Auch Punkteabzug.
+23781: Auch Punkteabzug.
+23782: Auch Punkteabzug.
+23783: Auch Punkteabzug.
+23784: Auch Punkteabzug.
+23785: Eine Parkscheibe erlaubt das nicht.
+23786: Der Warnblinker erlaubt das nicht.
+23787: Es gibt Geldbuße und Punkteabzug.
+23788: Kein Führerscheinentzug, sondern Strafe und Punkte.
+23789: Busspuren sind auch nachts tabu.
+
+G 4528: Notparken heißt: Die Fahrt wird unterbrochen, weil das Fahrzeug eine Panne hat oder jemandem schlecht ist.
+23790: Wegen einer Panne.
+23791: Wegen Unwohlseins.
+23792: Verkehrsbedingt wäre Anhalten.
+23793: Das wäre Halten.
+23794: Das wäre Halten.
+
+G 4529: Türen öffnen und aussteigen nur, wenn niemand gefährdet wird: zur Straßenseite auf Fahrzeuge achten (auch im Spiegel), zur Gehsteigseite auf Fußgänger. Vor dem Aussteigen den Motor abstellen; Handbremse immer anziehen.
+23795: Niemanden gefährden.
+23796: Zur Straße hin auf Fahrzeuge achten.
+23797: Zum Gehsteig hin auf Fußgänger achten.
+23798: Beim Aussteigen niemanden gefährden.
+23799: Auch in den Spiegel schauen.
+23800: Motor abstellen.
+23801: Blinken beim Türöffnen ist keine Pflicht.
+23802: Man darf sie öffnen – vorsichtig.
+23803: Beim Parken muss der Motor aus sein.
+23804: Die Handbremse zieht man immer an.

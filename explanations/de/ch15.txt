@@ -1,0 +1,179 @@
+# Kapitel 15 (Ministerium) – Überholen
+# Überholt wird links. Vorher prüfen: Sicht, freie Strecke, Gegenverkehr, niemand hinter oder vor einem setzt zum Überholen an,
+# kein Verbot (Zeichen, durchgezogene Linie). Blinken, seitlich Abstand halten, danach zügig wieder rechts einordnen.
+# Rechts überholt man nur: Linksabbieger, Straßenbahn in der Mitte, stehende Straßenbahn mit Schutzinsel.
+
+G 4497: Bevor man überholt, prüft man alles: Sicht, ob die Straße frei ist, Gegenverkehr, Fahrbahnbreite, Verbotszeichen, dass der Vordermann nicht selbst überholen will und dass niemand hinter einem schon ausschert. Die nötige Strecke hängt vom Geschwindigkeitsunterschied und von der Länge beider Fahrzeuge ab.
+23457: Die Sicht muss reichen.
+23458: Niemand darf behindert werden.
+23459: Der Vordermann darf nicht selbst schon blinken.
+23460: Der Hintermann darf nicht schon überholen.
+23461: Die Strecke muss bis zum Ende frei sein.
+23462: Kleiner Geschwindigkeitsunterschied = lange Strecke.
+23463: Gegenverkehr beachten.
+23464: Lange Fahrzeuge = lange Strecke.
+23465: Die Fahrbahn muss breit genug sein.
+23466: Kein Verbotszeichen.
+23467: Nicht nur der Gegenverkehr zählt.
+23468: Blinken allein reicht nicht.
+23469: Nicht nur Verbotszeichen zählen.
+
+G 4498: Man blinkt, überholt links, hält seitlich Abstand und ordnet sich danach zügig wieder rechts ein, ohne jemanden zu schneiden. Wer überholt wird, hält sich rechts und beschleunigt nicht. Bei schlechter Sicht oder zu schmaler Fahrbahn wird nicht überholt.
+23470: Vorher blinken.
+23471: Überholt wird links.
+23472: Seitlich genug Abstand.
+23473: Danach zügig, aber sicher wieder rechts.
+23474: Der Überholte erleichtert es und beschleunigt nicht.
+23475: Der Überholte hält sich ganz rechts.
+23476: Bei zu wenig Sicht nicht überholen.
+23477: Bei zu schmaler Fahrbahn nicht überholen.
+23478: Hupen ist keine Pflicht.
+23479: Blinken ist Pflicht.
+23480: Man darf den Überholten nicht schneiden.
+23481: Wettfahren ist verboten.
+23482: Bei schlechter Sicht nie überholen.
+
+G 4499: Auf Straßen mit mindestens zwei Spuren pro Richtung darf man mehrere Fahrzeuge hintereinander überholen. Rechts überholt man Linksabbieger und auf Einbahnstraßen jemanden, der links anhalten will. Straßenbahnen: auf Einbahnstraßen auf beiden Seiten; stehend rechts nur mit Schutzinsel.
+23483: Mehrfach überholen ist mit zwei Spuren erlaubt.
+23484: Linksabbieger überholt man rechts.
+23485: Auf der Einbahnstraße wer links anhält: rechts überholen.
+23486: Auf Einbahnstraßen geht es auf beiden Seiten.
+23487: Mit Schutzinsel darf man rechts vorbei.
+23488: Ohne Schutzinsel nicht – dort steigen Fahrgäste aus.
+23489: Nur mit Schutzinsel.
+23490: Rechts überholen ist in bestimmten Fällen erlaubt.
+23491: Auf der Autobahn wird links überholt.
+23492: Links überholt man normalerweise immer.
+23493: Mit zwei Spuren pro Richtung darf man mehrfach überholen.
+
+G 4500: Überholverbote: bei schlechter Sicht, in Kurven und vor Kuppen auf Straßen mit Gegenverkehr, an Bahnübergängen und hinter stehenden oder wartenden Fahrzeugen über die Gegenspur, auf Beschleunigungs- und Verzögerungsspuren, über durchgezogene Linien, wenn ein Fahrzeug vor dem Zebrastreifen anhält. Erlaubt: in Kurven auf getrennten Fahrbahnen mit zwei Spuren, an Ampelkreuzungen, an Kreuzungen mit Polizist, auf Vorfahrtsstraßen mit getrennten Fahrbahnen, Fahrräder ohne die Gegenspur zu benutzen.
+23494: Vor Kurven auf Gegenverkehrsstraßen verboten.
+23495: Vor Kuppen verboten.
+23496: Bei schlechter Sicht verboten.
+23497: Mit getrennten Fahrbahnen und zwei Spuren in der Kurve erlaubt.
+23498: Mit getrennten Fahrbahnen auf Kuppen erlaubt.
+23499: Keinen Überholenden über die Gegenspur überholen.
+23500: Am Bahnübergang wartende Fahrzeuge nicht über die Gegenspur überholen.
+23501: Am Bahnübergang nicht über die Gegenspur überholen.
+23502: An der Ampel wartende Fahrzeuge nicht über die Gegenspur überholen.
+23503: Im Stau nicht über die Gegenspur überholen.
+23504: An Ampelkreuzungen ist Überholen erlaubt.
+23505: An Ampeln rechts an Linksabbiegern vorbei.
+23506: Auf Vorfahrtsstraßen mit getrennten Fahrbahnen erlaubt.
+23507: Fahrräder darf man ohne die Gegenspur auch an Kreuzungen überholen.
+23508: Bei Polizeiregelung erlaubt.
+23510: Wer für Fußgänger hält, wird nicht überholt.
+23511: Wer für Fußgänger bremst, wird nicht überholt.
+23512: Auf Beschleunigungs- und Verzögerungsspuren nicht überholen.
+23513: Über durchgezogene Linien nicht überholen.
+23514: Beschleunigt der andere, wird die Strecke länger.
+23515: Ein langes Fahrzeug braucht mehr Strecke.
+23516: Auch das eigene lange Fahrzeug braucht mehr.
+23517: Kleiner Geschwindigkeitsunterschied = längere Strecke.
+23518: Auch vor dem Überholen Abstand halten.
+23519: Hinter der Kuppe (bergab, mit Sicht) ist es erlaubt.
+23520: Vorher Verbotszeichen prüfen.
+23521: Andere könnten gleichzeitig überholen.
+23522: Wer für Fußgänger hält, wird nicht überholt.
+23523: Nicht so einscheren, dass der andere bremsen muss.
+23524: Vor dem Einscheren in den Spiegel schauen.
+23525: Lichtzeichen ersetzen keine Sicht.
+23526: Mit getrennten Fahrbahnen ist es in Kurven erlaubt.
+23527: Mit zwei Spuren pro Richtung ist es erlaubt.
+23528: An Bahnübergängen nie über die Gegenspur.
+23529: An Bahnübergängen nie über die Gegenspur.
+23530: An Kreuzungen ist es grundsätzlich verboten, außer in den genannten Fällen.
+23531: Auf Beschleunigungsspuren nie.
+23532: Nicht immer – nur wenn es sicher und erlaubt ist.
+23533: Auf Einbahnstraßen darf man überholen.
+23534: Polizeiautos ohne Einsatz darf man überholen.
+23535: Auf der Autobahn wird links überholt.
+23536: Auch Krafträder überholt man links.
+23537: Je langsamer der andere, desto kürzer die Strecke.
+23538: Die Länge spielt eine Rolle.
+23539: Einen haltenden Bus darf man vorsichtig überholen.
+23540: Auf Einbahnstraßen gibt es keinen Gegenverkehr – erlaubt.
+23541: Gestrichelte Linien darf man überfahren.
+23542: Krafträder überholt man links.
+23543: Sonderfahrspuren sind tabu.
+
+G 4501: Man darf mit Lichthupe auf das Überholen hinweisen und muss die Geschwindigkeit dem Überholten anpassen. Tempolimits gelten auch beim Überholen. Linienbusse, Schnee oder Einfahrten verbieten das Überholen nicht.
+23544: Lichthupe als Hinweis ist erlaubt.
+23545: Geschwindigkeit an den Überholten anpassen.
+23546: Das Tempolimit gilt immer.
+23547: Beim Überholen ist man links.
+23548: Man darf zügig beschleunigen (im Limit).
+23549: Wieder rechts, aber nicht abrupt bremsen.
+23550: Linienbusse darf man überholen.
+23551: Blinkt der Vordermann rechts, darf man links vorbei.
+23552: Schnee allein verbietet es nicht – Vorsicht.
+23553: Grundstückseinfahrten verbieten es nicht.
+23554: Krankenhäuser verbieten es nicht.
+23555: Raststätten verbieten es nicht.
+
+G 4502: Auf Kuppen und in Kurven darf man überholen, wenn kein Gegenverkehr möglich ist: Einbahnstraßen, getrennte Fahrbahnen, zwei Spuren pro Richtung. Hinter einem Krankenwagen im Einsatz „mitschwimmend“ zu überholen ist verboten.
+23556: Auf Einbahnstraßen auf Kuppen erlaubt.
+23557: Auf Einbahnfahrbahnen erlaubt.
+23558: Mit zwei Spuren pro Richtung erlaubt.
+23559: Mit getrennten Fahrbahnen erlaubt.
+23560: Hinter Einsatzfahrzeugen nicht mitüberholen.
+23562: Auf Gegenverkehrsstraßen vor Kuppen nie.
+23563: Vor Kuppen nie.
+23564: Vor Kuppen nie auf die Gegenseite.
+23565: Auf Einbahnfahrbahnen ist es erlaubt.
+23566: Wer rechts heranfährt, darf überholt werden.
+23567: Parkplatzausfahrten verbieten es nicht.
+23568: Ist die gestrichelte Linie auf meiner Seite, darf ich hinüber.
+23569: Eine Straßenbahn in der Mitte überholt man rechts.
+
+G 4503: Gefahren beim Überholen: andere überholen gleichzeitig, man fährt zu nah auf, schneidet den Überholten, stößt mit Gegenverkehr zusammen, die Fahrbahn ist zu schmal. Nicht zu lange links bleiben, nicht hupen.
+23570: Den Überholten nicht schneiden.
+23571: Zusammenstoß mit anderen Überholern.
+23572: Man kann den Überholten streifen.
+23573: Beim Einscheren rammen.
+23574: Frontalzusammenstoß mit Gegenverkehr.
+23575: Zu schmale Fahrbahn ist gefährlich.
+23576: Man bleibt nur so lange links wie nötig.
+23577: Dauerhupen ist nicht vorgesehen.
+23578: Eine doppelte Geschwindigkeit ist nicht vorgeschrieben.
+23579: Leitpfosten machen das Überholen nicht gefährlich.
+23580: Ein solches Verbot gibt es nicht.
+23581: Gestrichelte Mittellinie: Überholen erlaubt.
+23582: Hinter Linienbussen darf man überholen.
+23583: Eine 100-m-Regel gibt es nicht.
+23584: Man hupt nicht beim Einscheren.
+23585: Ohne Schutzinsel nicht rechts vorbei.
+23586: Auf Freilandstraßen wird links überholt.
+23587: Die Motorleistung ist nicht der Maßstab.
+
+G 4504: Wer überholt wird, fährt nicht um die Wette, beschleunigt nicht, hält sich rechts. Sehr langsame Fahrzeuge halten so bald wie möglich an, um die Schlange vorbeizulassen.
+23588: Kein Wettrennen.
+23589: Nicht beschleunigen.
+23590: Sehr langsame Fahrzeuge lassen den Verkehr vorbei.
+23591: Ganz rechts halten.
+23592: Man fährt nicht in der Mitte.
+23593: Die Warnblinkanlage ist dafür nicht da.
+23594: Man muss nicht immer bremsen – nur nicht beschleunigen.
+23595: Man muss keinen niedrigen Gang einlegen.
+23596: Ein Gespann im Gefälle darf überholt werden, wenn es sicher ist.
+
+G 4505: Polizeiautos ohne Einsatz darf man überholen. Wird man überholt, während Gegenverkehr kommt: langsamer werden und ganz rechts fahren. Wer das Überholen nicht erleichtert, kann bei einem Unfall mitschuldig sein.
+23597: Ohne Einsatz darf man sie überholen.
+23598: Langsamer werden.
+23599: Ganz rechts halten.
+23600: Mitschuld ist möglich.
+23601: Ohne Einsatz ist es erlaubt.
+23602: Im Einsatz lässt man sie vorbei.
+23603: Fernlicht blendet den Gegenverkehr.
+23604: Langsamer werden ist besser.
+23605: Der Blinker zeigt keine Gefahr an.
+
+G 4506: Überholen auf der Autobahn: Unfälle entstehen durch Nichtbeachten der Nachfolgenden, zu wenig Abstand, plötzliches Ausscheren anderer, Hinterherfahren hinter einem Überholer und Seitenwind. Zu lange links zu bleiben behindert.
+23606: Die Nachfolgenden beachten.
+23607: Zu wenig Abstand.
+23608: Andere scheren plötzlich aus.
+23609: Zu lange links bleiben behindert.
+23610: Hinter einem Überholer „mitfahren“ ist gefährlich.
+23611: Seitenwind.
+23612: Eine Haltebucht ist keine typische Ursache.
+23613: Abblendlicht ist richtig und keine Ursache.
