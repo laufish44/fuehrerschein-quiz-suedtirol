@@ -1,0 +1,455 @@
+# Kapitel 13 (Ministerium) – Fahrbahnposition, Abbiegen, Kreuzungen, Einfügen, Rückspiegel
+# Grundregel: rechts fahren, Manöver rechtzeitig mit Blinker ankündigen, vorher in die Spiegel schauen,
+# niemanden gefährden oder behindern. Wer sich einfügt, wendet oder rückwärts fährt, lässt allen den Vortritt.
+
+G 4409: Fahrzeug S fährt rückwärts aus der Parklücke in den Verkehr: Es muss blinken, sich vergewissern, dass die Straße frei ist, und allen Fahrzeugen von rechts und links sowie Fußgängern hinter dem Auto den Vortritt lassen – vorsichtig, ohne Hupen oder Warnblinker.
+22662: Allen Fahrzeugen von rechts und links Vorfahrt lassen.
+22663: Blinker setzen.
+22664: Auf Fußgänger hinter dem Auto achten und sie vorlassen.
+22665: Allen vorbeifahrenden Fahrzeugen Vorfahrt lassen.
+22666: Prüfen, ob frei ist, und besonders vorsichtig fahren.
+22667: Man blinkt, die Warnblinkanlage ist dafür nicht da.
+22668: Die Nebelschlussleuchte hat damit nichts zu tun.
+22669: Allen Fahrzeugen, nicht nur denen in derselben Richtung.
+22670: Vorsicht geht vor Schnelligkeit.
+22671: Dauerhupen ist nicht vorgesehen.
+
+G 4443: Wie oben: Wer rückwärts aus einer Parklücke in den Verkehr fährt, blinkt, prüft, dass die Straße frei ist, lässt allen Fahrzeugen (auch Fahrrädern) und Fußgängern den Vortritt und fährt vorsichtig.
+22983: Prüfen, ob frei ist, und vorsichtig fahren.
+22984: Blinker setzen.
+22985: Fahrzeugen von rechts und links Vorfahrt lassen.
+22986: Auf Fußgänger hinter dem Auto achten.
+22987: Blinker, nicht Warnblinkanlage.
+22988: Hupen ist nicht vorgesehen.
+22989: Auch Fahrrädern muss man Vorfahrt lassen.
+
+G 4410: Verboten, weil es den Verkehr gefährdet oder behindert: links halten, um rechts abzubiegen; auf Straßenbahnschienen parken; Richtung ändern ohne Vorankündigung; Wettrennen; ohne Grund übermäßig langsam fahren.
+22672: Zum Rechtsabbiegen hält man sich rechts.
+22673: Auf Straßenbahnschienen parken blockiert die Bahn.
+22674: Richtungswechsel muss man rechtzeitig anzeigen.
+22675: Wettrennen sind verboten.
+22676: Grundlos sehr langsam fahren behindert.
+22677: Aus Seitenstraßen einfügen ist erlaubt – mit Vorfahrt gewähren.
+22678: Die Geschwindigkeit anzupassen ist Pflicht, nicht verboten.
+22679: Kurz am rechten Rand einer Einbahnstraße anhalten ist erlaubt.
+
+G 4411: Auch mit einem starken Auto gelten alle Regeln: Tempolimits, rechts vor links, niemanden gefährden, vor dem Spurwechsel in den Spiegel schauen, zum Rechtsabbiegen rechts halten.
+22680: Tempolimits gelten für jedes Auto.
+22681: Rechts vor links gilt für alle.
+22682: Niemanden gefährden.
+22683: Erst Spiegel, dann Blinker.
+22684: Zum Rechtsabbiegen ganz rechts halten.
+22685: Man fährt rechts, nicht in der Mitte.
+22686: In der Stadt fährt man nicht mit Fernlicht.
+22687: Überholen nur, wenn es sicher ist – nicht nur ohne Verbotszeichen.
+22688: Vor Radüberwegen hupt man nicht.
+22689: Zweiklanghörner sind nur für Einsatzfahrzeuge erlaubt.
+
+G 4412: Ladung: Sie darf nicht herabfallen, die Sicht und Bewegungsfreiheit des Fahrers nicht einschränken und die Nutzlast im Fahrzeugschein nicht überschreiten. Hinten darf sie höchstens 3/10 der Fahrzeuglänge hinausragen, vorne gar nicht; Überstand hinten kennzeichnet man mit einer rot-weiß gestreiften Tafel. Auf Krafträdern: Tiere nur im Käfig, Ladung seitlich höchstens 50 cm, gut befestigt.
+22690: Tiere auf dem Motorrad nur im Käfig.
+22691: Seitlich höchstens 50 cm.
+22692: Die Sicht darf nicht eingeschränkt sein.
+22693: Man muss sich frei bewegen können.
+22694: Sie darf nicht herabfallen.
+22695: Hinten höchstens 3/10 der Fahrzeuglänge.
+22696: Die Nutzlast im Fahrzeugschein ist die Obergrenze.
+22698: Eine solche 10-%-Regel für die Höhe gibt es nicht.
+22699: Die Nutzlast darf gar nicht überschritten werden.
+22700: Nach vorne darf sie nicht hinausragen.
+22701: Man verwendet eine rot-weiß gestreifte Tafel, kein rotes Tuch.
+22702: Die Tafel ist rot-weiß, nicht gelb-rot.
+22703: Gut befestigte Ladung ist auf Krafträdern erlaubt.
+22704: Ladung muss immer sicher befestigt sein.
+
+G 4413: Richtig die Straße benutzen heißt: angepasste Geschwindigkeit, Regeln und Vorsicht beachten, bei Gelb die Kreuzung räumen, wenn man nicht mehr sicher anhalten kann, Fußgängern am Zebrastreifen Vortritt lassen, nachts im Ort mit Abblendlicht fahren, vor dem Spurwechsel in den Spiegel schauen. Das Zeichen VORFAHRT GEWÄHREN verlangt nicht immer anzuhalten.
+22705: Geschwindigkeit an Straße und Verkehr anpassen.
+22706: Regeln und Vorsicht beachten.
+22707: Bei Gelb räumen, wenn sicheres Anhalten nicht mehr geht.
+22708: Fußgängern am Zebrastreifen Vortritt lassen.
+22709: Nachts im Ort Abblendlicht.
+22710: Vor dem Blinken in die Spiegel schauen.
+22711: Schnell auf die Fahrbahn drängen ist falsch.
+22712: Man hält nur an, wenn Fußgänger queren oder queren wollen.
+22713: Fernlicht nur außerorts und ohne Gegenverkehr.
+22714: Bei VORFAHRT GEWÄHREN hält man nur, wenn nötig.
+22715: Schnell fahren ist kein Ziel.
+
+G 4414: Falsch eingeordnet vor der Kreuzung: Man folgt der Richtung, die die Pfeile und Zeichen seiner Spur vorgeben – kein Spurwechsel, kein plötzliches Anhalten, kein Rückwärtsfahren. Bei unklarer Vorfahrt vorsichtig weiterfahren.
+22716: Der Richtung der Bodenpfeile folgen.
+22717: Nicht mehr die Spur wechseln.
+22718: Nicht abrupt bremsen.
+22719: Nicht anhalten und nach dem Weg fragen.
+22720: In die angezeigte Richtung fahren und Vorfahrt beachten.
+22721: Bei Unklarheit vorsichtig und besonnen fahren.
+22722: Bei Unklarheit gerade nicht schnell durchfahren.
+22723: Man fährt in die Richtung der Spur, nicht wie geplant.
+22724: Man fragt nicht die Polizei, man folgt der Spur.
+22725: Die Warnblinkanlage hilft hier nicht.
+22726: Nicht rechts anhalten und warten.
+22727: Rückwärtsfahren ist gefährlich und verboten.
+22728: An der Ampel gibt es keine Erlaubnis zum Spurwechsel.
+
+G 4415: Ein Fußgänger außerhalb des Zebrastreifens zeigt nicht, dass er uns vorlässt: langsamer werden, bremsbereit sein, bei unmittelbarer Gefahr kurz hupen.
+22729: Langsamer und notfalls anhalten.
+22730: Langsamer, bei Gefahr kurz hupen.
+22731: Langsamer und rechtzeitig anhalten können.
+22732: Fernlicht in der Stadt blendet – nicht verwenden.
+22733: Man zwingt ihn nicht „mit allen Mitteln“.
+22734: Man muss auf ihn achten, egal wer Vorrang hat.
+
+G 4416: Trifft man im Ort auf einen Umzug: rechts anhalten und warten, bis alles vorbei ist, nicht hupen; wenn es korrekt geht, in eine Seitenstraße abbiegen. Nicht zurückfahren oder wenden, wenn das den Verkehr behindert.
+22735: Rechts anhalten und warten.
+22736: Nicht hupen.
+22737: Wenn möglich in eine Seitenstraße ausweichen.
+22738: Erst weiterfahren, wenn der ganze Umzug vorbei ist.
+22739: Nicht zurückfahren, wenn das behindert.
+22740: Nicht wenden, wenn das behindert.
+22741: Man hupt nicht, um den Umzug zu drängen.
+22742: Einen Umzug unterbricht man nicht.
+22743: Fernlicht blendet die Menschen.
+22744: Auch mit Eile nicht durchfahren und hupen.
+22745: Einen Umzug überholt oder unterbricht man nicht.
+22746: Schnelles Zurückfahren ist gefährlich.
+
+G 4417: Fährt der Vordermann bei Grün nicht sofort los: geduldig warten, im Ort nicht hupen, notfalls helfen, nicht gefährlich überholen.
+22747: Geduldig warten.
+22748: Nicht hupen – das macht nur Stress.
+22749: Wenn nötig und gefahrlos helfen.
+22750: Im Ort ist Hupen dafür verboten.
+22751: Nicht gefährlich überholen.
+22752: Nicht fest hupen.
+22753: Auch nicht, um andere zu warnen.
+22754: Man steigt nicht aus, um die Polizei zu suchen.
+22755: Wenden ist hier gefährlich.
+
+G 4418: Nachts blendet ein entgegenkommendes Fahrzeug mit Fernlicht: selbst Abblendlicht verwenden, nicht ins Licht schauen (rechten Fahrbahnrand anvisieren), langsamer werden, notfalls anhalten, keine abrupten Manöver.
+22756: Mit Abblendlicht vorsichtig weiterfahren.
+22757: Nicht ins Licht schauen.
+22758: Langsamer, eventuell anhalten.
+22759: Man sieht weniger – entsprechend fahren.
+22760: Keine abrupten Manöver.
+22761: Der Innenspiegel hilft gegen Licht von hinten, nicht von vorne.
+22762: Mit eigenem Fernlicht blendet man den anderen auch.
+22763: Sofort anhalten muss man nicht.
+22764: Zweiklanghörner sind nicht erlaubt.
+22765: Die Hände gehören ans Lenkrad.
+
+G 4419: Man fährt angepasst an Fahrzeug, Straße und Verkehr, beachtet die Regeln und nutzt den gesunden Menschenverstand. Nur das Tempolimit zu beachten oder immer gleich schnell zu fahren reicht nicht.
+22766: Fahrweise an alles anpassen.
+22767: Regeln plus gesunder Menschenverstand.
+22768: Grundregeln mit Verantwortung befolgen.
+22769: Das Tempolimit allein reicht nicht.
+22770: Konstante Geschwindigkeit ist nicht immer richtig.
+22771: Man lässt nur denen Vorfahrt, die sie haben.
+22772: Eine allgemeine Mindestgeschwindigkeit allein reicht nicht.
+
+G 4420: Bei dichtem Verkehr: Geschwindigkeit dem Fluss der eigenen Spur anpassen, Abstand halten, nicht hupen. Nicht dauernd die Spur wechseln, keine Busspuren benutzen.
+22773: Dem Verkehrsfluss der Spur anpassen.
+22774: Immer Abstand halten.
+22775: Nicht hupen.
+22776: Ständige Spurwechsel sind gefährlich.
+22777: Busspuren bleiben tabu.
+22778: Warnblinkanlage ist nur bei Gefahr oder Stauende vorgesehen.
+
+G 4421: Rechts abbiegen: rechtzeitig blinken, in die passende Spur einordnen, möglichst weit rechts halten, allmählich langsamer werden, niemanden gefährden – auch Fußgänger, die bei Grün queren.
+22779: Möglichst weit rechts halten.
+22780: Rechtzeitig blinken.
+22781: In die passende Spur einordnen.
+22782: Allmählich bremsen.
+22783: Niemanden gefährden.
+22784: Rechts, nicht links halten.
+22785: Rechts, nicht in der linken Spur.
+22786: Querenden Fußgängern muss man Vortritt lassen.
+22787: Um eine Säule in der Kreuzungsmitte fährt man nur beim Linksabbiegen mit Kreisverkehrsregel.
+22788: Zur Mitte nähert man sich beim Linksabbiegen.
+
+G 4422: Auf einer Gegenverkehrsstraße mit drei Spuren ist die mittlere Spur nur zum Überholen da; auf zwei Spuren die linke nur zum Überholen. Auf erstrangigen Freilandstraßen parkt man nur in eigenen Bereichen.
+22789: Mittlere Spur nur zum Überholen.
+22790: Linke Spur nur zum Überholen.
+22791: Auf erstrangigen Freilandstraßen nur in eigenen Bereichen parken.
+22792: Die linke Fahrbahn ist für den Gegenverkehr, nicht zum Überholen.
+22793: Auf zwei Spuren mit Gegenverkehr fährt man nicht nebeneinander.
+22794: Bei vier Fahrbahnen benutzt man die beiden rechten – nicht nur zum Überholen.
+
+G 4423: Spurwechsel: Vorne und hinten auf der neuen Spur muss eine ausreichend lange Strecke frei sein. Wer zum Überholen ausschert, prüft, dass der Vordermann nicht selbst schon blinkt. Rechtzeitig blinken und niemanden behindern.
+22795: Vorne muss genug Platz frei sein.
+22796: Hinten muss genug Platz frei sein.
+22797: Blinkt der Vordermann schon, darf man nicht ausscheren.
+22798: Rechtzeitig blinken.
+22799: Niemanden auf der neuen Spur behindern.
+22800: Blinken ist immer Pflicht.
+22801: Man blinkt, man hupt nicht.
+22802: Über eine durchgezogene Linie darf man gerade nicht wechseln.
+
+G 4424: Linksabbiegen auf einer Fahrbahn mit Gegenverkehr: zur Fahrbahnmitte einordnen, vor der Kreuzungsmitte abbiegen (die Mitte bleibt rechts) und rechts vor links beachten. Um die Mitte herum fährt man nur, wenn ein Kreisverkehrszeichen steht.
+22803: Zur Fahrbahnmitte einordnen.
+22804: In der Regel links vor der Kreuzungsmitte abbiegen.
+22805: Mit Kreisverkehrszeichen fährt man um die Mitte herum.
+22806: Rechts vor links gilt auch beim Linksabbiegen.
+22807: Ganz links fährt man nur auf Einbahnstraßen.
+22808: Nicht hastig, sondern mit Vorfahrt gewähren.
+22809: Ohne Kreisverkehrszeichen nicht um die Mitte herum.
+22810: In der Regel gilt rechts vor links, nicht links vor rechts.
+22811: Hupen macht die Kreuzung nicht sicherer.
+
+G 4425: Grundsätzlich rechts fahren. Bei zwei getrennten Fahrbahnen die rechte, bei drei Fahrbahnen die mittlere oder rechte. Bei drei Spuren pro Richtung die freieste Spur möglichst rechts. Gegenverkehrsstraße mit zwei Spuren: rechts fahren, links nur überholen. Nebeneinander fahren nur, wo erlaubt (z. B. vor Kreuzungen mit Ampel oder Polizei).
+22812: Rechts und nahe am rechten Rand fahren.
+22813: Bei zwei Fahrbahnen die rechte.
+22814: Bei drei Fahrbahnen die mittlere oder rechte.
+22815: Rechts fahren, links nur überholen.
+22816: Die am wenigsten besetzte Spur rechts benutzen.
+22817: Vor geregelten Kreuzungen ist Nebeneinanderfahren erlaubt.
+22818: Die mittlere Spur ist nur zum Überholen.
+22819: Auf drei Spuren mit Gegenverkehr nicht nebeneinander fahren.
+22820: Zum Linksabbiegen geht man zur Mitte.
+22821: Man fährt rechts, auch wenn frei ist.
+22822: Nebeneinander fahren nur mit mindestens zwei Spuren pro Richtung.
+22823: Busspuren darf man nicht benutzen.
+
+G 4426: Rechts halten – auch mit Tieren, beim Begegnen und vor Kuppen. Auch in Linkskurven und auf Einbahnstraßen bleibt man rechts (außer beim Linksabbiegen). Kleinkrafträder fahren immer ganz rechts, nie auf dem Radweg oder Pannenstreifen.
+22825: Tiere am rechten Rand führen.
+22826: Beim Begegnen ganz rechts halten.
+22827: Rechts fahren, links nur überholen.
+22828: Vor einer Kuppe ganz rechts.
+22829: Auch in Linkskurven rechts bleiben.
+22830: Vor Kuppen rechts, nicht links.
+22832: Zum Linksabbiegen zur Mitte bzw. links, nicht rechts.
+22833: Auch O-Busse fahren in der Regel rechts.
+22834: Kleinkrafträder bleiben rechts, auch bei viel Verkehr.
+22835: Kleinkrafträder bleiben rechts.
+22836: Radwege sind für Kraftfahrzeuge tabu.
+22837: Den Pannenstreifen darf man nicht befahren.
+
+G 4427: Spurwechsel: rechtzeitig blinken, prüfen, dass vorne und hinten auf der neuen Spur genug frei ist und niemand naht, nur über gestrichelte Linien, niemanden behindern. An Kreuzungen mit durchgezogenen Linien nicht mehr wechseln.
+22838: Niemanden auf der neuen Spur gefährden.
+22839: Rechtzeitig ankündigen.
+22840: Vorne muss genug frei sein.
+22841: Nur über eine gestrichelte Linie wechseln.
+22842: Blinker setzen.
+22843: Auf der neuen Spur darf niemand nahen.
+22844: Auf der Trennlinie fährt man nicht.
+22845: Blinken ist immer Pflicht.
+22846: Auch beim Wechsel nach rechts vorsichtig sein.
+22847: Bei durchgezogenen Linien kein Spurwechsel mehr.
+22848: Zum Überholen bremst man nicht ab.
+
+G 4428: Vor dem Richtungswechsel blinken. Beim Linksabbiegen bleibt die Kreuzungsmitte rechts (man biegt „vor“ der Mitte ab); um die Mitte herum nur im Kreisverkehr. Auf Einbahnstraßen zum Linksabbiegen links halten. Beim Wenden blinkt man das ganze Manöver lang. Aus der mittleren Spur fährt man geradeaus.
+22849: Vorher blinken.
+22850: Die Kreuzungsmitte bleibt rechts.
+22851: Auf der Einbahnstraße links halten.
+22852: Beim Wenden die ganze Zeit blinken.
+22853: Das Auto steht in der mittleren Spur – zum Rechtsabbiegen braucht es die rechte.
+22854: Um die Mitte herum fährt man nur im Kreisverkehr.
+22855: Man blinkt, man hupt nicht.
+22856: Zum Linksabbiegen benutzt man die linke Spur.
+
+G 4429: Linksabbiegen auf Gegenverkehrsstraßen: in die passende Spur einordnen, Kreuzungsmitte rechts lassen und nicht auf die falsche Seite der neuen Straße fahren. Anhalten nur, wenn nötig.
+22857: Nicht auf die Gegenfahrbahn der neuen Straße.
+22858: Die Mitte bleibt rechts.
+22859: In die richtige Spur einordnen.
+22860: Über eine durchgezogene Mittellinie darf man nicht.
+22861: Zum Linksabbiegen zur Mitte, nicht rechts.
+22862: Ohne Verkehr muss man nicht anhalten.
+
+G 4430: Nebeneinander fahren (in parallelen Reihen) ist erlaubt: bei mindestens zwei Spuren pro Richtung und viel Verkehr, vor Kreuzungen mit Ampel oder Polizei, wenn Beamte es erlauben, auf Einbahnfahrbahnen mit drei Spuren bei viel Verkehr. Nicht auf zwei Spuren mit Gegenverkehr, nicht vor ungeregelten Kreuzungen, nie Pflicht. Blinker nur zum Abbiegen; Motorräder fahren nicht zwischen den Reihen.
+22863: Linksabbiegen rechtzeitig ankündigen.
+22864: Zum Abbiegen darf man die Spur wechseln.
+22865: Wenn Beamte es erlauben.
+22866: Vor Ampelkreuzungen mit zwei Spuren pro Richtung erlaubt.
+22867: Bei viel Verkehr mit zwei Spuren pro Richtung erlaubt.
+22868: Vor einer von Polizei geregelten Kreuzung erlaubt.
+22869: Auf einer Einbahnfahrbahn mit drei Spuren erlaubt.
+22870: Zum Linksabbiegen in die linke Spur, nicht in eine beliebige.
+22871: Vor ungeregelten Kreuzungen nicht erlaubt.
+22872: Auf zwei Spuren mit Gegenverkehr nicht erlaubt.
+22873: Nur bei viel Verkehr, nicht immer.
+22874: Nicht unter allen Bedingungen.
+22875: Es ist nie Pflicht.
+22876: Man blinkt nur zum Abbiegen.
+22877: Auch auf einer Fahrbahn mit zwei Spuren pro Richtung ist es möglich.
+22878: Zwischen den Reihen durchfahren ist verboten.
+
+G 4431: Vorfahrt gewähren muss man: Schienenfahrzeugen (wenn nichts anderes angezeigt), beim Einfügen, Wenden, Rückwärtsfahren und Herausfahren aus Grundstücken allen; beim STOP-Zeichen nach rechts und links. Beim Zeichen „Kreuzung“ (X) nur nach rechts; beim Zeichen „Kreuzung mit Vorfahrtsstraße“ hat man selbst Vorfahrt.
+22879: Straßenbahnen und Züge haben Vorrang.
+22880: Beim Einfügen rechts und links Vorfahrt lassen.
+22881: Beim Wenden allen Vorfahrt lassen.
+22882: Beim Rückwärtsfahren allen Vorfahrt lassen.
+22883: Aus Grundstücken rechts und links Vorfahrt lassen.
+22884: STOP: anhalten und beiden Seiten Vorfahrt lassen.
+22885: Das X-Zeichen bedeutet rechts vor links – nur nach rechts.
+22886: Das Kreisverkehrszeichen allein bedeutet rechts vor links.
+22887: Bei Gelbblinken gelten die normalen Vorfahrtsregeln.
+22888: Beim Linksabbiegen lässt man Gegenverkehr und rechts vor – nicht „allen“.
+22889: Mit diesem Zeichen hat man selbst Vorfahrt.
+
+G 4432: Vor einer Kreuzung: rechtzeitig einordnen und blinken, auf Vorfahrt vorbereitet sein, höchste Vorsicht. Die Kreuzung nur befahren, wenn man sie auch wieder verlassen kann. Mit Zweirädern stellt man sich hinter die wartenden Fahrzeuge.
+22890: Auf die Vorfahrtsregeln vorbereiten.
+22891: Rechtzeitig einordnen.
+22892: Rechtzeitig blinken.
+22893: Zweiräder reihen sich hinten ein, nicht vorbeischlängeln.
+22894: Nicht in die Kreuzung, wenn man nicht weiterkommt.
+22895: Höchste Vorsicht.
+22896: Rechts hat in der Regel Vorfahrt.
+22897: Zum Rechtsabbiegen überholt man nicht links.
+22898: Vor Kreuzungen hupt man nicht.
+
+G 4433: An oder nahe Kreuzungen verboten: Zickzackfahren, plötzlicher Richtungswechsel, Wenden; außerorts Halten und Parken; ein Fahrrad überholen, wenn man dazu auf die Gegenspur muss. Erlaubt bleiben z. B. Abblendlicht, Hupen bei Gefahr und Überholen an Ampelkreuzungen.
+22899: Kein Zickzack, auch bei gestrichelten Linien.
+22900: Kein plötzlicher Richtungswechsel.
+22901: Nicht wenden.
+22902: Außerorts nicht parken.
+22903: Außerorts nicht halten.
+22904: Fahrrad nicht über die Gegenspur überholen.
+22905: Abblendlicht ist erlaubt.
+22906: Eine allgemeine 60-km/h-Grenze gibt es dort nicht.
+22907: Blinken ist immer Pflicht.
+22908: An Ampelkreuzungen darf man überholen.
+22909: Bei Gelbblinken langsamer und vorsichtig.
+22910: Bei Gefahr darf man auch außerorts hupen.
+
+G 4434: Kommen zwei Fahrzeuge gleichzeitig an: Wer von links kommt, lässt Vorfahrt (rechts vor links). Beide fahren langsamer, und man bleibt nachsichtig mit Fehlern anderer. Aus einem Grundstück fährt man langsam, besonders rückwärts, und lässt Fußgänger vor.
+22911: Der von links Kommende wartet.
+22912: Beide bremsen ab.
+22913: Tolerant sein, auch wenn andere falsch fahren.
+22914: Aus Grundstücken vorsichtig ausfahren.
+22915: Fußgänger haben Vortritt.
+22916: Langsam, vor allem rückwärts.
+22917: Die Straßenbreite entscheidet nicht – rechts vor links.
+22918: Hupen ist nicht Pflicht.
+22919: Fußgänger haben Vortritt.
+
+G 4435: Ein Lastzug biegt rechts in eine enge Straße: Er wird stark bremsen, nach links ausholen und eventuell zurücksetzen. Abstand halten und nicht überholen – er verdeckt Zeichen und Querverkehr.
+22920: Er kann stark abbremsen.
+22921: Er kann nach links ausscheren.
+22922: Abstand halten, er muss eventuell zurücksetzen.
+22923: Nicht überholen, er verdeckt die Sicht.
+22924: Gerade nicht überholen.
+22925: Nicht überholen, wenn er blinkt.
+22926: Die Warnblinkanlage ist dafür nicht da.
+
+G 4436: Wenden auf Gegenverkehrsstraßen: blinken, allen Vorfahrt lassen, niemanden gefährden. Bei dichtem Verkehr oder schlechter Sicht verzichtet man darauf. Über eine durchgezogene Mittellinie darf man nicht wenden. Mehrere Züge sind erlaubt.
+22927: Den nahenden Fahrzeugen Vorfahrt lassen.
+22928: Bei dichtem Verkehr verzichten.
+22929: Bei schlechter Sicht verzichten.
+22930: Blinker setzen.
+22931: Niemanden gefährden.
+22932: Blinker, nicht Warnblinkanlage.
+22933: In Kurven ist Wenden verboten.
+22934: Bei durchgezogener Linie darf man gerade nicht wenden.
+22935: Bei schlechter Sicht nie wenden.
+22936: Man darf auch in mehreren Zügen wenden.
+
+G 4437: Wendeverbot: in oder nahe Kurven, an oder nahe Kreuzungen, auf oder nahe Kuppen, bei schlechter Sicht und auf Autobahnen. Fehlende Markierung oder „außerorts“ allein verbieten es nicht.
+22937: Nicht in Kurven.
+22938: Nicht an Kreuzungen.
+22939: Nie bei schlechter Sicht.
+22940: Nicht auf Kuppen.
+22941: Fehlende Markierung allein verbietet es nicht.
+22943: Außerorts ist Wenden nicht allgemein verboten.
+22944: Auf Autobahnen ist Wenden immer verboten.
+
+G 4438: Kreisverkehr: Steht VORFAHRT GEWÄHREN, lässt man den Fahrzeugen im Kreis den Vortritt (sie kommen von links). Ohne Zeichen gilt rechts vor links. Vor der Einfahrt langsamer und vorsichtig. Im Kreis nicht rückwärts fahren. Auf steilen engen Straßen hält der Bergabfahrende an. Bei VORFAHRT GEWÄHREN hält man, wenn nötig, an der Dreieckslinie.
+22945: Nur mit VORFAHRT GEWÄHREN haben die im Kreis Vorrang.
+22946: Ohne Zeichen gilt rechts vor links.
+22947: Die Einfahrenden können wartepflichtig sein.
+22948: Einfahrende können Vorfahrt gewähren müssen.
+22949: Langsam und aufmerksam einfahren.
+22950: Bergab wartet, bergauf fährt.
+22951: Anhalten an der Linie aus weißen Dreiecken.
+22952: Nur wenn das Zeichen VORFAHRT GEWÄHREN steht.
+22954: Rückwärts im Kreis ist verboten.
+22956: Auch im Kreisverkehr gelten die normalen Überholregeln.
+
+G 4439: Auf steilen engen Straßen: Der Bergabfahrende hält an (er kommt leichter wieder los); wer näher an einer Ausweichstelle ist, fährt dort zur Seite. VORFAHRT GEWÄHREN: langsamer und nur bei Bedarf anhalten. STOP: immer anhalten.
+22957: Der Bergabfahrende hält an.
+22958: Wer an einer Ausweichstelle ist, lässt den anderen vorbei.
+22959: Langsamer, nur bei Bedarf anhalten.
+22960: Bei STOP muss man immer anhalten.
+22961: Der Bergabfahrende, nicht der Bergauffahrende.
+22962: Auf dem Zebrastreifen hält man nie an.
+
+G 4440: Leuchtanzeigen auf Polizeiautos muss man befolgen. „AN DIE SEITE FAHREN“ oder „HALT! POLIZEI“ nach dem Überholen gilt dem überholten Fahrzeug: rechts anhalten. „UNFALL“ heißt, vorne ist ein Unfall – langsamer fahren. „LANGSAMER FAHREN“ gilt für alle.
+22963: Leuchtanzeigen der Polizei befolgen.
+22964: Man muss anhalten.
+22965: Gemeint ist das überholte Fahrzeug.
+22966: Langsamer fahren.
+22967: Es bedeutet einen Unfall vorne, nicht eine Unfallgegend.
+22968: Man muss anhalten, nicht abbiegen.
+22969: Es gilt für alle Fahrzeuge.
+
+G 4441: Wer sich in den Verkehr einfügt: rechtzeitig blinken, Lage, Entfernung und Richtung der anderen beachten, allen vorbeifahrenden Fahrzeugen (auch Rädern) Vorfahrt lassen und niemanden gefährden.
+22970: Nur einfügen, wenn niemand gefährdet wird.
+22971: Lage, Entfernung und Richtung der anderen beachten.
+22972: Rechtzeitig blinken.
+22973: Vorbeifahrenden Vorfahrt lassen.
+22974: Blinken ist immer Pflicht.
+22975: Die Wartepflicht gilt immer, auch ohne Zeichen.
+22976: Auch Fahrrädern muss man Vorfahrt lassen.
+
+G 4442: Vor dem Losfahren: Helm aufsetzen und schließen bzw. Gurt anlegen, Motorrad mit Abblendlicht, Spiegel und Straße prüfen – alles vor dem Manöver, nicht danach.
+22977: Helm vor dem Losfahren schließen.
+22978: Gurt vor dem Losfahren anlegen.
+22979: Motorräder fahren mit Abblendlicht.
+22980: Auch in die Spiegel schauen.
+22981: Den Gurt legt man vorher an.
+22982: Den Helm setzt man vorher auf.
+
+G 4444: Am rechten Rand anhalten: rechtzeitig mit dem Blinker ankündigen, Lage der anderen beachten, besonders auf Zweiräder achten, nicht abrupt bremsen.
+22990: Niemanden gefährden.
+22991: Lage, Entfernung und Richtung der anderen beachten.
+22992: Auf nahende Zweiräder achten.
+22993: Rechtzeitig ankündigen.
+22994: Nicht abrupt bremsen.
+22995: Lichthupe ist dafür nicht da.
+22996: Man kündigt mit dem Blinker an, nicht mit der Warnblinkanlage.
+22997: Auch bei wenig Verkehr muss man blinken.
+
+G 4445: Verstöße beim Einfügen in den Verkehr kosten Geld und Führerscheinpunkte.
+22998: Es gibt auch Punkteabzug.
+22999: Es gibt Geldbuße und Punkteabzug.
+23000: Die Zahl 4 Punkte stimmt nicht.
+
+G 4446: Rückspiegel: vor Abbiegen, Überholen und Rückwärtsfahren benutzen. Erst den Sitz einstellen, dann im Stand die Spiegel. Der Innenspiegel zeigt die ganze Heckscheibe, verzerrt wenig und hat eine Abblendstellung für die Nacht. Spiegel zeigen nicht alles – es gibt tote Winkel. Fehlende Spiegel sind nicht erlaubt.
+23001: Spiegel helfen, alles im Blick zu haben.
+23002: Gute Sicht nach hinten einstellen.
+23003: Erst Sitz, dann Spiegel.
+23004: Die ganze Heckscheibe soll sichtbar sein.
+23005: Er muss im Blickfeld liegen.
+23006: Der Innenspiegel ist flach und verzerrt kaum.
+23007: Vor dem Abbiegen nach hinten schauen.
+23008: Er hat eine Abblendstellung für die Nacht.
+23009: Sie mindert die Blendung von hinten.
+23010: Vor dem Rückwärtseinparken die Spiegel benutzen.
+23011: Vor dem Überholen die Spiegel benutzen.
+23012: Auch während des Überholens hilft der Spiegel.
+23013: Gerade nachts verwendet man sie.
+23014: Auch auf der Autobahn darf man sie verwenden.
+23015: Beim Geradeausfahren braucht man nicht „immer“ nach hinten zu schauen.
+23016: Eine solche Beleuchtung gibt es nicht.
+23017: Die Spiegelgröße hängt nicht vom Hubraum ab.
+23018: Der Innenspiegel darf nicht einfach entfernt werden.
+23019: Parksensoren ersetzen die Spiegel nicht.
+23020: Es gibt tote Winkel.
+23021: Auch Campingfahrzeuge brauchen Spiegel.
+23022: Man stellt sie im Stand ein.
+23023: Spiegel dürfen nicht einfach durch andere ersetzt werden.
+23024: Ohne Spiegel darf man nicht fahren.
+
+G 4447: Linker Außenspiegel: so einstellen, dass im rechten Drittel das eigene Heck zu sehen ist und vor allem die Straße neben dem Auto. Er ist gewölbt und verzerrt Entfernung und Geschwindigkeit; er hat einen großen toten Winkel. Vor Spurwechsel, Überholen, Linksabbiegen und Einfädeln: Spiegel plus kurzer Schulterblick.
+23025: Im rechten Drittel das eigene Heck.
+23026: Vor allem den Bereich neben dem Auto sehen.
+23027: Er verzerrt Entfernung und Geschwindigkeit.
+23028: Vor dem Wechsel nach links benutzen.
+23029: Vor dem Überholen benutzen.
+23030: Vor dem Linksabbiegen benutzen.
+23031: Er hat einen großen toten Winkel.
+23032: Zusätzlich ein Schulterblick.
+23033: Spiegel plus Schulterblick vor dem Einfädeln.
+23034: Für Kinder hinten gibt es den Innenspiegel.
+23035: Er wird nicht eingeklappt.
+23036: Auch im Ort braucht man die Spiegel.
+23037: Der Schulterblick ist nötig, nicht ablenkend.
+23038: Auch Motorradspiegel stellt man ein.
+23039: Man stellt sie ein, wenn nötig – z. B. bei anderem Fahrer –, nicht nach Kilometern.
+23040: Auch mit hinteren Kopfstützen gibt es einen Innenspiegel.
+23041: Der Spiegel ist kein Navi-Bildschirm.

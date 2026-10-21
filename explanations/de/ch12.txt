@@ -1,0 +1,167 @@
+# Kapitel 12 (Ministerium) – Sicherheitsabstand
+# Mindestabstand = Strecke in der Reaktionszeit (etwa 1 Sekunde): km/h geteilt durch 3,6.
+# 30 → 9 m, 50 → 14 m, 100 → 28 m, 130 → 36 m, 150 → 42 m. Der Bremsweg wächst mit dem Quadrat der Geschwindigkeit.
+
+G 4394: Der Sicherheitsabstand verhindert das Auffahren auf den Vordermann. Wie groß er sein muss, hängt von allem ab, was das Anhalten beeinflusst: eigene Geschwindigkeit und die des Vordermanns, Reaktionsfähigkeit, Verkehr, Straßenverlauf, Wetter, Fahrzeugart, Bremsen, Reifen und Ladung – nicht von Kraftstoff, Hubraum, Motorleistung oder Breite. Zu Schneepflügen und Streufahrzeugen im Einsatz: mindestens 20 m. Lkw über 3,5 t mit Überholverbot auf Straßen mit einer Spur pro Richtung: mindestens 100 m.
+22527: Genug Abstand verhindert das Auffahren.
+22528: Je schneller man fährt, desto mehr Abstand.
+22529: Wer langsamer reagiert, braucht mehr Abstand.
+22530: Dichter Verkehr beeinflusst den Abstand.
+22531: Kurven und Gefälle beeinflussen den Abstand.
+22532: Bei Regen, Schnee, Nebel mehr Abstand.
+22533: Ein schweres Fahrzeug braucht mehr Abstand.
+22534: Ein schlecht gewartetes Fahrzeug bremst schlechter.
+22535: Ladung verlängert den Bremsweg.
+22536: Zu Schneepflügen im Einsatz: 20 m.
+22537: Zu Streufahrzeugen im Einsatz: 20 m.
+22538: Auch die Geschwindigkeit des Vordermanns zählt.
+22539: Schlechte Bremsen = mehr Abstand.
+22540: Abgefahrene Reifen = mehr Abstand.
+22541: Lkw über 3,5 t mit Überholverbot: mindestens 100 m untereinander.
+22542: Die Kraftstoffart spielt keine Rolle.
+22543: Der Hubraum spielt keine Rolle.
+22544: Die Motorleistung spielt keine Rolle.
+22545: Die Fahrbahnbreite spielt keine Rolle.
+22546: Die Fahrzeugbreite spielt keine Rolle.
+22547: Für den Abstand ist jeder selbst nach vorne verantwortlich, nicht für den Hintermann.
+22548: Zu Schneepflügen: 20 m, nicht 10 m.
+22549: Zu Streufahrzeugen: 20 m, nicht 15 m.
+22550: Lastzüge mit Überholverbot: 100 m, nicht 10 m.
+22551: Einen festen Wert von 70 m gibt es nicht.
+22552: Mindestens die Strecke der Reaktionszeit, nicht der ganze Bremsweg.
+22553: Die Sichtweite ist nicht der Maßstab.
+22554: Der Abstand gilt bei jeder Geschwindigkeit.
+22555: Der Gang spielt keine Rolle.
+
+G 4395: Der Sicherheitsabstand hängt auch vom eigenen Zustand ab (Müdigkeit, Gesundheit) und soll das Auffahren verhindern. Er ist keine feste Zahl und gilt bei jeder Geschwindigkeit.
+22556: Müde oder unwohl = mehr Abstand.
+22557: Er verhindert das Auffahren.
+22558: Die Breite des Vordermanns spielt keine Rolle.
+22559: Die Zahl der Fahrstreifen spielt keine Rolle.
+22560: Die Servolenkung spielt keine Rolle.
+22561: Wer hinter einem fährt, ändert den eigenen Abstand nach vorne nicht.
+22562: Die Geschwindigkeitsscheiben des Vordermanns bestimmen nicht den Abstand.
+22563: Er hängt von Geschwindigkeit und Umständen ab.
+22564: Er gilt bei jeder Geschwindigkeit.
+
+G 4396: Der Sicherheitsabstand hängt von der Haftung der Reifen und von der Strecke ab, die man während der Reaktionszeit zurücklegt. Feste Meterzahlen für Gefälle oder Schnee gibt es nicht.
+22565: Schlechte Haftung = mehr Abstand.
+22566: Mindestens die Strecke der Reaktionszeit.
+22567: Für Gefälle gibt es keine feste 100-m-Regel.
+22568: Für Schneefall gibt es keine feste 100-m-Regel.
+22569: Die Feststellbremse (Handbremse) spielt dafür keine Rolle.
+22570: Auf der Notspur fährt man normalerweise nicht.
+22571: Eine Formel „Bremsweg plus 20 m“ gibt es nicht.
+
+G 4397: Reaktionsweg = Strecke vom Erkennen der Gefahr bis zum Beginn des Bremsens. Der Sicherheitsabstand muss mindestens so groß sein, darf aber größer sein. Er verhindert Auffahrunfälle – nicht Frontal- oder Seitenzusammenstöße.
+22572: Das ist der Reaktionsweg.
+22573: Er verhindert Auffahrunfälle.
+22574: Mehr Abstand ist immer erlaubt.
+22575: Frontalzusammenstöße verhindert man durch rechts fahren, nicht durch Abstand.
+22576: Seitliche Kollisionen hängen nicht vom Abstand nach vorne ab.
+22577: Er darf nicht kleiner sein als der Reaktionsweg.
+
+G 4398: Mindestabstand ≈ Strecke in 1 Sekunde (km/h : 3,6): 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.
+22578: 30 : 3,6 ≈ 8–9 m.
+22579: 50 : 3,6 ≈ 14 m.
+22580: 100 : 3,6 ≈ 28 m.
+22581: 150 : 3,6 ≈ 42 m.
+22582: 130 : 3,6 ≈ 36 m.
+22583: Bei 30 sind es etwa 9 m, nicht 2 m.
+22584: Bei 50 sind es etwa 14 m, nicht 5 m.
+22585: Bei 100 sind es etwa 28 m, nicht 15 m.
+22586: Bei 130 sind es etwa 36 m, nicht 20 m.
+22587: Bei 150 sind es etwa 42 m, nicht 25 m.
+
+G 4399: Ablenkung führt zu Unfällen – schon wenige Sekunden reichen, denn bei 50 km/h fährt man 14 m pro Sekunde blind. Ablenkungen sind z. B. Handy, Zigarette anzünden, Radio oder Navi bedienen.
+22588: Ablenkung kann Unfälle verursachen.
+22589: Schon das Handy einzuschalten lenkt ab.
+22590: Eine Zigarette anzünden lenkt ab.
+22591: Radio und Geräte bedienen lenkt ab.
+22592: Gerade das Handy lenkt stark ab.
+22593: Auch wenige Sekunden sind gefährlich.
+
+G 4400: Strecke pro Sekunde = km/h geteilt durch 3,6: 50 km/h ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.
+22594: 50 : 3,6 ≈ 14 m.
+22595: 100 : 3,6 ≈ 28 m.
+22596: 130 : 3,6 ≈ 36 m.
+22597: 150 : 3,6 ≈ 42 m.
+22598: Bei 150 sind es 42 m, nicht 20 m.
+22599: Bei 50 sind es 14 m, nicht 4 m.
+22600: Bei 100 sind es 28 m, nicht 10 m.
+22601: Bei 130 sind es 36 m, nicht 15 m.
+
+G 4401: Bremsweg = Strecke vom Beginn des Bremsens bis zum Stillstand. Er wächst mit dem Quadrat der Geschwindigkeit: doppelt so schnell = 4-mal so lang, dreimal = 9-mal, viermal = 16-mal.
+22602: So ist der Bremsweg definiert.
+22603: 2 × 2 = 4-mal so lang.
+22604: 3 × 3 = 9-mal so lang.
+22605: 4 × 4 = 16-mal so lang.
+22606: Er hängt sehr stark von der Geschwindigkeit ab.
+22607: Doppelte Geschwindigkeit = vierfacher, nicht doppelter Bremsweg.
+
+G 4402: Der Bremsweg wird länger bei schlechter Haftung (Schnee, Nässe) und bergab; bergauf wird er kürzer. Die Reaktion des Fahrers gehört nicht zum Bremsweg, sondern zum Reaktionsweg. Blockierende Räder verlängern ihn.
+22608: Weniger Haftung = längerer Bremsweg.
+22609: Auf Schnee länger.
+22610: Auf nasser Straße länger.
+22611: Bergab länger.
+22612: Bergauf kürzer – die Schwerkraft bremst mit.
+22613: Schnelle Reaktion verkürzt den Reaktionsweg, nicht den Bremsweg.
+22614: Blockierte Räder rutschen – der Weg wird länger.
+22615: Nach einer Kuppe geht es bergab – der Bremsweg wird länger.
+22616: Bergauf wird er kürzer, nicht länger.
+22617: Bergab wird er länger, nicht kürzer.
+
+G 4403: Anhalteweg = Reaktionsweg + Bremsweg. Er hängt von Geschwindigkeit, Reifen und Straßenbelag ab.
+22618: Reaktionsweg plus Bremsweg.
+22619: Er hängt von der Geschwindigkeit ab.
+22620: Abgefahrene Reifen verlängern ihn.
+22621: Der Belag beeinflusst ihn.
+22622: Reifen spielen eine große Rolle.
+22623: Der Belag spielt eine große Rolle.
+22624: Nur der Reaktionsweg ist zu wenig – der Bremsweg gehört dazu.
+22625: Nur der Bremsweg ist zu wenig – der Reaktionsweg gehört dazu.
+22626: Er hängt stark von der Geschwindigkeit ab.
+
+G 4404: Der Anhalteweg wird länger mit mehr Geschwindigkeit, auf Schnee oder Schlamm und mit abgefahrenen Reifen. Rauer Asphalt greift gut und verkürzt ihn.
+22627: Schneller = länger.
+22628: Auf Schnee länger.
+22629: Auf Schlamm länger.
+22630: Abgefahrene Reifen = länger.
+22631: Neue Reifen verkürzen ihn eher.
+22632: Langsamer = kürzer.
+22633: Rauer Asphalt hat gute Haftung – kürzer.
+
+G 4405: Der Sicherheitsabstand hängt von der Konzentration des Fahrers, der Geschwindigkeit, der Ladung und den Reifen ab – nicht von Fahrstreifen, Größe des Vordermanns, Gängen, Rädern oder Servolenkung.
+22634: Unkonzentriert = mehr Abstand.
+22635: Schneller = mehr Abstand.
+22636: Schwere Ladung = mehr Abstand.
+22637: Schlechte Reifen = mehr Abstand.
+22639: Die Zahl der Fahrstreifen spielt keine Rolle.
+22640: Die Größe des Vordermanns spielt keine Rolle.
+22641: Die Zahl der Gänge spielt keine Rolle.
+22642: Die Zahl der Räder spielt keine Rolle.
+22643: Die Servolenkung spielt keine Rolle.
+
+G 4406: Der Abstand hängt vom Fahrer (Gesundheit, Aufmerksamkeit) ab, nicht vom Kraftstoff. In einer Kolonne lieber mehr Abstand halten, damit es keine Massenkarambolage gibt. Er gilt für alle Fahrzeuge.
+22644: Benzin, Diesel oder Gas – egal.
+22645: Wer krank ist, reagiert langsamer.
+22646: Aufmerksamkeit verkürzt die Reaktionszeit.
+22647: In der Kolonne mehr Abstand gegen Kettenunfälle.
+22648: Die Leistung des Vordermanns spielt keine Rolle.
+22649: Die Handbremse spielt keine Rolle.
+22650: Der Abstand nach vorne hängt nicht davon ab, wer hinten kommt.
+22651: Alle Fahrzeuge müssen Abstand halten, auch Zweiräder.
+
+G 4407: Der Abstand gilt immer, auch bevor man überholt. Bei unberechenbaren Vorderleuten mehr Abstand. Man muss rechtzeitig anhalten können; mindestens der Reaktionsweg muss frei sein – es muss nicht genau der Bremsweg sein.
+22652: Auch vor dem Überholen Abstand halten.
+22653: Unberechenbarer Vordermann = mehr Abstand.
+22654: Man muss rechtzeitig anhalten können.
+22655: Mindestens der Weg der Reaktionszeit.
+22656: Er muss nicht gleich dem Bremsweg sein – der Vordermann bremst ja auch.
+
+G 4408: Mehr Abstand, wenn der Vordermann eine wackelige oder überstehende Ladung hat. Im Tunnel und auf der Autobahn den Abstand nicht verringern. Hinter einem Lkw sieht man weniger – Abstand nicht verringern.
+22657: Instabile Ladung kann herunterfallen.
+22658: Eine feste 100-m-Regel bei Regen gibt es nicht.
+22659: Im Tunnel nie weniger Abstand.
+22660: Auch auf der Autobahn kann der Vordermann plötzlich bremsen.
+22661: Hinter Lkw eher mehr Abstand, weil man nicht vorbeisieht.

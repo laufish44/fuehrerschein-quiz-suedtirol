@@ -1,0 +1,516 @@
+# Kapitel 14 (Ministerium) – Vorfahrt an Kreuzungen (Beispiele)
+# Vorgehen: 1. Schienenfahrzeuge (Straßenbahn) fahren zuerst. 2. Zeichen beachten (STOP / VORFAHRT GEWÄHREN = warten).
+# 3. Sonst rechts vor links: Wer rechts frei hat, fährt. 4. Linksabbieger fahren bis zur Mitte und warten dort auf den Gegenverkehr.
+# Busse, O-Busse, Lkw und Linienbusse haben KEINE Sonderrechte – nur Einsatzfahrzeuge mit Blaulicht und Sirene.
+
+G 4448: Die Straßenbahn fährt immer zuerst. Danach fährt A (Linksabbieger) bis zur Kreuzungsmitte, O fährt durch, dann M; A beendet das Abbiegen zuletzt, weil es M von rechts vorlassen muss.
+23042: Schienenfahrzeuge haben Vorrang.
+23043: Alle fahren mit Vorsicht.
+23044: O wartet auf die Straßenbahn und darauf, dass A in die Mitte fährt.
+23045: Die Straßenbahn fährt zuerst.
+23046: M hat O rechts – M wartet auf O.
+23047: Niemand fährt gleichzeitig mit der Straßenbahn – sie fährt zuerst.
+23048: A hat rechts nicht frei (M kommt).
+23049: O wartet nicht auf M – M wartet auf O.
+23050: O muss nicht auf alle warten.
+23051: A muss auch M Vorfahrt lassen.
+23052: O lässt nur der Straßenbahn den Vortritt, nicht M.
+
+G 4449: Einmündung mit zwei Bussen und einem Pkw: B hat rechts frei und fährt zuerst, dann H, zuletzt C, das H von rechts vorlassen muss. Busse haben keine Sonderrechte.
+23053: B muss niemandem Vorfahrt lassen.
+23054: H fährt als Zweites.
+23055: C fährt als Letztes.
+23056: B fährt zuerst.
+23057: C lässt H vor.
+23058: Zuerst fährt B, nicht H.
+23059: B und C fahren nicht gleichzeitig – C ist Letzter.
+23060: H fährt vor C.
+23061: Ein Bus hat keinen Vorrang – H fährt vor C wegen rechts vor links.
+23062: C fährt zuletzt.
+
+G 4450: Reihenfolge R, A, C (rechts vor links). Wäre A ein Polizeiauto mit Blaulicht und Sirene, dürfte es zuerst fahren.
+23063: R fährt zuerst.
+23064: C fährt zuletzt.
+23065: A folgt auf R.
+23066: A fährt vor C.
+23067: C nach R und A.
+23068: Mit Blaulicht und Sirene hat die Polizei Vorrang.
+23069: A ist Zweiter, nicht Erster.
+23070: A ist nicht Letzter.
+23071: R fährt vor A.
+23072: R ist Erster.
+23073: C ist Letzter.
+23074: C und R fahren nicht gleichzeitig.
+
+G 4451: Reihenfolge L, C, H (rechts vor links, Linksabbieger warten).
+23075: L fährt zuerst.
+23076: H fährt zuletzt.
+23077: Richtig: L, C, H.
+23078: C nach L und vor H.
+23079: L und C fahren nacheinander, nicht gleichzeitig.
+23080: Falsche Reihenfolge – richtig ist L, C, H.
+23081: Falsche Reihenfolge – richtig ist L, C, H.
+23082: Falsche Reihenfolge – richtig ist L, C, H.
+23083: Falsche Reihenfolge – richtig ist L, C, H.
+
+G 4452: Reihenfolge A, E, B: A hat rechts frei, E hat Vorrang vor B, B fährt zuletzt.
+23084: Richtig: A, dann E, dann B.
+23085: A muss niemandem Vorfahrt lassen.
+23086: E fährt vor B.
+23087: E nach A, vor B.
+23088: B ist Letzter.
+23089: B muss den anderen Vorfahrt lassen.
+23090: A muss B nicht vorlassen.
+23091: B muss E vorlassen.
+23092: A fährt zuerst, B zuletzt – nicht gleichzeitig.
+23093: E fährt vor B.
+
+G 4453: Reihenfolge R, A, C: R muss niemandem Vorfahrt lassen.
+23094: R, dann A, dann C.
+23095: A nach R und vor C.
+23096: R hat freie Fahrt.
+23097: Richtig: R, A, C.
+23098: C muss den anderen Vorfahrt lassen.
+23099: A fährt nach R, nicht vor R.
+23100: C fährt zuletzt – R, A, C.
+23101: R ist Erster.
+
+G 4454: Reihenfolge R, D, B: R muss niemandem Vorfahrt lassen, D folgt, B fährt zuletzt.
+23102: D nach R.
+23103: B als Letztes.
+23104: R muss niemandem Vorfahrt lassen.
+23105: B nach R und D.
+23106: B fährt zuletzt, nicht mit R.
+23107: D ist nicht Erster.
+23108: R fährt zuerst.
+23109: B ist Letzter.
+
+G 4455: Reihenfolge D, P, B, N.
+23110: Richtig: D, P, B, N.
+23111: N fährt zuletzt.
+23112: B nach P.
+23113: D fährt zuerst.
+23114: B vor N.
+23115: N nach B.
+23116: P vor B.
+23117: Falsche Reihenfolge – richtig ist D, P, B, N.
+23118: Falsche Reihenfolge – D fährt zuerst.
+23119: D ist Erster, N Letzter.
+23120: D und B fahren nicht gleichzeitig.
+23121: P fährt vor N.
+23122: Nur D fährt zuerst.
+
+G 4456: Reihenfolge D, C, A, H.
+23123: Richtig: D, C, A, H.
+23124: A hat rechts nicht frei.
+23125: D fährt vor C.
+23126: D fährt zuerst.
+23127: H ist Letzter.
+23128: C lässt D vor, nicht umgekehrt.
+23129: Zuerst fährt D.
+23130: A fährt nach C.
+23131: Falsche Reihenfolge – richtig ist D, C, A, H.
+23132: Falsche Reihenfolge – richtig ist D, C, A, H.
+23133: D fährt zuerst, H zuletzt.
+
+G 4457: L fährt zuerst; dann dürfen C und A gleichzeitig fahren (sie kreuzen sich nicht); D fährt zuletzt. Die Geschwindigkeit spielt keine Rolle.
+23134: L ist Erster.
+23135: D ist Letzter.
+23136: C und A gleichzeitig nach L.
+23137: A fährt vor D.
+23138: Nicht der Schnellste, sondern wer Vorfahrt hat, fährt zuerst.
+23139: A ist nicht Letzter.
+23140: Falsche Reihenfolge – L fährt zuerst.
+23141: Falsche Reihenfolge – C und A fahren zusammen nach L.
+23142: D fährt zuletzt.
+
+G 4478: Gleiche Kreuzung: A lässt L vor, fährt dann gleichzeitig mit C und vor D.
+23334: A lässt L vor.
+23335: Nach L fahren A und C gleichzeitig.
+23336: A fährt vor D.
+23337: A muss nicht allen Vorfahrt lassen.
+23338: D ist Letzter, nicht A.
+
+G 4458: Reihenfolge H, D, B, L.
+23143: Richtig: H, D, B, L.
+23144: H fährt zuerst.
+23145: B vor L.
+23146: D lässt H vor.
+23147: L lässt B vor.
+23148: L ist Letzter.
+23149: D vor B.
+23150: B wartet nur auf H und D.
+23151: H fährt zuerst.
+23152: D fährt vor L.
+23153: Falsche Reihenfolge – B fährt vor L.
+23154: Abbiegen allein nimmt nicht jede Vorfahrt – B fährt vor L.
+23155: Geradeausfahren gibt keine Vorfahrt.
+
+G 4459: B (Linksabbieger) fährt in die Mitte und wartet. Dann fährt R, danach D und N gleichzeitig, zuletzt beendet B das Abbiegen.
+23156: N nach R.
+23157: B nach N.
+23158: D nach R.
+23159: R fährt, wenn B in der Mitte steht.
+23160: D und N gleichzeitig nach R.
+23161: B hält in der Mitte.
+23162: R hält nicht in der Mitte, sondern fährt durch.
+23163: N ist nicht Erster.
+23164: D ist nicht Erster.
+23165: Die Wege von D und B kreuzen sich nicht – keiner muss dem anderen Vorfahrt lassen.
+23166: Die Wege von B und D kreuzen sich nicht – B wartet nur auf N.
+23167: R fährt früh, nicht zuletzt.
+
+G 4479: B fährt in die Mitte (vor R), wartet auf N und beendet dann das Linksabbiegen.
+23339: B lässt N vor.
+23340: B fährt vor R in die Kreuzung.
+23341: Nach N beendet B das Abbiegen.
+23342: B fährt in die Mitte und wartet auf N.
+23343: B hat nicht die ganze Zeit rechts frei.
+23344: B fährt früh hinein, nicht zuletzt.
+23345: B fährt vor R in die Kreuzung.
+
+G 4463: Reihenfolge C, A, L, R, E.
+23182: Richtig: C, A, L, R, E.
+23183: C fährt zuerst.
+23184: A direkt nach C.
+23185: E lässt R und L vor.
+23186: A vor L.
+23187: L vor R.
+23188: L nach A.
+23189: E fährt zuletzt – A muss nicht auf E warten.
+23190: E fährt zuletzt.
+23191: A wartet nicht auf E.
+23192: Niemand darf einfach in der Mitte stehen bleiben.
+23193: C und R fahren nicht gleichzeitig.
+
+G 4464: Reihenfolge A, E, V, H, C.
+23194: Richtig: A, E, V, H, C.
+23195: V vor H.
+23196: C lässt H vor.
+23197: E vor H.
+23198: H nach A, E und V.
+23199: A ist Erster.
+23200: Falsche Reihenfolge.
+23201: Falsche Reihenfolge.
+23202: V wartet nicht auf H.
+23203: Sie fahren nacheinander.
+23204: V fährt vor C und H.
+
+G 4465: L und H fahren gleichzeitig zuerst, dann B, zuletzt O, das allen Vorfahrt lassen muss.
+23205: L und H gleichzeitig zuerst.
+23206: Richtig: L und H, B, O.
+23207: B nach L und H.
+23208: O ist Letzter.
+23209: B vor O, nach L und H.
+23210: O lässt allen Vorfahrt.
+23211: O fährt zuletzt.
+23212: O fährt zuletzt.
+23213: B ist nicht Erster.
+23214: H fährt vor O.
+23215: Falsche Reihenfolge.
+23216: O fährt zuletzt.
+
+G 4466: Reihenfolge S, A, E, R.
+23217: S vor R.
+23218: S fährt zuerst.
+23219: Richtig: S, A, E, R.
+23220: A lässt S vor.
+23221: R ist Letzter.
+23222: E wartet nicht auf R.
+23223: R fährt zuletzt.
+23224: A fährt vor E.
+23225: R ist Letzter, nicht A.
+23226: Falsche Reihenfolge.
+23227: A wartet nur auf S.
+
+G 4467: Reihenfolge C, R, A, H.
+23228: A wartet auf C und R.
+23229: Richtig: C, R, A, H.
+23230: H wartet auf C, R und A.
+23231: H ist Letzter.
+23232: R wartet auf C.
+23233: C ist Erster.
+23234: A fährt vor H.
+23235: C wartet auf niemanden.
+23236: A wartet nicht auf H.
+23237: R wartet nur auf C.
+23238: C fährt zuerst.
+23239: R fährt vor H.
+
+G 4468: Reihenfolge T, O, A.
+23240: T fährt zuerst.
+23241: A wartet auf O.
+23242: O wartet auf T.
+23243: Richtig: T, O, A.
+23244: O vor A.
+23245: T wartet nicht auf O.
+23246: O wartet nicht auf A.
+23247: T fährt zuerst.
+23248: O fährt vor A.
+23249: Nicht gleichzeitig.
+
+G 4469: Die Straßenbahn T fährt zuerst, dann G, dann P; B muss allen Vorfahrt lassen und fährt zuletzt.
+23250: B lässt allen Vorfahrt.
+23251: T (Straßenbahn) fährt zuerst.
+23252: B ist Letzter.
+23253: P lässt T und G vor.
+23254: Richtig: T, G, P, B.
+23255: G wartet auf T.
+23256: Die Straßenbahn wartet nicht.
+23258: B fährt zuletzt.
+23259: T fährt durch, ohne in der Mitte zu halten.
+23260: G fährt vor P.
+23261: Nach T fährt G, nicht P.
+
+G 4480: P lässt der Straßenbahn T und G den Vortritt und fährt vor B.
+23346: P lässt T und G vor.
+23347: P fährt vor B.
+23348: P nach T und G, vor B.
+23349: P fährt vor B, nicht gleichzeitig.
+23350: P hat nicht gegenüber allen Vorfahrt.
+23351: P muss auch der Straßenbahn Vorfahrt lassen.
+
+G 4470: Reihenfolge L, E, N, R. Der O-Bus R hat keinen Vorrang.
+23262: N wartet auf E.
+23263: E wartet auf L.
+23264: R wartet auf E und N.
+23265: Richtig: L, E, N, R.
+23266: O-Busse haben keinen Vorrang.
+23267: E wartet nicht auf R.
+23268: L wartet nicht auf R.
+23269: E fährt vor N und R.
+23270: E fährt vor N.
+23271: R fährt zuletzt.
+
+G 4481: E lässt L (von rechts) vor und fährt vor dem Lkw N; dem O-Bus muss E nicht Vorfahrt gewähren.
+23352: E lässt L vor.
+23353: E lässt den Rechtskommenden vor.
+23354: Der O-Bus hat keinen Vorrang vor E.
+23355: E nach L, vor N.
+23356: E fährt vor dem O-Bus.
+23357: Geradeausfahren gibt dem Lkw keine Vorfahrt.
+23358: E muss L von rechts vorlassen.
+23359: L fährt zuerst.
+
+G 4471: Reihenfolge H, A, F, L.
+23272: F wartet auf A.
+23273: L wartet auf A und F.
+23274: A wartet auf H.
+23275: L ist Letzter.
+23276: H ist Erster.
+23277: Richtig: H, A, F, L.
+23278: H fährt zuerst.
+23279: F ist nicht Erster.
+23280: H wartet nicht.
+23281: H wartet nicht.
+23282: A fährt vor F.
+
+G 4472: Der Linksabbieger N fährt in die Mitte und wartet. Er lässt A vor, hat aber Vorrang vor R; zuletzt beendet N das Abbiegen nach R und A.
+23283: N beendet die Durchfahrt als Letzter.
+23284: N lässt A vor.
+23285: N hat Vorrang vor R.
+23286: N beendet das Abbiegen nach R und A.
+23287: N wartet in der Mitte auf R und A.
+23288: N ist nicht Erster.
+23289: R muss N vorlassen, nicht umgekehrt.
+23290: N muss A vorlassen.
+23291: N fährt nach R und A.
+23292: N fährt früh in die Mitte, nicht zuletzt hinein.
+
+G 4475: Gleiche Kreuzung aus der Sicht von R: R lässt N in die Mitte fahren und fährt dann als Erster ganz durch, vor A.
+23309: R lässt N vor.
+23310: R fährt vor A.
+23311: R fährt, nachdem N in der Mitte steht.
+23312: R vor A.
+23313: R beendet die Durchfahrt als Erster.
+23314: R muss A nicht vorlassen.
+23315: R ist nicht Letzter.
+23316: R vor A.
+23317: R hält nicht in der Mitte.
+
+G 4473: Die Straßenbahn T und B dürfen gleichzeitig zuerst fahren, dann A, zuletzt C.
+23293: A lässt der Straßenbahn und B den Vortritt.
+23294: A fährt vor C.
+23295: Richtig: T und B, A, C.
+23296: T und B gleichzeitig.
+23297: C ist Letzter.
+23298: C fährt zuletzt.
+23299: A fährt vor C.
+23300: C ist Letzter.
+23301: C fährt erst nach A.
+23302: B muss A nicht vorlassen.
+
+G 4474: D muss niemandem Vorfahrt lassen und fährt zuerst.
+23303: D ist Erster.
+23304: D muss niemandem Vorfahrt lassen.
+23305: Auch A nicht.
+23306: D ist Erster, nicht Dritter.
+23307: D hat Vorfahrt.
+23308: D muss E nicht vorlassen.
+
+G 4477: Gleiche Kreuzung: Reihenfolge D, E, S, A. A fährt zuletzt.
+23327: A ist Letzter.
+23328: A lässt E und S vor.
+23329: A nach D, E und S.
+23330: A hat rechts nicht frei.
+23331: A fährt nicht mit D.
+23332: A fährt nach allen.
+23333: A muss auch Abbiegern Vorfahrt lassen.
+
+G 4476: Reihenfolge R, A, T. Ein Lastwagen oder Bus hat keinen Vorrang.
+23318: T ist Letzter.
+23319: R ist Erster.
+23320: A wartet auf R.
+23321: T wartet auf R und A.
+23322: Richtig: R, A, T.
+23323: T fährt nach R.
+23324: A fährt vor T.
+23325: R fährt zuerst.
+23326: T ist Letzter.
+
+G 4482: Reihenfolge S, B, L, D.
+23360: B lässt S vor.
+23361: Richtig: S, B, L, D.
+23362: L fährt vor D, nicht gleichzeitig.
+23363: S und D fahren nicht gleichzeitig.
+
+G 4483: Reihenfolge R, D, F. Ein O-Bus hat keinen Vorrang, nur weil er an der Leitung hängt.
+23364: D vor F.
+23365: Richtig: R, D, F.
+23366: O-Busse haben keinen Vorrang.
+23367: Falsche Reihenfolge.
+
+G 4484: Reihenfolge R, B, D, T.
+23368: T ist Letzter.
+23369: Richtig: R, B, D, T.
+23370: B fährt vor D.
+
+G 4485: Reihenfolge N, A, R. A und R müssen, wenn nötig, anhalten.
+23371: Richtig: N, A, R.
+23372: A und R halten bei Bedarf an.
+23373: A nach N, vor R.
+23374: N fährt zuerst.
+23375: A fährt vor R.
+
+G 4486: Reihenfolge T, P, M. Ein Linienbus (öffentlicher Dienst) hat keinen Vorrang.
+23376: T fährt zuerst.
+23377: Richtig: T, P, M.
+23378: M ist Letzter.
+23379: Linienbusse haben keinen Vorrang.
+23380: P fährt vor M.
+23381: T fährt so oder so zuerst – der Linienbus ändert nichts.
+
+G 4487: Reihenfolge R, D, A.
+23382: R ist Erster.
+23383: Richtig: R, D, A.
+23384: D fährt nach R.
+23385: R fährt zuerst.
+23386: Nicht gleichzeitig.
+
+G 4488: Reihenfolge T, A, S.
+23387: T ist Erster.
+23388: A direkt nach T.
+23389: S wartet auf T und A.
+23390: Richtig: T, A, S.
+23391: T ist Erster.
+23392: T fährt vor A.
+23393: S fährt nach A.
+23394: A fährt vor S.
+
+G 4489: Reihenfolge P, B, C. C hat rechts nicht frei.
+23395: B wartet auf P.
+23396: P ist Erster.
+23397: Richtig: P, B, C.
+23398: C hat rechts nicht frei.
+23399: C ist Letzter.
+23400: B fährt vor C.
+23401: Nicht gleichzeitig.
+23402: P fährt durch, ohne in der Mitte zu halten.
+
+G 4490: Reihenfolge B, T, S. Alle fahren vorsichtig an die Kreuzung heran.
+23403: B ist Erster.
+23404: Richtig: B, T, S.
+23405: S ist Letzter.
+23406: B fährt zuerst.
+23407: B muss T nicht vorlassen.
+23408: An Kreuzungen fährt man immer langsamer.
+23409: Nicht gleichzeitig.
+
+G 4491: Reihenfolge R, A, C. R muss niemandem Vorfahrt lassen.
+23410: A nach R.
+23411: R muss niemandem Vorfahrt lassen.
+23412: C lässt A vor.
+23413: Richtig: R, A, C.
+23414: C muss Vorfahrt lassen.
+23415: Nicht gleichzeitig.
+23416: A fährt vor C.
+23417: R wartet nicht.
+
+G 4492: Reihenfolge H, D, B. H muss niemandem Vorfahrt lassen.
+23418: Richtig: H, D, B.
+23419: B ist Letzter.
+23420: H muss niemandem Vorfahrt lassen.
+23421: D lässt H vor.
+23422: D wartet nicht auf B.
+23423: D fährt vor B.
+23424: B muss D vorlassen.
+23425: Nicht gleichzeitig.
+
+G 4493: Reihenfolge P, D, B, L.
+23426: P ist Erster.
+23427: D lässt P vor.
+23428: B wartet auf P und D.
+23429: L lässt B vor.
+23430: Richtig: P, D, B, L.
+23431: B muss L nicht vorlassen.
+23432: P fährt zuerst.
+23433: B fährt vor L.
+23434: P fährt zuerst.
+
+G 4494: Reihenfolge E, C, M.
+23435: E ist Erster.
+23436: C nach E.
+23437: Richtig: E, C, M.
+23438: M ist Letzter.
+23439: E fährt zuerst.
+23440: Nicht gleichzeitig.
+
+G 4495: Reihenfolge A, C, L.
+23441: A ist Erster.
+23442: C lässt A vor.
+23443: L ist Letzter.
+23444: Richtig: A, C, L.
+23445: A fährt zuerst.
+23446: L ist Letzter.
+23447: Falsche Reihenfolge.
+23448: C fährt vor L.
+
+G 4496: Reihenfolge E, C, L. E muss niemandem Vorfahrt lassen.
+23449: E muss niemandem Vorfahrt lassen.
+23450: C lässt E vor.
+23451: L wartet auf E und C.
+23452: Richtig: E, C, L.
+23453: C fährt vor L.
+23454: E ist Erster.
+23455: C fährt vor L.
+23456: Nicht gleichzeitig.
+
+G 4460: Reihenfolge C, A, P. P hat rechts nicht frei.
+23168: Richtig: C, A, P.
+23169: A nach C.
+23170: P ist Letzter.
+23171: P fährt zuletzt.
+23172: P fährt nach C.
+23173: P hat rechts nicht frei.
+
+G 4461: Reihenfolge S, N, C.
+23174: Richtig: S, N, C.
+23175: C ist Letzter.
+23176: N nach S, vor C.
+23177: S fährt zuerst.
+23178: N fährt vor C.
+23179: C ist Letzter.
+
+G 4462: Die Straßenbahn T fährt zuerst, dann L und A gleichzeitig, zuletzt C.
+23180: T ist Erster.
+23181: Richtig: T, L und A, C.
