@@ -1,0 +1,249 @@
+# Kapitel 20 (Ministerium) – Führerschein, Papiere, Entzug, Punkte
+# Klassen: AM ab 14 (Mopeds, leichte Vierradfahrzeuge), A1 ab 16 (bis 125 cm³ / 11 kW), A2 ab 18 (bis 35 kW),
+# A ab 24 direkt oder ab 20 nach 2 Jahren A2, B ab 18 (bis 3,5 t, max. 8 Fahrgäste), B96 (Gespann bis 4.250 kg), BE (Anhänger bis 3.500 kg).
+# Punkte: Start 20, in den ersten 3 Jahren doppelter Abzug, höchstens 15 auf einmal, 2 Jahre ohne Verstoß = wieder 20.
+# Gültigkeit B: unter 50 → 10 Jahre, 50–70 → 5, 70–80 → 3, ab 80 → 2.
+
+G 4605: Ohne passenden Führerschein oder mit einem nicht zugelassenen Fahrzeug darf man nicht fahren. Nicht verboten ist es, ohne Steuerquittung, mit Überführungskennzeichen, mit einem Auto auf fremden Namen, ohne Garantie oder ohne Eigentumsbescheinigung zu fahren.
+24457: Man braucht den passenden Führerschein.
+24458: Das Fahrzeug muss zugelassen sein.
+24459: Die Steuerquittung muss man nicht mitführen.
+24460: Mit „Prova“-Kennzeichen darf man fahren.
+24461: Man darf fremde Autos fahren.
+24462: Die Garantie spielt keine Rolle.
+24463: Die Eigentumsbescheinigung muss man nicht mitführen.
+
+G 4606: Ein Kraftwagen braucht Kennzeichen (um den Halter festzustellen), Fahrzeugschein und Warndreieck. Eine Kasko-Versicherung ist nicht Pflicht – nur die Haftpflicht.
+24464: Kennzeichen zeigen den Halter.
+24465: Fahrzeugschein ist Pflicht.
+24467: Warndreieck ist Pflicht.
+24468: Kasko ist freiwillig, Haftpflicht ist Pflicht.
+
+G 4607: Kennzeichen: richtig angebracht, gut befestigt, lesbar, sauber, nicht verändert oder verbogen. Fahrschulautos tragen vorne und hinten rückstrahlende Tafeln mit „P“.
+24469: Richtig und fest angebracht.
+24470: Immer lesbar.
+24471: Nicht verschmutzt.
+24472: Nicht verändert oder gefälscht.
+24473: Fahrschulautos tragen „P“-Tafeln.
+24474: Verbiegen ist verboten.
+
+G 4608: Führerschein AM (ab 14): Mopeds mit zwei oder drei Rädern (bis 50 cm³) und leichte Vierradfahrzeuge. Prüfungen sind nötig; in anderen EU-Ländern kann ein höheres Mindestalter gelten. Schwere Vierradfahrzeuge und Motorräder darf man nicht fahren.
+24475: Leichte Vierradfahrzeuge.
+24476: Zweirädrige Mopeds.
+24477: Dreirädrige Mopeds.
+24478: Ab 14 Jahren.
+24479: Bis 50 cm³.
+24482: Manche EU-Länder verlangen ein höheres Alter.
+24483: Schwere Vierradfahrzeuge brauchen B1 oder B.
+24484: Motorräder brauchen A1 oder höher, auch elektrisch.
+24485: Prüfungen sind immer nötig.
+24486: Auch nach 3 Jahren gilt AM nur für Mopeds.
+
+G 4609: A1 (ab 16): Motorräder bis 125 cm³, 11 kW und 0,1 kW/kg, Dreiräder bis 15 kW, kleine landwirtschaftliche Maschinen und alles von AM. AM ist keine Voraussetzung; A1 wird nicht automatisch zu A2 oder A.
+24488: Bis 125 cm³, 11 kW, 0,1 kW/kg.
+24489: Dreiräder bis 15 kW.
+24490: Kleine landwirtschaftliche Maschinen.
+24491: Ab 16 Jahren.
+24493: Auch alle AM-Fahrzeuge.
+24494: AM ist keine Voraussetzung.
+24496: Über 15 kW braucht man A und 21 Jahre.
+24497: Arbeitsmaschinen darf man damit nicht fahren.
+24498: Eine solche Regel gibt es nicht.
+24499: Höhere Klassen bekommt man nur mit Prüfung.
+
+G 4610: A2 (ab 18): Motorräder bis 35 kW und 0,2 kW/kg (nicht von einem Modell mit mehr als doppelter Leistung abgeleitet), dazu alles von A1 und AM. Beifahrer nur, wenn der Platz im Fahrzeugschein steht. Nach 2 Jahren A2 kann man A erwerben, auch unter 24.
+24500: Bis 35 kW und 0,2 kW/kg.
+24501: Auch A1 und AM.
+24502: Ab 18 Jahren.
+24503: Beifahrer nur mit eingetragenem Platz.
+24504: Nach 2 Jahren A2 → A, auch unter 24.
+24505: Auch kleine landwirtschaftliche Maschinen.
+24506: Ab 18, nicht 20.
+24507: 35 kW und doppelte Leistung, nicht 25 kW und dreifache.
+24508: Dafür braucht man weder AM noch 24 Jahre.
+24509: Eine Hubraumgrenze gibt es nicht – es zählt die Leistung (35 kW).
+24510: A1 ist keine Voraussetzung.
+24511: Damit fährt man auch Motorräder.
+24512: Dreiräder der Klasse A1 sind erlaubt.
+
+G 4611: A: alle Motorräder. Direkt ab 24 Jahren, stufenweise ab 20 nach 2 Jahren A2. Dreiräder über 15 kW erst ab 21. Schwere Vierradfahrzeuge gehören nicht zu A.
+24513: Alle Motorräder.
+24515: Auch über 50 cm³ und 45 km/h.
+24516: Direkt erst mit 24.
+24517: Stufenweise mit 20 nach 2 Jahren A2.
+24518: Auch A1, A2 und AM.
+24519: Dreiräder über 15 kW ab 21.
+24520: Es gibt keine 35-kW-Grenze in den ersten Jahren.
+24521: Schwere Vierradfahrzeuge brauchen B1 oder B.
+24522: Stufenweise erst ab 20 und nach A2.
+24523: Erst ab 21 Jahren.
+24524: Direkt erst mit 24.
+24525: Er gilt in der ganzen EU.
+24526: Stufenweise schon ab 20.
+
+G 4612: B1 (ab 16): schwere Vierradfahrzeuge (Quads mit Lenker). Motorräder (A1) sind nicht enthalten. Für B braucht man eine eigene Prüfung.
+24527: Ab 16.
+24530: Bestimmte schwere Vierradfahrzeuge.
+24531: Quads mit Lenker.
+24532: Das wäre A1.
+24533: Dreiräder gehören nicht zu B1.
+24534: Pkw gehören nicht zu B1.
+24535: A1-Fahrzeuge sind nicht enthalten.
+24536: Für B braucht man auch die Fahrprüfung.
+
+G 4613: B: Kraftwagen bis 3,5 t mit höchstens 8 Fahrgästen plus Fahrer, mit leichtem Anhänger (bis 750 kg) oder mit schwerem Anhänger, wenn das Gespann 3,5 t nicht überschreitet. Dazu AM, B1 und – nur in Italien – A1. Nicht: A2/A, Busse, Lkw über 3,5 t, Gespanne über 3,5 t (dafür B96 oder BE).
+24537: Bis 3,5 t, höchstens 8 + 1 Personen.
+24538: Mit leichtem Anhänger.
+24539: Campingfahrzeuge bis 3,5 t.
+24541: Schwerer Anhänger, wenn das Gespann 3,5 t nicht überschreitet.
+24542: A1 nur in Italien.
+24543: Auch AM und B1.
+24547: A2 und A sind nicht enthalten.
+24548: Busse brauchen D-Führerscheine.
+24549: Über 3,5 t braucht man C1.
+24551: Sonderarbeitsmaschinen brauchen eine andere Klasse.
+24552: Gezählt werden höchstens 8 Fahrgäste plus Fahrer.
+24553: Viel zu schwer für B.
+24554: Für 4.500 kg braucht man BE.
+24555: Motorräder brauchen A-Klassen.
+24556: Nur bis 3,5 t.
+
+G 4614: B mit Code 96: Gespann mit schwerem Anhänger bis 4.250 kg Gesamtgewicht. Man bekommt den Code mit einer Fahrprüfung auf einem passenden Gespann – zusammen mit B oder später. Er gilt EU-weit.
+24557: Gespann bis 4.250 kg.
+24558: Später mit Fahrprüfung.
+24559: Auch gleichzeitig mit B.
+24560: Gespann bis 4.250 kg.
+24561: Für 3.500–4.250 kg reicht B96.
+24562: Busse brauchen D-Klassen.
+24563: Motorräder brauchen A-Klassen.
+24564: A ist keine Voraussetzung.
+24565: Über 4.250 kg braucht man BE.
+24566: Er gilt EU-weit.
+
+G 4615: BE: Zugfahrzeug bis 3,5 t mit Anhänger bis 3,5 t, auch wenn das Gespann über 4.250 kg wiegt, dazu AM, B1, B und B96. Anhänger über 3,5 t oder Minibusse gehören nicht dazu.
+24567: Anhänger bis 3,5 t, Gespann auch über 4.250 kg.
+24568: 4.500 kg Gespann → BE.
+24569: Lastzüge bis 3,5 + 3,5 t.
+24570: Auch AM, B1, B, B96.
+24571: Sobald die Grenze von B96 überschritten ist → BE.
+24573: Minibusse brauchen D1.
+24574: A und C1 sind nicht enthalten.
+24575: Anhänger über 3,5 t gehören nicht dazu.
+24576: Dafür muss man nicht 21 sein.
+
+G 4616: Sofortiger Entzug während der Fahrt: wenn der Verstoß zeitweiligen Entzug nach sich zieht, bei abgelaufenem Führerschein, bei Trunkenheit, wenn man schlecht verstaute Ladung trotz Aufforderung nicht sichert, wenn man die Revisionsprüfung versäumt.
+24577: Bei Verstößen mit Führerscheinentzug.
+24578: Bei abgelaufenem Führerschein.
+24579: Bei Trunkenheit.
+24580: Wenn man die Ladung nicht sichert.
+24582: Wenn man die Revisionsprüfung versäumt.
+24583: Ein betrunkener Fahrgast ist kein Grund.
+24584: Mit einem Führerschein aus dem Wohnsitzland darf man fahren.
+24585: Falsche Reifengröße führt nicht zum sofortigen Entzug.
+24586: Nicht bei jedem Punkteabzug.
+24587: Ohne Fahrzeugschein gibt es eine Strafe, keinen Entzug.
+24588: Die Eigentumsbescheinigung muss man nicht mitführen.
+
+G 4617: Revision (Überprüfung): wenn Zweifel an körperlicher, geistiger oder technischer Fahrtauglichkeit bestehen, nach Unfällen mit Schwerverletzten oder wenn alle Punkte weg sind. Angeordnet von Motorisierungsamt oder Präfekt, mit ärztlicher Untersuchung und/oder Prüfung. Wer sie nicht besteht, verliert den Führerschein.
+24589: Bei Zweifeln an der Tauglichkeit.
+24590: Motorisierungsamt oder Präfekt.
+24591: Nach Unfällen mit Schwerverletzten.
+24592: Bei Zweifeln am Können.
+24593: Mit Untersuchung und/oder Prüfung.
+24595: Wenn alle Punkte verloren sind.
+24596: Nicht bestanden = Widerruf.
+24598: Eine solche Regel gibt es nicht.
+24599: Bei dauerhafter Untauglichkeit wird widerrufen, nicht überprüft.
+24600: Eine fällige Hauptuntersuchung führt nicht zur Revision.
+24601: Das führt nicht zur Revision.
+24602: Das führt nicht zur Revision.
+24603: Den Führerschein vergessen kostet eine Strafe.
+24604: Wer nicht besteht, verliert den Führerschein.
+
+G 4618: Widerruf (endgültig): Fahren trotz Entzug, Wenden oder Geisterfahren auf der Autobahn, dauerhafte körperliche oder geistige Untauglichkeit, Umtausch in einen ausländischen Führerschein, nicht bestandene Revision.
+24605: Fahren trotz Entzug.
+24606: Wenden oder Geisterfahren auf der Autobahn.
+24607: Dauerhaft körperlich untauglich.
+24608: Dauerhaft geistig untauglich.
+24609: Umtausch in einen ausländischen Führerschein.
+24610: Revision nicht bestanden.
+24612: Den Führerschein vergessen führt nicht zum Widerruf.
+24613: Vorübergehend untauglich führt nicht zum Widerruf.
+24614: Ohne vorgeschriebene Brille gibt es Punkteabzug.
+24616: Das führt nicht zum Widerruf.
+
+G 4619: Zeitweiliger Entzug ist eine Zusatzstrafe, z. B. für Fahranfänger, die Grenzen missachten, bei über 40 km/h zu schnell, Fahren auf dem Pannenstreifen, Trunkenheit oder Verweigerung des Tests, Fahrerflucht, Fahren mit beschlagnahmtem Fahrzeug, Fahren ohne Versicherung.
+24617: Eine Zusatzstrafe.
+24618: Fahranfänger, die Grenzen missachten.
+24620: Mehr als 40 km/h zu schnell.
+24621: Unerlaubt auf dem Pannenstreifen.
+24623: Trunkenheit.
+24624: Test verweigert.
+24625: Fahrerflucht ohne Hilfe.
+24626: Beschlagnahmtes Fahrzeug fahren.
+24627: Ohne Versicherung.
+24628: Das führt zum Widerruf.
+24629: Das führt zum Widerruf.
+24633: Den Führerschein vergessen kostet eine Strafe.
+24634: Dafür gibt es keinen Entzug.
+24635: Dafür gibt es keinen Entzug.
+24636: Moralische Anforderungen sind kein Grund dafür.
+24637: Dafür gibt es Strafe und Punkte, keinen Entzug.
+24638: Die Kfz-Steuer hat damit nichts zu tun.
+
+G 4620: Punkteführerschein: Start mit 20 Punkten; bestimmte Verstöße kosten Punkte, in den ersten 3 Jahren doppelt so viele. Auf einmal höchstens 15 (außer bei Entzug). Sind alle Punkte weg, folgt die Revision. Nach 2 Jahren ohne Verstoß hat man wieder 20.
+24639: Start mit 20.
+24640: Bestimmte Verstöße kosten Punkte.
+24641: Ohne Punkte: Revision.
+24643: In den ersten 3 Jahren doppelt.
+24644: Höchstens 15 auf einmal.
+24645: Nach 2 Jahren wieder 20.
+24647: 20, nicht 30.
+24648: Nicht jeder Verstoß kostet Punkte.
+24649: Auch andere Verstöße kosten Punkte.
+24650: Doppelt, nicht dreifach.
+24651: Bei A und B bringt der Kurs 6 Punkte, nicht 9.
+24652: Höchstens 15, nicht 10.
+24653: Man kommt auf 20, nicht auf 30.
+
+G 4621: Punkte kosten z. B.: mehr als 10 km/h zu schnell, Überholfehler, Handy ohne Freisprecheinrichtung, ohne oder mit offenem Helm, zu wenig Abstand mit Unfall, falsches Licht, Überladung, fehlende Brille, Fahren auf dem Pannenstreifen. Keine Punkte: Parken vor Einfahrten, Papiere vergessen.
+24655: Mehr als 10 km/h zu schnell.
+24656: Überholfehler.
+24657: Handy ohne Freisprecher.
+24658: Ohne oder mit offenem Helm.
+24659: Zu wenig Abstand mit Unfall.
+24660: Falsche Lichtnutzung.
+24661: Überladung.
+24662: Vorgeschriebene Brille nicht getragen.
+24663: Auf dem Pannenstreifen fahren.
+24665: Auf privaten Pisten gilt die StVO nicht.
+24666: Dafür gibt es keine Punkte.
+24668: Dafür gibt es keine Punkte.
+24669: Dafür gibt es keine Punkte.
+24670: Dafür gibt es keine Punkte.
+24671: Die Leistung verdoppelt nichts.
+24672: Die Leistung verdoppelt nichts.
+24673: Mit C darf man einen Pkw fahren.
+24674: Es gibt kein Autobahnverbot für Fahranfänger.
+24675: Das ist erlaubt.
+
+G 4622: Den Führerschein bestätigt das Ministerium nach ärztlicher Untersuchung der körperlichen und geistigen Tauglichkeit. Gültigkeit von A, B und BE: unter 50 Jahren 10 Jahre, 50–70: 5, 70–80: 3, ab 80: 2. Sonderführerschein BS unter 70: 5 Jahre. Abgelaufen = man darf nicht fahren.
+24677: Bei körperlicher und geistiger Tauglichkeit.
+24678: Nach ärztlicher Untersuchung.
+24679: Das Ministerium bestätigt nach ärztlicher Untersuchung.
+24680: Unter 50: 10 Jahre.
+24681: 50–70: 5 Jahre.
+24682: 70–80: 3 Jahre.
+24683: Ab 80: 2 Jahre.
+24684: BE unter 50: 10 Jahre.
+24685: A unter 50: 10 Jahre.
+24686: BS unter 70: 5 Jahre.
+24687: Bestätigt wird nach ärztlicher Untersuchung, nicht vom Präfekten.
+24688: Abgelaufen darf man gar nicht fahren.
+24690: Eine Untersuchung reicht für beide.
+24691: 5, nicht 8 Jahre.
+24692: 10, nicht 5 Jahre.
+24693: Auch über 80 wird er erneuert (alle 2 Jahre).
+24694: Unter 50: 10, nicht 5 Jahre.
+24695: Es hängt vom Alter ab.
+24696: Er gilt nicht unbegrenzt.
