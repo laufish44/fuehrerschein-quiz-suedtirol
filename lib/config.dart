@@ -23,7 +23,9 @@ class AppConfig {
   static bool get driveConfigured => googleClientId.isNotEmpty;
 
   /// Standard-Modell für den optionalen Gemini-Chat mit eigenem Key.
-  static const defaultGeminiModel = 'gemini-flash-latest';
+  /// Das kleine Modell antwortet in 1–2 s; das große (gemini-flash-latest) brauchte im
+  /// Oktober 2026 wegen Überlastung oft über 2 Minuten.
+  static const defaultGeminiModel = 'gemini-flash-lite-latest';
 
   /// Offizielle Prüfung (seit 20.12.2021): 30 Fragen, 20 Minuten, max. 3 Fehler.
   static const examQuestions = 30;

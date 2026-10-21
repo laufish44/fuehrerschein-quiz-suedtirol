@@ -41,10 +41,10 @@ void main() {
     question = bank.questions.firstWhere((q) => q.imageAsset == null);
   });
 
-  Future<String> chat(MockClient client, {List<AiRetry>? retries}) => http.runWithClient(
+  Future<String> chat(MockClient client, {List<AiRetry>? retries, String model = ''}) => http.runWithClient(
         () => AiService.geminiChat(
           apiKey: 'test-key',
-          model: '',
+          model: model,
           question: question,
           italian: false,
           history: const [],
@@ -122,16 +122,16 @@ void main() {
       expect(retries.single.kind, AiErrorKind.overloaded);
     });
 
-    test('Dauerhaft überlastet: weicht auf kleineres Modell aus', () async {
+    test('Dauerhaft überlastet: weicht auf anderes Modell aus', () async {
       final models = <String>[];
       final retries = <AiRetry>[];
       final client = MockClient((r) async {
         models.add(_model(r));
-        return models.length <= 3 ? _error(503, 'The model is overloaded.') : _answer('vom kleinen Modell');
+        return models.length <= 3 ? _error(503, 'The model is overloaded.') : _answer('vom anderen Modell');
       });
-      expect(await chat(client, retries: retries), 'vom kleinen Modell');
-      expect(models.take(3).toSet(), {'gemini-flash-latest'});
-      expect(models.last, 'gemini-flash-lite-latest');
+      expect(await chat(client, retries: retries), 'vom anderen Modell');
+      expect(models.take(3).toSet(), {'gemini-flash-lite-latest'});
+      expect(models.last, 'gemini-3.6-flash');
       expect(retries.last.switchedModel, isTrue);
     }, timeout: const Timeout(Duration(seconds: 30)));
 
@@ -144,7 +144,19 @@ void main() {
       final sw = Stopwatch()..start();
       expect(await chat(client), 'ok');
       expect(sw.elapsed, lessThan(const Duration(seconds: 1)));
-      expect(models, ['gemini-flash-latest', 'gemini-flash-lite-latest']);
+      expect(models, ['gemini-flash-lite-latest', 'gemini-3.6-flash']);
+    });
+
+    test('Lite-Modell bekommt keine Denk-Einstellung, andere schon', () async {
+      final bodies = <String, Map<String, dynamic>>{};
+      final client = MockClient((r) async {
+        bodies[_model(r)] = jsonDecode(r.body) as Map<String, dynamic>;
+        return _answer('ok');
+      });
+      await chat(client);
+      await chat(client, model: 'gemini-flash-latest');
+      expect((bodies['gemini-flash-lite-latest']!['generationConfig'] as Map).containsKey('thinkingConfig'), isFalse);
+      expect((bodies['gemini-flash-latest']!['generationConfig'] as Map).containsKey('thinkingConfig'), isTrue);
     });
 
     test('Modell kennt thinkingLevel nicht: ohne erneut senden', () async {
@@ -153,7 +165,7 @@ void main() {
         bodies.add(jsonDecode(r.body) as Map<String, dynamic>);
         return bodies.length == 1 ? _error(400, 'Unknown field: thinking_level is not supported') : _answer('ok');
       });
-      expect(await chat(client), 'ok');
+      expect(await chat(client, model: 'gemini-flash-latest'), 'ok');
       expect((bodies.first['generationConfig'] as Map).containsKey('thinkingConfig'), isTrue);
       expect((bodies.last['generationConfig'] as Map).containsKey('thinkingConfig'), isFalse);
     });

@@ -36,7 +36,8 @@ class AiMessage {
 class AiService {
   /// Erstellt die Frage an die KI. Da Links keine Bilder mitschicken können, werden
   /// die laut offizieller Liste richtigen Aussagen zum selben Bild als Beschreibung mitgegeben.
-  static String buildPrompt(Question q, {required bool italian, bool forLink = true}) {
+  /// [hint] ist die Offline-Erklärung der App (falls vorhanden) – sie verhindert erfundene Details.
+  static String buildPrompt(Question q, {required bool italian, bool forLink = true, String? hint}) {
     final correct = q.answer;
     final sameImage = q.group.questions.where((o) => o.id != q.id && o.answer).take(6).toList();
     final b = StringBuffer();
@@ -52,6 +53,7 @@ class AiService {
           b.writeln('- ${o.it}');
         }
       }
+      if (hint != null && hint.trim().isNotEmpty) b.writeln('Nota del libro di teoria: $hint');
       b.writeln('Spiegami in modo breve e chiaro perché la risposta è ${correct ? 'vera' : 'falsa'}, '
           'citando la regola del Codice della Strada italiano, e dammi un trucco per ricordarla.');
     } else {
@@ -66,6 +68,7 @@ class AiService {
           b.writeln('- ${o.de}');
         }
       }
+      if (hint != null && hint.trim().isNotEmpty) b.writeln('Hinweis aus dem Theoriebuch: $hint');
       b.writeln('Erkläre mir kurz und verständlich, warum die Aussage ${correct ? 'richtig' : 'falsch'} ist, '
           'nenne die Regel aus der italienischen Straßenverkehrsordnung und gib mir eine Eselsbrücke.');
     }
@@ -95,7 +98,7 @@ class AiService {
         model: model,
         timeout: const Duration(seconds: 30),
         allowFallback: false,
-        body: (thinking) => {
+        body: (model, thinking) => {
           'contents': [
             {
               'parts': [
@@ -103,7 +106,7 @@ class AiService {
               ],
             },
           ],
-          if (thinking) 'generationConfig': _thinkingConfig,
+          'generationConfig': {if (thinking) ..._thinkingConfig(model)},
         },
       );
       return null;
@@ -145,10 +148,11 @@ class AiService {
     required Question question,
     required bool italian,
     required List<AiMessage> history,
+    String? hint,
     void Function(AiRetry retry)? onRetry,
   }) async {
     final parts = <Map<String, dynamic>>[
-      {'text': buildPrompt(question, italian: italian, forLink: false)},
+      {'text': buildPrompt(question, italian: italian, forLink: false, hint: hint)},
     ];
     if (question.imageAsset != null) {
       final bytes = await rootBundle.load(question.imageAsset!);
@@ -162,22 +166,24 @@ class AiService {
     ];
     final system = italian
         ? 'Sei un istruttore di scuola guida in Alto Adige, paziente e preciso. Rispondi in italiano, '
-            'in modo conciso (max. 150 parole se non richiesto altrimenti). La risposta ufficiale indicata è sempre corretta.'
+            'in modo conciso (max. 150 parole se non richiesto altrimenti). La risposta ufficiale indicata è sempre corretta. '
+            'Non inventare dettagli della figura né numeri di articoli: se non sei sicuro, ometti il numero.'
         : 'Du bist ein geduldiger, genauer Fahrlehrer in Südtirol. Antworte auf Deutsch, knapp '
-            '(max. 150 Wörter, außer der Nutzer will mehr). Die angegebene offizielle Antwort ist immer korrekt.';
+            '(max. 150 Wörter, außer der Nutzer will mehr). Die angegebene offizielle Antwort ist immer korrekt. '
+            'Erfinde keine Details zum Bild und keine Artikelnummern – wenn du dir nicht sicher bist, lass die Nummer weg.';
     final res = await _generate(
       apiKey: apiKey,
       model: model,
-      timeout: const Duration(seconds: 45),
+      timeout: const Duration(seconds: 30),
       onRetry: onRetry,
-      body: (thinking) => {
+      body: (model, thinking) => {
         'systemInstruction': {
           'parts': [
             {'text': system},
           ],
         },
         'contents': contents,
-        'generationConfig': {'temperature': 0.4, if (thinking) ..._thinkingConfig},
+        'generationConfig': {'temperature': 0.4, if (thinking) ..._thinkingConfig(model)},
       },
     );
     return _answerText(res);
@@ -186,20 +192,24 @@ class AiService {
   // ---------- Gemini-Anfragen mit Wiederholung ----------
 
   /// Wenig „Nachdenken“: deutlich schnellere Antworten, für kurze Erklärungen reicht das.
-  static const _thinkingConfig = {
-    'thinkingConfig': {'thinkingLevel': 'low'},
-  };
+  /// Die Lite-Modelle denken von sich aus nur minimal – da wird nichts mitgeschickt.
+  static Map<String, dynamic> _thinkingConfig(String model) => model.contains('lite')
+      ? const {}
+      : const {
+          'thinkingConfig': {'thinkingLevel': 'low'},
+        };
 
-  /// Ausweichmodelle, wenn das gewählte Modell überlastet ist oder sein Limit erreicht hat
-  /// (die kostenlosen Limits gelten pro Modell).
-  static const _fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.5-flash-lite'];
+  /// Ausweichmodelle, wenn das gewählte Modell überlastet ist, nicht antwortet oder sein Limit
+  /// erreicht hat (die kostenlosen Limits gelten pro Modell). Gemessen im Oktober 2026:
+  /// Lite ~2 s, 3.6-flash ~6–8 s, gemini-flash-latest (3.8) oft über 2 Minuten.
+  static const _fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.6-flash'];
 
   static final _random = Random();
 
   static Future<Map<String, dynamic>> _generate({
     required String apiKey,
     required String model,
-    required Map<String, dynamic> Function(bool thinking) body,
+    required Map<String, dynamic> Function(String model, bool thinking) body,
     required Duration timeout,
     bool allowFallback = true,
     void Function(AiRetry retry)? onRetry,
@@ -217,7 +227,7 @@ class AiService {
       var attempt = 1;
       while (attempt <= maxAttempts) {
         try {
-          return await _post(apiKey, m, body(thinking), timeout);
+          return await _post(apiKey, m, body(m, thinking), timeout);
         } on AiException catch (e) {
           if (e.kind == AiErrorKind.thinkingUnsupported && thinking) {
             // Ältere oder selbst gewählte Modelle kennen die Einstellung nicht.
@@ -360,7 +370,7 @@ class AiRetry {
       _ => italian ? 'Errore di Google' : 'Fehler bei Google',
     };
     if (switchedModel) {
-      return italian ? '$why – provo con il modello più piccolo $model …' : '$why – versuche es mit dem kleineren Modell $model …';
+      return italian ? '$why – provo con il modello $model …' : '$why – versuche es mit dem Modell $model …';
     }
     final s = (wait.inMilliseconds / 1000).ceil();
     return italian ? '$why – nuovo tentativo tra $s s …' : '$why – neuer Versuch in $s s …';

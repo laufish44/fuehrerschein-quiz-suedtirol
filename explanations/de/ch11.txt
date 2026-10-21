@@ -1,0 +1,295 @@
+# Kapitel 11 (Ministerium) – Geschwindigkeit, Gefährdung und Behinderung, Bahnübergänge
+# Grundzahlen Pkw: Autobahn 130 (bei Regen 110, mit Schild bis 150), erstrangige Freilandstraße 110 (bei Regen 90),
+# zweitrangige Freilandstraße 90, Ortsgebiet 50 (mit Schild bis 70). Fahranfänger (unter 3 Jahren): 100 / 90.
+# Mit Anhänger (nicht Anhängekarren): 80 Autobahn, 70 sonst. Kleinkraftrad 45, Arbeits- und landwirtschaftliche Maschinen 40.
+
+G 4374: Die Geschwindigkeit muss immer allen Umständen angepasst werden: Fahrzeug (Eigenschaften, Zustand, Ladung), Straße (Eigenschaften, Zustand), Verkehr und Wetter – und innerhalb der Höchstgrenzen bleiben. Das Tempolimit allein reicht nicht.
+22270: Ein schweres oder schwaches Fahrzeug verlangt eine andere Geschwindigkeit.
+22271: Abgefahrene Reifen oder schwache Bremsen = langsamer.
+22272: Schwere oder hohe Ladung verlängert den Bremsweg.
+22273: Kurven, Breite und Steigungen der Straße zählen.
+22274: Nässe, Löcher oder Schotter verlangen weniger Tempo.
+22275: Dichter Verkehr verlangt weniger Tempo.
+22276: Niemand darf dadurch Sachen gefährden.
+22277: Niemand darf dadurch Personen gefährden.
+22278: Man darf den Verkehr nicht stören.
+22279: Innerhalb der erlaubten Grenzen anpassen.
+22280: Die vorgeschriebenen Höchstgrenzen gelten immer.
+22281: Regen, Nebel, Schnee = langsamer.
+22282: Das Tempolimit ist nur die Obergrenze – angepasst wird an alle Umstände.
+22284: Die Reifenmarke spielt keine Rolle.
+22285: Wie weit das Ziel ist, ist kein Grund für eine Geschwindigkeit.
+
+G 4375: Man muss das Fahrzeug immer beherrschen und innerhalb der Sichtweite gefahrlos anhalten können. Deshalb ist die Geschwindigkeit besonders anzupassen in Kurven, bei schlechter Sicht, an Kreuzungen, bei Schulen und Kindern, im Gefälle, in Engstellen, nachts, in Ortschaften, bei Nebel, Schnee und Eis.
+22286: Man muss das Fahrzeug immer unter Kontrolle haben.
+22287: Man muss jederzeit gefahrlos anhalten können.
+22288: Anhalten innerhalb der Strecke, die man überblickt.
+22289: In Kurven langsamer.
+22290: Bei schlechter Sicht langsamer.
+22291: Vor Kreuzungen langsamer.
+22292: Bei Schulen langsamer.
+22293: Wo Kinder sind, langsamer.
+22294: Im starken Gefälle langsamer.
+22295: In Engstellen langsamer.
+22296: Wo die Durchfahrt versperrt ist, langsamer.
+22297: Nachts langsamer – man sieht weniger.
+22298: In Ortschaften langsamer.
+22299: Zwischen Häusern können Menschen plötzlich auftauchen.
+22300: Wenn Begegnen schwierig ist, langsamer.
+22301: Bei Nebel langsamer.
+22302: Auf Schnee langsamer.
+22303: Auf Glatteis langsamer.
+22304: Eine Einbahnstraße allein verlangt nicht weniger Tempo.
+22305: Außerorts gilt kein allgemeines Gebot, langsamer zu fahren.
+22306: Die Straßenart „Landesstraße“ allein ist kein Grund.
+22307: Gerade nachts muss man anpassen.
+22308: Gerade in Kurven muss man anpassen.
+22309: Bergauf bremst das Fahrzeug von selbst – die Pflicht gilt im Gefälle.
+22310: Nicht jedes Verkehrszeichen verlangt weniger Tempo.
+22311: Man passt die Geschwindigkeit immer an, nicht nur wegen der Polizei.
+22313: Die Pflicht gilt auf allen Straßen.
+22314: Ob der Pkw beladen ist, entscheidet nicht allein.
+22315: Radarfallen sind kein Sicherheitsgrund – angepasst wird an die Gefahr.
+
+G 4376: In bestimmten Lagen muss man langsamer fahren und nötigenfalls anhalten: wenn Begegnen schwierig ist, an Zebrastreifen, bei unsicheren oder zögernden Fußgängern, bei erschreckten Tieren und wenn man geblendet wird.
+22316: Schwieriges Begegnen = langsamer, notfalls anhalten.
+22317: Bei Zebrastreifen langsamer, notfalls anhalten.
+22318: Fußgänger, die nicht ausweichen: langsamer, notfalls anhalten.
+22319: Unsichere Fußgänger: langsamer, notfalls anhalten.
+22320: Erschreckte Tiere: langsamer, notfalls anhalten.
+22321: Bei Blendung langsamer, notfalls anhalten.
+22322: Eine Grundstückseinfahrt allein verlangt das nicht.
+22324: Eine Überführung allein ist kein Grund.
+22325: Radarfallen sind kein Grund.
+22326: Nicht jedes Verkehrszeichen verlangt das.
+22327: Beim Verlassen des Ortes ist das nicht vorgeschrieben.
+
+G 4377: Höchstgeschwindigkeiten nach Fahrzeug und Straße. Pkw und Kraftwagen bis 3,5 t: Autobahn 130 (mit Schild bis 150, bei Regen/Schnee 110), erstrangige Freilandstraße 110 (bei Niederschlag 90), zweitrangige 90, Ortsgebiet 50 (mit Schild bis 70). Kleinkrafträder 45, schwere Vierradfahrzeuge außerorts 80, bereifte Arbeits- und landwirtschaftliche Maschinen 40.
+22328: Pkw auf der Autobahn: 130.
+22329: Pkw auf der erstrangigen Freilandstraße: 110.
+22330: Pkw auf der zweitrangigen Freilandstraße: 90.
+22331: Pkw im Ortsgebiet: 50.
+22332: Kraftwagen bis 3,5 t auf der Autobahn: 130.
+22333: Lkw bis 3,5 t auf der erstrangigen Freilandstraße: 110.
+22334: Kraftwagen bis 3,5 t auf der zweitrangigen: 90.
+22335: Kraftrad im Ortsgebiet: 50.
+22336: Auf besonderen Autobahnabschnitten mit Schild: 150.
+22337: Auf besonderen Ortsstraßen mit Schild: 70.
+22338: Bei Regen auf der Autobahn: 110.
+22339: Bei Regen auf der erstrangigen Freilandstraße: 90.
+22340: Kleinkrafträder: 45.
+22341: Schwere Vierradfahrzeuge außerorts: 80.
+22342: Normal sind 130; 150 nur mit Schild.
+22343: Erstrangige Freilandstraße: 110, nicht 90.
+22344: Zweitrangige: 90, nicht 70.
+22345: Im Ort normal 50; 70 nur mit Schild.
+22346: Nicht „immer“ 50 – mit Schild bis 70.
+22347: Schwere Vierradfahrzeuge außerorts: 80, nicht 70.
+22348: Im Ortsgebiet gilt auch für Lkw 50.
+22349: Lkw bis 3,5 t: 130 auf der Autobahn.
+22350: Kraftwagen bis 3,5 t auf der erstrangigen: 110.
+22351: Im Ortsgebiet: 50, nicht 40.
+22352: Im Ortsgebiet: 50, nicht 60.
+22353: Bereifte landwirtschaftliche Maschinen: 40.
+22354: Bereifte Arbeitsmaschinen: 40.
+22355: Bereifte landwirtschaftliche Maschinen: 40.
+22356: Bereifte Arbeitsmaschinen: 40.
+
+G 4378: Fahranfänger (Führerschein unter 3 Jahren) dürfen auf der Autobahn höchstens 100 und auf erstrangigen Freilandstraßen höchstens 90 fahren. Hohe und ständig wechselnde Geschwindigkeit kostet Kraftstoff, belastet die Umwelt und macht das Auto in der Kurve instabil.
+22357: Fahranfänger auf der Autobahn: 100.
+22358: Fahranfänger auf der erstrangigen Freilandstraße: 90.
+22359: Schnell fahren = mehr Verbrauch und mehr Abgase.
+22360: Ständiges Beschleunigen und Bremsen kostet Kraftstoff.
+22361: Zu schnell in der Kurve = schlechte Straßenlage.
+22362: Zu schnell in der Kurve kann zum Überschlag führen.
+22363: Mit getretener Kupplung fehlt die Kontrolle – nie so durch Kurven fahren.
+22364: Fahranfänger auf der Autobahn: 100, nicht 110.
+22365: Fahranfänger auf der erstrangigen: 90, nicht 110.
+
+G 4379: Geschwindigkeiten mit Anhänger: Ein „Anhängekarren“ (kleiner Anhänger) ändert nichts – es gelten die Pkw-Grenzen. Mit einem richtigen Anhänger oder Wohnanhänger: 80 auf der Autobahn, 70 auf allen anderen Freilandstraßen. Krafträder und Campingfahrzeuge bis 3,5 t: wie Pkw.
+22366: Pkw mit Anhängekarren auf der Autobahn: 130.
+22367: Pkw mit Anhänger auf der Autobahn: 80.
+22368: Krafträder auf der Autobahn: 130.
+22369: Campingfahrzeuge bis 3,5 t auf der Autobahn: 130.
+22370: Pkw mit Wohnanhänger auf der Autobahn: 80.
+22371: Krafträder auf der erstrangigen Freilandstraße: 110.
+22372: Pkw mit Anhängekarren auf der erstrangigen: 110.
+22373: Pkw mit Bootsanhänger auf der erstrangigen: 70.
+22374: Krafträder auf der zweitrangigen: 90.
+22375: Pkw mit Wohnanhänger auf der zweitrangigen: 70.
+22376: Mit Anhänger auf der Autobahn: 80, nicht 130.
+22377: Krafträder auf der Autobahn: 130, nicht 90.
+22378: Campingfahrzeuge bis 3,5 t: 130.
+22379: Mit Wohnanhänger auf der Autobahn: 80, nicht 70.
+22380: Bei Regen auf der Autobahn 110, nicht 120.
+22381: Krafträder auf der erstrangigen: 110.
+22382: Mit Bootsanhänger: 70, nicht 80.
+22383: Krafträder auf der zweitrangigen: 90, nicht 70.
+
+G 4380: Die Geschwindigkeit darf den Verkehr nicht behindern. An Kreuzungen langsamer fahren und, wenn nötig, anhalten, um Fahrzeuge mit Vorfahrt durchzulassen.
+22384: Man darf den Verkehr nicht durch zu langsames oder unpassendes Fahren behindern.
+22385: An Kreuzungen langsamer, um Vorfahrt zu gewähren.
+22386: Nach Sonnenuntergang schaltet man Licht ein, eine Anhaltepflicht gibt es nicht.
+22387: Die Kraftstoffart spielt keine Rolle.
+22388: Man passt sich nicht den Fahrzeugen hinter einem an.
+
+G 4381: Die Geschwindigkeit muss sicher sein: bei schlechter Sicht herabsetzen, immer sicher reagieren können, dem eigenen Zustand (Müdigkeit, Gesundheit) und der Ladung angepasst. Zeitdruck ist kein Maßstab.
+22390: Bei eingeschränkter Sicht langsamer.
+22391: Die Geschwindigkeit darf niemanden gefährden.
+22392: Man muss im Notfall sicher eingreifen können.
+22393: Wer müde oder unwohl ist, fährt langsamer.
+22394: Die Geschwindigkeit muss zur Ladung passen.
+22395: Wie viel Zeit man hat, ist kein Maßstab.
+
+G 4382: Allgemeine Höchstgrenzen, wenn nichts anderes beschildert ist: Autobahn 130 (bei Regen/Hagel 110, mit Schild bis 150), erstrangige Freilandstraße 110 (bei Niederschlag 90), Ortsgebiet 50 (mit Schild bis 70), Kleinkrafträder 45, Arbeits- und landwirtschaftliche Maschinen 40.
+22397: Mit Schild auf besonderen Abschnitten: bis 150.
+22398: Autobahn ohne Schild: 130.
+22399: Ortsgebiet ohne Schild: 50.
+22400: Kleinkrafträder: 45.
+22401: Bereifte Arbeits- und landwirtschaftliche Maschinen: 40.
+22402: Autobahn bei Regen: 110.
+22403: Erstrangige bei Hagel (Niederschlag): 90.
+22404: Besondere Ortsstraßen mit Schild: bis 70.
+22405: Erstrangige ohne Schild: 110.
+22406: Ortsstraßen: 50, nicht 80.
+22407: Schwere Vierradfahrzeuge: 80 außerorts, nicht 70.
+22408: 150 gilt nur auf besonders beschilderten Abschnitten.
+
+G 4383: Erstrangige Freilandstraße: Pkw und Kraftwagen bis 3,5 t 110; Pkw mit Wohnanhänger oder anderem Anhänger 70; Lastzüge 70. Ein Anhängekarren ändert nichts.
+22409: Pkw: 110.
+22410: Pkw mit 900-kg-Wohnanhänger: 70.
+22411: Kraftwagen bis 3,5 t: 110.
+22412: Lastzüge: 70.
+22413: Lkw bis 3,5 t: 110, nicht 100.
+22414: Campingfahrzeuge bis 3,5 t: 110, nicht 100.
+22415: Mit leichtem Anhänger: 70, nicht 80.
+22416: Krafträder: 110, nicht 100.
+22417: Mit Anhängekarren: 110 wie ohne.
+
+G 4384: Zweitrangige Freilandstraße: Pkw, Krafträder, Campingfahrzeuge und Lkw bis 3,5 t sowie Pkw mit Anhängekarren 90; Pkw mit Anhänger (Boot, Wohnanhänger …) und Lastzüge 70; Kleinkrafträder 45; schwere Vierradfahrzeuge 80.
+22418: Krafträder: 90.
+22419: Pkw mit Anhängekarren: 90.
+22420: Pkw mit Bootsanhänger: 70.
+22421: Campingfahrzeuge bis 3,5 t: 90.
+22422: Lkw bis 3,5 t: 90.
+22423: Lastzüge: 70.
+22424: Kleinkrafträder: 45, nicht 70.
+22425: Schwere Vierradfahrzeuge: 80, nicht 90.
+22426: Krafträder: 90, nicht 80.
+22427: Pkw: 90, nicht 100.
+22428: Mit Wohnanhänger: 70, nicht 80.
+22429: Kraftwagen bis 3,5 t: 90, nicht 100.
+22430: Mit Anhängekarren: 90, nicht 80.
+
+G 4385: Geschwindigkeitsscheiben am Heck: Schwere Fahrzeuge (z. B. manche Busse, Lkw über 3,5 t, Anhänger) tragen hinten runde Plaketten mit ihren Höchstgeschwindigkeiten. Außerdem: bei gemischtem Verkehr und schlechtem Straßenbelag langsamer fahren.
+22431: Sie hängen hinten an bestimmten Fahrzeugklassen.
+22432: Sie zeigen die Höchstgeschwindigkeiten dieses Fahrzeugs.
+22433: Manche Busse tragen sie.
+22434: Langsame Fahrzeuge, Tiere, Fußgänger = langsamer.
+22435: Löcher, Unebenheiten, nasses Laub = langsamer.
+22436: Lkw bis 3,5 t haben die Pkw-Grenzen und keine Scheiben.
+22437: Campingfahrzeuge bis 3,5 t brauchen keine Scheiben.
+22438: Krafträder tragen keine Geschwindigkeitsscheiben.
+
+G 4386: Besonders langsam fahren muss man an Kreuzungen, Engstellen, beim schwierigen Begegnen, bei schlechter Sicht (Kurven, Kuppen), wenn Fußgänger ohne Gehsteig auf der Straße gehen und auf rutschiger Fahrbahn.
+22439: Vor Kreuzungen besonders langsam.
+22440: An Verengungen besonders langsam.
+22441: Bei schwierigem Begegnen besonders langsam.
+22442: In Kurven und vor Kuppen besonders langsam.
+22443: Fußgänger auf der Fahrbahn = besonders langsam.
+22444: Wasser, Schnee, Eis, Laub, Schlamm = langsamer.
+22445: Der Sonnenuntergang allein verlangt das nicht.
+22446: Vor, nicht nach der Kreuzung langsamer.
+22447: Eile ist kein Maßstab.
+22448: Nicht nur der Gesundheitszustand zählt, sondern alle Umstände.
+22449: Eine Mindestgeschwindigkeit von 30 gibt es nicht allgemein.
+22450: Ein Linienbus hinter einem ist kein Grund.
+
+G 4387: Auch Sauberkeit und Zustand der Straße, starker Seitenwind und Blendung durch die Sonne verlangen weniger Tempo. Bei dichtem Nebel unter 100 m Sicht kann auf Autobahnen und erstrangigen Freilandstraßen vorübergehend höchstens 50 km/h vorgeschrieben werden.
+22451: Verschmutzte oder schlechte Straße = langsamer.
+22452: Starker Seitenwind = langsamer.
+22453: Blendung durch Sonne = langsamer.
+22454: Nebel unter 100 m: bis zu 50 km/h vorgeschrieben.
+22455: Erstrangige Freilandstraße: 110, nicht 100.
+22456: Im Ort 50, und es gilt nur im Ort, nicht noch 1 km danach.
+22457: Hinweiszeichen verlangen nicht automatisch weniger Tempo.
+
+G 4388: Mit Anhänger (z. B. für Pferde oder Motorräder): 80 auf der Autobahn, 70 auf anderen Freilandstraßen. Bei Baustellen und Warndreieck langsamer. Bei dichtem Verkehr in parallelen Reihen oder auf Einfädelungsspuren darf rechts schneller gefahren werden als links – das gilt nicht als Rechtsüberholen.
+22458: Mit Pferdeanhänger auf der Autobahn: 80.
+22459: Mit Motorradanhänger auf der zweitrangigen: 70.
+22460: Bei Straßenarbeiten langsamer.
+22461: Beim Warndreieck langsamer.
+22462: In parallelen Reihen kann rechts schneller sein.
+22463: In Einreihungsspuren kann rechts schneller sein.
+22464: Auf Einfädelungsspuren kann rechts schneller sein.
+22465: Höchstens 130 (mit Schild 150), nie 170.
+22466: Fernlicht erlaubt kein schnelleres Fahren.
+22467: Auf der Überholspur gilt das normale Limit, nicht 110.
+22468: Tag oder Nacht: 130; 150 nur mit Schild.
+22469: Auf erstrangigen Freilandstraßen bleibt es bei 110.
+22470: Auch bergab bleibt es bei 110.
+22471: Mit Anhänger: 70, nicht 90.
+22472: Landwirtschaftliche und Arbeitsmaschinen: 40, auch mit Blinklicht.
+
+G 4389: Auch mit Vorfahrt muss man vor Kreuzungen angepasst fahren. Wer zu schnell hineinfährt, kann bei einem Unfall mitschuldig sein. Tempolimits sind in Europa nicht überall gleich.
+22473: Zu schnell trotz Vorfahrt = Mitschuld möglich.
+22474: Jedes Land hat eigene Limits.
+22475: Man kann trotz Vorfahrt mitschuldig sein.
+22476: Die Schuld liegt nicht automatisch nur beim anderen.
+22477: Auch mit Vorfahrt muss man vor der Kreuzung angepasst fahren.
+22478: Wer zuerst in der Kreuzung war, entscheidet nicht allein.
+
+G 4390: Bleibt das Auto auf den Gleisen stehen: sofort wegschieben; geht das nicht, alle aussteigen lassen, den Bahnhof verständigen und den Zug warnen. Im Leerlauf mit abgestelltem Motor bergab zu rollen ist gefährlich: Servolenkung und Bremskraftverstärker arbeiten nicht mehr – Lenken und Bremsen werden schwer, der Bremsweg länger.
+22479: Das Auto so schnell wie möglich von den Gleisen schieben.
+22480: Geht das nicht: alle raus und Bahnhof benachrichtigen.
+22481: Die Lokführer rechtzeitig warnen.
+22482: Ohne Motor arbeitet die Servolenkung nicht.
+22483: Ohne Motor arbeitet die Servobremse nicht.
+22484: Ohne Bremskraftverstärker steigt die Unfallgefahr.
+22485: Ohne Servolenkung kann man schlecht ausweichen.
+22486: Ohne Servobremse wird der Bremsweg länger.
+22487: Das Auto lässt sich immer schwerer anhalten.
+22488: Eine Stromüberladung entsteht dabei nicht.
+22490: Das ist gefährlich, nicht sicherer.
+22491: Ohne Schlüssel kann das Lenkradschloss einrasten – sehr gefährlich.
+22492: Ohne laufenden Motor fehlt der Unterdruck – die Bremse wird schwächer.
+
+G 4391: Am Bahnübergang: vorsichtig und langsam fahren. Wer bei sich schließenden Schranken noch auf den Gleisen steht, muss die Gleise sofort räumen – notfalls durch die Schranke fahren. Ein liegen gebliebenes Fahrzeug wird schnell geschoben oder abgeschleppt. Ein Zugunfall gefährdet viele Menschen.
+22493: Ruhe bewahren und die Gleise räumen.
+22494: Notfalls die Schranke durchbrechen.
+22495: Sich notfalls von anderen abschleppen lassen.
+22496: Mit Hilfe anderer von den Gleisen schieben.
+22497: Vorsichtig, um die Anlage nicht zu beschädigen.
+22498: Langsam, um nicht gegen die Schranke zu fahren.
+22499: Ein Unfall gefährdet auch viele Menschen im Zug.
+22500: Riskantes Fahren gefährdet auch andere.
+22501: Die Züge auf die Gefahr hinweisen.
+22502: Zuerst die Gleise mit dem Fahrzeug räumen.
+22503: Man räumt die Gleise ganz, einen Anhänger lässt man nicht stehen.
+22504: Das Fahrzeug muss weg, nicht die Ladung.
+22505: Den Tank zu leeren kostet Zeit – das Fahrzeug muss weg.
+22506: Bahnübergänge immer langsam und vorsichtig überqueren.
+22507: Man fährt so, dass man rechtzeitig anhalten kann.
+22508: Es ist sehr gefährlich und streng bestraft.
+22509: Es ist immer gefährlich, nicht nur nachts.
+22510: Man muss auch die Züge warnen.
+22511: Man muss die Züge warnen, nicht nur weglaufen.
+22512: Die Gleise müssen auf jeden Fall geräumt werden.
+
+G 4392: Rollt in der Ortschaft ein Ball auf die Straße, kann ein Kind hinterherlaufen. Sofort, aber kontrolliert langsamer werden, bremsbereit sein – nicht abrupt ausweichen.
+22513: Sofort langsamer.
+22514: Langsamer, um anhalten zu können.
+22515: Ein Kind kann hinterherlaufen.
+22516: Allmählich bremsen, damit der Hintermann nicht auffährt.
+22517: Abruptes Lenken ist gefährlich.
+22518: Nicht in den Gegenverkehr ausweichen.
+22519: Man muss langsamer fahren – vorausschauend bremsen.
+22520: Bremsen ist wichtiger als die Warnblinkanlage.
+
+G 4393: Dicht an geparkten Autos vorbeizufahren ist gefährlich: Türen können plötzlich aufgehen, und dahinter können Fußgänger, Rollstuhlfahrer oder Kinderwagen verborgen sein.
+22521: Türen können plötzlich aufgehen.
+22522: Geparkte Autos verdecken Fußgänger.
+22523: Auch langsam ist es gefährlich.
+22524: Die Tür kann jederzeit aufgehen.
+22525: Gefährlich ist es gerade, solange noch Leute drin sind.
+22526: Auch bei niedriger Geschwindigkeit gefährlich.

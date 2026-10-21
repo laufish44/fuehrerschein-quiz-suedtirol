@@ -1,0 +1,312 @@
+# Kapitel 10 (Ministerium) – Zusatztafeln
+# Zusatztafeln stehen unter einem Verkehrszeichen und ergänzen oder beschränken es (Entfernung, Länge, Zeit, Fahrzeugart, Grund der Gefahr).
+
+G 4358: Zusatztafel „Bodenmarkierung wird erneuert“: Auf dem folgenden Abschnitt fehlen die Fahrbahnmarkierungen vorübergehend, weil sie neu aufgetragen werden. Sie steht unter dem Zeichen GEFAHRENSTELLE.
+22105: Die Markierungen fehlen vorübergehend.
+22106: Sie zeigt den Abschnitt ohne Bodenmarkierung an.
+22107: Grund: Die Markierungen werden erneuert.
+22108: Sie steht unter dem Zeichen GEFAHRENSTELLE.
+22109: Die Straße ist nicht gesperrt, nur die Linien fehlen.
+22110: Mit Schnee hat die Tafel nichts zu tun.
+22111: Sie kündigt keinen Zebrastreifen an.
+22112: Sie hat nichts mit Einbahnverkehr zu tun.
+22113: Es geht um fehlende Linien, nicht um das Überfahren einer Linie.
+
+G 4359: Zusatztafel „Unfall“: Auf der Fahrbahn stehen Unfallfahrzeuge. Langsamer fahren und auf Hindernisse gefasst sein – auf jeder Straße, nicht nur auf der Autobahn.
+22114: Wegen des Unfalls langsamer fahren.
+22115: Unfallfahrzeuge stehen auf der Fahrbahn.
+22116: Die Fahrbahn kann durch Unfallfahrzeuge besetzt sein.
+22117: Unfall voraus – Geschwindigkeit herabsetzen.
+22118: Rutschige Straße hat eine eigene Tafel.
+22119: Sie regelt keine Vorfahrt und schreibt kein Anhalten vor.
+22120: Sie gilt auf allen Straßen, nicht nur auf der Autobahn.
+22121: Sie ist kein Parkverbot.
+22122: Sie kündigt keine Werkstatt oder Garage an.
+22123: Sie ist keine Aufforderung, die Lichter einzuschalten.
+
+G 4363: Zusatztafel „Stau“: Vorne stockt der Verkehr oder Fahrzeuge stehen. Aufmerksam fahren, Abstand halten und rechtzeitig bremsen; auf der Autobahn kann sie empfehlen, auszufahren.
+22155: Stau mit dichtem Verkehr ist möglich.
+22156: Man kann auf stehende Fahrzeuge treffen.
+22157: An Auffahrten warnt sie vor langsamem Verkehr.
+22158: Vorsicht, um nicht auf das Stauende aufzufahren.
+22159: Auf der Autobahn kann sie zum Ausfahren raten.
+22160: Sie ist kein Parkplatzschild.
+22161: Mit Telepass-Spuren hat sie nichts zu tun.
+22162: Sie zeigt keine Einbahnstraße an.
+22163: Sie schreibt kein Überholen vor.
+22164: Im Stau den Abstand nicht verringern – eher vergrößern.
+22165: Sie schreibt kein Schritttempo vor, sie warnt.
+
+G 4370: Zusatztafeln „Kehre“ (A, tornante) und „3 Kehren“ (B): Es folgen eine oder mehrere sehr enge, gefährliche Kurven (Haarnadelkurven). Die Zahl gibt an, wie viele Kehren kommen.
+22231: A kündigt eine enge Kurve (Kehre) an.
+22232: Beide Tafeln warnen vor engen Kurven.
+22233: B kündigt mehrere besonders gefährliche Kurven an.
+22234: Beide warnen vor besonders gefährlichen Kurven.
+22236: Sie weisen auf eine oder mehrere Kehren hin.
+22238: Die 3 zählt die Kehren, nicht die Fahrstreifen.
+22239: Die Zahl hat nichts damit zu tun, wie viele Fahrzeuge in die Kurve passen.
+22240: Es geht um Kehren, nicht um Kilometer bis zu einer Wendestelle.
+22241: Mit Autobahnanschlüssen hat die Zahl nichts zu tun.
+22242: Die Tafeln warnen vor Kurven, nicht vor einer Ausfahrt einer Deponie.
+
+G 4371: Zusatztafel „Straßenreinigung“ mit Tagen und Uhrzeiten: Unter dem PARKVERBOT gilt das Verbot nur an diesen Tagen und zu diesen Zeiten, weil dann die Kehrmaschine kommt.
+22243: Das Parkverbot gilt nur zu den angegebenen Zeiten und Tagen.
+22244: Dort fährt die Straßenkehrmaschine.
+22245: Sie nennt die Tage und Zeiten der Straßenreinigung.
+22246: Parkverbot nur zu den angegebenen Zeiten und Tagen.
+22247: Es geht um Straßenreinigung, nicht um Müllabgabe.
+22248: Mit Autowaschanlagen hat sie nichts zu tun.
+22249: Sie regelt keine Vorfahrt.
+22250: Das Verbot gilt für alle Fahrzeuge, nicht nur für das abgebildete Kehrfahrzeug.
+
+G 4372: Zusatztafeln „Verlauf der Hauptstraße“: Die dicke Linie ist die Vorfahrtsstraße, die dünnen Linien sind Nebenstraßen. Sie stehen unter Vorfahrtzeichen an Kreuzungen – nicht auf Autobahnen, die keine Kreuzungen haben.
+22251: Sie stehen unter Zeichen, die Vorfahrt regeln.
+22252: Sie unterscheiden Haupt- (dick) und Nebenstraßen (dünn).
+22253: Sie zeigen, wie die Hauptstraße an der Kreuzung verläuft.
+22254: Sie können unter KREUZUNG MIT VORFAHRTSRECHT stehen.
+22255: Die Knicke zeigen den Verlauf der Hauptstraße, keine gefährliche Kurve.
+22256: Mit Parken haben sie nichts zu tun.
+22257: Autobahnen haben keine Kreuzungen – dort gibt es diese Tafeln nicht.
+22258: Sie zeigen keine Sackgassen.
+22259: Sie zeigen keine Unterführungen.
+22260: Die gekreuzten Straßen sind nicht unterbrochen.
+
+G 4369: Zusatztafel mit Pfeil über einem Fahrstreifen: Das Zeichen darüber gilt nur für den Fahrstreifen, auf den der Pfeil zeigt (z. B. bei Ortszielen über der Fahrbahn: diese Spur führt dorthin).
+22224: Mit Ortstafel über der Fahrbahn: diese Spur führt in den Ort.
+22225: Sie zeigt, für welche Spur das Zeichen gilt.
+22226: Das Zeichen gilt nur für die Spur unter dem Pfeil.
+22227: Sie zeigt keine Bushaltestellen.
+22228: Sie regelt keine Vorfahrt des Gegenverkehrs.
+22229: Sie hebt keine Vorschrift auf, sie beschränkt sie auf eine Spur.
+22230: Sie ist kein Ende einer Geschwindigkeitsbegrenzung.
+
+G 4361: Zusatztafel „Schneeräumung im Einsatz“: Unter GEFAHRENSTELLE auf verschneiten Straßen. Langsam fahren und mindestens 20 m Abstand zu Schneepflügen halten.
+22133: Schneeräumfahrzeuge sind im Einsatz.
+22134: Sie steht unter GEFAHRENSTELLE.
+22135: Wegen der Schneepflüge langsamer fahren.
+22136: Mindestens 20 m Abstand zu Schneeräumfahrzeugen.
+22137: Auf Schneepflüge achten.
+22138: Sie steht auf verschneiten Straßen.
+22139: Sie hat nichts mit einem Spielplatz zu tun.
+22140: Sie ist kein Fahrverbot für Schneepflüge.
+22141: Kettenpflicht hat ein eigenes Gebotszeichen.
+22142: Der Mindestabstand beträgt 20 m, nicht 100 m.
+22143: Man darf die Straße auch vorher befahren, nur vorsichtig.
+22144: Es geht um Schneepflüge, nicht um Müllfahrzeuge.
+
+G 4364: Zusatztafel „Arbeitsmaschinen im Einsatz“: Auf der Straße können Bagger und Schaufellader arbeiten (Baustelle). Besonders vorsichtig fahren.
+22166: Arbeitsmaschinen können im Einsatz sein.
+22167: Schaufelbagger können auf der Fahrspur stehen.
+22168: Bagger können auf der Straße arbeiten.
+22169: Wegen der Bagger besonders vorsichtig sein.
+22170: Sie weist auf Baustellen mit Baggern hin.
+22171: Es geht nicht um Militärfahrzeuge.
+22172: Sie zeigt keinen Müllplatz an.
+22173: Sie ist kein Durchfahrtsverbot vor Brücken.
+22174: Die Straße ist nicht den Arbeitsmaschinen vorbehalten.
+22175: Sie ist kein Verbot für Kettenfahrzeuge.
+22176: Sie zeigt keinen Parkplatz an.
+
+G 4366: Zusatztafel „Rutschgefahr bei Regen“: Der Abschnitt wird bei Regen rutschig (z. B. durch Schlamm). Bei Regen langsamer fahren und den Abstand vergrößern.
+22189: Der Abschnitt ist bei Regen gefährlich.
+22190: Bei Regen mehr Abstand halten.
+22191: Bei Regen kann die Straße rutschig werden.
+22192: Bei Regen kann Schlamm auf der Fahrbahn sein.
+22193: Abschnitt, der bei Regen rutschig ist.
+22194: Bei Regen langsamer fahren.
+22195: Sie zeigt keine Waschanlage.
+22196: Sie zeigt keine Wetterstation.
+22197: Es geht um Regen, nicht um Ladung von Lkw.
+22198: Es geht nicht um Staub.
+22199: Sie zeigt nicht an, dass es dort oft regnet, sondern dass es bei Regen rutschig wird.
+22200: Steinschlag hat ein eigenes Gefahrenzeichen.
+
+G 4349: Zusatztafel „Entfernung“ (z. B. 150 m): Sie gibt an, wie weit es vom Zeichen bis zur Gefahr, bis zum Beginn einer Vorschrift oder bis zum angegebenen Ort ist.
+22007: Unter einem Gefahrenzeichen: Entfernung bis zur Gefahr.
+22008: Sie kann unter vielen Zeichen deren Bedeutung genauer machen.
+22009: Unter einem Hinweiszeichen: Entfernung zum angegebenen Ort.
+22010: Unter Gebots-/Verbotszeichen: ab dieser Entfernung gilt die Vorschrift.
+22011: Sie zeigt keine zurückgelegte Strecke.
+22012: Sie zeigt keine Steigung.
+22013: Sie ist kein vorgeschriebener Sicherheitsabstand.
+22014: Sie zeigt nicht die Breite der Straße.
+22015: Die Länge eines Abschnitts zeigt eine andere Tafel (mit Pfeilen nach oben und unten).
+
+G 4350: Zusatztafel „Streckenlänge“ (Zahl mit Pfeilen nach oben und unten): Sie gibt an, wie lang der Abschnitt ist, auf dem die Gefahr oder die Vorschrift gilt – in Metern oder Kilometern.
+22016: Unter einem Gefahrenzeichen: Länge des gefährlichen Abschnitts.
+22017: Unter einem Gebotszeichen: Länge, auf der es gilt.
+22018: Sie kann auch unter einem Verbotszeichen stehen.
+22019: Bei B ist die Länge in Kilometern angegeben.
+22020: Mit dem Kurvenzeichen: Länge der Strecke mit vielen Kurven.
+22021: Sie schreibt nicht vor, geradeaus zu fahren.
+22022: Sie ist kein Sicherheitsabstand.
+22023: Die Entfernung bis zur Gefahr zeigt eine andere Tafel (ohne Doppelpfeil).
+22024: Sie zeigt die Länge, nicht die Entfernung bis zum Beginn.
+22025: Sie zeigt keine Höhe.
+
+G 4351: Zusatztafeln mit Uhrzeiten (A: 0–24, B: 7.30–19.00): Das Zeichen darüber gilt nur in diesen Stunden – ohne Tagessymbol jeden Tag. 0–24 heißt den ganzen Tag.
+22026: Unter PARKVERBOT: Parken von 7.30 bis 19.00 verboten.
+22027: Unter DURCHFAHRT VERBOTEN: Durchfahrt von 7.30 bis 19.00 verboten.
+22028: Unter dem Fußgängerverbot: Verbot nur zu den angegebenen Zeiten.
+22029: Ohne Tagessymbol gilt die Zeit an jedem Tag.
+22030: Sie erlaubt nichts Bestimmtes für Krafträder.
+22031: Sie hat nichts mit dem Hupen zu tun.
+22032: Sie zeigt keine Öffnungszeiten einer Zone.
+22033: Ohne Licht fahren hat damit nichts zu tun.
+22034: Gerade/ungerade Kennzeichen spielen hier keine Rolle.
+
+G 4352: Zusatztafel mit Kreuz und Uhrzeit (8.00–20.00): Das Kreuz bedeutet Sonn- und Feiertage. Das Zeichen darüber gilt nur an Feiertagen in dieser Zeit.
+22035: Gilt nur an Feiertagen in der angegebenen Zeit.
+22036: Unter einem Vorschriftszeichen: nur an Feiertagen zu dieser Zeit.
+22037: Unter einem Fußgängerbereich-Zeichen: an Feiertagen zu dieser Zeit nur für Fußgänger.
+22038: Unter PARKVERBOT: an Feiertagen zu dieser Zeit Parkverbot.
+22039: Unter dem Radweg-Zeichen: an Feiertagen 8–20 Uhr nur für Radfahrer.
+22040: Unter DURCHFAHRT VERBOTEN: an Feiertagen 8–20 Uhr keine Durchfahrt.
+22041: Das Kreuz bedeutet Feiertag, nicht Friedhof.
+22042: Es zeigt keine Öffnungszeiten von Kirchen.
+22043: Es zeigt keine Gottesdienstzeiten.
+22044: Die Tafel beschränkt auf Feiertage, nicht auf alle Tage.
+22045: Kreuz = Feiertage, nicht Werktage.
+22046: Krafträder werden nicht erwähnt.
+
+G 4353: Zusatztafel mit Hammer und Spitzhacke und Uhrzeit: Das Werkzeug bedeutet Werktage. Das Zeichen darüber gilt nur an Werktagen in der angegebenen Zeit.
+22047: Gilt nur an Werktagen in der angegebenen Zeit.
+22048: Unter DURCHFAHRT VERBOTEN: an Werktagen zu dieser Zeit verboten.
+22049: Sie nennt die Werktags-Zeiten, in denen das Zeichen gilt.
+22050: Unter PARKVERBOT: an Werktagen zu dieser Zeit Parkverbot.
+22051: Unter einem Gebotszeichen: gilt werktags 8–20 Uhr.
+22052: Unter dem Lkw-Verbot über 3,5 t: werktags zu dieser Zeit verboten.
+22053: Nicht alle Tage – nur Werktage.
+22054: Werkzeug = Werktag, kein Museum.
+22055: Es zeigt keine Werkstatt-Öffnungszeiten.
+22056: Es betrifft nicht nur Pannendienstfahrzeuge.
+22057: Feiertage hätten ein Kreuz.
+22058: Werkzeug = Werktage, nicht Feiertage.
+
+G 4354: Zusatztafel mit einem Fahrzeug (Sattelzug): Das Zeichen darüber gilt nur für diese Fahrzeugart. Unter PARKVERBOT dürfen also Sattelzüge nicht parken, andere schon.
+22059: Unter DURCHFAHRT VERBOTEN: nur diese Fahrzeuge dürfen nicht durch.
+22060: Unter PARKVERBOT: nur diese Fahrzeuge dürfen nicht parken.
+22061: Sattelkraftfahrzeuge dürfen hier nicht parken.
+22062: Das Zeichen gilt nur für die abgebildeten Fahrzeuge.
+22063: Sie kann unter einem Gebotszeichen stehen.
+22064: Sie kann unter einem Verbotszeichen stehen.
+22065: Sie zeigt keine Werkstatt.
+22066: Sie zeigt keine Tankstelle.
+22067: Unter dem Parkverbot ist das Parken für sie gerade verboten.
+22068: Sie schreibt nicht vor, dass Sattelzüge fahren dürfen.
+22069: Unter PARKPLATZ gilt er nur für die abgebildeten Fahrzeuge, nicht für alle schweren.
+
+G 4355: Zusatztafel „Anfang“ (Pfeil nach oben, A; waagrecht B): Ab hier beginnt die Regel des Zeichens darüber – z. B. Parkverbot, Halteverbot, Parkplatz oder Gehweg.
+22070: Unter einem Verbotszeichen: hier beginnt das Verbot.
+22071: Hier beginnt das Parkverbot.
+22072: Unter PARKPLATZ: hier beginnt der Parkbereich.
+22073: Hier beginnt das Halteverbot.
+22074: Unter dem Gehweg-Zeichen: hier beginnt der Gehweg.
+22075: Der Pfeil zeigt keine Steigung.
+22076: Er ist kein Gebot, geradeaus zu fahren.
+22077: Er zeigt den Anfang, nicht das Ende.
+22078: B zeigt keine Busspur.
+22079: Er zeigt den Anfang, nicht das Ende des Bereichs.
+22080: Er zeigt den Anfang, nicht das Ende der Gefahr.
+
+G 4356: Zusatztafel „Fortsetzung“ (Doppelpfeil): Die Regel des Zeichens gilt vor und nach dem Zeichen weiter – z. B. Parkverbot, Überholverbot, Tempolimit oder rutschige Strecke.
+22081: Das Parkverbot geht weiter.
+22082: Das Überholverbot geht weiter.
+22083: Die Geschwindigkeitsbegrenzung geht weiter.
+22084: Die rutschige Strecke geht weiter.
+22085: Halteverbot vor und nach dem Zeichen.
+22086: Unter einem Gefahrenzeichen: die Gefahr besteht weiter.
+22087: Der Doppelpfeil heißt nicht „zurückfahren“.
+22088: Fortsetzung, nicht Ende.
+22089: Er zeigt keinen wechselnden Einbahnverkehr.
+22090: Fortsetzung, nicht Ende der Gültigkeit.
+22091: Er zeigt keine erlaubten Fahrtrichtungen.
+22092: Er zeigt keinen Gegenverkehr an.
+
+G 4357: Zusatztafel „Ende“ (Pfeil nach unten, A; waagrecht B) und das Zeichen „Ende des Überholverbots“: Hier endet die Regel oder Gefahr des Zeichens darüber.
+22093: Hier endet das Parkverbot.
+22094: Hier endet das Halteverbot.
+22095: Hier endet die Baustelle.
+22096: Hier endet der Parkbereich.
+22097: Hier endet die unebene Straße.
+22098: Hier endet die rutschige Straße.
+22099: Der Pfeil nach unten zeigt kein Gefälle.
+22100: Unter PARKPLATZ zeigt sie das Ende, nicht den Anfang.
+22101: Unter einem Verbotszeichen zeigt sie das Ende, nicht den Anfang.
+22102: Die Straße ist nicht gesperrt.
+22103: Der schräge schwarze Balken bedeutet Ende des Überholverbots, nicht Fortsetzung.
+22104: Sie zeigt keine vorgeschriebene Richtung.
+
+G 4360: Zusatztafel „Verschiebegleise“: Die Straße kreuzt Anschluss- oder Rangiergleise (z. B. bei einem Güterbahnhof). Sie steht unter GEFAHRENSTELLE; langsamer fahren und auf Züge achten.
+22124: Sie weist auf Verschiebegleise hin.
+22125: Die Straße überquert Verschiebegleise.
+22126: Anschlussgleise bei einem Güterbahnhof.
+22127: Langsamer fahren.
+22128: Sie steht unter GEFAHRENSTELLE.
+22129: Sie hat nichts mit Modellbahnen zu tun.
+22130: Es geht um Eisenbahngleise, nicht um Straßenbahnen.
+22131: Sie gilt für Straßenbenutzer, nicht für Zugführer.
+22132: Sie zeigt keinen zweigleisigen Bahnübergang.
+
+G 4362: Zusatztafel „Überschwemmungsgefahr“: Bei starkem Regen (oder Sturmflut) kann die Fahrbahn überflutet sein. Vorsichtig fahren, nicht in tiefes Wasser fahren.
+22145: Bei starkem Regen kann die Straße überschwemmt sein.
+22146: Man befährt einen Abschnitt, der überflutet sein kann.
+22147: Bei starkem Regen Überschwemmungsgefahr.
+22148: Gefahr bei Regen oder Sturmflut.
+22149: Sie zeigt kein Schwimmbad.
+22150: Es geht um Wasser, nicht um Schnee.
+22151: Sie warnt nicht vor einem unbefestigten Bankett.
+22152: Sie ist kein Verbot für Gefahrgut.
+22153: Nebel hat eine eigene Tafel.
+22154: Sie zeigt keine Bremsschwellen.
+
+G 4365: Zusatztafel „Glatteis“: Bei niedrigen Temperaturen kann die Straße vereist und rutschig sein. Besonders vorsichtig und langsam fahren.
+22177: Möglicherweise rutschig wegen Glatteis.
+22178: Vereiste Abschnitte sind möglich.
+22179: Bei Kälte kann sich Glatteis bilden.
+22180: Auch bei Schnee besteht Glatteisgefahr.
+22181: Wegen möglichem Eis besonders vorsichtig.
+22182: Bei Kälte rutschig durch Glatteis.
+22183: Sie zeigt keine Liftanlagen.
+22184: Sie zeigt keine Alpenstraße.
+22185: Sie zeigt kein Skigebiet.
+22186: Mit Warnblinkanlage beim Parken hat sie nichts zu tun.
+22187: Sie regelt nicht das Fernlicht.
+22188: Sie warnt vor Eis, nicht davor, dass es oft schneit.
+
+G 4367: Zusatztafel „Langsame Lkw“: Auf einer Steigung fahren schwere Lkw sehr langsam. Geschwindigkeit anpassen und nicht auffahren.
+22201: Steigung mit langsamen Lkw.
+22202: Die Steigung zwingt Lkw zum Langsamfahren.
+22203: Auf langsame schwere Fahrzeuge achten.
+22204: Geschwindigkeit herabsetzen wegen langsamer Lkw.
+22205: Mäßig fahren, um nicht auf Lkw aufzufahren.
+22206: Die Straße ist nicht gesperrt.
+22207: Sie ist kein Überholverbot für Lkw.
+22208: Mit Fähren hat sie nichts zu tun.
+22209: Den Abstand nicht verringern.
+22210: Sie regelt nicht das Licht.
+22211: Beim Überholen muss man nicht hupen.
+22212: Sie hat nichts mit Abschleppen zu tun.
+
+G 4368: Zusatztafel „Abschleppzone“: Falsch geparkte Fahrzeuge werden abgeschleppt (zu einem Verwahrplatz der Gemeinde) oder mit Radkralle festgesetzt. Ausnahme: gekennzeichnete Fahrzeuge von Menschen mit Behinderung.
+22213: Geparkte Fahrzeuge können abgeschleppt werden.
+22214: Das Fahrzeug kann auf einen Gemeindeplatz gebracht werden.
+22215: Fahrzeuge mit Behindertenausweis werden nicht abgeschleppt oder festgesetzt.
+22216: Parkverbot mit Zwangsabschleppung.
+22217: Abschleppen oder Radkralle sind möglich.
+22218: Sie zeigt keine Werkstätten.
+22219: Mit Autoverladung auf Züge hat sie nichts zu tun.
+22220: Sie zeigt keine Werkstatt.
+22221: Sie erlaubt Pannenfahrzeugen nicht das Parken.
+22222: Eine Frist von drei Stunden gibt es nicht – die Tafel nennt keine Zeit.
+22223: Die Straße ist nicht wegen eines Unfalls gesperrt.
+
+G 4373: Zusatztafel „außer Bussen“ (eccetto): Das Zeichen darüber gilt nicht für Busse. Unter DURCHFAHRT VERBOTEN dürfen also nur Busse fahren; unter PARKPLATZ dürfen alle außer Bussen parken. Sie steht nie allein.
+22261: Unter DURCHFAHRT VERBOTEN: nur Busse dürfen hinein.
+22263: Unter PARKPLATZ: alle außer Bussen dürfen parken.
+22264: Sie kann unter einem Gebotszeichen stehen.
+22265: Sie kann unter einem Verbotszeichen stehen.
+22266: „Außer“ heißt: für Busse gilt das Verbot gerade nicht.
+22267: Busse sind von der Durchfahrtssperre ausgenommen.
+22268: Eine Zusatztafel steht nie allein.
+22269: Sie gilt für alle Busse, nicht nur Stadtbusse.

@@ -139,6 +139,13 @@ Future<void> showAiSheet(BuildContext context, Question q) {
   );
 }
 
+/// Offline-Erklärung als Grundlage für die KI (verhindert erfundene Details).
+String? _offlineHint(AppState app, Question q) {
+  final exp = app.bank.explanation(q, app.italianUi);
+  final text = [exp.group, exp.question].whereType<String>().join(' ');
+  return text.isEmpty ? null : text;
+}
+
 class _AiSheet extends StatefulWidget {
   final Question question;
   const _AiSheet({required this.question});
@@ -176,6 +183,7 @@ class _AiSheetState extends State<_AiSheet> {
         question: widget.question,
         italian: italian,
         history: _messages,
+        hint: _offlineHint(app, widget.question),
         onRetry: (r) {
           if (mounted) setState(() => _retryStatus = r.message(italian: italian));
         },
@@ -200,7 +208,7 @@ class _AiSheetState extends State<_AiSheet> {
     final app = context.watch<AppState>();
     final theme = Theme.of(context);
     final hasKey = app.local.geminiKey.trim().isNotEmpty;
-    final prompt = AiService.buildPrompt(widget.question, italian: app.italianUi);
+    final prompt = AiService.buildPrompt(widget.question, italian: app.italianUi, hint: _offlineHint(app, widget.question));
     final preferred = aiServiceById(app.settings.aiService);
 
     final body = _chatMode
