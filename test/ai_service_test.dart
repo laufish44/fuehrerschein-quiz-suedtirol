@@ -113,26 +113,46 @@ void main() {
   });
 
   group('Wiederholen und Ausweichen', () {
-    test('Überlastung: erneuter Versuch klappt', () async {
-      var calls = 0;
-      final retries = <AiRetry>[];
-      final client = MockClient((r) async => ++calls == 1 ? _error(503, 'The model is overloaded.') : _answer('Erklärung'));
-      expect(await chat(client, retries: retries), 'Erklärung');
-      expect(calls, 2);
-      expect(retries.single.kind, AiErrorKind.overloaded);
-    });
-
-    test('Dauerhaft überlastet: weicht auf anderes Modell aus', () async {
+    test('Überlastung: sofort das zweite Modell, ohne Warten', () async {
       final models = <String>[];
       final retries = <AiRetry>[];
       final client = MockClient((r) async {
         models.add(_model(r));
-        return models.length <= 3 ? _error(503, 'The model is overloaded.') : _answer('vom anderen Modell');
+        return models.length == 1 ? _error(503, 'The model is overloaded.') : _answer('Erklärung');
       });
-      expect(await chat(client, retries: retries), 'vom anderen Modell');
-      expect(models.take(3).toSet(), {'gemini-flash-lite-latest'});
-      expect(models.last, 'gemini-3.6-flash');
-      expect(retries.last.switchedModel, isTrue);
+      final sw = Stopwatch()..start();
+      expect(await chat(client, retries: retries), 'Erklärung');
+      expect(sw.elapsed, lessThan(const Duration(seconds: 1)));
+      expect(models, ['gemini-flash-lite-latest', 'gemini-3.6-flash']);
+      expect(retries.single.kind, AiErrorKind.overloaded);
+      expect(retries.single.switchedModel, isTrue);
+    });
+
+    test('Langsame Antwort: zweites Modell wird parallel gefragt', () async {
+      final retries = <AiRetry>[];
+      final client = MockClient((r) async {
+        if (_model(r) == 'gemini-flash-lite-latest') {
+          await Future.delayed(const Duration(seconds: 12));
+          return _answer('langsam');
+        }
+        return _answer('schnell');
+      });
+      final sw = Stopwatch()..start();
+      expect(await chat(client, retries: retries), 'schnell');
+      expect(sw.elapsed, lessThan(const Duration(seconds: 9)));
+      expect(retries.single.parallel, isTrue);
+    }, timeout: const Timeout(Duration(seconds: 30)));
+
+    test('Beide überlastet: neuer Versuch mit Wartezeit', () async {
+      final models = <String>[];
+      final retries = <AiRetry>[];
+      final client = MockClient((r) async {
+        models.add(_model(r));
+        return models.length <= 2 ? _error(503, 'The model is overloaded.') : _answer('beim zweiten Mal');
+      });
+      expect(await chat(client, retries: retries), 'beim zweiten Mal');
+      expect(models, ['gemini-flash-lite-latest', 'gemini-3.6-flash', 'gemini-flash-lite-latest']);
+      expect(retries.last.wait, greaterThan(Duration.zero));
     }, timeout: const Timeout(Duration(seconds: 30)));
 
     test('Tageslimit: sofort anderes Modell, ohne Warten', () async {
@@ -162,8 +182,10 @@ void main() {
     test('Modell kennt thinkingLevel nicht: ohne erneut senden', () async {
       final bodies = <Map<String, dynamic>>[];
       final client = MockClient((r) async {
-        bodies.add(jsonDecode(r.body) as Map<String, dynamic>);
-        return bodies.length == 1 ? _error(400, 'Unknown field: thinking_level is not supported') : _answer('ok');
+        final body = jsonDecode(r.body) as Map<String, dynamic>;
+        bodies.add(body);
+        final withThinking = (body['generationConfig'] as Map).containsKey('thinkingConfig');
+        return withThinking ? _error(400, 'Unknown field: thinking_level is not supported') : _answer('ok');
       });
       expect(await chat(client, model: 'gemini-flash-latest'), 'ok');
       expect((bodies.first['generationConfig'] as Map).containsKey('thinkingConfig'), isTrue);

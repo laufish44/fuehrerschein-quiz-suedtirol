@@ -55,9 +55,9 @@
 - Hell-/Dunkelmodus, Tastatursteuerung unter Windows (R / F / Enter / ←)
 
 **KI-Erklärungen – ohne eingebauten API-Schlüssel**
-- Offline-Erklärungen direkt in der App (werden schrittweise per Update ergänzt)
+- Offline-Erklärungen zu allen 7.020 Aussagen direkt in der App (auf Deutsch; in der italienischen Ansicht vorerst ebenfalls auf Deutsch)
 - „KI fragen“: öffnet ChatGPT, Claude oder Perplexity mit der Frage und der offiziellen Lösung schon eingefügt
-- Optional: eigenen kostenlosen Gemini-Schlüssel eintragen und direkt in der App chatten (inkl. Bild der Frage)
+- Optional: eigenen kostenlosen Gemini-Schlüssel eintragen und direkt in der App chatten (inkl. Bild der Frage) – meist in 1–2 Sekunden; hängt Gemini, fragt die App automatisch parallel ein zweites Modell
 
 **Sync & Backup**
 - Anmeldung mit dem eigenen Google-Konto: Der Lernstand liegt in einem versteckten App-Ordner im eigenen Google Drive – Handy und PC bleiben auf demselben Stand. Die App sieht nur ihre eigene Datei, und die Anmeldung bleibt auf dem eigenen Gerät ([Datenschutz](https://laufish44.github.io/fuehrerschein-quiz-suedtirol/privacy.html))

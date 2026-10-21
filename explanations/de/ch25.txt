@@ -1,0 +1,345 @@
+# Kapitel 25 (Ministerium) – Fahrzeugtechnik, Haftung, Reifen, Bremsen, Aufhängung, Lenkung, Auspuff, Motorrad
+# Haftung (Grip) hält das Auto in der Spur: hoch auf trockenem, rauem Asphalt, niedrig bei Nässe, Laub, Schlamm, Öl, Eis.
+# Wenig Haftung = längerer Bremsweg, Rutschen in Kurven, also langsamer fahren.
+# Reifen: Mindestprofil Auto 1,6 mm, Motorrad 1 mm, Druck kalt prüfen. ABS verhindert blockierende Räder – Pedal voll durchtreten.
+
+G 4686: Die Haftung zwischen Reifen und Straße macht das Fahren überhaupt möglich: Sie lässt das Auto anfahren, der gewünschten Spur folgen und verhindert das Rutschen – in Kurven und bei Seitenwind. Mit der Bremsentemperatur hat sie nichts zu tun.
+25168: Ohne Haftung keine Bewegung.
+25169: Sie verhindert das Rutschen nach außen.
+25170: Das Auto folgt der Spur.
+25171: Sie verhindert das Rutschen der Reifen.
+25172: Sie hilft auch gegen Seitenwind.
+25173: Haftung überhitzt keine Bremsen.
+
+G 4687: Rauer Asphalt erhöht die Haftung; Nässe, Laub, Eis und Schlamm verringern sie.
+25174: Rau = mehr Haftung.
+25175: Nass = weniger Haftung.
+25176: Nässe verringert sie.
+25177: Laub verringert sie.
+25178: Eis verringert sie.
+25179: Schlamm verringert sie.
+
+G 4688: Wenig Haftung: Antriebsräder drehen durch, der Bremsweg wird länger – langsamer fahren, nicht nur in Kurven.
+25180: Die Räder können durchdrehen.
+25181: Der Bremsweg wird länger.
+25182: Langsamer fahren.
+25183: Er wird länger, nicht kürzer.
+25184: Überall langsamer, nicht nur in Kurven.
+
+G 4689: Wenig Haftung verringert die sichere Kurvengeschwindigkeit, fördert Rutschen, verlängert den Bremsweg und macht abruptes Bremsen gefährlich.
+25185: Langsamer durch Kurven.
+25186: Man rutscht leichter.
+25187: Längerer Bremsweg.
+25188: Abrupt bremsen ist gefährlich.
+25189: Man muss langsamer fahren.
+25190: Der Bremsweg wird länger.
+25191: Mit dem Verbrauch hat es nichts zu tun.
+25192: Das Rutschen nimmt zu.
+
+G 4690: Für Motorradfahrer ist die Haftung auf Schienen und Fahrbahnmarkierungen bei Regen besonders gering. Sie hängt vom Belag ab, nicht vom Beifahrer.
+25193: Schienen sind bei Regen rutschig.
+25194: Markierungen sind bei Regen rutschig.
+25195: Der Belag spielt eine große Rolle.
+25196: Ein Beifahrer verringert die Haftung nicht.
+
+G 4691: Öl verringert die Haftung; auf trockenem, sauberem Asphalt ist sie am höchsten. Auch der Reifendruck beeinflusst sie.
+25197: Öl macht rutschig.
+25198: Trocken und sauber ist am besten.
+25199: Eis verringert sie.
+25200: Schlamm verringert sie.
+25201: Der Reifendruck beeinflusst sie.
+
+G 4692: In der Kurve drückt eine Kraft das Auto nach außen (Fliehkraft). Zu schnell = Schleudern oder Überschlag. Man fährt langsamer, nicht schneller.
+25202: Eine Kraft drückt nach außen.
+25203: Zu schnell = Schleudern.
+25204: Zu schnell = Überschlag.
+25205: Nach außen, nicht nach innen.
+25206: Schneller wird es schlimmer.
+25207: Schneller erhöht die Kippgefahr.
+
+G 4693: Überschlag in der Kurve wird begünstigt durch hohe oder lose Ladung, schmale Spur und enge Kurven.
+25208: Hohe Ladung.
+25209: Lose Ladung.
+25210: Schmale Spur.
+25211: Enge Kurve.
+25212: Eine breite Spur ist stabiler.
+25213: Tiefe Ladung ist stabiler.
+25214: Weite Kurven sind harmloser.
+
+G 4694: Die Kippkraft in der Kurve steigt mit der Geschwindigkeit.
+25215: Sie steigt mit der Geschwindigkeit.
+25216: Sie steigt, nicht sinkt.
+
+G 4695: ABS verhindert das Blockieren der Räder an allen vier Rädern, nutzt die maximale Haftung und erlaubt Lenken während der Vollbremsung – auch bei Nässe und mit abgefahrenen Reifen.
+25217: Keine blockierenden Räder.
+25218: Man kann beim Bremsen lenken.
+25219: Maximale Haftung beim Bremsen.
+25220: An jedem Rad einzeln.
+25221: Auch mit abgefahrenen Reifen.
+25222: Auch bei Nässe.
+25223: Sichereres Bremsen.
+25224: Es verhindert das Blockieren.
+25226: Es nutzt die maximale Haftung.
+25227: Es wirkt auch an den Antriebsrädern.
+25228: Es wirkt auch mit abgefahrenen Reifen.
+
+G 4696: Reifendruck regelmäßig kalt prüfen (auch beim Reserverad), passend zu Beladung und Zahl der Mitfahrer. Zu wenig Druck erhöht Reibung und Verbrauch. Reifendruckkontrollsysteme erhöhen die Sicherheit.
+25229: Regelmäßig prüfen, auch das Reserverad.
+25230: An das Gewicht anpassen.
+25231: An Beladung und Mitfahrer anpassen.
+25232: Zu wenig = mehr Verbrauch.
+25233: Kalt prüfen.
+25234: Kontrollsysteme helfen.
+25235: Warm misst man zu hohe Werte.
+25236: Kalt, nicht heiß messen.
+25237: Die Felge spielt keine Rolle.
+25238: Nicht pauschal erhöhen – nach Beladung.
+25239: Zugwagen und Anhänger haben eigene Werte.
+
+G 4697: Mindestprofil: Auto 1,6 mm, Motorrad 1 mm. Reifen nach einigen Jahren tauschen, auch wenn sie nicht abgefahren sind (sie altern). Schlauchlose Reifen verlieren bei einem Nagel nur langsam Luft – Nagel stecken lassen und bald reparieren lassen.
+25240: 1,6 mm beim Auto.
+25241: Reifen altern.
+25242: 1 mm beim Motorrad.
+25243: Vorsichtig weiter, bald reparieren.
+25244: Es gibt auch andere Reparaturmöglichkeiten.
+25245: Sie verlieren langsam Luft.
+25246: Schlauchreifen werden schnell platt.
+25247: Den Nagel nicht herausziehen – sonst entweicht die Luft schnell.
+25248: Mit Stickstoff gilt der gleiche Druck.
+
+G 4698: Spikereifen nur zu bestimmten Zeiten. Winterreifen am besten auf allen vier Rädern. Nicht zugelassene Ketten werden wie fehlende Ketten bestraft. Ketten auf schneefreier Straße schaden der Aufhängung.
+25249: Spikes nur zu bestimmten Zeiten.
+25250: Winterreifen auf alle vier Räder.
+25251: Nicht zugelassene Ketten = keine Ketten.
+25252: Spikes gehören auf alle Räder.
+25253: Bei Allrad gelten die Herstellerangaben, nicht pauschal hinten.
+25254: Ohne Schnee schaden Ketten der Aufhängung.
+25255: Für Winterreifen gelten dieselben Limits.
+
+G 4699: Radwechsel: ebener, fester Untergrund, Handbremse und Gang, alle Mitfahrer raus und weg von der Fahrbahn. Radmuttern vor dem Anheben lockern, nie unter das Auto legen, Muttern angehoben nur leicht und erst am Boden fest anziehen. Wagenheber nur an den vorgesehenen Punkten nahe dem Rad. Notrad: meist höchstens 80 km/h.
+25256: Ebener, fester Untergrund.
+25257: Handbremse und Gang.
+25258: Muttern vorher lockern.
+25259: Nie unter das Auto.
+25260: Erst am Boden fest anziehen.
+25261: Mitfahrer raus und weg.
+25262: Vorher lockern, nicht abnehmen.
+25263: Nur an den vorgesehenen Punkten.
+25264: Nahe am Rad ansetzen.
+25265: Notrad: meist höchstens 80 km/h.
+25266: Mitfahrer sind erlaubt.
+
+G 4700: Bei Notbremsung mit ABS das Pedal voll durchgetreten lassen. Die Motorbremse ist im ersten Gang am stärksten; lange Gefälle im kleinen Gang fahren, damit die Bremsen nicht überhitzen. Nach dem Waschen die Bremsen testen. Die Handbremse ist nicht zum Bremsen während der Fahrt.
+25267: Pedal voll durchtreten.
+25268: Im ersten Gang am stärksten.
+25269: Dauerbremsen überhitzt die Bremsen.
+25270: Bergab kleiner Gang.
+25271: Nach dem Waschen testen.
+25272: Nicht lockern, voll drücken.
+25273: Es gibt auch elektrische Feststellbremsen.
+25274: Die Handbremse hält das stehende Auto.
+25275: Im Leerlauf fehlt die Motorbremse.
+
+G 4701: Brandgefahr nach einem Unfall: Zündung ausschalten. Ohne Feuerlöscher mit Sand, Erde oder einer nassen Decke löschen. Trägheitsschalter unterbrechen die Kraftstoffzufuhr und verringern die Gefahr.
+25276: Zündung aus.
+25277: Sand oder Erde.
+25278: Nasse Decke.
+25279: Den Tank leert man nicht.
+25280: Der Schalter senkt die Gefahr.
+25281: Den Gastank baut man nicht ab.
+
+G 4702: Nichts unter den Fahrersitz legen (kann unter die Pedale rutschen). Handy nur mit Freisprecher, keine SMS. Kindersicherung an den Türen benutzen. Die Klimaanlage entfeuchtet und entfrostet auch im Winter. Navis programmiert man im Stand. Wechselverkehrszeichen können auch Ge- und Verbote anzeigen.
+25282: Nichts unter den Sitz.
+25283: Handy nur mit Freisprecher.
+25284: Kindersicherung benutzen.
+25285: Klimaanlage hilft gegen Beschlag.
+25286: SMS sind verboten.
+25287: Im Stand programmieren.
+25288: Sie können auch Vorschriften anzeigen.
+25289: Nicht deshalb sofort überholen.
+
+G 4703: Saubere, klare Scheiben ohne Aufkleber; abgenutzte Wischerblätter ersetzen; immer Wasser im Scheibenwaschbehälter.
+25290: Aufkleber stören die Sicht.
+25291: Saubere Scheiben = bessere Sicht.
+25292: Abgenutzte Wischer ersetzen.
+25293: Waschwasser nachfüllen.
+25294: Risse lässt man reparieren.
+25295: Gegen Staub hilft die Scheibenwaschanlage.
+
+G 4704: Nur Reifen in zugelassener Größe; auf einer Achse gleiche Reifen; Flanken prüfen; Druck nach Herstellerangabe an allen Rädern. Zu wenig Druck nutzt die Reifenschultern ab.
+25296: Nur zugelassene Größen.
+25297: Gleiche Reifen auf einer Achse.
+25298: Auch die Flanken prüfen.
+25299: Herstellerdruck einhalten.
+25300: Zu wenig Druck nutzt die Seiten ab.
+25301: Reifen tauschen ist erlaubt.
+25302: Alle Räder prüfen.
+25303: Weniger Druck erhitzt sie mehr.
+
+G 4705: Bremsen wandeln Bewegungsenergie durch Reibung in Wärme um; die Beläge werden am heißesten. Pkw haben oft Bremskraftverstärker, der ohne Motor nicht arbeitet. Bremsflüssigkeit regelmäßig prüfen. Die Handbremse hält das geparkte Auto, auch am Hang – sie ist nicht zum Bremsen.
+25305: Oft mit Bremskraftverstärker.
+25306: Bewegungsenergie wird Wärme.
+25307: Die Beläge werden am heißesten.
+25308: Die Handbremse hält das geparkte Auto.
+25309: Bremsflüssigkeit prüfen.
+25310: Auch am Hang.
+25311: Ohne Motor kein Verstärker.
+25312: Die Handbremse ist nicht zum Bremsen.
+25313: Der Stand muss geprüft werden.
+25314: Bergab hilft ein kleiner Gang, nicht die Handbremse.
+25315: Ohne Motor arbeitet er nicht.
+25316: Rückwärtsgang beim Bremsen zerstört das Getriebe.
+
+G 4706: Schlechte oder ungleiche Bremswirkung kommt von Luft oder Dampf im Bremskreis, abgenutzten oder heißen Belägen, ungleich abgenutzten Scheiben oder Trommeln, ungleichem Reifendruck, falscher Ladung oder Dauerbremsen. Ungleiches Bremsen lässt eine Seite blockieren, das Auto zieht zur Seite und Reifen nutzen sich ungleich ab.
+25318: Luft oder Dampf im Kreis.
+25319: Abgenutzte Beläge.
+25320: Ungleich abgenutzte Scheiben.
+25321: Ungleicher Reifendruck.
+25322: Überhitzte Beläge.
+25323: Falsche Ladung.
+25324: Dauerbremsen.
+25325: Eine Seite kann blockieren.
+25326: Das Auto zieht zur blockierten Seite.
+25327: Ungleich abgefahrene Reifen.
+25328: Die Handbremse beeinflusst die Betriebsbremse nicht.
+25330: Die Kupplung hat damit nichts zu tun.
+25331: Die Servolenkung hat damit nichts zu tun.
+25332: Hintere Scheibenbremsen sind kein Problem.
+25333: Winterreifen sind kein Problem.
+25334: Das ist keine Ursache.
+25335: Der Erdgasantrieb hat damit nichts zu tun.
+25336: Die Kühlflüssigkeit hat damit nichts zu tun.
+25337: Mit Handbremse fahren überhitzt sie.
+25338: Das macht die Werkstatt.
+
+G 4707: Die Aufhängung sitzt zwischen Aufbau und Rädern, an allen Rädern. Sie dämpft Stöße, hält die Räder am Boden und sorgt für Komfort und Sicherheit – immer, auch auf geraden Strecken.
+25339: Zwischen Aufbau und Rädern.
+25340: Für Komfort.
+25341: Die Räder bleiben am Boden.
+25342: Sie dämpft Stöße.
+25343: Komfortabler und sicherer.
+25345: An allen Rädern.
+25346: Sie soll Stöße dämpfen, nicht spürbar machen.
+25347: Sie wirkt immer.
+
+G 4708: Verschleiß, harte Stöße und Überladung beschädigen die Aufhängung. Eine schlechte Aufhängung verschlechtert Straßenlage und Komfort, ermüdet den Fahrer und kann die Scheinwerfer verstellen. Sie muss gewartet werden.
+25348: Verschleiß oder harte Stöße.
+25349: Schlechte Straßenlage.
+25350: Überladung kann sie brechen.
+25351: Überladung beeinträchtigt sie.
+25352: Wiederholte Überladung nutzt sie ab.
+25353: Weniger Komfort.
+25354: Mehr Ermüdung.
+25355: Die Scheinwerfer können sich verstellen.
+25356: Überladung schadet ihr.
+25357: Mehr Reifendruck hilft nicht.
+25358: Es gibt keinen festen Tauschintervall.
+25359: Überladung schadet auch der Aufhängung.
+25360: Auch elastische Teile nutzen sich ab.
+25361: Sie braucht Wartung.
+25362: Sie beeinflusst auch das Lenken.
+25363: Auch ein einzelner Defekt ist gefährlich.
+
+G 4709: Stoßdämpfer beruhigen die Schwingungen der Federn und halten das Auto in der Spur. Überladung macht sie kaputt. Sie brauchen Kontrolle in der Werkstatt.
+25364: Sie dämpfen die Schwingungen.
+25365: Sie sorgen für Straßenlage.
+25366: Sie sichern die Straßenlage.
+25367: Überladung macht sie kaputt.
+25368: Überladung nutzt sie ab.
+25369: Sie brauchen Kontrolle.
+25370: Auch vorsichtiges Fahren schützt nicht vor Überladung.
+25371: Mehr Reifendruck hilft nicht.
+25372: Nicht jedes Fahrzeug ist einstellbar.
+25373: Das prüft die Werkstatt.
+
+G 4710: Verschlissene Stoßdämpfer verschlechtern Bremsverhalten und Straßenlage (besonders in Kurven), nutzen Reifen ungleich ab, gefährden die Federn und mindern den Komfort.
+25374: Schlechteres Bremsverhalten.
+25375: Vor allem in Kurven.
+25376: Ungleich abgenutzte Reifen.
+25377: Die Federn können brechen.
+25378: Weniger Komfort.
+25379: Schlechtere Straßenlage.
+25380: Der Motor hat damit nichts zu tun.
+25381: Der Ölverbrauch hat damit nichts zu tun.
+25382: Sie verschlechtern die Straßenlage.
+25383: Man ersetzt sie durch neue Stoßdämpfer.
+25384: Autos haben beides.
+25385: Auch sie brauchen Kontrolle.
+
+G 4711: Lenkung: Defekte Servolenkung = schwere Lenkung (ohne laufenden Motor funktioniert die hydraulische nicht). Bei einem Plattfuß zieht die Lenkung zur beschädigten Seite. Zu viel Spiel macht die Lenkung ungenau, auch Spur, Aufhängung und Stoßdämpfer beeinflussen sie. Vibriert das Lenkrad, die Vorderräder auswuchten lassen. Harte Lenkung kann auf zu wenig Reifendruck deuten.
+25386: Defekt = schwer zu lenken.
+25387: Sie zieht zum kaputten Reifen.
+25388: Spiel regelmäßig prüfen.
+25389: Zu wenig Reifendruck.
+25390: Ohne Motor keine hydraulische Servolenkung.
+25391: Spiel macht ungenau.
+25392: Die Spur beeinflusst die Genauigkeit.
+25393: Vorderräder auswuchten.
+25394: Sie hilft bei einer Reifenpanne.
+25395: Sie hat mit Bremsen nichts zu tun.
+25396: Sie zieht zur beschädigten Seite.
+25397: Die Vorderräder sind es.
+25398: Ein Defekt macht sie schwer.
+25399: Man hält das Lenkrad seitlich mit beiden Händen.
+25400: Man darf es einstellen.
+25401: Aufhängung und Stoßdämpfer beeinflussen sie.
+25402: Der Öldruck hat damit nichts zu tun.
+25403: Die Kühlmitteltemperatur hat damit nichts zu tun.
+
+G 4712: Die Auspuffanlage leitet die Abgase ab, nachdem Giftigkeit, Druck und Temperatur verringert wurden; sie dämpft Lärm und verringert Schadstoffe. Defekte Schalldämpfer durch zugelassene ersetzen. Umbauten und selbstgebastelte Reparaturen sind verboten – überall.
+25404: Defekt = mehr Lärm.
+25405: Durch einen zugelassenen ersetzen.
+25406: Weniger giftig.
+25407: Weniger Druck.
+25408: Weniger Druck und Temperatur.
+25409: Weniger Lärm.
+25410: Weniger Schadstoffe.
+25411: Er wird nicht bei jedem Ölwechsel getauscht.
+25412: Elektroautos haben keinen Auspuff.
+25413: Ohne Schalldämpfer darf man nirgends fahren.
+25414: Er muss richtig ersetzt werden.
+25415: Das macht eine zugelassene Werkstatt.
+25416: Umbauten sind verboten.
+25417: Das ist überall strafbar.
+
+G 4713: Der Not-Aus-Schalter am Lenker eines Motorrads stellt den Motor ab, ohne die Hände vom Lenker zu nehmen (z. B. am steilen Hang). Zum Starten steht er auf ON. Normalerweise stellt man mit dem Zündschlüssel ab. Ist er defekt, schnell reparieren.
+25419: Er stellt den Motor ab.
+25420: Zum Starten auf ON.
+25421: Ohne die Hände vom Lenker zu nehmen.
+25422: Am Hang, wenn die Hände beschäftigt sind.
+25423: Defekt schnell reparieren.
+25424: Normal mit dem Schlüssel.
+25425: Er ersetzt das Zündschloss nicht.
+25426: Er sitzt am Lenker, nicht am Pedal.
+25427: Er blockiert keine Räder.
+25428: Er sitzt am Lenker, nicht am Ständer.
+25429: Er wird mit der Hand bedient.
+25430: Er ist keine Feststellbremse.
+25431: Er ist keine Diebstahlsicherung.
+
+G 4714: Die Motorradkette verbindet Ritzel und Kettenrad. Sie muss geschmiert, gespannt und auf Verschleiß geprüft werden; abgenutzt wird sie getauscht. Reißt sie, kann das Hinterrad blockieren.
+25432: Verschleiß prüfen.
+25433: Ohne Schmierung kann sie reißen.
+25434: Sie verbindet Ritzel und Kettenrad.
+25435: Schmierung prüfen.
+25436: Spannung prüfen.
+25437: Ein Riss kann das Hinterrad blockieren.
+25438: Abgenutzt austauschen.
+25439: Sie muss geschmiert werden.
+25440: Ein Riss ist gefährlich.
+25441: Nie mit Draht flicken.
+25442: Ritzel und Kettenrad tauscht man meist mit.
+25443: Die Spannung muss geprüft werden.
+25444: Sie muss geschmiert werden.
+25445: Die Übersetzung darf man nicht ändern.
+
+G 4715: Beim Motorrad Motoröl und Bremsflüssigkeit regelmäßig prüfen: Öl bei waagrecht stehendem Motorrad (Räder am Boden, nicht auf dem Ständer), einige Minuten nach dem Abstellen, oft über ein Schauglas; Bremsflüssigkeit am durchsichtigen Behälter.
+25446: Waagrecht, Räder am Boden.
+25447: Öl und Bremsflüssigkeit prüfen.
+25448: Am durchsichtigen Behälter.
+25449: Über das Schauglas.
+25450: Eben abgestellt, einige Minuten nach dem Abstellen.
+25451: Es gibt Flüssigkeiten zu prüfen.
+25452: Bei abgestelltem Motor prüfen.
+25453: Motorräder haben hydraulische Bremsen.
+25454: Luftgekühlte Motoren haben keine Kühlflüssigkeit.

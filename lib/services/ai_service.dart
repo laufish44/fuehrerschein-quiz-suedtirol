@@ -206,6 +206,18 @@ class AiService {
 
   static final _random = Random();
 
+  /// Antwortet das erste Modell bis dahin nicht, wird das zweite parallel gefragt.
+  /// Normal antwortet Gemini in 1–4 s, einzelne Anfragen hängen bei hoher Last aber 30 s und mehr.
+  static const hedgeDelay = Duration(seconds: 6);
+
+  /// Fehler, bei denen weder Warten noch ein anderes Modell hilft.
+  static const _fatal = {
+    AiErrorKind.invalidKey,
+    AiErrorKind.payment,
+    AiErrorKind.badRequest,
+    AiErrorKind.blocked,
+  };
+
   static Future<Map<String, dynamic>> _generate({
     required String apiKey,
     required String model,
@@ -220,6 +232,28 @@ class AiService {
     var thinking = true;
     AiException? primaryError;
     AiException? lastError;
+
+    // Erste Runde: schnelles Modell, bei Fehler oder Langsamkeit sofort bzw. parallel das zweite.
+    if (models.length > 1) {
+      try {
+        return await _hedged(apiKey, models[0], models[1], body, timeout, onRetry);
+      } on AiException catch (e) {
+        // Kein Internet, Zeitüberschreitung bei beiden oder ein endgültiger Fehler: nicht weiter warten.
+        if (_fatal.contains(e.kind) || e.kind == AiErrorKind.network || e.kind == AiErrorKind.timeout) rethrow;
+        primaryError = e;
+        lastError = e;
+        if (e.kind == AiErrorKind.thinkingUnsupported) {
+          thinking = false;
+        } else if (const {AiErrorKind.overloaded, AiErrorKind.server, AiErrorKind.rateLimit}.contains(e.kind)) {
+          // Beide überlastet: kurz warten, dann der Reihe nach erneut versuchen.
+          final retryAfter = e.retryAfter;
+          final base = retryAfter != null && retryAfter <= const Duration(seconds: 20) ? retryAfter : const Duration(seconds: 2);
+          final wait = base + Duration(milliseconds: _random.nextInt(1000));
+          onRetry?.call(AiRetry(kind: e.kind, attempt: 2, wait: wait, model: models[0]));
+          await Future.delayed(wait);
+        }
+      }
+    }
 
     for (var mi = 0; mi < models.length; mi++) {
       final m = models[mi];
@@ -239,13 +273,7 @@ class AiService {
 
           final tooLong = DateTime.now().difference(started) > const Duration(seconds: 100);
           // Fehler, bei denen Warten nichts bringt: sofort melden.
-          if (const {
-            AiErrorKind.invalidKey,
-            AiErrorKind.payment,
-            AiErrorKind.badRequest,
-            AiErrorKind.blocked,
-            AiErrorKind.thinkingUnsupported,
-          }.contains(e.kind)) {
+          if (_fatal.contains(e.kind) || e.kind == AiErrorKind.thinkingUnsupported) {
             throw mi == 0 ? e : (primaryError ?? e);
           }
           // Ohne Internet hilft auch ein anderes Modell nicht.
@@ -279,6 +307,62 @@ class AiService {
     // Wenn das eigene Modell nur „nicht gefunden“ war, ist der Fehler des Ausweichmodells aussagekräftiger.
     if (primaryError == null || primaryError.kind == AiErrorKind.modelNotFound) throw lastError!;
     throw primaryError;
+  }
+
+  /// Fragt [first]; schlägt das fehl oder dauert es länger als [hedgeDelay], wird zusätzlich
+  /// [second] gefragt. Die erste erfolgreiche Antwort gewinnt, die andere wird ignoriert.
+  static Future<Map<String, dynamic>> _hedged(
+    String apiKey,
+    String first,
+    String second,
+    Map<String, dynamic> Function(String model, bool thinking) body,
+    Duration timeout,
+    void Function(AiRetry retry)? onRetry,
+  ) {
+    final done = Completer<Map<String, dynamic>>();
+    var running = 0;
+    var secondStarted = false;
+    AiException? firstError;
+    Timer? timer;
+
+    void finishWithError(AiException e) {
+      timer?.cancel();
+      if (!done.isCompleted) done.completeError(e);
+    }
+
+    late void Function(AiErrorKind why, {required bool parallel}) startSecond;
+
+    void launch(String model) {
+      running++;
+      _post(apiKey, model, body(model, true), timeout).then((res) {
+        timer?.cancel();
+        if (!done.isCompleted) done.complete(res);
+      }, onError: (Object err) {
+        running--;
+        final e = err is AiException ? err : AiException(AiErrorKind.network, detail: '$err', model: model);
+        firstError ??= e;
+        if (done.isCompleted) return;
+        if (_fatal.contains(e.kind) || e.kind == AiErrorKind.thinkingUnsupported) {
+          finishWithError(e);
+        } else if (!secondStarted) {
+          startSecond(e.kind, parallel: false);
+        } else if (running == 0) {
+          finishWithError(firstError!);
+        }
+      });
+    }
+
+    startSecond = (why, {required parallel}) {
+      if (secondStarted || done.isCompleted) return;
+      secondStarted = true;
+      timer?.cancel();
+      onRetry?.call(AiRetry(kind: why, attempt: 1, wait: Duration.zero, model: second, switchedModel: true, parallel: parallel));
+      launch(second);
+    };
+
+    launch(first);
+    timer = Timer(hedgeDelay, () => startSecond(AiErrorKind.timeout, parallel: true));
+    return done.future;
   }
 
   static Future<Map<String, dynamic>> _post(String apiKey, String model, Map<String, dynamic> body, Duration timeout) async {
@@ -351,15 +435,24 @@ class AiRetry {
   final Duration wait;
   final String model;
   final bool switchedModel;
+
+  /// Das erste Modell läuft weiter, das zweite wird zusätzlich gefragt.
+  final bool parallel;
   const AiRetry({
     required this.kind,
     required this.attempt,
     required this.wait,
     required this.model,
     this.switchedModel = false,
+    this.parallel = false,
   });
 
   String message({required bool italian}) {
+    if (parallel) {
+      return italian
+          ? 'Gemini è lento – chiedo anche al modello $model …'
+          : 'Gemini antwortet langsam – frage zusätzlich das Modell $model …';
+    }
     final why = switch (kind) {
       AiErrorKind.overloaded => italian ? 'Gemini è sovraccarico' : 'Gemini ist gerade überlastet',
       AiErrorKind.rateLimit => italian ? 'Troppe richieste al minuto' : 'Zu viele Anfragen pro Minute',

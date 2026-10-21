@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.4.0
+
+- Offline-Erklärungen für alle 7.020 Aussagen: neu sind Zusatztafeln, Geschwindigkeit, Abstand, Fahrbahnposition und Abbiegen, Vorfahrt-Beispiele, Überholen, Halten und Parken, Autobahn, Ladung und Anhänger, Licht und Kontrollleuchten, Gurte und Helm, Führerschein und Punkte, Unfälle und Erste Hilfe, Alkohol, Haftung und Versicherung, Umwelt sowie Fahrzeugtechnik. Die Erklärung erscheint nach jeder Antwort – auch wenn sie richtig war (nicht während der Prüfungssimulation)
+- KI-Erklärung mit Gemini viel schneller: Standard ist jetzt das schnelle Modell gemini-flash-lite-latest (1–2 Sekunden statt teils über 2 Minuten beim großen Modell). Hängt eine Anfrage, fragt die App nach 6 Sekunden parallel ein zweites Modell; ist eines überlastet, sofort das andere
+- Gemini bekommt die Offline-Erklärung als Grundlage mit und soll keine Details oder Artikelnummern erfinden
+
 ## 1.3.1
 
 - Sync: Änderungen, die während eines laufenden Abgleichs entstehen (z. B. ein Quiz direkt nach dem Start), werden sofort danach hochgeladen statt erst beim nächsten Mal
